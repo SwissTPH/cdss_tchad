@@ -1,0 +1,19 @@
+
+{
+  "title": [
+    {
+      "locale": "en",
+      "content": "Immunization Visit"
+    },
+    {
+      "locale": "fr",
+      "content": "PEV enfant"
+    }
+  ],
+  "icon": "icon-immunization",
+  "context": {
+    "person": true,
+    "place": false,
+    "expression": "contact.type === 'person' && (!contact.date_of_birth || ageInYears(contact) <= 5)"
+  }
+}

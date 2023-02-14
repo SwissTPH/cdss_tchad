@@ -1,0 +1,36 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "convert form",
+            "command": "cht", // Could be any other shell command
+            "args": [
+                "--url=https://medic:0YA6jZ899s233StR0OZj@cht-tchad.swisstph-mis.ch",
+                "--projectDir=./",
+                "convert-app-forms",
+                "validate-app-forms"],
+            "type": "shell"
+        },        
+        {
+            "label": "compile & send",
+            "command": "cht", // Could be any other shell command
+            "args": [
+                "--url=https://medic:0YA6jZ899s233StR0OZj@cht-tchad.swisstph-mis.ch",
+                "--projectDir=./",
+                "convert-app-forms",
+                "validate-app-forms",
+                "upload-app-forms"],
+            "type": "shell"
+        },        
+        {
+            "label": "build setings",
+            "command": "cht", // Could be any other shell command
+            "args": [
+                "--url=https://medic:0YA6jZ899s233StR0OZj@cht-tchad.swisstph-mis.ch",
+                "--projectDir=./",
+                "compile-app-settings"],
+            "type": "shell"
+        },
+    ]
+}
+

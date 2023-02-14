@@ -1,0 +1,19 @@
+
+{
+  "title": [
+    {
+      "locale": "en",
+      "content": "Adult visite"
+    },
+    {
+      "locale": "fr",
+      "content": "Consulation Adulte"
+    }
+  ],
+  "icon": "icon-new-person",
+  "context": {
+    "person": true,
+    "place": false,
+    "expression": "contact.type === 'person' && (!contact.date_of_birth || ageInYears(contact) >= 15)"
+  }
+}
