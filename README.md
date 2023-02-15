@@ -20,7 +20,6 @@ docs: https://docs.communityhealthtoolkit.org/
 
 ## build
 
-cht --url=https://medic:0YA6jZ899s233StR0OZj@cht-tchad.swisstph-mis.ch --projectDir=./ compile-app-settings convert-app-forms validate-app-forms upload-app-forms --form=pev_enfant
 
 
 
