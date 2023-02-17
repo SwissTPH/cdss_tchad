@@ -169,6 +169,7 @@ function initImmunizations(allReports) {
 
 
 function modifyImmContext(ctx, allReports){
+  console.log('modifyImmContext');
   var immunizations = initImmunizations(allReports);
   // add the entry in the context only if ther is vlaie
   ctx.form_type='pev_enfant';
@@ -182,6 +183,7 @@ function modifyImmContext(ctx, allReports){
 }
 
 function getImmFileds(allReports) {
+  console.log('getImmFileds');
   const fields = [];
   var immunizations = initImmunizations(allReports);
   IMMUNIZATION_LIST.forEach(function(imm) {

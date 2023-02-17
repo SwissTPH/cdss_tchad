@@ -42,6 +42,7 @@ const cards = [];
 
 /*<<addcardhere>>*/
 
+console.log('adding child card');
 cards.push(
   {
     label: 'contact.profile.imm.child',
