@@ -1,5 +1,4 @@
-const extras = require('./contact-summary-extras');
-const {immunizationForms, modifyImmContext,getImmFileds, isAlive } = extras;
+const {getImmFileds, initImmunizations,getAgeInMonths,isAlive } = require('./contact-summary-extras');
 
 
 
@@ -37,21 +36,35 @@ const context = {
 };
 
 /*********  CARD DEFINITION *********/
-
 const cards = [];
 
 /*<<addcardhere>>*/
 
-console.log('adding child card');
-cards.push(
-  {
+
+// show a summary for the patient
+cards.push(  {
     label: 'contact.profile.imm.child',
-    appliesToType: 'report',
-    appliesIf:   (report) => { return report && immunizationForms.includes(report.form);},
+    appliesTo: 'contacts',
+    appliesToType: 'person',
+    appliesIf:  function(){ return getAgeInMonths()<18;},
     fields:  getImmFileds(allReports),
-    modifyContext: modifyImmContext,
+    modifyContext: function (ctx){
+      var immunizations = initImmunizations(allReports);
+      // add the entry in the context only if there is a value
+      Object.entries(immunizations).forEach(([key, value]) => {
+          
+          if (value !== null ){
+            //console.log('imm_date_'+key+':'+value);
+            ctx['imm_date_'+key]=value;
+          }
+      });
+      
+    }
   }
 );
+
+
+
 
 /*********  EXPORT *********/
 

@@ -132,6 +132,8 @@ var getOldestReport = function(reports) {
   return result;
 };
 
+
+
 function isAlive(thisContact) {
   return thisContact && !thisContact.date_of_death;
 }
@@ -150,7 +152,7 @@ function getAgeInMonths() {
 
 /************** PEV ENFANT **************/
 
-function initImmunizations(allReports) {
+var initImmunizations = function(allReports) {
   var master = {};
   IMMUNIZATION_DOSES.forEach(function(dose) {
     master[dose[0]] = null;
@@ -159,44 +161,35 @@ function initImmunizations(allReports) {
   // loop over all reports
   for(i=0; i<allReports.length; ++i) {
     const report = allReports[i];
-      if (report && report.fields && report.fields) {
+    if(report && immunizationForms.includes(report.form) && report.fields){
         addImmunizations(master, report.fields);
-      }
+    }
+
   }
   return master;
+};
+
+
+
+
+function getAgeInYears() {
+    return Math.trunc(getAgeInMonths()/12);
 }
 
-
-
-function modifyImmContext(ctx, allReports){
-  console.log('modifyImmContext');
-  var immunizations = initImmunizations(allReports);
-  // add the entry in the context only if ther is vlaie
-  ctx.form_type='pev_enfant';
-  immunizations.entries.forEach(function(entry) {
-    const [key, imm] = entry;
-    if (isDate(imm)){
-      ctx['imm_'+key]= imm;
-    }
-  });
-  
-}
-
-function getImmFileds(allReports) {
-  console.log('getImmFileds');
+const getImmFileds = function (allReports) {
   const fields = [];
   var immunizations = initImmunizations(allReports);
   IMMUNIZATION_LIST.forEach(function(imm) {
     var field = {
-      label: 'contact.profile.imm.' + imm,
+      label: 'contact.imm.' + imm,
       translate: true,
       width: 6,
     };
     if (isSingleDose(imm)) {
 
-      field.value =  isDate(immunizations[imm]) ?  new Date(immunizations[imm]) : null;
+      field.value = hasValue(immunizations[imm]) && isDate(immunizations[imm]) ?  new Date(immunizations[imm]) : null;
     } else {
-      field.value = 'contact.profile.imm.doses';
+      field.value = 'contact.imm.doses';
       field.context = {
         count: countDosesReceived(immunizations, imm),
         total: countDosesPossible(imm),
@@ -206,12 +199,13 @@ function getImmFileds(allReports) {
     fields.push(field);
   });
   return fields;
-}
+};
+
 
 // add the date only if found on the master and has value in report_path
 var addImmunizations = function(master, report_path) {
   IMMUNIZATION_DOSES.forEach(function(dose) {
-    if(!master[dose[0]] && hasValue(report_path['date_' + dose[0]]) ) {
+    if(!master[dose[0]] && hasValue(report_path['date_' + dose[0]])) {
       master[dose[0]] = report_path['date_' + dose[0]];
     }
   });
@@ -219,7 +213,7 @@ var addImmunizations = function(master, report_path) {
 // count the number of time there is name_ in the "master" list with a value
 function getMaxDose(master, name) {
     var filtered = getImmSubList(master, name);
-    return new Date(Math.max.apply(null,filtered));
+    return filtered.length >0 ? new Date(Math.max.apply(null,filtered)): null;
 }
 
 // count the number of time there is name_ in the "master" list with a value
@@ -276,7 +270,8 @@ module.exports = {
   isAlive,
   getOldestReport,
   getAgeInMonths,
-  modifyImmContext,
+  getAgeInYears,
   addImmunizations,
+  initImmunizations,
   getImmFileds,
 };
