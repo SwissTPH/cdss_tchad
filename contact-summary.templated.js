@@ -1,4 +1,4 @@
-const {getImmFileds, initImmunizations,getAgeInMonths,isAlive } = require('./contact-summary-extras');
+const {getImmFileds, generateChildContext, generateWomenContext, getImmWomenFileds, getAgeInMonths,getAgeInYears, isAlive } = require('./contact-summary-extras');
 
 
 
@@ -48,19 +48,18 @@ cards.push(  {
     appliesToType: 'person',
     appliesIf:  function(){ return getAgeInMonths()<18;},
     fields:  getImmFileds(allReports),
-    modifyContext: function (ctx){
-      var immunizations = initImmunizations(allReports);
-      // add the entry in the context only if there is a value
-      Object.entries(immunizations).forEach(([key, value]) => {
-          
-          if (value !== null ){
-            //console.log('imm_date_'+key+':'+value);
-            ctx['imm_date_'+key]=value;
-          }
-      });
-      
-    }
+    modifyContext: generateChildContext 
   }
+);
+
+cards.push(  {
+  label: 'contact.profile.imm.child',
+  appliesTo: 'contacts',
+  appliesToType: 'person',
+  appliesIf:  function(){ return getAgeInYears()>10 && contact.sex === 'female';},
+  fields:  getImmWomenFileds(allReports),
+  modifyContext: generateWomenContext 
+}
 );
 
 

@@ -1,0 +1,572 @@
+<?xml version="1.0"?>
+<h:html xmlns="http://www.w3.org/2002/xforms" xmlns:h="http://www.w3.org/1999/xhtml" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:jr="http://openrosa.org/javarosa" xmlns:orx="http://openrosa.org/xforms">
+  <h:head>
+    <h:title>PEV femme</h:title>
+    <model>
+      <itext>
+        <translation lang="fr">
+          <text id="/pev_femme/_case_date_vat1:label">
+            <value>date vat1</value>
+          </text>
+          <text id="/pev_femme/_case_date_vat2:label">
+            <value>date vat2</value>
+          </text>
+          <text id="/pev_femme/_case_date_vat3:label">
+            <value>date vat3</value>
+          </text>
+          <text id="/pev_femme/_case_date_vat4:label">
+            <value>date vat4</value>
+          </text>
+          <text id="/pev_femme/_case_date_vat5:label">
+            <value>date vat5</value>
+          </text>
+          <text id="/pev_femme/date_naissance:label">
+            <value>date_naissance sauvegardée</value>
+          </text>
+          <text id="/pev_femme/dose_vaccin/comback:label">
+            <value>Veuillez recommencer avec VAT1 car le delai de prise de VAT2 est déjà passé.
+
+Conseiller à la femme le respect strict du rendez-vous.</value>
+          </text>
+          <text id="/pev_femme/dose_vaccin/dose_giver1/-1:label">
+            <value>Rupture</value>
+          </text>
+          <text id="/pev_femme/dose_vaccin/dose_giver1/1:label">
+            <value>Oui</value>
+          </text>
+          <text id="/pev_femme/dose_vaccin/dose_giver1:label">
+            <value>Veuillez administrer VAT1</value>
+          </text>
+          <text id="/pev_femme/dose_vaccin/dose_giver2/-1:label">
+            <value>Rupture</value>
+          </text>
+          <text id="/pev_femme/dose_vaccin/dose_giver2/1:label">
+            <value>Oui</value>
+          </text>
+          <text id="/pev_femme/dose_vaccin/dose_giver2:label">
+            <value>Veuillez administrer VAT2</value>
+          </text>
+          <text id="/pev_femme/dose_vaccin/dose_giver3/-1:label">
+            <value>Rupture</value>
+          </text>
+          <text id="/pev_femme/dose_vaccin/dose_giver3/1:label">
+            <value>Oui</value>
+          </text>
+          <text id="/pev_femme/dose_vaccin/dose_giver3:label">
+            <value>Veuillez administrer VAT3</value>
+          </text>
+          <text id="/pev_femme/dose_vaccin/dose_giver4/-1:label">
+            <value>Rupture</value>
+          </text>
+          <text id="/pev_femme/dose_vaccin/dose_giver4/1:label">
+            <value>Oui</value>
+          </text>
+          <text id="/pev_femme/dose_vaccin/dose_giver4:label">
+            <value>Veuillez administrer VAT4</value>
+          </text>
+          <text id="/pev_femme/dose_vaccin/dose_giver5/-1:label">
+            <value>Rupture</value>
+          </text>
+          <text id="/pev_femme/dose_vaccin/dose_giver5/1:label">
+            <value>Oui</value>
+          </text>
+          <text id="/pev_femme/dose_vaccin/dose_giver5:label">
+            <value>Veuillez administrer VAT5</value>
+          </text>
+          <text id="/pev_femme/dose_vaccin/e_date_vat1:jr:constraintMsg">
+            <value>Veuillez entrer une date correcte</value>
+          </text>
+          <text id="/pev_femme/dose_vaccin/e_date_vat1:label">
+            <value>Veuillez entrer la date de VAT1</value>
+          </text>
+          <text id="/pev_femme/dose_vaccin/e_date_vat2:jr:constraintMsg">
+            <value>Veuillez entrer une date correcte</value>
+          </text>
+          <text id="/pev_femme/dose_vaccin/e_date_vat2:label">
+            <value>Veuillez entrer la date de VAT2</value>
+          </text>
+          <text id="/pev_femme/dose_vaccin/e_date_vat3:jr:constraintMsg">
+            <value>Veuillez entrer une date correcte</value>
+          </text>
+          <text id="/pev_femme/dose_vaccin/e_date_vat3:label">
+            <value>Veuillez entrer la date de VAT3</value>
+          </text>
+          <text id="/pev_femme/dose_vaccin/e_date_vat4:jr:constraintMsg">
+            <value>Veuillez entrer une date correcte</value>
+          </text>
+          <text id="/pev_femme/dose_vaccin/e_date_vat4:label">
+            <value>Veuillez entrer la date de VAT4</value>
+          </text>
+          <text id="/pev_femme/dose_vaccin/e_date_vat5:jr:constraintMsg">
+            <value>Veuillez entrer une date correcte</value>
+          </text>
+          <text id="/pev_femme/dose_vaccin/e_date_vat5:label">
+            <value>Veuillez entrer la date de VAT5</value>
+          </text>
+          <text id="/pev_femme/dose_vaccin/msg_rdv:label">
+            <value>Il y a rupture de VAT.
+
+Veuillez demander à la femme de revenir la semaine prochaine.</value>
+          </text>
+          <text id="/pev_femme/dose_vaccin/no_vat_available:label">
+            <value>Il est trop tôt pour administrer la dose de VAT suivant
+
+Veuillez communiquer à la femme la date exacte de la prise de dose de VAT suivant.</value>
+          </text>
+          <text id="/pev_femme/dose_vaccin/s_ch_contact/1:label">
+            <value>VAT1 : ( 1er contact de femme enceinte (FE) ou femme en âge de procréer (FEAP) de 15 à 49 ans)</value>
+          </text>
+          <text id="/pev_femme/dose_vaccin/s_ch_contact/2:label">
+            <value>VAT2: (2ème contact 1 mois après VAT 1)</value>
+          </text>
+          <text id="/pev_femme/dose_vaccin/s_ch_contact/3:label">
+            <value>VAT3: (3ème contact 6 mois après VAT 2)</value>
+          </text>
+          <text id="/pev_femme/dose_vaccin/s_ch_contact/4:label">
+            <value>VAT4: (4ème contact 1 an après VAT 3)</value>
+          </text>
+          <text id="/pev_femme/dose_vaccin/s_ch_contact/5:label">
+            <value>VAT5: (5ème contact 1 an après VAT 4)</value>
+          </text>
+          <text id="/pev_femme/dose_vaccin/s_ch_contact:label">
+            <value>Veuillez sélectionner la dose de vaccin antitétanique (VAT) à administrer à la femme</value>
+          </text>
+          <text id="/pev_femme/dose_vaccin/vac1_note:label">
+            <value>Premier contact (Femme Enceinte (FE) ou Femme en Age de Procréer (FEAP) (15 à 49 ans) :
+
+VAT 1 : 0.5 ml en SC au 1/3 supérieur externe du bras gauche.
+
+Durée de protection : 0
+
+Date de rendez-vous pour VAT 2 : Le <output value=" /pev_femme/dose_vaccin/rdv_vat2 "/></value>
+          </text>
+          <text id="/pev_femme/dose_vaccin/vac2_note:label">
+            <value>Deuxième contact (1 mois après VAT 1) :
+
+VAT 2 : 0.5 ml en SC au 1/3 supérieur externe du bras gauche.
+
+Durée de protection : 1 à 3 ans
+
+Date de rendez-vous pour VAT 3 : Le <output value=" /pev_femme/dose_vaccin/rdv_vat3 "/></value>
+          </text>
+          <text id="/pev_femme/dose_vaccin/vac3_note:label">
+            <value>Troisième contact (6 mois après VAT 2) :
+
+VAT 3 : 0.5 ml en SC au 1/3 supérieur externe du bras gauche.
+
+Durée de protection : 5 ans
+
+Date de rendez-vous pour VAT 4 : Le <output value=" /pev_femme/dose_vaccin/rdv_vat4 "/></value>
+          </text>
+          <text id="/pev_femme/dose_vaccin/vac4_note:label">
+            <value>Quatrième contact (1 an après VAT 3) :
+
+VAT 4 : 0.5 ml en SC au 1/3 supérieur externe du bras gauche.
+
+Durée de protection : 10 ans
+
+Date de rendez-vous pour VAT 5 : Le <output value=" /pev_femme/dose_vaccin/rdv_vat5 "/></value>
+          </text>
+          <text id="/pev_femme/dose_vaccin/vac5_note:label">
+            <value>Cinquième contact (1 an après VAT 4) :
+
+VAT 5 : 0.5 ml en SC au 1/3 supérieur externe du bras gauche.
+
+La femme est complètement vaccinée pour VAT.
+
+Durée de protection : Toute la vie.</value>
+          </text>
+          <text id="/pev_femme/dose_vaccin:label">
+            <value>Vaccination</value>
+          </text>
+          <text id="/pev_femme/inputs/contact/_id:label">
+            <value>Patient ID</value>
+          </text>
+          <text id="/pev_femme/inputs/contact/_input_date_vat1:label">
+            <value>date_vpi sauvegardée</value>
+          </text>
+          <text id="/pev_femme/inputs/contact/_input_date_vat2:label">
+            <value>date_var sauvegardée</value>
+          </text>
+          <text id="/pev_femme/inputs/contact/_input_date_vat3:label">
+            <value>date_vaa sauvegardée</value>
+          </text>
+          <text id="/pev_femme/inputs/contact/_input_date_vat4:label">
+            <value>date_meningite A sauvegardée</value>
+          </text>
+          <text id="/pev_femme/inputs/contact/_input_date_vat5:label">
+            <value>date_vitamine A sauvegardée</value>
+          </text>
+          <text id="/pev_femme/inputs/contact/name:label">
+            <value>Patient Name</value>
+          </text>
+          <text id="/pev_femme/inputs/contact/patient_id:label">
+            <value>Medic ID</value>
+          </text>
+          <text id="/pev_femme/inputs/task_id:label">
+            <value>Task_ID</value>
+          </text>
+          <text id="/pev_femme/inputs:label">
+            <value>Inputs</value>
+          </text>
+          <text id="/pev_femme/recap/label_vat1:label">
+            <value>VAT 1 reçu le: <output value=" /pev_femme/dose_vaccin/vat1_recap "/></value>
+          </text>
+          <text id="/pev_femme/recap/label_vat2:label">
+            <value>VAT 2 reçu le: <output value=" /pev_femme/dose_vaccin/vat2_recap "/></value>
+          </text>
+          <text id="/pev_femme/recap/label_vat3:label">
+            <value>VAT 3 reçu le: <output value=" /pev_femme/dose_vaccin/vat3_recap "/></value>
+          </text>
+          <text id="/pev_femme/recap/label_vat4:label">
+            <value>VAT 4 reçu le: <output value=" /pev_femme/dose_vaccin/vat4_recap "/></value>
+          </text>
+          <text id="/pev_femme/recap/label_vat5:label">
+            <value>VAT 5 reçu le: <output value=" /pev_femme/dose_vaccin/vat5_recap "/></value>
+          </text>
+          <text id="/pev_femme/recap:label">
+            <value>Recaputilatif des doses de VAT reçues</value>
+          </text>
+        </translation>
+      </itext>
+      <instance>
+        <pev_femme id="pev_femme" prefix="J1!pev_femme!" delimiter="#" version="2303091117">
+          <inputs>
+            <meta>
+              <location>
+                <lat/>
+                <long/>
+                <error/>
+                <message/>
+              </location>
+            </meta>
+            <source/>
+            <source_id/>
+            <task_id/>
+            <contact>
+              <_id/>
+              <patient_id/>
+              <name/>
+              <date_of_birth/>
+              <_input_date_vat1/>
+              <_input_date_vat2/>
+              <_input_date_vat3/>
+              <_input_date_vat4/>
+              <_input_date_vat5/>
+            </contact>
+          </inputs>
+          <_id/>
+          <patient_id/>
+          <name/>
+          <date_vat1/>
+          <date_vat2/>
+          <date_vat3/>
+          <date_vat4/>
+          <date_vat5/>
+          <date_naissance/>
+          <_case_date_vat1/>
+          <_case_date_vat2/>
+          <_case_date_vat3/>
+          <_case_date_vat4/>
+          <_case_date_vat5/>
+          <dose_vaccin>
+            <s_ch_contact/>
+            <is_vat1_missed/>
+            <is_vat2_missed/>
+            <is_vat3_missed/>
+            <is_vat4_missed/>
+            <is_vat5_missed/>
+            <vat1_recap/>
+            <vat2_recap/>
+            <vat3_recap/>
+            <vat4_recap/>
+            <vat5_recap/>
+            <e_date_vat1/>
+            <e_date_vat2/>
+            <e_date_vat3/>
+            <e_date_vat4/>
+            <e_date_vat5/>
+            <rdv_vat2/>
+            <rdv_vat3/>
+            <rdv_vat4/>
+            <rdv_vat5/>
+            <vat1_needed/>
+            <dose_giver1/>
+            <vac1_note/>
+            <vat2_needed/>
+            <dose_giver2/>
+            <vac2_note/>
+            <vat3_needed/>
+            <dose_giver3/>
+            <vac3_note/>
+            <vat4_needed/>
+            <dose_giver4/>
+            <vac4_note/>
+            <vat5_needed/>
+            <dose_giver5/>
+            <vac5_note/>
+            <no_vat_available/>
+            <comback/>
+            <msg_rdv/>
+          </dose_vaccin>
+          <recap>
+            <label_vat1/>
+            <label_vat2/>
+            <label_vat3/>
+            <label_vat4/>
+            <label_vat5/>
+          </recap>
+          <meta tag="hidden">
+            <instanceID/>
+          </meta>
+        </pev_femme>
+      </instance>
+      <instance id="contact-summary"/>
+      <bind nodeset="/pev_femme/inputs" relevant="./source = 'user'"/>
+      <bind nodeset="/pev_femme/inputs/source" type="string"/>
+      <bind nodeset="/pev_femme/inputs/source_id" type="string"/>
+      <bind nodeset="/pev_femme/inputs/task_id" type="string"/>
+      <bind nodeset="/pev_femme/inputs/contact/_id" type="db:person"/>
+      <bind nodeset="/pev_femme/inputs/contact/patient_id" type="string"/>
+      <bind nodeset="/pev_femme/inputs/contact/name" type="string"/>
+      <bind nodeset="/pev_femme/inputs/contact/date_of_birth" type="date"/>
+      <bind nodeset="/pev_femme/inputs/contact/_input_date_vat1" type="date"/>
+      <bind nodeset="/pev_femme/inputs/contact/_input_date_vat2" type="date"/>
+      <bind nodeset="/pev_femme/inputs/contact/_input_date_vat3" type="date"/>
+      <bind nodeset="/pev_femme/inputs/contact/_input_date_vat4" type="date"/>
+      <bind nodeset="/pev_femme/inputs/contact/_input_date_vat5" type="date"/>
+      <bind nodeset="/pev_femme/_id" type="string" calculate="../inputs/contact/_id"/>
+      <bind nodeset="/pev_femme/patient_id" type="string" calculate="../inputs/contact/patient_id"/>
+      <bind nodeset="/pev_femme/name" type="string" calculate="../inputs/contact/name"/>
+      <bind nodeset="/pev_femme/date_vat1" type="string" calculate="if( /pev_femme/dose_vaccin/dose_giver1 =1,today(),if( /pev_femme/dose_vaccin/is_vat1_missed =1 , /pev_femme/dose_vaccin/e_date_vat1 , /pev_femme/_case_date_vat1 ))"/>
+      <bind nodeset="/pev_femme/date_vat2" type="string" calculate="if( /pev_femme/dose_vaccin/dose_giver2 =1,today(),if( /pev_femme/dose_vaccin/is_vat2_missed =1 , /pev_femme/dose_vaccin/e_date_vat2 , /pev_femme/_case_date_vat2 ))"/>
+      <bind nodeset="/pev_femme/date_vat3" type="string" calculate="if( /pev_femme/dose_vaccin/dose_giver3 =1,today(),if( /pev_femme/dose_vaccin/is_vat3_missed =1 , /pev_femme/dose_vaccin/e_date_vat3 , /pev_femme/_case_date_vat3 ))"/>
+      <bind nodeset="/pev_femme/date_vat4" type="string" calculate="if( /pev_femme/dose_vaccin/dose_giver4 =1,today(),if( /pev_femme/dose_vaccin/is_vat4_missed =1 , /pev_femme/dose_vaccin/e_date_vat4 , /pev_femme/_case_date_vat4 ))"/>
+      <bind nodeset="/pev_femme/date_vat5" type="string" calculate="if( /pev_femme/dose_vaccin/dose_giver5 =1,today(),if( /pev_femme/dose_vaccin/is_vat5_missed =1 , /pev_femme/dose_vaccin/e_date_vat5 , /pev_femme/_case_date_vat5 ))"/>
+      <bind nodeset="/pev_femme/date_naissance" type="string" calculate="date(../inputs/contact/date_of_birth)"/>
+      <bind nodeset="/pev_femme/_case_date_vat1" type="string" calculate="if(instance('contact-summary')/context/imm_Inputs!='',date(instance('contact-summary')/context/imm_Inputs),'')"/>
+      <bind nodeset="/pev_femme/_case_date_vat2" type="string" calculate="if(instance('contact-summary')/context/imm_!='',date(instance('contact-summary')/context/imm_),'')"/>
+      <bind nodeset="/pev_femme/_case_date_vat3" type="string" calculate="if(instance('contact-summary')/context/imm_!='',date(instance('contact-summary')/context/imm_),'')"/>
+      <bind nodeset="/pev_femme/_case_date_vat4" type="string" calculate="if(instance('contact-summary')/context/imm_Task_ID!='',date(instance('contact-summary')/context/imm_Task_ID),'')"/>
+      <bind nodeset="/pev_femme/_case_date_vat5" type="string" calculate="if(instance('contact-summary')/context/imm_!='',date(instance('contact-summary')/context/imm_),'')"/>
+      <bind nodeset="/pev_femme/dose_vaccin/s_ch_contact" type="select1" calculate="if( /pev_femme/_case_date_vat4 !='','4',
+if( /pev_femme/_case_date_vat3 !='','3',
+if( /pev_femme/_case_date_vat2 !='','2',
+if( /pev_femme/_case_date_vat1 !='','1'
+,''))))" required="1"/>
+      <bind nodeset="/pev_femme/dose_vaccin/is_vat1_missed" type="string" calculate="number( /pev_femme/dose_vaccin/s_ch_contact &gt;1 and coalesce( /pev_femme/_case_date_vat1 ,'')='')"/>
+      <bind nodeset="/pev_femme/dose_vaccin/is_vat2_missed" type="string" calculate="number( /pev_femme/dose_vaccin/s_ch_contact &gt;2 and coalesce( /pev_femme/_case_date_vat2 ,'')='')"/>
+      <bind nodeset="/pev_femme/dose_vaccin/is_vat3_missed" type="string" calculate="number( /pev_femme/dose_vaccin/s_ch_contact &gt;3 and coalesce( /pev_femme/_case_date_vat3 ,'')='')"/>
+      <bind nodeset="/pev_femme/dose_vaccin/is_vat4_missed" type="string" calculate="number( /pev_femme/dose_vaccin/s_ch_contact &gt;4 and coalesce( /pev_femme/_case_date_vat4 ,'')='')"/>
+      <bind nodeset="/pev_femme/dose_vaccin/is_vat5_missed" type="string" calculate="number( /pev_femme/dose_vaccin/s_ch_contact &gt;=5 and coalesce( /pev_femme/_case_date_vat5 ,'')='')"/>
+      <bind nodeset="/pev_femme/dose_vaccin/vat1_recap" type="string" calculate="format-date( /pev_femme/date_vat1 ,'%d/%m/%Y')"/>
+      <bind nodeset="/pev_femme/dose_vaccin/vat2_recap" type="string" calculate="format-date( /pev_femme/date_vat2 ,'%d/%m/%Y')"/>
+      <bind nodeset="/pev_femme/dose_vaccin/vat3_recap" type="string" calculate="format-date( /pev_femme/date_vat3 ,'%d/%m/%Y')"/>
+      <bind nodeset="/pev_femme/dose_vaccin/vat4_recap" type="string" calculate="format-date( /pev_femme/date_vat4 ,'%d/%m/%Y')"/>
+      <bind nodeset="/pev_femme/dose_vaccin/vat5_recap" type="string" calculate="format-date( /pev_femme/date_vat5 ,'%d/%m/%Y')"/>
+      <bind nodeset="/pev_femme/dose_vaccin/e_date_vat1" type="date" relevant=" /pev_femme/dose_vaccin/is_vat1_missed =1" required="1" jr:constraintMsg="jr:itext('/pev_femme/dose_vaccin/e_date_vat1:jr:constraintMsg')" constraint="(decimal-date-time(today()) - decimal-date-time( /pev_femme/dose_vaccin/e_date_vat1 ))&gt;=28"/>
+      <bind nodeset="/pev_femme/dose_vaccin/e_date_vat2" type="date" relevant=" /pev_femme/dose_vaccin/is_vat2_missed =1" required="1" jr:constraintMsg="jr:itext('/pev_femme/dose_vaccin/e_date_vat2:jr:constraintMsg')" constraint="(decimal-date-time(today()) - decimal-date-time( /pev_femme/dose_vaccin/e_date_vat2 ))&gt;=168"/>
+      <bind nodeset="/pev_femme/dose_vaccin/e_date_vat3" type="date" relevant=" /pev_femme/dose_vaccin/is_vat3_missed =1" required="1" jr:constraintMsg="jr:itext('/pev_femme/dose_vaccin/e_date_vat3:jr:constraintMsg')" constraint="(decimal-date-time(today()) - decimal-date-time( /pev_femme/dose_vaccin/e_date_vat2 ))&gt;=336"/>
+      <bind nodeset="/pev_femme/dose_vaccin/e_date_vat4" type="date" relevant=" /pev_femme/dose_vaccin/is_vat4_missed =1" required="1" jr:constraintMsg="jr:itext('/pev_femme/dose_vaccin/e_date_vat4:jr:constraintMsg')" constraint="(decimal-date-time(today()) - decimal-date-time( /pev_femme/dose_vaccin/e_date_vat4 ))&gt;=336"/>
+      <bind nodeset="/pev_femme/dose_vaccin/e_date_vat5" type="date" relevant=" /pev_femme/dose_vaccin/is_vat5_missed =1" required="1" jr:constraintMsg="jr:itext('/pev_femme/dose_vaccin/e_date_vat5:jr:constraintMsg')" constraint="(decimal-date-time(today()) - decimal-date-time( /pev_femme/dose_vaccin/e_date_vat4 ))&gt;=336"/>
+      <bind nodeset="/pev_femme/dose_vaccin/rdv_vat2" type="string" calculate="format-date(date(decimal-date-time( /pev_femme/date_vat1 )+30),'%d/%m/%Y')"/>
+      <bind nodeset="/pev_femme/dose_vaccin/rdv_vat3" type="string" calculate="format-date(date(decimal-date-time( /pev_femme/date_vat2 )+180),'%d/%m/%Y')"/>
+      <bind nodeset="/pev_femme/dose_vaccin/rdv_vat4" type="string" calculate="format-date(date(decimal-date-time( /pev_femme/date_vat3 )+365),'%d/%m/%Y')"/>
+      <bind nodeset="/pev_femme/dose_vaccin/rdv_vat5" type="string" calculate="format-date(date(decimal-date-time( /pev_femme/date_vat4 )+365),'%d/%m/%Y')"/>
+      <bind nodeset="/pev_femme/dose_vaccin/vat1_needed" type="string" calculate="number( /pev_femme/dose_vaccin/s_ch_contact =1)"/>
+      <bind nodeset="/pev_femme/dose_vaccin/dose_giver1" type="select1" relevant=" /pev_femme/dose_vaccin/vat1_needed =1" required="1"/>
+      <bind nodeset="/pev_femme/dose_vaccin/vac1_note" readonly="true()" type="string" relevant=" /pev_femme/dose_vaccin/dose_giver1 =1"/>
+      <bind nodeset="/pev_femme/dose_vaccin/vat2_needed" type="string" calculate="number( /pev_femme/dose_vaccin/s_ch_contact =&quot;2&quot; )"/>
+      <bind nodeset="/pev_femme/dose_vaccin/dose_giver2" type="select1" relevant=" /pev_femme/dose_vaccin/vat2_needed =1" required="1"/>
+      <bind nodeset="/pev_femme/dose_vaccin/vac2_note" readonly="true()" type="string" relevant=" /pev_femme/dose_vaccin/dose_giver2 =1 and (decimal-date-time(today()) - decimal-date-time( /pev_femme/dose_vaccin/e_date_vat1 ))&lt;=31"/>
+      <bind nodeset="/pev_femme/dose_vaccin/vat3_needed" type="string" calculate="number( /pev_femme/dose_vaccin/s_ch_contact =&quot;3&quot; )"/>
+      <bind nodeset="/pev_femme/dose_vaccin/dose_giver3" type="select1" relevant=" /pev_femme/dose_vaccin/vat3_needed =1" required="1"/>
+      <bind nodeset="/pev_femme/dose_vaccin/vac3_note" readonly="true()" type="string" relevant=" /pev_femme/dose_vaccin/dose_giver3 =1 and (decimal-date-time(today()) - decimal-date-time( /pev_femme/dose_vaccin/e_date_vat2 ))&gt;=180"/>
+      <bind nodeset="/pev_femme/dose_vaccin/vat4_needed" type="string" calculate="number( /pev_femme/dose_vaccin/s_ch_contact =&quot;4&quot; )"/>
+      <bind nodeset="/pev_femme/dose_vaccin/dose_giver4" type="select1" relevant=" /pev_femme/dose_vaccin/vat4_needed =1" required="1"/>
+      <bind nodeset="/pev_femme/dose_vaccin/vac4_note" readonly="true()" type="string" relevant=" /pev_femme/dose_vaccin/dose_giver4 =1 and (decimal-date-time(today()) - decimal-date-time( /pev_femme/dose_vaccin/e_date_vat3 ))&gt;=336"/>
+      <bind nodeset="/pev_femme/dose_vaccin/vat5_needed" type="string" calculate="number( /pev_femme/dose_vaccin/s_ch_contact =&quot;5&quot; )"/>
+      <bind nodeset="/pev_femme/dose_vaccin/dose_giver5" type="select1" relevant=" /pev_femme/dose_vaccin/vat5_needed =1" required="1"/>
+      <bind nodeset="/pev_femme/dose_vaccin/vac5_note" readonly="true()" type="string" relevant=" /pev_femme/dose_vaccin/dose_giver5 =1 and (decimal-date-time(today()) - decimal-date-time( /pev_femme/dose_vaccin/e_date_vat4 ))&gt;=336"/>
+      <bind nodeset="/pev_femme/dose_vaccin/no_vat_available" readonly="true()" type="string" relevant="number( /pev_femme/dose_vaccin/s_ch_contact =&quot;2&quot; and (decimal-date-time(today()) - decimal-date-time( /pev_femme/dose_vaccin/e_date_vat1 ))&lt;28) or number( /pev_femme/dose_vaccin/s_ch_contact =&quot;3&quot; and (decimal-date-time(today()) - decimal-date-time( /pev_femme/dose_vaccin/e_date_vat2 ))&lt;168) or number( /pev_femme/dose_vaccin/s_ch_contact =&quot;4&quot; and (decimal-date-time(today()) - decimal-date-time( /pev_femme/dose_vaccin/e_date_vat3 ))&lt;336) or number( /pev_femme/dose_vaccin/s_ch_contact =&quot;5&quot; and (decimal-date-time(today()) - decimal-date-time( /pev_femme/dose_vaccin/e_date_vat4 ))&lt;336)"/>
+      <bind nodeset="/pev_femme/dose_vaccin/comback" readonly="true()" type="string" relevant="number( /pev_femme/dose_vaccin/s_ch_contact =&quot;2&quot; and (decimal-date-time(today()) - decimal-date-time( /pev_femme/dose_vaccin/e_date_vat1 ))&gt;31)"/>
+      <bind nodeset="/pev_femme/dose_vaccin/msg_rdv" readonly="true()" type="string" relevant=" /pev_femme/dose_vaccin/dose_giver1 =-1 or (  /pev_femme/dose_vaccin/dose_giver2 =-1 and (decimal-date-time(today()) - decimal-date-time( /pev_femme/dose_vaccin/e_date_vat1 ))&lt;31)or  /pev_femme/dose_vaccin/dose_giver3 =-1 or  /pev_femme/dose_vaccin/dose_giver4 =-1 or  /pev_femme/dose_vaccin/dose_giver5 =-1"/>
+      <bind nodeset="/pev_femme/recap/label_vat1" readonly="true()" type="string" relevant=" /pev_femme/date_vat1 !=''"/>
+      <bind nodeset="/pev_femme/recap/label_vat2" readonly="true()" type="string" relevant=" /pev_femme/date_vat2 !='' and (decimal-date-time(today()) - decimal-date-time( /pev_femme/dose_vaccin/e_date_vat1 ))&gt;=28"/>
+      <bind nodeset="/pev_femme/recap/label_vat3" readonly="true()" type="string" relevant=" /pev_femme/date_vat3 !=''"/>
+      <bind nodeset="/pev_femme/recap/label_vat4" readonly="true()" type="string" relevant=" /pev_femme/date_vat4 !=''"/>
+      <bind nodeset="/pev_femme/recap/label_vat5" readonly="true()" type="string" relevant=" /pev_femme/date_vat5 !=''"/>
+      <bind nodeset="/pev_femme/meta/instanceID" type="string" readonly="true()" calculate="concat('uuid:', uuid())"/>
+    </model>
+  </h:head>
+  <h:body class="pages">
+    <group ref="/pev_femme/inputs">
+      <label ref="jr:itext('/pev_femme/inputs:label')"/>
+      <group ref="/pev_femme/inputs/contact">
+        <input appearance="db-object" ref="/pev_femme/inputs/contact/_id">
+          <label ref="jr:itext('/pev_femme/inputs/contact/_id:label')"/>
+        </input>
+        <input appearance="hidden" ref="/pev_femme/inputs/contact/patient_id">
+          <label ref="jr:itext('/pev_femme/inputs/contact/patient_id:label')"/>
+        </input>
+        <input appearance="hidden" ref="/pev_femme/inputs/contact/name">
+          <label ref="jr:itext('/pev_femme/inputs/contact/name:label')"/>
+        </input>
+        <input appearance="hidden" ref="/pev_femme/inputs/contact/date_of_birth"/>
+        <input ref="/pev_femme/inputs/contact/_input_date_vat1">
+          <label ref="jr:itext('/pev_femme/inputs/contact/_input_date_vat1:label')"/>
+        </input>
+        <input ref="/pev_femme/inputs/contact/_input_date_vat2">
+          <label ref="jr:itext('/pev_femme/inputs/contact/_input_date_vat2:label')"/>
+        </input>
+        <input ref="/pev_femme/inputs/contact/_input_date_vat3">
+          <label ref="jr:itext('/pev_femme/inputs/contact/_input_date_vat3:label')"/>
+        </input>
+        <input ref="/pev_femme/inputs/contact/_input_date_vat4">
+          <label ref="jr:itext('/pev_femme/inputs/contact/_input_date_vat4:label')"/>
+        </input>
+        <input ref="/pev_femme/inputs/contact/_input_date_vat5">
+          <label ref="jr:itext('/pev_femme/inputs/contact/_input_date_vat5:label')"/>
+        </input>
+      </group>
+    </group>
+    <group appearance="field-list" ref="/pev_femme/dose_vaccin">
+      <label ref="jr:itext('/pev_femme/dose_vaccin:label')"/>
+      <select1 ref="/pev_femme/dose_vaccin/s_ch_contact">
+        <label ref="jr:itext('/pev_femme/dose_vaccin/s_ch_contact:label')"/>
+        <item>
+          <label ref="jr:itext('/pev_femme/dose_vaccin/s_ch_contact/1:label')"/>
+          <value>1</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/pev_femme/dose_vaccin/s_ch_contact/2:label')"/>
+          <value>2</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/pev_femme/dose_vaccin/s_ch_contact/3:label')"/>
+          <value>3</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/pev_femme/dose_vaccin/s_ch_contact/4:label')"/>
+          <value>4</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/pev_femme/dose_vaccin/s_ch_contact/5:label')"/>
+          <value>5</value>
+        </item>
+      </select1>
+      <input ref="/pev_femme/dose_vaccin/e_date_vat1">
+        <label ref="jr:itext('/pev_femme/dose_vaccin/e_date_vat1:label')"/>
+      </input>
+      <input ref="/pev_femme/dose_vaccin/e_date_vat2">
+        <label ref="jr:itext('/pev_femme/dose_vaccin/e_date_vat2:label')"/>
+      </input>
+      <input ref="/pev_femme/dose_vaccin/e_date_vat3">
+        <label ref="jr:itext('/pev_femme/dose_vaccin/e_date_vat3:label')"/>
+      </input>
+      <input ref="/pev_femme/dose_vaccin/e_date_vat4">
+        <label ref="jr:itext('/pev_femme/dose_vaccin/e_date_vat4:label')"/>
+      </input>
+      <input ref="/pev_femme/dose_vaccin/e_date_vat5">
+        <label ref="jr:itext('/pev_femme/dose_vaccin/e_date_vat5:label')"/>
+      </input>
+      <select1 ref="/pev_femme/dose_vaccin/dose_giver1">
+        <label ref="jr:itext('/pev_femme/dose_vaccin/dose_giver1:label')"/>
+        <item>
+          <label ref="jr:itext('/pev_femme/dose_vaccin/dose_giver1/1:label')"/>
+          <value>1</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/pev_femme/dose_vaccin/dose_giver1/-1:label')"/>
+          <value>-1</value>
+        </item>
+      </select1>
+      <input ref="/pev_femme/dose_vaccin/vac1_note">
+        <label ref="jr:itext('/pev_femme/dose_vaccin/vac1_note:label')"/>
+      </input>
+      <select1 ref="/pev_femme/dose_vaccin/dose_giver2">
+        <label ref="jr:itext('/pev_femme/dose_vaccin/dose_giver2:label')"/>
+        <item>
+          <label ref="jr:itext('/pev_femme/dose_vaccin/dose_giver2/1:label')"/>
+          <value>1</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/pev_femme/dose_vaccin/dose_giver2/-1:label')"/>
+          <value>-1</value>
+        </item>
+      </select1>
+      <input ref="/pev_femme/dose_vaccin/vac2_note">
+        <label ref="jr:itext('/pev_femme/dose_vaccin/vac2_note:label')"/>
+      </input>
+      <select1 ref="/pev_femme/dose_vaccin/dose_giver3">
+        <label ref="jr:itext('/pev_femme/dose_vaccin/dose_giver3:label')"/>
+        <item>
+          <label ref="jr:itext('/pev_femme/dose_vaccin/dose_giver3/1:label')"/>
+          <value>1</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/pev_femme/dose_vaccin/dose_giver3/-1:label')"/>
+          <value>-1</value>
+        </item>
+      </select1>
+      <input ref="/pev_femme/dose_vaccin/vac3_note">
+        <label ref="jr:itext('/pev_femme/dose_vaccin/vac3_note:label')"/>
+      </input>
+      <select1 ref="/pev_femme/dose_vaccin/dose_giver4">
+        <label ref="jr:itext('/pev_femme/dose_vaccin/dose_giver4:label')"/>
+        <item>
+          <label ref="jr:itext('/pev_femme/dose_vaccin/dose_giver4/1:label')"/>
+          <value>1</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/pev_femme/dose_vaccin/dose_giver4/-1:label')"/>
+          <value>-1</value>
+        </item>
+      </select1>
+      <input ref="/pev_femme/dose_vaccin/vac4_note">
+        <label ref="jr:itext('/pev_femme/dose_vaccin/vac4_note:label')"/>
+      </input>
+      <select1 ref="/pev_femme/dose_vaccin/dose_giver5">
+        <label ref="jr:itext('/pev_femme/dose_vaccin/dose_giver5:label')"/>
+        <item>
+          <label ref="jr:itext('/pev_femme/dose_vaccin/dose_giver5/1:label')"/>
+          <value>1</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/pev_femme/dose_vaccin/dose_giver5/-1:label')"/>
+          <value>-1</value>
+        </item>
+      </select1>
+      <input ref="/pev_femme/dose_vaccin/vac5_note">
+        <label ref="jr:itext('/pev_femme/dose_vaccin/vac5_note:label')"/>
+      </input>
+      <input ref="/pev_femme/dose_vaccin/no_vat_available">
+        <label ref="jr:itext('/pev_femme/dose_vaccin/no_vat_available:label')"/>
+      </input>
+      <input ref="/pev_femme/dose_vaccin/comback">
+        <label ref="jr:itext('/pev_femme/dose_vaccin/comback:label')"/>
+      </input>
+      <input ref="/pev_femme/dose_vaccin/msg_rdv">
+        <label ref="jr:itext('/pev_femme/dose_vaccin/msg_rdv:label')"/>
+      </input>
+    </group>
+    <group appearance="field-list" ref="/pev_femme/recap">
+      <label ref="jr:itext('/pev_femme/recap:label')"/>
+      <input ref="/pev_femme/recap/label_vat1">
+        <label ref="jr:itext('/pev_femme/recap/label_vat1:label')"/>
+      </input>
+      <input ref="/pev_femme/recap/label_vat2">
+        <label ref="jr:itext('/pev_femme/recap/label_vat2:label')"/>
+      </input>
+      <input ref="/pev_femme/recap/label_vat3">
+        <label ref="jr:itext('/pev_femme/recap/label_vat3:label')"/>
+      </input>
+      <input ref="/pev_femme/recap/label_vat4">
+        <label ref="jr:itext('/pev_femme/recap/label_vat4:label')"/>
+      </input>
+      <input ref="/pev_femme/recap/label_vat5">
+        <label ref="jr:itext('/pev_femme/recap/label_vat5:label')"/>
+      </input>
+    </group>
+  </h:body>
+</h:html>

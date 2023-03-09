@@ -1,0 +1,19 @@
+
+{
+  "title": [
+    {
+      "locale": "en",
+      "content": "Immunization Visit Woman"
+    },
+    {
+      "locale": "fr",
+      "content": "PEV Femme"
+    }
+  ],
+  "icon": "icon-immunization",
+  "context": {
+    "person": true,
+    "place": false,
+    "expression": "contact.type === 'person' && contact.sex === 'female' && (!contact.date_of_birth || ageInYears(contact) >= 10)"
+  }
+}
