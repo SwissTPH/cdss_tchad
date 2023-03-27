@@ -1,6 +1,6 @@
 {
   "form:adult": {
-    "cht-tchad.swisstph-mis.ch/medic": "Yw41umqqpQPGtuT38DLoVQ=="
+    "cht-tchad.swisstph-mis.ch/medic": "pwaqbW5LTuUvhtmt2Qj1EA=="
   },
   "form:pev_enfant": {
     "cht-tchad.swisstph-mis.ch/medic": "VnkZGYYH6UVTBDiJ4UW/mQ=="
@@ -9,6 +9,9 @@
     "cht-tchad.swisstph-mis.ch/medic": "/twR+Q8i4pmWKN/3fUP6tQ=="
   },
   "form:pev_femme": {
-    "cht-tchad.swisstph-mis.ch/medic": "J6tZlz7Jkdz67i1zLnMF5w=="
+    "cht-tchad.swisstph-mis.ch/medic": "qK3woxhsLgYjpUlYBI7V6A=="
+  },
+  "form:cpn": {
+    "cht-tchad.swisstph-mis.ch/medic": "7yE1Pz3AAPd+FGBpNhZqmQ=="
   }
 }
