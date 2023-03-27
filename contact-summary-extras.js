@@ -12,7 +12,7 @@ var deliveryForms = [
 var postnatalForms = [
 ];
 
-var immunizationForms = [
+var IMMUNIZATION_CHILD_FORMS = [
   'pev_enfant',
 ];
 
@@ -37,7 +37,7 @@ var MS_IN_DAY = 24*60*60*1000;  // 1 day in ms
 var MAX_DAYS_IN_PREGNANCY = 44*7;  // 44 weeks
 var DAYS_IN_PNC = 45; // Allow for 3 extra days to receive PNC reports
 
-var IMMUNIZATION_DOSES = [
+var IMMUNIZATION_CHILD_DOSES = [
   ['bcg', 'bcg'],
   ['vpo0', 'vpo0'],
   ['vpo1', 'vpo1'],
@@ -54,7 +54,7 @@ var IMMUNIZATION_DOSES = [
   ['meb', 'meb'],
 ];
 
-var IMMUNIZATION_LIST = [
+var IMMUNIZATION_CHLID_LIST = [
   'bcg',
   'vpo',
   'penta',
@@ -169,7 +169,7 @@ function getAgeInMonths() {
 
 /************** PEV ENFANT **************/
 
-var initImmunizations = function(allReports, doses_list, forms_list) {
+function initImmunizations(allReports, doses_list, forms_list) {
   var master = {};
   doses_list.forEach(function(dose) {
     master[dose[0]] = null;
@@ -184,45 +184,59 @@ var initImmunizations = function(allReports, doses_list, forms_list) {
 
   }
   return master;
-};
-
+}
+/*
+const initChildImmunizations = function(allReports) {
+  return initImmunizations(allReports, IMMUNIZATION_CHILD_DOSES, IMMUNIZATION_CHILD_FORMS);
+};*/
 
 
 
 function getAgeInYears() {
-    return Math.trunc(getAgeInMonths()/12);
+  var birthDate, ageInMs;
+  if (contact.date_of_birth && contact.date_of_birth !== '') {
+    birthDate = new Date(contact.date_of_birth);
+    ageInMs = new Date(Date.now() - birthDate.getTime());
+    return (Math.abs(ageInMs.getFullYear() - 1970)) ;
+  }
 }
 
-const getImmFileds = function (allReports) {
+
+
+function getImmFileds(allReports, list_doses, list_forms, list_imm) {
   const fields = [];
-  var immunizations = initImmunizations(allReports, IMMUNIZATION_DOSES, immunizationForms);
-  IMMUNIZATION_LIST.forEach(function(imm) {
+  var immunizations = initImmunizations(allReports, list_doses, list_forms );
+  list_imm.forEach(function(imm) {
     var field = {
       label: 'contact.imm.' + imm,
       translate: true,
       width: 6,
     };
-    if (isSingleDose(imm)) {
+    if (isSingleDose(imm,list_doses)) {
 
       field.value = hasValue(immunizations[imm]) && isDate(immunizations[imm]) ?  new Date(immunizations[imm]) : null;
     } else {
       field.value = 'contact.imm.doses';
       field.context = {
-        count: countDosesReceived(immunizations, imm, IMMUNIZATION_DOSES),
-        total: countDosesPossible(imm, IMMUNIZATION_DOSES),
+        count: countDosesReceived(immunizations, imm, list_doses),
+        total: countDosesPossible(imm, list_doses),
         last: getMaxDose(immunizations, imm)
       };
     }
     fields.push(field);
   });
   return fields;
-};
+}
 
+
+const getImmChildFileds = function (allReports) { return getImmFileds(allReports,IMMUNIZATION_CHILD_DOSES,IMMUNIZATION_CHILD_FORMS, IMMUNIZATION_CHLID_LIST);};
+const getImmWomenFileds = function (allReports) { return getImmFileds(allReports,IMMUNIZATION_WOMEN_DOSES,IMMUNIZATION_WOMEN_FORMS, IMMUNIZATION_WOMEN_LIST);};
 
 const allReports = reports;
 
-var generateChildContext = function (ctx){
-  var immunizations = initImmunizations(allReports, IMMUNIZATION_DOSES, immunizationForms);
+
+function generateContext(ctx,list_doses, list_forms){
+  var immunizations = initImmunizations(allReports, list_doses, list_forms);
   // add the entry in the context only if there is a value
   Object.entries(immunizations).forEach(([key, value]) => {
       
@@ -231,46 +245,17 @@ var generateChildContext = function (ctx){
         ctx['imm_date_'+key]=value;
       }
   });
-  
+}
+
+var generateWomenContext =  function (ctx){
+  generateContext(ctx,IMMUNIZATION_WOMEN_DOSES, IMMUNIZATION_WOMEN_FORMS );
 };
 
-var generateWomenContext = function (ctx){
-  var immunizations = initImmunizations(allReports, IMMUNIZATION_WOMEN_DOSES, IMMUNIZATION_WOMEN_FORMS );
-  // add the entry in the context only if there is a value
-  Object.entries(immunizations).forEach(([key, value]) => {
-      
-      if (value !== null ){
-        //console.log('imm_date_'+key+':'+value);
-        ctx['imm_date_'+key]=value;
-      }
-  });
-  
+
+var generateChlidContext =  function (ctx){
+  generateContext(ctx,IMMUNIZATION_CHILD_DOSES, IMMUNIZATION_CHILD_FORMS );
 };
 
-const getImmWomenFileds = function (allReports) {
-  const fields = [];
-  var immunizations = initImmunizations(allReports, IMMUNIZATION_WOMEN_DOSES, IMMUNIZATION_WOMEN_FORMS );
-  IMMUNIZATION_WOMEN_LIST.forEach(function(imm) {
-    var field = {
-      label: 'contact.imm.' + imm,
-      translate: true,
-      width: 6,
-    };
-    if (isSingleDose(imm)) {
-
-      field.value = hasValue(immunizations[imm]) && isDate(immunizations[imm]) ?  new Date(immunizations[imm]) : null;
-    } else {
-      field.value = 'contact.imm.doses';
-      field.context = {
-        count: countDosesReceived(immunizations, imm, IMMUNIZATION_WOMEN_DOSES),
-        total: countDosesPossible(imm, IMMUNIZATION_WOMEN_DOSES),
-        last: getMaxDose(immunizations, imm)
-      };
-    }
-    fields.push(field);
-  });
-  return fields;
-};
 
 
 
@@ -325,12 +310,11 @@ module.exports = {
   antenatalForms,
   deliveryForms,
   postnatalForms,
-  immunizationForms,
   MS_IN_DAY,
   MAX_DAYS_IN_PREGNANCY,
   DAYS_IN_PNC,
-  IMMUNIZATION_DOSES,
-  IMMUNIZATION_LIST,
+  generateWomenContext,
+  generateChlidContext,
   count,
   isFacilityDelivery,
   isNonFacilityDelivery,
@@ -342,9 +326,8 @@ module.exports = {
   isAlive,
   getOldestReport,
   getAgeInMonths,
+  generateContext,
   getAgeInYears,
-  generateChildContext,
-  generateWomenContext,
-  getImmFileds,
+  getImmChildFileds,
   getImmWomenFileds,
 };

@@ -1,4 +1,4 @@
-const {getImmFileds, generateChildContext, generateWomenContext, getImmWomenFileds, getAgeInMonths,getAgeInYears, isAlive } = require('./contact-summary-extras');
+const {getImmChildFileds,generateChildContext,getImmWomenFileds,generateWomenContext, getAgeInMonths,isAlive ,getAgeInYears} = require('./contact-summary-extras');
 
 
 
@@ -47,22 +47,20 @@ cards.push(  {
     appliesTo: 'contacts',
     appliesToType: 'person',
     appliesIf:  function(){ return getAgeInMonths()<18;},
-    fields:  getImmFileds(allReports),
-    modifyContext: generateChildContext 
+    fields:  getImmChildFileds(allReports),
+    modifyContext: generateChildContext
   }
 );
 
 cards.push(  {
-  label: 'contact.profile.imm.child',
+  label: 'contact.profile.imm.women',
   appliesTo: 'contacts',
   appliesToType: 'person',
-  appliesIf:  function(){ return getAgeInYears()>10 && contact.sex === 'female';},
+  appliesIf:  function(){ return  contact.sex === 'female' && (!contact.date_of_birth || getAgeInYears() >= 10) ;},
   fields:  getImmWomenFileds(allReports),
-  modifyContext: generateWomenContext 
+  modifyContext: generateWomenContext
 }
 );
-
-
 
 
 /*********  EXPORT *********/
