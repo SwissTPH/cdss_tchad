@@ -3,14 +3,14 @@
   "title": [
     {
       "locale": "en",
-      "content": "ANC"
+      "content": "PNC"
     },
     {
       "locale": "fr",
-      "content": "CPN"
+      "content": "CPON"
     }
   ],
-  "icon": "icon-people-woman-pregnant",
+  "icon": "icon-people-woman-baby",
   "context": {
     "person": true,
     "place": false,

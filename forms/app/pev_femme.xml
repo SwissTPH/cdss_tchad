@@ -5,20 +5,23 @@
     <model>
       <itext>
         <translation lang="fr">
+          <text id="/pev_femme/_case_date_vat1:jr:requiredMsg">
+            <value>if(instance('contact-summary')/context/imm_date vat1!='',date(instance('contact-summary')/context/imm_date vat1),'')</value>
+          </text>
           <text id="/pev_femme/_case_date_vat1:label">
-            <value>date vat1</value>
+            <value>date_vat1</value>
           </text>
           <text id="/pev_femme/_case_date_vat2:label">
-            <value>date vat2</value>
+            <value>date_vat2</value>
           </text>
           <text id="/pev_femme/_case_date_vat3:label">
-            <value>date vat3</value>
+            <value>date_vat3</value>
           </text>
           <text id="/pev_femme/_case_date_vat4:label">
-            <value>date vat4</value>
+            <value>date_vat4</value>
           </text>
           <text id="/pev_femme/_case_date_vat5:label">
-            <value>date vat5</value>
+            <value>date_vat5</value>
           </text>
           <text id="/pev_femme/date_naissance:label">
             <value>date_naissance sauvegardée</value>
@@ -233,7 +236,7 @@ Durée de protection : Toute la vie.</value>
         </translation>
       </itext>
       <instance>
-        <pev_femme id="pev_femme" prefix="J1!pev_femme!" delimiter="#" version="2303170838">
+        <pev_femme id="pev_femme" prefix="J1!pev_femme!" delimiter="#" version="2304041458">
           <inputs>
             <meta>
               <location>
@@ -341,19 +344,19 @@ Durée de protection : Toute la vie.</value>
       <bind nodeset="/pev_femme/_id" type="string" calculate="../inputs/contact/_id"/>
       <bind nodeset="/pev_femme/patient_id" type="string" calculate="../inputs/contact/patient_id"/>
       <bind nodeset="/pev_femme/name" type="string" calculate="../inputs/contact/name"/>
-      <bind nodeset="/pev_femme/date_vat1" type="string" calculate="if( /pev_femme/dose_vaccin/dose_giver1 =1,today(),if( /pev_femme/dose_vaccin/is_vat1_missed =1 , /pev_femme/dose_vaccin/e_date_vat1 , /pev_femme/_case_date_vat1 ))"/>
-      <bind nodeset="/pev_femme/date_vat2" type="string" calculate="if( /pev_femme/dose_vaccin/dose_giver2 =1,today(),if( /pev_femme/dose_vaccin/is_vat2_missed =1 , /pev_femme/dose_vaccin/e_date_vat2 , /pev_femme/_case_date_vat2 ))"/>
-      <bind nodeset="/pev_femme/date_vat3" type="string" calculate="if( /pev_femme/dose_vaccin/dose_giver3 =1,today(),if( /pev_femme/dose_vaccin/is_vat3_missed =1 , /pev_femme/dose_vaccin/e_date_vat3 , /pev_femme/_case_date_vat3 ))"/>
-      <bind nodeset="/pev_femme/date_vat4" type="string" calculate="if( /pev_femme/dose_vaccin/dose_giver4 =1,today(),if( /pev_femme/dose_vaccin/is_vat4_missed =1 , /pev_femme/dose_vaccin/e_date_vat4 , /pev_femme/_case_date_vat4 ))"/>
-      <bind nodeset="/pev_femme/date_vat5" type="string" calculate="if( /pev_femme/dose_vaccin/dose_giver5 =1,today(),if( /pev_femme/dose_vaccin/is_vat5_missed =1 , /pev_femme/dose_vaccin/e_date_vat5 , /pev_femme/_case_date_vat5 ))"/>
+      <bind nodeset="/pev_femme/date_vat1" type="string" calculate="if( /pev_femme/dose_vaccin/dose_giver1 =1,today(),if( /pev_femme/dose_vaccin/is_vat1_missed =1 ,'', coalesce( /pev_femme/dose_vaccin/e_date_vat1 , /pev_femme/_case_date_vat1 )))"/>
+      <bind nodeset="/pev_femme/date_vat2" type="string" calculate="if( /pev_femme/dose_vaccin/dose_giver2 =1,today(),if( /pev_femme/dose_vaccin/is_vat2_missed =1 ,'', coalesce( /pev_femme/dose_vaccin/e_date_vat2 , /pev_femme/_case_date_vat2 )))"/>
+      <bind nodeset="/pev_femme/date_vat3" type="string" calculate="if( /pev_femme/dose_vaccin/dose_giver3 =1,today(),if( /pev_femme/dose_vaccin/is_vat3_missed =1 ,'', coalesce( /pev_femme/dose_vaccin/e_date_vat3 , /pev_femme/_case_date_vat3 )))"/>
+      <bind nodeset="/pev_femme/date_vat4" type="string" calculate="if( /pev_femme/dose_vaccin/dose_giver4 =1,today(),if( /pev_femme/dose_vaccin/is_vat4_missed =1 ,'', coalesce( /pev_femme/dose_vaccin/e_date_vat4 , /pev_femme/_case_date_vat4 )))"/>
+      <bind nodeset="/pev_femme/date_vat5" type="string" calculate="if( /pev_femme/dose_vaccin/dose_giver5 =1,today(),if( /pev_femme/dose_vaccin/is_vat5_missed =1 ,'', coalesce( /pev_femme/dose_vaccin/e_date_vat5 , /pev_femme/_case_date_vat5 )))"/>
       <bind nodeset="/pev_femme/date_naissance" type="string" calculate="date(../inputs/contact/date_of_birth)"/>
-      <bind nodeset="/pev_femme/_case_date_vat1" type="string" calculate="if(instance('contact-summary')/context/imm_Inputs!='',date(instance('contact-summary')/context/imm_Inputs),'')"/>
-      <bind nodeset="/pev_femme/_case_date_vat2" type="string" calculate="if(instance('contact-summary')/context/imm_!='',date(instance('contact-summary')/context/imm_),'')"/>
-      <bind nodeset="/pev_femme/_case_date_vat3" type="string" calculate="if(instance('contact-summary')/context/imm_!='',date(instance('contact-summary')/context/imm_),'')"/>
-      <bind nodeset="/pev_femme/_case_date_vat4" type="string" calculate="if(instance('contact-summary')/context/imm_Task_ID!='',date(instance('contact-summary')/context/imm_Task_ID),'')"/>
-      <bind nodeset="/pev_femme/_case_date_vat5" type="string" calculate="if(instance('contact-summary')/context/imm_!='',date(instance('contact-summary')/context/imm_),'')"/>
+      <bind nodeset="/pev_femme/_case_date_vat1" type="string" calculate="if(instance('contact-summary')/context/imm_date_vat1!='',date(instance('contact-summary')/context/imm_date_vat1),'')" jr:requiredMsg="jr:itext('/pev_femme/_case_date_vat1:jr:requiredMsg')"/>
+      <bind nodeset="/pev_femme/_case_date_vat2" type="string" calculate="if(instance('contact-summary')/context/imm_date_vat2!='',date(instance('contact-summary')/context/imm_date_vat2),'')"/>
+      <bind nodeset="/pev_femme/_case_date_vat3" type="string" calculate="if(instance('contact-summary')/context/imm_date_vat3!='',date(instance('contact-summary')/context/imm_date_vat3),'')"/>
+      <bind nodeset="/pev_femme/_case_date_vat4" type="string" calculate="if(instance('contact-summary')/context/imm_date_vat4!='',date(instance('contact-summary')/context/imm_date_vat4),'')"/>
+      <bind nodeset="/pev_femme/_case_date_vat5" type="string" calculate="if(instance('contact-summary')/context/imm_date_vat5!='',date(instance('contact-summary')/context/imm_date_vat5),'')"/>
       <bind nodeset="/pev_femme/dose_vaccin" jr:requiredMsg="jr:itext('/pev_femme/dose_vaccin:jr:requiredMsg')"/>
-      <bind nodeset="/pev_femme/dose_vaccin/s_ch_contact" type="select1" required="1" calculate="coalesce(., if( /pev_femme/_case_date_vat4 !='','4', if( /pev_femme/_case_date_vat3 !='','3', if( /pev_femme/_case_date_vat2 !='','2', if( /pev_femme/_case_date_vat1 !='','1' ,'')))))"/>
+      <bind nodeset="/pev_femme/dose_vaccin/s_ch_contact" type="select1" required="1" calculate="coalesce(., if( /pev_femme/_case_date_vat4 !='','4', if( /pev_femme/_case_date_vat3 !='','4', if( /pev_femme/_case_date_vat2 !='','3', if( /pev_femme/_case_date_vat1 !='','2' ,'')))))"/>
       <bind nodeset="/pev_femme/dose_vaccin/is_vat1_missed" type="string" calculate="number( /pev_femme/dose_vaccin/s_ch_contact &gt;1 and coalesce( /pev_femme/_case_date_vat1 ,'')='')"/>
       <bind nodeset="/pev_femme/dose_vaccin/is_vat2_missed" type="string" calculate="number( /pev_femme/dose_vaccin/s_ch_contact &gt;2 and coalesce( /pev_femme/_case_date_vat2 ,'')='')"/>
       <bind nodeset="/pev_femme/dose_vaccin/is_vat3_missed" type="string" calculate="number( /pev_femme/dose_vaccin/s_ch_contact &gt;3 and coalesce( /pev_femme/_case_date_vat3 ,'')='')"/>
@@ -364,11 +367,11 @@ Durée de protection : Toute la vie.</value>
       <bind nodeset="/pev_femme/dose_vaccin/vat3_recap" type="string" calculate="format-date( /pev_femme/date_vat3 ,'%d/%m/%Y')"/>
       <bind nodeset="/pev_femme/dose_vaccin/vat4_recap" type="string" calculate="format-date( /pev_femme/date_vat4 ,'%d/%m/%Y')"/>
       <bind nodeset="/pev_femme/dose_vaccin/vat5_recap" type="string" calculate="format-date( /pev_femme/date_vat5 ,'%d/%m/%Y')"/>
-      <bind nodeset="/pev_femme/dose_vaccin/e_date_vat1" type="date" jr:constraintMsg="jr:itext('/pev_femme/dose_vaccin/e_date_vat1:jr:constraintMsg')" required="1" relevant=" /pev_femme/dose_vaccin/is_vat1_missed =1" constraint="(decimal-date-time(today()) - decimal-date-time( /pev_femme/dose_vaccin/e_date_vat1 ))&gt;=28"/>
-      <bind nodeset="/pev_femme/dose_vaccin/e_date_vat2" type="date" jr:constraintMsg="jr:itext('/pev_femme/dose_vaccin/e_date_vat2:jr:constraintMsg')" required="1" relevant=" /pev_femme/dose_vaccin/is_vat2_missed =1" constraint="(decimal-date-time(today()) - decimal-date-time( /pev_femme/dose_vaccin/e_date_vat2 ))&gt;=168"/>
-      <bind nodeset="/pev_femme/dose_vaccin/e_date_vat3" type="date" jr:constraintMsg="jr:itext('/pev_femme/dose_vaccin/e_date_vat3:jr:constraintMsg')" required="1" relevant=" /pev_femme/dose_vaccin/is_vat3_missed =1" constraint="(decimal-date-time(today()) - decimal-date-time( /pev_femme/dose_vaccin/e_date_vat2 ))&gt;=336"/>
-      <bind nodeset="/pev_femme/dose_vaccin/e_date_vat4" type="date" jr:constraintMsg="jr:itext('/pev_femme/dose_vaccin/e_date_vat4:jr:constraintMsg')" required="1" relevant=" /pev_femme/dose_vaccin/is_vat4_missed =1" constraint="(decimal-date-time(today()) - decimal-date-time( /pev_femme/dose_vaccin/e_date_vat4 ))&gt;=336"/>
-      <bind nodeset="/pev_femme/dose_vaccin/e_date_vat5" type="date" jr:constraintMsg="jr:itext('/pev_femme/dose_vaccin/e_date_vat5:jr:constraintMsg')" required="1" relevant=" /pev_femme/dose_vaccin/is_vat5_missed =1" constraint="(decimal-date-time(today()) - decimal-date-time( /pev_femme/dose_vaccin/e_date_vat4 ))&gt;=336"/>
+      <bind nodeset="/pev_femme/dose_vaccin/e_date_vat1" type="date" required="1" relevant=" /pev_femme/dose_vaccin/is_vat1_missed =1" constraint="(decimal-date-time(today()) - decimal-date-time( /pev_femme/dose_vaccin/e_date_vat1 ))&gt;=28" jr:constraintMsg="jr:itext('/pev_femme/dose_vaccin/e_date_vat1:jr:constraintMsg')"/>
+      <bind nodeset="/pev_femme/dose_vaccin/e_date_vat2" type="date" required="1" relevant=" /pev_femme/dose_vaccin/is_vat2_missed =1" constraint="(decimal-date-time(today()) - decimal-date-time( /pev_femme/dose_vaccin/e_date_vat2 ))&gt;=168" jr:constraintMsg="jr:itext('/pev_femme/dose_vaccin/e_date_vat2:jr:constraintMsg')"/>
+      <bind nodeset="/pev_femme/dose_vaccin/e_date_vat3" type="date" required="1" relevant=" /pev_femme/dose_vaccin/is_vat3_missed =1" constraint="(decimal-date-time(today()) - decimal-date-time( /pev_femme/dose_vaccin/e_date_vat2 ))&gt;=336" jr:constraintMsg="jr:itext('/pev_femme/dose_vaccin/e_date_vat3:jr:constraintMsg')"/>
+      <bind nodeset="/pev_femme/dose_vaccin/e_date_vat4" type="date" required="1" relevant=" /pev_femme/dose_vaccin/is_vat4_missed =1" constraint="(decimal-date-time(today()) - decimal-date-time( /pev_femme/dose_vaccin/e_date_vat4 ))&gt;=336" jr:constraintMsg="jr:itext('/pev_femme/dose_vaccin/e_date_vat4:jr:constraintMsg')"/>
+      <bind nodeset="/pev_femme/dose_vaccin/e_date_vat5" type="date" required="1" relevant=" /pev_femme/dose_vaccin/is_vat5_missed =1" constraint="(decimal-date-time(today()) - decimal-date-time( /pev_femme/dose_vaccin/e_date_vat4 ))&gt;=336" jr:constraintMsg="jr:itext('/pev_femme/dose_vaccin/e_date_vat5:jr:constraintMsg')"/>
       <bind nodeset="/pev_femme/dose_vaccin/rdv_vat2" type="string" calculate="format-date(date(decimal-date-time( /pev_femme/date_vat1 )+30),'%d/%m/%Y')"/>
       <bind nodeset="/pev_femme/dose_vaccin/rdv_vat3" type="string" calculate="format-date(date(decimal-date-time( /pev_femme/date_vat2 )+180),'%d/%m/%Y')"/>
       <bind nodeset="/pev_femme/dose_vaccin/rdv_vat4" type="string" calculate="format-date(date(decimal-date-time( /pev_femme/date_vat3 )+365),'%d/%m/%Y')"/>
