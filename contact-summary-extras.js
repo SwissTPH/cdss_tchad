@@ -393,7 +393,7 @@ function addDatas(result, nodes, datas_list){
       if( typeof value === 'object' && Object.getOwnPropertyNames(value).length > 0){
           console.log('dd'+':'+key+':'+(typeof value)+':'+value);
           result = addDatas(result,value,datas_list);
-      }else if (key.trim() in datas_list || key === 'p_int_cpn'){
+      }else if (datas_list.includes(key)){
         console.log('add'+':'+key+':'+(typeof value)+':'+value);
         result[key]=(value);
       }
