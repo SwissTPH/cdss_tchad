@@ -1,0 +1,20 @@
+
+{
+  "title": [
+    {
+      "locale": "en",
+      "content": "IMCI"
+    },
+    {
+      "locale": "fr",
+      "content": "PCIME"
+    }
+  ],
+  "icon": "icon-follow-up",
+  "context": {
+    "person": true,
+    "place": false,
+    "expression": "false"
+  }
+}
+

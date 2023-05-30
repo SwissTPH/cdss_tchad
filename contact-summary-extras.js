@@ -1,3 +1,6 @@
+const {injectDataFromForm, isReportValid, getAgeInYears, dateFormat, isDate,
+  hasValue,  getBirthDate, count} = require('./stph-extras');
+const {isAlive} = require('./nools-extra');
 var now = Date.now();
 
 var pregnancyForms = [
@@ -136,60 +139,6 @@ var IMMUNIZATION_CHLID_LIST = [
   'meb',
 ];
 
-function isReportValid(report) {
-  return report && !(report.errors && report.errors.length);
-}
-
-function count(arr, fn) {
-  var c = 0;
-  for(var i=0; i<arr.length; ++i) {
-    if(fn(arr[i])) { ++c; }
-  }
-  return c;
-}
-
-
-
-
-var isFacilityDelivery = function(r) {
-  return r &&
-         r.fields &&
-         r.fields.delivery_code &&
-         r.fields.delivery_code.toLowerCase() === 'f';
-};
-
-function isNonFacilityDelivery(r) {
-  return r &&
-         deliveryForms.indexOf(r.form) &&
-         r.fields &&
-         r.fields.delivery_code &&
-         r.fields.delivery_code.toLowerCase() !== 'f';
-}
-
-function getBirthDate(r) {
-  var rawDate = r &&
-      (r.birth_date || r.fields.birth_date || r.reported_date);
-  return new Date(rawDate);
-}
-
-
-
-
-function hasValue(path){
-  return path !== undefined && path !== null && path !== '';
-}
-
-/*const getField = (report, fieldPath) => ['fields', ...(fieldPath || '').split('.')]
-  .reduce((prev, fieldName) => {
-    if (prev === undefined) { return undefined; }
-    return prev[fieldName];
-  }, report);*/
-
-
-function isDate(date_str) {
-  return (date_str !== undefined && date_str!==null && new Date(date_str) !== 'Invalid Date') && !isNaN(new Date(date_str));
-}
-
 
 // from rules.nools.js https://github.com/medic/medic-projects/blob/4dafaeed547ea61d362662f136e1e1f7c7335e9c/standard/rules.nools.js#L219-L229
 // modified to exclude invalid reports, which is common with SMS reports
@@ -221,10 +170,6 @@ var getOldestReport = function(reports) {
 
 
 
-function isAlive(thisContact) {
-  return thisContact && !thisContact.date_of_death;
-}
-
 function getAgeInMonths() {
   var birthDate, ageInMs;
   if (contact.date_of_birth && contact.date_of_birth !== '') {
@@ -255,50 +200,8 @@ function initImmunizations(allReports, doses_list, forms_list) {
   }
   return master;
 }
-/*
-const initChildImmunizations = function(allReports) {
-  return initImmunizations(allReports, IMMUNIZATION_CHILD_DOSES, IMMUNIZATION_CHILD_FORMS);
-};*/
-function initDatas(allReports, datas_list, forms_list) {
-  var master = {};
-  datas_list.forEach(function(data) {
-    master[data[0]] = null;
-  });
-  var i;
-  // loop over all reports
-  for(i=0; i<allReports.length; ++i) {
-    const report = allReports[i];
-    if(report && forms_list.includes(report.form) && report.fields){
-        master = addDatas(master,  report.fields, datas_list);
-    }
-
-  }
-  return master;
-}
 
 
-function getAgeInYears() {
-  var birthDate, ageInMs;
-  if (contact.date_of_birth && contact.date_of_birth !== '') {
-    birthDate = new Date(contact.date_of_birth);
-    ageInMs = new Date(Date.now() - birthDate.getTime());
-    return (Math.abs(ageInMs.getFullYear() - 1970)) ;
-  }
-}
-
-function dateFormat(datestr, iso=false){
-  let objectDate = new Date(datestr);
-  let day = objectDate.getDate();
-  let month = objectDate.getMonth()+1;
-  let year = objectDate.getFullYear();
-  if (iso){
-    return `${year}-${month}-${day}`;
-
-  }else{
-    return `${day}/${month}/${year}`;
-
-  }
-}
 
 function getImmFileds(allReports, list_doses, list_forms, list_imm) {
   const fields = [];
@@ -347,21 +250,9 @@ function generateImmContext(ctx,list_doses, list_forms){
 
 
 
-function generateDataContext(ctx, prefix,list_data, list_forms){
-  var case_datas = initDatas(allReports, list_data, list_forms);
-  console.log(case_datas.length);
-  // add the entry in the context only if there is a value
-  Object.entries(case_datas).forEach(([key, value]) => {
-      if (value !== null ){
-        console.log(prefix+key+':'+value);
-        ctx[prefix+key]=value;
-      }
-  });
-}
-
 var generateWomenContext =  function (ctx){
   generateImmContext(ctx,IMMUNIZATION_WOMEN_DOSES, IMMUNIZATION_WOMEN_FORMS );
-  generateDataContext(ctx,'cpn_',CPN_CASE_DATA, CPN_FORMS );
+  injectDataFromForm(ctx,'cpn_',CPN_CASE_DATA, CPN_FORMS,reports);
   
 };
 
@@ -384,23 +275,6 @@ var addImmunizations = function(master, report_path, doses_list) {
 };
 
 
-// add the date only if found on the master and has value in report_path
-
-function addDatas(result, nodes, datas_list){
-  for (const [key, value] of Object.entries(nodes)) {
-    if(isNaN(key) && value !== null && value !== undefined && key !== 'meta' && key !== undefined ){
-      console.log('read'+':'+key+':'+(typeof value)+':'+value);
-      if( typeof value === 'object' && Object.getOwnPropertyNames(value).length > 0){
-          console.log('dd'+':'+key+':'+(typeof value)+':'+value);
-          result = addDatas(result,value,datas_list);
-      }else if (datas_list.includes(key)){
-        console.log('add'+':'+key+':'+(typeof value)+':'+value);
-        result[key]=(value);
-      }
-    }
-  }
-  return result;
-}
 
 // count the number of time there is name_ in the "master" list with a value
 function getMaxDose(master, name) {
@@ -445,8 +319,6 @@ module.exports = {
   generateWomenContext,
   generateChildContext,
   count,
-  isFacilityDelivery,
-  isNonFacilityDelivery,
   getBirthDate,
   isReportValid,
   countReportsSubmittedInWindow,

@@ -1,0 +1,20 @@
+
+{
+  "title": [
+    {
+      "locale": "en",
+      "content": "IMCI"
+    },
+    {
+      "locale": "fr",
+      "content": "PCIME"
+    }
+  ],
+  "icon": "icon-child",
+  "context": {
+    "person": true,
+    "place": false,
+    "expression": "contact.type === 'person' && (!contact.date_of_birth || ageInYears(contact) <= 5)"
+  }
+}
+

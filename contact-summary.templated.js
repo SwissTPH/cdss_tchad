@@ -56,7 +56,7 @@ cards.push(  {
   label: 'contact.profile.imm.women',
   appliesTo: 'contacts',
   appliesToType: 'person',
-  appliesIf:  function(){ return  contact.sex === 'female' && (!contact.date_of_birth || getAgeInYears() >= 10) ;},
+  appliesIf:  function(){ return  contact.sex === 'female' && (!contact.date_of_birth || getAgeInYears(contact) >= 10) ;},
   fields:  getImmWomenFileds(allReports),
   modifyContext: generateWomenContext
 }

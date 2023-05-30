@@ -1,0 +1,353 @@
+<?xml version="1.0"?>
+<h:html xmlns="http://www.w3.org/2002/xforms" xmlns:h="http://www.w3.org/1999/xhtml" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:jr="http://openrosa.org/javarosa" xmlns:orx="http://openrosa.org/xforms">
+  <h:head>
+    <h:title>Enregistrement</h:title>
+    <model>
+      <itext>
+        <translation lang="fr">
+          <text id="/data/init/parent_id:hint">
+            <value><output value=" /data/init/type_label "/></value>
+          </text>
+          <text id="/data/init/parent_id:label">
+            <value>Associé avec</value>
+          </text>
+          <text id="/data/init/type_selector/clinic:label">
+            <value>Dispensaire</value>
+          </text>
+          <text id="/data/init/type_selector/district_hospital:label">
+            <value>Hôpital de District</value>
+          </text>
+          <text id="/data/init/type_selector/health_center:label">
+            <value>Centre de santé</value>
+          </text>
+          <text id="/data/inputs/user/contact_id:label">
+            <value>Identifiant du contact</value>
+          </text>
+          <text id="/data/inputs/user/facility_id:label">
+            <value>Identifiant du centre</value>
+          </text>
+          <text id="/data/inputs/user/name:label">
+            <value>Nom</value>
+          </text>
+          <text id="/data/person/ephemeral_dob/age_label:label">
+            <value>**Please enter date of birth**</value>
+          </text>
+          <text id="/data/person/ephemeral_dob/age_months:jr:constraintMsg">
+            <value>Mois doit être entre 0 et 11</value>
+          </text>
+          <text id="/data/person/ephemeral_dob/age_months:label">
+            <value>Mois</value>
+          </text>
+          <text id="/data/person/ephemeral_dob/age_years:jr:constraintMsg">
+            <value>Age doit être entre 0 et 130</value>
+          </text>
+          <text id="/data/person/ephemeral_dob/age_years:label">
+            <value>Années</value>
+          </text>
+          <text id="/data/person/ephemeral_dob/dob_calendar:jr:constraintMsg">
+            <value>Date doit être dans le passé</value>
+          </text>
+          <text id="/data/person/ephemeral_dob/dob_calendar:label">
+            <value>Age</value>
+          </text>
+          <text id="/data/person/ephemeral_dob/dob_debug:label">
+            <value>DOB Approx: <output value=" /data/person/ephemeral_dob/dob_approx "/>
+DOB Calendar: <output value=" /data/person/ephemeral_dob/dob_calendar "/>
+DOB ISO: <output value=" /data/person/ephemeral_dob/dob_iso "/></value></text>
+          <text id="/data/person/ephemeral_dob/dob_method/approx:label">
+            <value>Date de naissance inconnue</value>
+          </text>
+          <text id="/data/person/ephemeral_dob/dob_method:label">
+          </text>
+          <text id="/data/person/full_name:label">
+            <value>Nom complet</value>
+          </text>
+          <text id="/data/person/notes:label">
+            <value>Notes</value>
+          </text>
+          <text id="/data/person/p_ref:hint">
+            <value>Afin de retrouver le cas une fois les résultats de test disponible</value>
+          </text>
+          <text id="/data/person/p_ref:jr:constraintMsg">
+            <value>La référence entrée n'est pas valide</value>
+          </text>
+          <text id="/data/person/p_ref:jr:requiredMsg">
+            <value>Afin de retrouver le cas une fois les résultats de test disponible</value>
+          </text>
+          <text id="/data/person/p_ref:label">
+            <value>Référence à enregister</value>
+          </text>
+          <text id="/data/person/p_type/local:label">
+            <value>Autochtone</value>
+          </text>
+          <text id="/data/person/p_type/refugee:label">
+            <value>Réfugié</value>
+          </text>
+          <text id="/data/person/p_type/returned:label">
+            <value>Retourné</value>
+          </text>
+          <text id="/data/person/p_type/spontanous:label">
+            <value>Spontané</value>
+          </text>
+          <text id="/data/person/p_type:label">
+            <value>Le patient est un:</value>
+          </text>
+          <text id="/data/person/parent:label">
+            <value>identifiant du parent</value>
+          </text>
+          <text id="/data/person/role/other:label">
+            <value>Other</value>
+          </text>
+          <text id="/data/person/role/patient:label">
+            <value>Patient</value>
+          </text>
+          <text id="/data/person/role:label">
+            <value>Role</value>
+          </text>
+          <text id="/data/person/sex/f:label">
+            <value>Féminin</value>
+          </text>
+          <text id="/data/person/sex/m:label">
+            <value>Masculin</value>
+          </text>
+          <text id="/data/person/sex:label">
+            <value>Quel est le sexe de l'enfant ?</value>
+          </text>
+          <text id="/data/person/type:label">
+            <value>Type</value>
+          </text>
+          <text id="/data/person/validation_ko:label">
+            <value><output value=" /data/person/as_int_lead "/>-<output value=" /data/person/as_int_mod "/> est entré, le numéro de patient est <output value=" /data/person/as_int_lead "/> et la clé est incorrecte ( <output value=" /data/person/as_int_mod_calc "/> est attendu et non <output value=" /data/person/as_int_mod "/>,)</value>
+          </text>
+          <text id="/data/person/validation_ok:label">
+            <value><output value=" /data/person/as_int_lead "/>-<output value=" /data/person/as_int_mod "/> est entré, le numéro de patient est <output value=" /data/person/as_int_lead "/> et la clé est correcte ( <output value=" /data/person/as_int_mod_calc "/>)</value>
+          </text>
+        </translation>
+      </itext>
+      <instance>
+        <data id="contact:person:create" prefix="J1!contact:person:create!" delimiter="#" version="2305021407">
+          <inputs>
+            <meta>
+              <location>
+                <lat/>
+                <long/>
+                <error/>
+                <message/>
+              </location>
+            </meta>
+            <user>
+              <contact_id/>
+              <facility_id/>
+              <name/>
+            </user>
+          </inputs>
+          <person>
+            <parent/>
+            <type/>
+            <role/>
+            <p_ref/>
+            <full_name/>
+            <name/>
+            <as_int_lead/>
+            <as_int_mod/>
+            <as_int_mod_calc/>
+            <validation_ok/>
+            <validation_ko/>
+            <date_of_birth/>
+            <date_of_birth_method/>
+            <ephemeral_dob>
+              <dob_calendar/>
+              <age_label/>
+              <age_years/>
+              <age_months/>
+              <dob_method/>
+              <dob_approx/>
+              <dob_raw/>
+              <dob_iso/>
+              <dob_debug/>
+            </ephemeral_dob>
+            <sex/>
+            <p_type/>
+            <notes/>
+            <meta tag="hidden">
+              <created_by/>
+              <created_by_person_uuid/>
+              <created_by_place_uuid/>
+            </meta>
+          </person>
+          <init>
+            <parent_id/>
+            <name/>
+            <type/>
+            <type_selector/>
+            <type_label/>
+          </init>
+          <meta tag="hidden">
+            <instanceID/>
+          </meta>
+        </data>
+      </instance>
+      <bind nodeset="/data/inputs" relevant="false()"/>
+      <bind nodeset="/data/inputs/user/contact_id" type="string"/>
+      <bind nodeset="/data/inputs/user/facility_id" type="string"/>
+      <bind nodeset="/data/inputs/user/name" type="string"/>
+      <bind nodeset="/data/init/parent_id" type="string" calculate=" /data/person/parent "/>
+      <bind nodeset="/data/init/name" type="string"/>
+      <bind nodeset="/data/init/type" type="string"/>
+      <bind nodeset="/data/init/type_selector" type="select1" calculate="../type"/>
+      <bind nodeset="/data/init/type_label" type="string" calculate="jr:choice-name( /data/init/type_selector ,' /data/init/type_selector ')"/>
+      <bind nodeset="/data/person/parent" type="string"/>
+      <bind nodeset="/data/person/type" type="string"/>
+      <bind nodeset="/data/person/role" type="select1"/>
+      <bind nodeset="/data/person/p_ref" type="int" relevant=" /data/person/role ='patient'" jr:requiredMsg="jr:itext('/data/person/p_ref:jr:requiredMsg')" constraint="(. - int(. div 10)*10) = (int(. div 10) mod 7)" required="1" jr:constraintMsg="jr:itext('/data/person/p_ref:jr:constraintMsg')"/>
+      <bind nodeset="/data/person/full_name" type="string" relevant=" /data/person/role !='patient'"/>
+      <bind nodeset="/data/person/name" type="string" calculate="coalesce( /data/person/full_name ,int( /data/person/p_ref ))"/>
+      <bind nodeset="/data/person/as_int_lead" type="string" calculate="int( /data/person/p_ref  div 10)"/>
+      <bind nodeset="/data/person/as_int_mod" type="string" calculate=" /data/person/p_ref  -  /data/person/as_int_lead *10"/>
+      <bind nodeset="/data/person/as_int_mod_calc" type="string" calculate=" /data/person/as_int_lead  mod 7"/>
+      <bind nodeset="/data/person/validation_ok" readonly="true()" type="string" relevant=" /data/person/as_int_mod = /data/person/as_int_mod_calc  and  /data/person/p_ref &gt;0"/>
+      <bind nodeset="/data/person/validation_ko" readonly="true()" type="string" relevant=" /data/person/as_int_mod != /data/person/as_int_mod_calc  and  /data/person/p_ref &gt;0"/>
+      <bind nodeset="/data/person/date_of_birth" type="string" calculate="../ephemeral_dob/dob_iso"/>
+      <bind nodeset="/data/person/date_of_birth_method" type="string" calculate="../ephemeral_dob/dob_method"/>
+      <bind nodeset="/data/person/ephemeral_dob/dob_calendar" type="date" relevant="not(selected(../dob_method,'approx'))" jr:constraintMsg="jr:itext('/data/person/ephemeral_dob/dob_calendar:jr:constraintMsg')" constraint=". &lt;= now()"/>
+      <bind nodeset="/data/person/ephemeral_dob/age_label" readonly="true()" type="string" relevant="selected(../dob_method,'approx')"/>
+      <bind nodeset="/data/person/ephemeral_dob/age_years" type="int" relevant="selected(../dob_method,'approx')" jr:constraintMsg="jr:itext('/data/person/ephemeral_dob/age_years:jr:constraintMsg')" constraint=". &gt;= 0 and . &lt;= 130"/>
+      <bind nodeset="/data/person/ephemeral_dob/age_months" type="int" relevant="selected(../dob_method,'approx')" jr:constraintMsg="jr:itext('/data/person/ephemeral_dob/age_months:jr:constraintMsg')" constraint=". &gt;= 0 and . &lt;= 11"/>
+      <bind nodeset="/data/person/ephemeral_dob/dob_method" type="select"/>
+      <bind nodeset="/data/person/ephemeral_dob/dob_approx" type="string" calculate="add-date(today(), 0- /data/person/ephemeral_dob/age_years , 0- /data/person/ephemeral_dob/age_months )"/>
+      <bind nodeset="/data/person/ephemeral_dob/dob_raw" type="string" calculate="if(not(selected(  /data/person/ephemeral_dob/dob_method ,'approx')), 
+ /data/person/ephemeral_dob/dob_calendar ,
+ /data/person/ephemeral_dob/dob_approx )"/>
+      <bind nodeset="/data/person/ephemeral_dob/dob_iso" type="string" calculate="format-date-time(../dob_raw,&quot;%Y-%m-%d&quot;)"/>
+      <bind nodeset="/data/person/ephemeral_dob/dob_debug" readonly="true()" type="string" relevant="false()"/>
+      <bind nodeset="/data/person/sex" type="select1" required="1"/>
+      <bind nodeset="/data/person/p_type" type="select1"/>
+      <bind nodeset="/data/person/notes" type="string"/>
+      <bind nodeset="/data/person/meta/created_by" type="string" calculate="../../../inputs/user/name"/>
+      <bind nodeset="/data/person/meta/created_by_person_uuid" type="string" calculate="../../../inputs/user/contact_id"/>
+      <bind nodeset="/data/person/meta/created_by_place_uuid" type="string" calculate="../../../inputs/user/facility_id"/>
+      <bind nodeset="/data/meta/instanceID" type="string" readonly="true()" calculate="concat('uuid:', uuid())"/>
+    </model>
+  </h:head>
+  <h:body>
+    <group ref="/data/inputs">
+      <group ref="/data/inputs/user">
+        <input ref="/data/inputs/user/contact_id">
+          <label ref="jr:itext('/data/inputs/user/contact_id:label')"/>
+        </input>
+        <input ref="/data/inputs/user/facility_id">
+          <label ref="jr:itext('/data/inputs/user/facility_id:label')"/>
+        </input>
+        <input ref="/data/inputs/user/name">
+          <label ref="jr:itext('/data/inputs/user/name:label')"/>
+        </input>
+      </group>
+    </group>
+    <group ref="/data/init">
+      <input appearance="db-object" ref="/data/init/parent_id">
+        <label ref="jr:itext('/data/init/parent_id:label')"/>
+        <hint ref="jr:itext('/data/init/parent_id:hint')"/>
+      </input>
+      <input appearance="hidden" ref="/data/init/name"/>
+      <input appearance="hidden" ref="/data/init/type"/>
+      <select1 appearance="hidden" ref="/data/init/type_selector">
+        <item>
+          <label ref="jr:itext('/data/init/type_selector/district_hospital:label')"/>
+          <value>district_hospital</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/init/type_selector/health_center:label')"/>
+          <value>health_center</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/init/type_selector/clinic:label')"/>
+          <value>clinic</value>
+        </item>
+      </select1>
+    </group>
+    <group appearance="field-list" ref="/data/person">
+      <select1 ref="/data/person/role">
+        <label ref="jr:itext('/data/person/role:label')"/>
+        <item>
+          <label ref="jr:itext('/data/person/role/patient:label')"/>
+          <value>patient</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/person/role/other:label')"/>
+          <value>other</value>
+        </item>
+      </select1>
+      <input ref="/data/person/p_ref">
+        <label ref="jr:itext('/data/person/p_ref:label')"/>
+        <hint ref="jr:itext('/data/person/p_ref:hint')"/>
+      </input>
+      <input ref="/data/person/full_name">
+        <label ref="jr:itext('/data/person/full_name:label')"/>
+      </input>
+      <input ref="/data/person/validation_ok">
+        <label ref="jr:itext('/data/person/validation_ok:label')"/>
+      </input>
+      <input ref="/data/person/validation_ko">
+        <label ref="jr:itext('/data/person/validation_ko:label')"/>
+      </input>
+      <group ref="/data/person/ephemeral_dob">
+        <input ref="/data/person/ephemeral_dob/dob_calendar">
+          <label ref="jr:itext('/data/person/ephemeral_dob/dob_calendar:label')"/>
+        </input>
+        <input ref="/data/person/ephemeral_dob/age_label">
+          <label ref="jr:itext('/data/person/ephemeral_dob/age_label:label')"/>
+        </input>
+        <input ref="/data/person/ephemeral_dob/age_years">
+          <label ref="jr:itext('/data/person/ephemeral_dob/age_years:label')"/>
+        </input>
+        <input ref="/data/person/ephemeral_dob/age_months">
+          <label ref="jr:itext('/data/person/ephemeral_dob/age_months:label')"/>
+        </input>
+        <select appearance="columns" ref="/data/person/ephemeral_dob/dob_method">
+          <label ref="jr:itext('/data/person/ephemeral_dob/dob_method:label')"/>
+          <item>
+            <label ref="jr:itext('/data/person/ephemeral_dob/dob_method/approx:label')"/>
+            <value>approx</value>
+          </item>
+        </select>
+        <input ref="/data/person/ephemeral_dob/dob_debug">
+          <label ref="jr:itext('/data/person/ephemeral_dob/dob_debug:label')"/>
+        </input>
+      </group>
+      <select1 appearance="columns" ref="/data/person/sex">
+        <label ref="jr:itext('/data/person/sex:label')"/>
+        <item>
+          <label ref="jr:itext('/data/person/sex/m:label')"/>
+          <value>m</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/person/sex/f:label')"/>
+          <value>f</value>
+        </item>
+      </select1>
+      <select1 ref="/data/person/p_type">
+        <label ref="jr:itext('/data/person/p_type:label')"/>
+        <item>
+          <label ref="jr:itext('/data/person/p_type/refugee:label')"/>
+          <value>refugee</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/person/p_type/spontanous:label')"/>
+          <value>spontanous</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/person/p_type/returned:label')"/>
+          <value>returned</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/person/p_type/local:label')"/>
+          <value>local</value>
+        </item>
+      </select1>
+      <input appearance="multiline" ref="/data/person/notes">
+        <label ref="jr:itext('/data/person/notes:label')"/>
+      </input>
+      <group appearance="hidden" ref="/data/person/meta"/>
+    </group>
+  </h:body>
+</h:html>
