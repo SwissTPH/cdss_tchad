@@ -5,7 +5,7 @@ function injectDataFromForm(ctx, prefix,list_data, list_forms, report_list = [])
     // add the entry in the context only if there is a value
     Object.entries(case_datas).forEach(([key, value]) => {
         if (value !== null ){
-          //console.log(prefix+key+':'+value);
+        //  console.log('ctx['+prefix+key+']='+value);
           ctx[prefix+key]=value;
         }
     });
@@ -37,6 +37,19 @@ function initDatas(report_list, datas_list, forms_list) {
   }
   
   // add the date only if found on the master and has value in report_path
+
+  function isFormArrayHasSourceId(report,reports) {
+    //console.log('_id'+ c_report.fields._id)
+    console.log('_id:'+report._id);
+    //console.log('_id'+report.fields.source_id);
+    reports.forEach(function (c_report) {
+      console.log('id: '+ c_report.fields.source_form_id);
+      if (report._id === c_report.fields.source_form_id) {
+        return true;
+      }
+    });
+    return false;
+  }
 
 function addDatas(result, nodes, datas_list){
     for (const [key, value] of Object.entries(nodes)) {
@@ -129,5 +142,6 @@ function getAgeInYears(contact) {
     hasValue,
     getBirthDate, 
     count,
-    truncateDecimals
+    truncateDecimals,
+    isFormArrayHasSourceId
   };

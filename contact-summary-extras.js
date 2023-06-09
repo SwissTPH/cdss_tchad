@@ -1,14 +1,14 @@
-const {injectDataFromForm, isReportValid, getAgeInYears, dateFormat, isDate,
+const { isReportValid, getAgeInYears, dateFormat, isDate,
   hasValue,  getBirthDate, count} = require('./stph-extras');
 const {isAlive} = require('./nools-extra');
+const {generateCponContext} = require('./contact-summary-cpon');
+const {generateCpnContext} = require('./contact-summary-cpn');
 var now = Date.now();
 
 var pregnancyForms = [
 ];
 
-var CPN_FORMS = [
-  'cpn'
-];
+
 
 var deliveryForms = [
 ];
@@ -36,76 +36,6 @@ var IMMUNIZATION_WOMEN_LIST = [
   'vat',
 ];
 
-var CPN_CASE_DATA = [
-'p_faf',
-'p_moustiquaire',
-'p_tpi',
-'p_deparasitage',
-'p_conseils',
-'p_hygiene',
-'p_info',
-'p_ptme',
-'p_vih',
-'p_autre_mesr',
-'s_saignement',
-'s_leucorrhee',
-'s_perte',
-'s_cephale',
-'s_convulsion',
-'s_respiration',
-'s_essoufflement',
-'s_fievre',
-'s_douleur',
-'s_mains',
-'s_toux',
-'s_pertes_vaginales',
-'s_contraction_uterine',
-'s_rupture_poche',
-'s_lieu_accouche',
-'lieu_accouche',
-'s_moyen_transport',
-'moyen_transport',
-'s_economie',
-'s_preneurs_decisions',
-'preneurs_decisions',
-'s_donneurs_sang',
-'donneurs_sang',
-'s_id_accompagnate',
-'id_accompagnate_note',
-'s_necessaires',
-'diabete',
-'drepanocytose',
-'cardiopathie',
-'hypertension_ateriel',
-'tuberculose',
-'autre',
-'sign_antecedent',
-'p_int_cpn',
-'date_cpn_1',
-'missed_cpn_1',
-'date_cpn_2',
-'missed_cpn_2',
-'date_cpn_3',
-'missed_cpn_3',
-'date_cpn_4',
-'missed_cpn_4',
-'date_cpn_5',
-'missed_cpn_5',
-'date_cpn_6',
-'missed_cpn_6',
-'date_cpn_7',
-'missed_cpn_7',
-'date_cpn_8',
-'missed_cpn_8',
-'r_test_grossesse',
-'t_test_grossesse',
-'affi_method',
-'ddr_date',
-'dpa_date',
-'no_info_pregnancy_reason',
-'age_estima',
-'label_esti',
-];
 var MS_IN_DAY = 24*60*60*1000;  // 1 day in ms
 var MAX_DAYS_IN_PREGNANCY = 44*7;  // 44 weeks
 var DAYS_IN_PNC = 45; // Allow for 3 extra days to receive PNC reports
@@ -252,7 +182,9 @@ function generateImmContext(ctx,list_doses, list_forms){
 
 var generateWomenContext =  function (ctx){
   generateImmContext(ctx,IMMUNIZATION_WOMEN_DOSES, IMMUNIZATION_WOMEN_FORMS );
-  injectDataFromForm(ctx,'cpn_',CPN_CASE_DATA, CPN_FORMS,reports);
+  generateCpnContext(ctx);
+  generateCponContext(ctx);
+
   
 };
 
@@ -270,6 +202,7 @@ var addImmunizations = function(master, report_path, doses_list) {
   doses_list.forEach(function(dose) {
     if(!master[dose[0]] && hasValue(report_path['date_' + dose[0]])) {
       master[dose[0]] = Date.parse(report_path['date_' + dose[0]]);
+      console.log('addimmu ' + dose[0] + ':'+ master[dose[0]]);
     }
   });
 };

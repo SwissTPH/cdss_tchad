@@ -781,7 +781,7 @@ Des symptômes de choc chez la gestante;
             <value>Utiliser la boite à image pour éduquer la gestante sur les signes de mains, visage et membres inférieurs enflés (Oedemes).</value>
           </text>
           <text id="/cpn/end_death_baby/end_avrtmt/sign_danger/msg_leucorrh:label">
-            <value>Utiliser la boite à image pour éduquer la gestante sur les signes de leucorrhée anormale.</value>
+            <value>Utiliser la boite à image pour éduquer la gestante sur les signes de leucorrhée pathologique (abondante, malodorante…).</value>
           </text>
           <text id="/cpn/end_death_baby/end_avrtmt/sign_danger/msg_perte_liqui:label">
             <value>Utiliser la boite à image pour éduquer la gestante sur les signes de perte de liquide amniotique.</value>
@@ -847,7 +847,7 @@ Des symptômes de choc chez la gestante;
             <value>Oui</value>
           </text>
           <text id="/cpn/end_death_baby/end_avrtmt/sign_danger/s_leucorrhee:label">
-            <value>Leucorrhée anormale</value>
+            <value>Leucorrhée pathologique (abondante, malodorante…)</value>
           </text>
           <text id="/cpn/end_death_baby/end_avrtmt/sign_danger/s_mains/-1:label">
             <value>Non</value>
@@ -1222,6 +1222,27 @@ En cas de complications contacter le médecin.</value>
           <text id="/cpn/end_death_baby/end_avrtmt/tt_fer/test_electrophorese:label">
             <value>Test d'Emmel / Electrophorèse Hb</value>
           </text>
+          <text id="/cpn/end_death_baby/end_avrtmt/tt_fer/test_hiv/confirm_test_hiv/1:label">
+            <value>Positif</value>
+          </text>
+          <text id="/cpn/end_death_baby/end_avrtmt/tt_fer/test_hiv/confirm_test_hiv/2:label">
+            <value>Négatif</value>
+          </text>
+          <text id="/cpn/end_death_baby/end_avrtmt/tt_fer/test_hiv/confirm_test_hiv/3:label">
+            <value>Indéterminé</value>
+          </text>
+          <text id="/cpn/end_death_baby/end_avrtmt/tt_fer/test_hiv/confirm_test_hiv/4:label">
+            <value>Rupture</value>
+          </text>
+          <text id="/cpn/end_death_baby/end_avrtmt/tt_fer/test_hiv/confirm_test_hiv:label">
+            <value>Veuillez faire le test de confirmation Immunocom et entrez le résultat.</value>
+          </text>
+          <text id="/cpn/end_death_baby/end_avrtmt/tt_fer/test_hiv/indet_test_hiv_note:label">
+            <value>Refaire le test de confirmation Immunicom</value>
+          </text>
+          <text id="/cpn/end_death_baby/end_avrtmt/tt_fer/test_hiv/neg_test_hiv_note:label">
+            <value>Orienter la gestante pour les mêmes tests dans un autre centre de santé ou à l'hôpital.</value>
+          </text>
           <text id="/cpn/end_death_baby/end_avrtmt/tt_fer/test_hiv/r_test_hiv/1:label">
             <value>Positif</value>
           </text>
@@ -1235,9 +1256,18 @@ En cas de complications contacter le médecin.</value>
             <value>Rupture</value>
           </text>
           <text id="/cpn/end_death_baby/end_avrtmt/tt_fer/test_hiv/r_test_hiv:label">
-            <value>Faire le test VIH de la gestante</value>
+            <value>Résultat du test VIH Détermine de la gestante</value>
           </text>
-          <text id="/cpn/end_death_baby/end_avrtmt/tt_fer/test_hiv/r_test_hiv_note:label">
+          <text id="/cpn/end_death_baby/end_avrtmt/tt_fer/test_hiv/r_vih_advices/1:label">
+            <value>Acceptation</value>
+          </text>
+          <text id="/cpn/end_death_baby/end_avrtmt/tt_fer/test_hiv/r_vih_advices/2:label">
+            <value>Refus</value>
+          </text>
+          <text id="/cpn/end_death_baby/end_avrtmt/tt_fer/test_hiv/r_vih_advices:label">
+            <value>Veuillez faire le counseling de la gestante pour test de VIH avec le Détermine</value>
+          </text>
+          <text id="/cpn/end_death_baby/end_avrtmt/tt_fer/test_hiv/rup_test_hiv_note:label">
             <value>Rendez-vous à la prochaine CPN pour le test VIH</value>
           </text>
           <text id="/cpn/end_death_baby/end_avrtmt/tt_fer/test_hiv/test_hiv_note:label">
@@ -1340,7 +1370,7 @@ Veuillez instaurer le traitement de syphilis.</value>
             <value>Oui</value>
           </text>
           <text id="/cpn/end_death_baby/examens_cliniques/g_exam/Leucorrhee_examen:label">
-            <value>Leucorrhée anormale</value>
+            <value>Leucorrhée pathologique (abondante, malodorante…)</value>
           </text>
           <text id="/cpn/end_death_baby/examens_cliniques/g_exam/bassin_examen/1:label">
             <value>Normal</value>
@@ -1536,7 +1566,7 @@ Conseiller à la gestante d'accoucher dans une structure de santé.</value>
             <value>Présence de l'ictère contacter le médecin ou référer la gestante</value>
           </text>
           <text id="/cpn/end_death_baby/examens_cliniques/g_exam/resultats_leucorrh:label">
-            <value>Présence de leucorrhée anormale:
+            <value>Présence de leucorrhée pathologique (abondante, malodorante…):
 
 Examiner la gestante à la recherchede la fièvre et des douleures abdomino-pelviennes;
 
@@ -1558,7 +1588,7 @@ Administrer le traitement approprié ;
             <value>Corps étranger</value>
           </text>
           <text id="/cpn/end_death_baby/examens_cliniques/g_exam/s_inspection_vulve/lesion:label">
-            <value>Lésion ou Eruption</value>
+            <value>Lésions (ulcérations, vésicules, papules, pustules, macules, crête de coq…)</value>
           </text>
           <text id="/cpn/end_death_baby/examens_cliniques/g_exam/s_inspection_vulve/no_realease:label">
             <value>Examen non réalisé</value>
@@ -1624,7 +1654,7 @@ Administrer le traitement approprié ;
             <value>Veuillez cocher la présentation du fœtus</value>
           </text>
           <text id="/cpn/end_death_baby/examens_cliniques/s_inspect_abdomen/eruption:label">
-            <value>Eruption ou lésion</value>
+            <value>Lésions (ulcérations, vésicules, papules, pustules, macules, crête de coq…)</value>
           </text>
           <text id="/cpn/end_death_baby/examens_cliniques/s_inspect_abdomen/masse:label">
             <value>Tuméfaction ou masse</value>
@@ -2371,7 +2401,7 @@ Age de la grossesse est d'environ <output value=" /cpn/imp_approx_daydayweeks "/
             <value>date_naissance sauvegardée</value>
           </text>
           <text id="/cpn/pev_femme/fields/dose_vaccin/comback:label">
-            <value>Veuillez recommencer avec VAT1 car le delai de prise de VAT2 est déjà passé.
+            <value>Veuillez recommencer avec Td1 car le delai de prise de Td2 est déjà passé.
 
 Conseiller à la femme le respect strict du rendez-vous.</value>
           </text>
@@ -2382,7 +2412,7 @@ Conseiller à la femme le respect strict du rendez-vous.</value>
             <value>Oui</value>
           </text>
           <text id="/cpn/pev_femme/fields/dose_vaccin/dose_giver1:label">
-            <value>Veuillez administrer VAT1</value>
+            <value>Veuillez administrer Td1</value>
           </text>
           <text id="/cpn/pev_femme/fields/dose_vaccin/dose_giver2/-1:label">
             <value>Rupture</value>
@@ -2391,7 +2421,7 @@ Conseiller à la femme le respect strict du rendez-vous.</value>
             <value>Oui</value>
           </text>
           <text id="/cpn/pev_femme/fields/dose_vaccin/dose_giver2:label">
-            <value>Veuillez administrer VAT2</value>
+            <value>Veuillez administrer Td2</value>
           </text>
           <text id="/cpn/pev_femme/fields/dose_vaccin/dose_giver3/-1:label">
             <value>Rupture</value>
@@ -2400,7 +2430,7 @@ Conseiller à la femme le respect strict du rendez-vous.</value>
             <value>Oui</value>
           </text>
           <text id="/cpn/pev_femme/fields/dose_vaccin/dose_giver3:label">
-            <value>Veuillez administrer VAT3</value>
+            <value>Veuillez administrer Td3</value>
           </text>
           <text id="/cpn/pev_femme/fields/dose_vaccin/dose_giver4/-1:label">
             <value>Rupture</value>
@@ -2409,7 +2439,7 @@ Conseiller à la femme le respect strict du rendez-vous.</value>
             <value>Oui</value>
           </text>
           <text id="/cpn/pev_femme/fields/dose_vaccin/dose_giver4:label">
-            <value>Veuillez administrer VAT4</value>
+            <value>Veuillez administrer Td4</value>
           </text>
           <text id="/cpn/pev_femme/fields/dose_vaccin/dose_giver5/-1:label">
             <value>Rupture</value>
@@ -2418,108 +2448,108 @@ Conseiller à la femme le respect strict du rendez-vous.</value>
             <value>Oui</value>
           </text>
           <text id="/cpn/pev_femme/fields/dose_vaccin/dose_giver5:label">
-            <value>Veuillez administrer VAT5</value>
+            <value>Veuillez administrer Td5</value>
           </text>
           <text id="/cpn/pev_femme/fields/dose_vaccin/e_date_vat1:jr:constraintMsg">
             <value>Veuillez entrer une date correcte</value>
           </text>
           <text id="/cpn/pev_femme/fields/dose_vaccin/e_date_vat1:label">
-            <value>Veuillez entrer la date de VAT1</value>
+            <value>Veuillez entrer la date de Td1</value>
           </text>
           <text id="/cpn/pev_femme/fields/dose_vaccin/e_date_vat2:jr:constraintMsg">
             <value>Veuillez entrer une date correcte</value>
           </text>
           <text id="/cpn/pev_femme/fields/dose_vaccin/e_date_vat2:label">
-            <value>Veuillez entrer la date de VAT2</value>
+            <value>Veuillez entrer la date de Td2</value>
           </text>
           <text id="/cpn/pev_femme/fields/dose_vaccin/e_date_vat3:jr:constraintMsg">
             <value>Veuillez entrer une date correcte</value>
           </text>
           <text id="/cpn/pev_femme/fields/dose_vaccin/e_date_vat3:label">
-            <value>Veuillez entrer la date de VAT3</value>
+            <value>Veuillez entrer la date de Td3</value>
           </text>
           <text id="/cpn/pev_femme/fields/dose_vaccin/e_date_vat4:jr:constraintMsg">
             <value>Veuillez entrer une date correcte</value>
           </text>
           <text id="/cpn/pev_femme/fields/dose_vaccin/e_date_vat4:label">
-            <value>Veuillez entrer la date de VAT4</value>
+            <value>Veuillez entrer la date de Td4</value>
           </text>
           <text id="/cpn/pev_femme/fields/dose_vaccin/e_date_vat5:jr:constraintMsg">
             <value>Veuillez entrer une date correcte</value>
           </text>
           <text id="/cpn/pev_femme/fields/dose_vaccin/e_date_vat5:label">
-            <value>Veuillez entrer la date de VAT5</value>
+            <value>Veuillez entrer la date de Td5</value>
           </text>
           <text id="/cpn/pev_femme/fields/dose_vaccin/msg_rdv:label">
-            <value>Il y a rupture de VAT.
+            <value>Il y a rupture de Td.
 
 Veuillez demander à la femme de revenir la semaine prochaine.</value>
           </text>
           <text id="/cpn/pev_femme/fields/dose_vaccin/no_vat_available:label">
-            <value>Il est trop tôt pour administrer la dose de VAT suivant
+            <value>Il est trop tôt pour administrer la dose de Td suivant
 
-Veuillez communiquer à la femme la date exacte de la prise de dose de VAT suivant.</value>
+Veuillez communiquer à la femme la date exacte de la prise de dose de Td suivant.</value>
           </text>
           <text id="/cpn/pev_femme/fields/dose_vaccin/s_ch_contact/1:label">
-            <value>VAT1 : ( 1er contact de femme enceinte (FE) ou femme en âge de procréer (FEAP) de 15 à 49 ans)</value>
+            <value>Td1 : ( 1er contact avec un centre de vaccination)</value>
           </text>
           <text id="/cpn/pev_femme/fields/dose_vaccin/s_ch_contact/2:label">
-            <value>VAT2: (2ème contact 1 mois après VAT 1)</value>
+            <value>Td2 : (2ème contact 4 semaines après Td 1)</value>
           </text>
           <text id="/cpn/pev_femme/fields/dose_vaccin/s_ch_contact/3:label">
-            <value>VAT3: (3ème contact 6 mois après VAT 2)</value>
+            <value>Td3 : (3ème contact 6 mois après Td 2)</value>
           </text>
           <text id="/cpn/pev_femme/fields/dose_vaccin/s_ch_contact/4:label">
-            <value>VAT4: (4ème contact 1 an après VAT 3)</value>
+            <value>Td4 : (4ème contact 1 an après Td 3)</value>
           </text>
           <text id="/cpn/pev_femme/fields/dose_vaccin/s_ch_contact/5:label">
-            <value>VAT5: (5ème contact 1 an après VAT 4)</value>
+            <value>Td5 : (5ème contact 1 an après Td 4)</value>
           </text>
           <text id="/cpn/pev_femme/fields/dose_vaccin/s_ch_contact:label">
-            <value>Veuillez sélectionner la dose de vaccin antitétanique (VAT) à administrer à la femme</value>
+            <value>Veuillez sélectionner la dose de vaccin contre Tétanos et la Diphtérie (Td) à administrer à la femme</value>
           </text>
           <text id="/cpn/pev_femme/fields/dose_vaccin/vac1_note:label">
             <value>Premier contact (Femme Enceinte (FE) ou Femme en Age de Procréer (FEAP) (15 à 49 ans) :
 
-VAT 1 : 0.5 ml en SC au 1/3 supérieur externe du bras gauche.
+Td 1 : 0.5 ml en SC au 1/3 supérieur externe du bras gauche.
 
 Durée de protection : 0
 
-Date de rendez-vous pour VAT 2 : Le <output value=" /cpn/pev_femme/fields/dose_vaccin/rdv_vat2 "/></value>
+Date de rendez-vous pour Td 2 : Le <output value=" /cpn/pev_femme/fields/dose_vaccin/rdv_vat2 "/></value>
           </text>
           <text id="/cpn/pev_femme/fields/dose_vaccin/vac2_note:label">
-            <value>Deuxième contact (1 mois après VAT 1) :
+            <value>Deuxième contact (1 mois après Td 1) :
 
-VAT 2 : 0.5 ml en SC au 1/3 supérieur externe du bras gauche.
+Td 2 : 0.5 ml en SC au 1/3 supérieur externe du bras gauche.
 
 Durée de protection : 1 à 3 ans
 
-Date de rendez-vous pour VAT 3 : Le <output value=" /cpn/pev_femme/fields/dose_vaccin/rdv_vat3 "/></value>
+Date de rendez-vous pour Td 3 : Le <output value=" /cpn/pev_femme/fields/dose_vaccin/rdv_vat3 "/></value>
           </text>
           <text id="/cpn/pev_femme/fields/dose_vaccin/vac3_note:label">
-            <value>Troisième contact (6 mois après VAT 2) :
+            <value>Troisième contact (6 mois après Td 2) :
 
-VAT 3 : 0.5 ml en SC au 1/3 supérieur externe du bras gauche.
+Td 3 : 0.5 ml en SC au 1/3 supérieur externe du bras gauche.
 
 Durée de protection : 5 ans
 
-Date de rendez-vous pour VAT 4 : Le <output value=" /cpn/pev_femme/fields/dose_vaccin/rdv_vat4 "/></value>
+Date de rendez-vous pour Td 4 : Le <output value=" /cpn/pev_femme/fields/dose_vaccin/rdv_vat4 "/></value>
           </text>
           <text id="/cpn/pev_femme/fields/dose_vaccin/vac4_note:label">
-            <value>Quatrième contact (1 an après VAT 3) :
+            <value>Quatrième contact (1 an après Td 3) :
 
-VAT 4 : 0.5 ml en SC au 1/3 supérieur externe du bras gauche.
+Td 4 : 0.5 ml en SC au 1/3 supérieur externe du bras gauche.
 
 Durée de protection : 10 ans
 
-Date de rendez-vous pour VAT 5 : Le <output value=" /cpn/pev_femme/fields/dose_vaccin/rdv_vat5 "/></value>
+Date de rendez-vous pour Td 5 : Le <output value=" /cpn/pev_femme/fields/dose_vaccin/rdv_vat5 "/></value>
           </text>
           <text id="/cpn/pev_femme/fields/dose_vaccin/vac5_note:label">
-            <value>Cinquième contact (1 an après VAT 4) :
+            <value>Cinquième contact (1 an après Td 4) :
 
 VAT 5 : 0.5 ml en SC au 1/3 supérieur externe du bras gauche.
 
-La femme est complètement vaccinée pour VAT.
+La femme est complètement vaccinée pour Td.
 
 Durée de protection : Toute la vie.</value>
           </text>
@@ -2527,22 +2557,22 @@ Durée de protection : Toute la vie.</value>
             <value>Vaccination</value>
           </text>
           <text id="/cpn/pev_femme/fields/recap/label_vat1:label">
-            <value>VAT 1 reçu le: <output value=" /cpn/pev_femme/fields/dose_vaccin/vat1_recap "/></value>
+            <value>Td 1 reçu le: <output value=" /cpn/pev_femme/fields/dose_vaccin/vat1_recap "/></value>
           </text>
           <text id="/cpn/pev_femme/fields/recap/label_vat2:label">
-            <value>VAT 2 reçu le: <output value=" /cpn/pev_femme/fields/dose_vaccin/vat2_recap "/></value>
+            <value>Td 2 reçu le: <output value=" /cpn/pev_femme/fields/dose_vaccin/vat2_recap "/></value>
           </text>
           <text id="/cpn/pev_femme/fields/recap/label_vat3:label">
-            <value>VAT 3 reçu le: <output value=" /cpn/pev_femme/fields/dose_vaccin/vat3_recap "/></value>
+            <value>Td 3 reçu le: <output value=" /cpn/pev_femme/fields/dose_vaccin/vat3_recap "/></value>
           </text>
           <text id="/cpn/pev_femme/fields/recap/label_vat4:label">
-            <value>VAT 4 reçu le: <output value=" /cpn/pev_femme/fields/dose_vaccin/vat4_recap "/></value>
+            <value>Td 4 reçu le: <output value=" /cpn/pev_femme/fields/dose_vaccin/vat4_recap "/></value>
           </text>
           <text id="/cpn/pev_femme/fields/recap/label_vat5:label">
-            <value>VAT 5 reçu le: <output value=" /cpn/pev_femme/fields/dose_vaccin/vat5_recap "/></value>
+            <value>Td 5 reçu le: <output value=" /cpn/pev_femme/fields/dose_vaccin/vat4_recap "/></value>
           </text>
           <text id="/cpn/pev_femme/fields/recap:label">
-            <value>Recaputilatif des doses de VAT reçues</value>
+            <value>Recaputilatif des doses de Td reçues</value>
           </text>
           <text id="/cpn/pev_femme/type:label">
             <value>Type</value>
@@ -2629,7 +2659,7 @@ Durée de protection : Toute la vie.</value>
             <value>Oui</value>
           </text>
           <text id="/cpn/plainte_principale/leucorrhee_anormale:label">
-            <value>Leucorrhée anormale</value>
+            <value>Leucorrhée pathologique (abondante, malodorante…)</value>
           </text>
           <text id="/cpn/plainte_principale/mains/-1:label">
             <value>Non</value>
@@ -2937,7 +2967,7 @@ Au cas contraire rendez-vous dans un mois pour d'autres examens de confirmation 
         </translation>
       </itext>
       <instance>
-        <cpn id="cpn" prefix="J1!cpn!" delimiter="#" version="2304252327">
+        <cpn id="cpn" prefix="J1!cpn!" delimiter="#" version="2306031205">
           <inputs>
             <meta>
               <location>
@@ -3313,9 +3343,13 @@ Au cas contraire rendez-vous dans un mois pour d'autres examens de confirmation 
                   <t_glycemie_hyper/>
                 </taux_glycemie>
                 <test_hiv>
+                  <r_vih_advices/>
                   <r_test_hiv/>
+                  <confirm_test_hiv/>
                   <test_hiv_note/>
-                  <r_test_hiv_note/>
+                  <rup_test_hiv_note/>
+                  <indet_test_hiv_note/>
+                  <neg_test_hiv_note/>
                 </test_hiv>
                 <test_syphilis>
                   <r_test_syphilis/>
@@ -3589,51 +3623,51 @@ Au cas contraire rendez-vous dans un mois pour d'autres examens de confirmation 
       <bind nodeset="/cpn/_case_no_info_pregnancy_reason" type="string" calculate="if(instance('contact-summary')/context/cpn_no_info_pregnancy_reason!='',(instance('contact-summary')/context/cpn_no_info_pregnancy_reason),'')"/>
       <bind nodeset="/cpn/_case_age_estima" type="string" calculate="if(instance('contact-summary')/context/cpn_age_estima!='',(instance('contact-summary')/context/cpn_age_estima),'')"/>
       <bind nodeset="/cpn/_case_label_esti" type="string" calculate="if(instance('contact-summary')/context/cpn_label_esti!='',(instance('contact-summary')/context/cpn_label_esti),'')"/>
-      <bind nodeset="/cpn/intro/p_int_cpn" type="select1" required="1" calculate="coalesce(.,string( /cpn/_case_p_int_cpn ))"/>
+      <bind nodeset="/cpn/intro/p_int_cpn" type="select1" calculate="coalesce(.,string( /cpn/_case_p_int_cpn ))" required="1"/>
       <bind nodeset="/cpn/intro/e_date_cpn_1" type="date" relevant=" /cpn/intro/p_int_cpn &gt;1 and (coalesce( /cpn/_case_date_cpn_1 ,'')='' and coalesce( /cpn/_case_missed_cpn_1 ,'')='')" required="coalesce( /cpn/intro/missed_cpn_1 ,'')=''"/>
       <bind nodeset="/cpn/intro/date_cpn_1" type="string" calculate="if( /cpn/intro/p_int_cpn =1, today(), coalesce( /cpn/_case_date_cpn_1 , /cpn/intro/e_date_cpn_1 ))"/>
-      <bind nodeset="/cpn/intro/missed_cpn_1" type="select1" relevant=" /cpn/intro/p_int_cpn &gt;1 and (coalesce( /cpn/_case_date_cpn_1 ,'')='' and coalesce( /cpn/_case_missed_cpn_1 ,'')='')" calculate="coalesce(., /cpn/_case_missed_cpn_1 )" required="coalesce( /cpn/intro/date_cpn_1 ,'')=''"/>
+      <bind nodeset="/cpn/intro/missed_cpn_1" type="select1" relevant=" /cpn/intro/p_int_cpn &gt;1 and (coalesce( /cpn/_case_date_cpn_1 ,'')='' and coalesce( /cpn/_case_missed_cpn_1 ,'')='')" required="coalesce( /cpn/intro/date_cpn_1 ,'')=''" calculate="coalesce(., /cpn/_case_missed_cpn_1 )"/>
       <bind nodeset="/cpn/intro/e_date_cpn_2" type="date" relevant=" /cpn/intro/p_int_cpn &gt;2 and (coalesce( /cpn/_case_date_cpn_2 ,'')='' and coalesce( /cpn/_case_missed_cpn_2 ,'')='')" required="coalesce( /cpn/intro/missed_cpn_2 ,'')=''"/>
       <bind nodeset="/cpn/intro/date_cpn_2" type="string" calculate="if( /cpn/intro/p_int_cpn =2, today(), coalesce( /cpn/_case_date_cpn_2 , /cpn/intro/e_date_cpn_2 ))"/>
-      <bind nodeset="/cpn/intro/missed_cpn_2" type="select1" relevant=" /cpn/intro/p_int_cpn &gt;2 and (coalesce( /cpn/_case_date_cpn_2 ,'')='' and coalesce( /cpn/_case_missed_cpn_2 ,'')='')" calculate="coalesce(., /cpn/_case_missed_cpn_2 )" required="coalesce( /cpn/intro/date_cpn_2 ,'')=''"/>
+      <bind nodeset="/cpn/intro/missed_cpn_2" type="select1" relevant=" /cpn/intro/p_int_cpn &gt;2 and (coalesce( /cpn/_case_date_cpn_2 ,'')='' and coalesce( /cpn/_case_missed_cpn_2 ,'')='')" required="coalesce( /cpn/intro/date_cpn_2 ,'')=''" calculate="coalesce(., /cpn/_case_missed_cpn_2 )"/>
       <bind nodeset="/cpn/intro/e_date_cpn_3" type="date" relevant=" /cpn/intro/p_int_cpn &gt;3 and (coalesce( /cpn/_case_date_cpn_3 ,'')='' and coalesce( /cpn/_case_missed_cpn_3 ,'')='')" required="coalesce( /cpn/intro/missed_cpn_3 ,'')=''"/>
       <bind nodeset="/cpn/intro/date_cpn_3" type="string" calculate="if( /cpn/intro/p_int_cpn =3, today(), coalesce( /cpn/_case_date_cpn_3 , /cpn/intro/e_date_cpn_3 ))"/>
-      <bind nodeset="/cpn/intro/missed_cpn_3" type="select1" relevant=" /cpn/intro/p_int_cpn &gt;3 and (coalesce( /cpn/_case_date_cpn_3 ,'')='' and coalesce( /cpn/_case_missed_cpn_3 ,'')='')" calculate="coalesce(., /cpn/_case_missed_cpn_3 )" required="coalesce( /cpn/intro/date_cpn_3 ,'')=''"/>
+      <bind nodeset="/cpn/intro/missed_cpn_3" type="select1" relevant=" /cpn/intro/p_int_cpn &gt;3 and (coalesce( /cpn/_case_date_cpn_3 ,'')='' and coalesce( /cpn/_case_missed_cpn_3 ,'')='')" required="coalesce( /cpn/intro/date_cpn_3 ,'')=''" calculate="coalesce(., /cpn/_case_missed_cpn_3 )"/>
       <bind nodeset="/cpn/intro/e_date_cpn_4" type="date" relevant=" /cpn/intro/p_int_cpn &gt;4 and (coalesce( /cpn/_case_date_cpn_4 ,'')='' and coalesce( /cpn/_case_missed_cpn_4 ,'')='')" required="coalesce( /cpn/intro/missed_cpn_4 ,'')=''"/>
       <bind nodeset="/cpn/intro/date_cpn_4" type="string" calculate="if( /cpn/intro/p_int_cpn =4, today(), coalesce( /cpn/_case_date_cpn_4 , /cpn/intro/e_date_cpn_4 ))"/>
-      <bind nodeset="/cpn/intro/missed_cpn_4" type="select1" relevant=" /cpn/intro/p_int_cpn &gt;4 and (coalesce( /cpn/_case_date_cpn_4 ,'')='' and coalesce( /cpn/_case_missed_cpn_4 ,'')='')" calculate="coalesce(., /cpn/_case_missed_cpn_4 )" required="coalesce( /cpn/intro/date_cpn_4 ,'')=''"/>
+      <bind nodeset="/cpn/intro/missed_cpn_4" type="select1" relevant=" /cpn/intro/p_int_cpn &gt;4 and (coalesce( /cpn/_case_date_cpn_4 ,'')='' and coalesce( /cpn/_case_missed_cpn_4 ,'')='')" required="coalesce( /cpn/intro/date_cpn_4 ,'')=''" calculate="coalesce(., /cpn/_case_missed_cpn_4 )"/>
       <bind nodeset="/cpn/intro/e_date_cpn_5" type="date" relevant=" /cpn/intro/p_int_cpn &gt;5 and (coalesce( /cpn/_case_date_cpn_5 ,'')='' and coalesce( /cpn/_case_missed_cpn_5 ,'')='')" required="coalesce( /cpn/intro/missed_cpn_5 ,'')=''"/>
       <bind nodeset="/cpn/intro/date_cpn_5" type="string" calculate="if( /cpn/intro/p_int_cpn =5, today(), coalesce( /cpn/_case_date_cpn_5 , /cpn/intro/e_date_cpn_5 ))"/>
-      <bind nodeset="/cpn/intro/missed_cpn_5" type="select1" relevant=" /cpn/intro/p_int_cpn &gt;5 and (coalesce( /cpn/_case_date_cpn_5 ,'')='' and coalesce( /cpn/_case_missed_cpn_5 ,'')='')" calculate="coalesce(., /cpn/_case_missed_cpn_5 )" required="coalesce( /cpn/intro/date_cpn_5 ,'')=''"/>
+      <bind nodeset="/cpn/intro/missed_cpn_5" type="select1" relevant=" /cpn/intro/p_int_cpn &gt;5 and (coalesce( /cpn/_case_date_cpn_5 ,'')='' and coalesce( /cpn/_case_missed_cpn_5 ,'')='')" required="coalesce( /cpn/intro/date_cpn_5 ,'')=''" calculate="coalesce(., /cpn/_case_missed_cpn_5 )"/>
       <bind nodeset="/cpn/intro/e_date_cpn_6" type="date" relevant=" /cpn/intro/p_int_cpn &gt;6 and (coalesce( /cpn/_case_date_cpn_6 ,'')='' and coalesce( /cpn/_case_missed_cpn_6 ,'')='')" required="coalesce( /cpn/intro/missed_cpn_6 ,'')=''"/>
       <bind nodeset="/cpn/intro/date_cpn_6" type="string" calculate="if( /cpn/intro/p_int_cpn =6, today(), coalesce( /cpn/_case_date_cpn_6 , /cpn/intro/e_date_cpn_6 ))"/>
-      <bind nodeset="/cpn/intro/missed_cpn_6" type="select1" relevant=" /cpn/intro/p_int_cpn &gt;6 and (coalesce( /cpn/_case_date_cpn_6 ,'')='' and coalesce( /cpn/_case_missed_cpn_6 ,'')='')" calculate="coalesce(., /cpn/_case_missed_cpn_6 )" required="coalesce( /cpn/intro/date_cpn_6 ,'')=''"/>
+      <bind nodeset="/cpn/intro/missed_cpn_6" type="select1" relevant=" /cpn/intro/p_int_cpn &gt;6 and (coalesce( /cpn/_case_date_cpn_6 ,'')='' and coalesce( /cpn/_case_missed_cpn_6 ,'')='')" required="coalesce( /cpn/intro/date_cpn_6 ,'')=''" calculate="coalesce(., /cpn/_case_missed_cpn_6 )"/>
       <bind nodeset="/cpn/intro/e_date_cpn_7" type="date" relevant=" /cpn/intro/p_int_cpn &gt;7 and (coalesce( /cpn/_case_date_cpn_7 ,'')='' and coalesce( /cpn/_case_missed_cpn_7 ,'')='')" required="coalesce( /cpn/intro/missed_cpn_7 ,'')=''"/>
       <bind nodeset="/cpn/intro/date_cpn_7" type="string" calculate="if( /cpn/intro/p_int_cpn =7, today(), coalesce( /cpn/_case_date_cpn_7 , /cpn/intro/e_date_cpn_7 ))"/>
-      <bind nodeset="/cpn/intro/missed_cpn_7" type="select1" relevant=" /cpn/intro/p_int_cpn &gt;7 and (coalesce( /cpn/_case_date_cpn_7 ,'')='' and coalesce( /cpn/_case_missed_cpn_7 ,'')='')" calculate="coalesce(., /cpn/_case_missed_cpn_7 )" required="coalesce( /cpn/intro/date_cpn_7 ,'')=''"/>
+      <bind nodeset="/cpn/intro/missed_cpn_7" type="select1" relevant=" /cpn/intro/p_int_cpn &gt;7 and (coalesce( /cpn/_case_date_cpn_7 ,'')='' and coalesce( /cpn/_case_missed_cpn_7 ,'')='')" required="coalesce( /cpn/intro/date_cpn_7 ,'')=''" calculate="coalesce(., /cpn/_case_missed_cpn_7 )"/>
       <bind nodeset="/cpn/intro/e_date_cpn_8" type="date" relevant=" /cpn/intro/p_int_cpn &gt;8 and (coalesce( /cpn/_case_date_cpn_8 ,'')='' and coalesce( /cpn/_case_missed_cpn_8 ,'')='')" required="coalesce( /cpn/intro/missed_cpn_8 ,'')=''"/>
       <bind nodeset="/cpn/intro/date_cpn_8" type="string" calculate="if( /cpn/intro/p_int_cpn =8, today(), coalesce( /cpn/_case_date_cpn_8 , /cpn/intro/e_date_cpn_8 ))"/>
-      <bind nodeset="/cpn/intro/missed_cpn_8" type="select1" relevant=" /cpn/intro/p_int_cpn &gt;8 and (coalesce( /cpn/_case_date_cpn_8 ,'')='' and coalesce( /cpn/_case_missed_cpn_8 ,'')='')" calculate="coalesce(., /cpn/_case_missed_cpn_8 )" required="coalesce( /cpn/intro/date_cpn_8 ,'')=''"/>
-      <bind nodeset="/cpn/intro/p_poids" type="decimal" required="1" constraint=".&gt;=20" jr:constraintMsg="jr:itext('/cpn/intro/p_poids:jr:constraintMsg')"/>
+      <bind nodeset="/cpn/intro/missed_cpn_8" type="select1" relevant=" /cpn/intro/p_int_cpn &gt;8 and (coalesce( /cpn/_case_date_cpn_8 ,'')='' and coalesce( /cpn/_case_missed_cpn_8 ,'')='')" required="coalesce( /cpn/intro/date_cpn_8 ,'')=''" calculate="coalesce(., /cpn/_case_missed_cpn_8 )"/>
+      <bind nodeset="/cpn/intro/p_poids" type="decimal" jr:constraintMsg="jr:itext('/cpn/intro/p_poids:jr:constraintMsg')" required="1" constraint=".&gt;=20"/>
       <bind nodeset="/cpn/intro/p_taille" type="decimal" required="1"/>
       <bind nodeset="/cpn/intro/p_tension" type="select1" required="1"/>
-      <bind nodeset="/cpn/intro/p_temperature" type="decimal" required="1" constraint=".&gt;32 and .&lt;45" jr:constraintMsg="jr:itext('/cpn/intro/p_temperature:jr:constraintMsg')"/>
+      <bind nodeset="/cpn/intro/p_temperature" type="decimal" jr:constraintMsg="jr:itext('/cpn/intro/p_temperature:jr:constraintMsg')" required="1" constraint=".&gt;32 and .&lt;45"/>
       <bind nodeset="/cpn/test_grossesse/s_grossesse" type="select1" required="1"/>
       <bind nodeset="/cpn/test_grossesse/t_uterine" type="string" relevant=" /cpn/test_grossesse/s_grossesse ='visible'" required="1"/>
       <bind nodeset="/cpn/test_grossesse/p_grossesse_note" readonly="true()" type="string" relevant=" /cpn/test_grossesse/s_grossesse ='non_visible'"/>
-      <bind nodeset="/cpn/test_grossesse/r_test_grossesse" type="select1" relevant=" /cpn/test_grossesse/s_grossesse ='non_visible'" calculate="coalesce(., /cpn/_case_r_test_grossesse )" required="1"/>
+      <bind nodeset="/cpn/test_grossesse/r_test_grossesse" type="select1" relevant=" /cpn/test_grossesse/s_grossesse ='non_visible'" required="1" calculate="coalesce(., /cpn/_case_r_test_grossesse )"/>
       <bind nodeset="/cpn/test_grossesse/bb_test_neg" readonly="true()" type="string" relevant=" /cpn/test_grossesse/r_test_grossesse =-1"/>
       <bind nodeset="/cpn/test_grossesse/test_grossesse_note" readonly="true()" type="string" relevant=" /cpn/test_grossesse/r_test_grossesse =0"/>
-      <bind nodeset="/cpn/test_grossesse/t_test_grossesse" type="select" relevant=" /cpn/test_grossesse/r_test_grossesse =0" calculate="coalesce(., /cpn/_case_t_test_grossesse )" required="1"/>
+      <bind nodeset="/cpn/test_grossesse/t_test_grossesse" type="select" relevant=" /cpn/test_grossesse/r_test_grossesse =0" required="1" calculate="coalesce(., /cpn/_case_t_test_grossesse )"/>
       <bind nodeset="/cpn/test_grossesse/is_end_bbtest" type="string" calculate="number( /cpn/test_grossesse/s_grossesse ='non_visible' and  /cpn/test_grossesse/r_test_grossesse =-1)"/>
       <bind nodeset="/cpn/age_grossesse" relevant=" /cpn/test_grossesse/r_test_grossesse =1 or  /cpn/test_grossesse/s_grossesse ='visible'"/>
-      <bind nodeset="/cpn/age_grossesse/affi_method" type="select1" required="1" calculate="coalesce(., /cpn/_case_affi_method )"/>
+      <bind nodeset="/cpn/age_grossesse/affi_method" type="select1" calculate="coalesce(., /cpn/_case_affi_method )" required="1"/>
       <bind nodeset="/cpn/method_ddr" relevant="( /cpn/test_grossesse/r_test_grossesse =1 or  /cpn/test_grossesse/s_grossesse ='visible') and  /cpn/age_grossesse/affi_method ='method_ddr'"/>
-      <bind nodeset="/cpn/method_ddr/ddr_date" type="date" required="1" constraint="decimal-date-time(today()) - decimal-date-time(.) &gt;30 and decimal-date-time(today()) - decimal-date-time(.) &lt; 300" jr:constraintMsg="jr:itext('/cpn/method_ddr/ddr_date:jr:constraintMsg')" calculate="coalesce(., /cpn/_case_ddr_date )"/>
+      <bind nodeset="/cpn/method_ddr/ddr_date" type="date" jr:constraintMsg="jr:itext('/cpn/method_ddr/ddr_date:jr:constraintMsg')" required="1" constraint="decimal-date-time(today()) - decimal-date-time(.) &gt;30 and decimal-date-time(today()) - decimal-date-time(.) &lt; 300" calculate="coalesce(., /cpn/_case_ddr_date )"/>
       <bind nodeset="/cpn/method_dpa" relevant=" /cpn/test_grossesse/r_test_grossesse =1 or  /cpn/test_grossesse/s_grossesse ='visible'"/>
       <bind nodeset="/cpn/method_dpa/dpa_date" type="date" relevant=" /cpn/age_grossesse/affi_method ='method_dpa'" constraint="today()&lt;. and (decimal-date-time(.) - decimal-date-time(today()) &lt; 273)" calculate="coalesce(., /cpn/_case_dpa_date )"/>
       <bind nodeset="/cpn/method_none" relevant="( /cpn/test_grossesse/r_test_grossesse =1 or  /cpn/test_grossesse/s_grossesse ='visible') and  /cpn/age_grossesse/affi_method ='method_none'"/>
-      <bind nodeset="/cpn/method_none/no_info_pregnancy_reason" type="select1" required="1" calculate="coalesce(., /cpn/_case_no_info_pregnancy_reason )"/>
+      <bind nodeset="/cpn/method_none/no_info_pregnancy_reason" type="select1" calculate="coalesce(., /cpn/_case_no_info_pregnancy_reason )" required="1"/>
       <bind nodeset="/cpn/method_none/age_estima" type="int" relevant=" /cpn/method_none/no_info_pregnancy_reason =1" calculate="coalesce(., /cpn/_case_age_estima )"/>
       <bind nodeset="/cpn/method_none/label_esti" type="int" relevant=" /cpn/method_none/no_info_pregnancy_reason =-1" calculate="coalesce(., /cpn/_case_label_esti )"/>
       <bind nodeset="/cpn/imp_approx_daydayweeks" type="string" calculate="int((today() - ( /cpn/p_ddr ))div 7)"/>
@@ -3654,7 +3688,7 @@ Au cas contraire rendez-vous dans un mois pour d'autres examens de confirmation 
       <bind nodeset="/cpn/plainte_principale/mains" type="select1" required="1"/>
       <bind nodeset="/cpn/plainte_principale/toux" type="select1" required="1"/>
       <bind nodeset="/cpn/preeclampsie_debut" relevant="( /cpn/test_grossesse/r_test_grossesse =1 or  /cpn/test_grossesse/s_grossesse ='visible') and  /cpn/imp_approx_daydayweeks &gt;=20 and ( /cpn/intro/p_tension ='Hyper_tention' or  /cpn/intro/p_tension ='Modéré') and and ( /cpn/plainte_principale/cephale =1 or  /cpn/plainte_principale/convulsion =1 or  /cpn/plainte_principale/respiration =1 or  /cpn/plainte_principale/mains =1 or  /cpn/plainte_principale/essoufflement =1)"/>
-      <bind nodeset="/cpn/preeclampsie_debut/preeclampsie/sign_preeclampsia" type="select" required="1" constraint="if(selected(.,&quot;z_none&quot;),count-selected(.)=1,count-selected(.)&gt;0)" jr:constraintMsg="jr:itext('/cpn/preeclampsie_debut/preeclampsie/sign_preeclampsia:jr:constraintMsg')"/>
+      <bind nodeset="/cpn/preeclampsie_debut/preeclampsie/sign_preeclampsia" type="select" jr:constraintMsg="jr:itext('/cpn/preeclampsie_debut/preeclampsie/sign_preeclampsia:jr:constraintMsg')" required="1" constraint="if(selected(.,&quot;z_none&quot;),count-selected(.)=1,count-selected(.)&gt;0)"/>
       <bind nodeset="/cpn/preeclampsie_debut/preeclampsie/T_band_u" type="select1"/>
       <bind nodeset="/cpn/preeclampsie_debut/preeclampsie/band_u" type="select1" relevant=" /cpn/preeclampsie_debut/preeclampsie/T_band_u =1"/>
       <bind nodeset="/cpn/preeclampsie_debut/ftus_gp/death_or_no" type="select1"/>
@@ -3682,18 +3716,18 @@ Au cas contraire rendez-vous dans un mois pour d'autres examens de confirmation 
       <bind nodeset="/cpn/preeclampsie_debut/reference_district/transfer" type="select1"/>
       <bind nodeset="/cpn/end_death_baby" relevant="( /cpn/test_grossesse/r_test_grossesse =1 or  /cpn/test_grossesse/s_grossesse ='visible' and  /cpn/imp_approx_daydayweeks &gt;0 and  /cpn/preeclampsie_debut/ftus_gp/death_or_no !=-1)"/>
       <bind nodeset="/cpn/end_death_baby/antecedent_medical/antecedent_medical_question_note" type="select1"/>
-      <bind nodeset="/cpn/end_death_baby/antecedent_medical/diabete" type="select1" required="1" calculate="coalesce(., /cpn/_case_diabete )"/>
+      <bind nodeset="/cpn/end_death_baby/antecedent_medical/diabete" type="select1" calculate="coalesce(., /cpn/_case_diabete )" required="1"/>
       <bind nodeset="/cpn/end_death_baby/antecedent_medical/msg_diabete" readonly="true()" type="string" relevant=" /cpn/end_death_baby/antecedent_medical/diabete =1"/>
-      <bind nodeset="/cpn/end_death_baby/antecedent_medical/drepanocytose" type="select1" required="1" calculate="coalesce(., /cpn/_case_drepanocytose )"/>
+      <bind nodeset="/cpn/end_death_baby/antecedent_medical/drepanocytose" type="select1" calculate="coalesce(., /cpn/_case_drepanocytose )" required="1"/>
       <bind nodeset="/cpn/end_death_baby/antecedent_medical/msg_drepa" readonly="true()" type="string" relevant=" /cpn/end_death_baby/antecedent_medical/drepanocytose =1"/>
-      <bind nodeset="/cpn/end_death_baby/antecedent_medical/cardiopathie" type="select1" required="1" calculate="coalesce(., /cpn/_case_cardiopathie )"/>
+      <bind nodeset="/cpn/end_death_baby/antecedent_medical/cardiopathie" type="select1" calculate="coalesce(., /cpn/_case_cardiopathie )" required="1"/>
       <bind nodeset="/cpn/end_death_baby/antecedent_medical/msg_cardio" readonly="true()" type="string" relevant=" /cpn/end_death_baby/antecedent_medical/cardiopathie =1"/>
-      <bind nodeset="/cpn/end_death_baby/antecedent_medical/hypertension_ateriel" type="select1" required="1" calculate="coalesce(., /cpn/_case_hypertension_ateriel )"/>
+      <bind nodeset="/cpn/end_death_baby/antecedent_medical/hypertension_ateriel" type="select1" calculate="coalesce(., /cpn/_case_hypertension_ateriel )" required="1"/>
       <bind nodeset="/cpn/end_death_baby/antecedent_medical/msg_tension_ar" readonly="true()" type="string" relevant=" /cpn/end_death_baby/antecedent_medical/hypertension_ateriel =1"/>
-      <bind nodeset="/cpn/end_death_baby/antecedent_medical/tuberculose" type="select1" required="1" calculate="coalesce(., /cpn/_case_tuberculose )"/>
+      <bind nodeset="/cpn/end_death_baby/antecedent_medical/tuberculose" type="select1" calculate="coalesce(., /cpn/_case_tuberculose )" required="1"/>
       <bind nodeset="/cpn/end_death_baby/antecedent_medical/msg_tuberculose" readonly="true()" type="string" relevant=" /cpn/end_death_baby/antecedent_medical/tuberculose =1"/>
-      <bind nodeset="/cpn/end_death_baby/antecedent_medical/autre" type="select1" required="1" calculate="coalesce(., /cpn/_case_autre )"/>
-      <bind nodeset="/cpn/end_death_baby/antecedent_medical/sign_antecedent" type="string" relevant=" /cpn/end_death_baby/antecedent_medical/autre =1" calculate="coalesce(., /cpn/_case_sign_antecedent )" required="1"/>
+      <bind nodeset="/cpn/end_death_baby/antecedent_medical/autre" type="select1" calculate="coalesce(., /cpn/_case_autre )" required="1"/>
+      <bind nodeset="/cpn/end_death_baby/antecedent_medical/sign_antecedent" type="string" relevant=" /cpn/end_death_baby/antecedent_medical/autre =1" required="1" calculate="coalesce(., /cpn/_case_sign_antecedent )"/>
       <bind nodeset="/cpn/end_death_baby/gyneco_obstetri" relevant=" /cpn/test_grossesse/r_test_grossesse =1 or  /cpn/test_grossesse/s_grossesse ='visible'"/>
       <bind nodeset="/cpn/end_death_baby/gyneco_obstetri/gyneco_obstetri_question_note" readonly="true()" type="string"/>
       <bind nodeset="/cpn/end_death_baby/gyneco_obstetri/label_gyneco" type="select1"/>
@@ -3723,7 +3757,7 @@ Au cas contraire rendez-vous dans un mois pour d'autres examens de confirmation 
       <bind nodeset="/cpn/end_death_baby/gyneco_obstetri/gyneco_rien" type="select1" required="1"/>
       <bind nodeset="/cpn/end_death_baby/gyneco_obstetri/precision" type="string" relevant=" /cpn/end_death_baby/gyneco_obstetri/gyneco_rien =1"/>
       <bind nodeset="/cpn/end_death_baby/examens_cliniques" relevant=" /cpn/test_grossesse/r_test_grossesse =1 or  /cpn/test_grossesse/s_grossesse ='visible'"/>
-      <bind nodeset="/cpn/end_death_baby/examens_cliniques/s_inspect_abdomen" type="select" required="1" constraint="if(selected(.,&quot;z_none&quot;),count-selected(.)=1,count-selected(.)&gt;0)" jr:constraintMsg="jr:itext('/cpn/end_death_baby/examens_cliniques/s_inspect_abdomen:jr:constraintMsg')"/>
+      <bind nodeset="/cpn/end_death_baby/examens_cliniques/s_inspect_abdomen" type="select" jr:constraintMsg="jr:itext('/cpn/end_death_baby/examens_cliniques/s_inspect_abdomen:jr:constraintMsg')" required="1" constraint="if(selected(.,&quot;z_none&quot;),count-selected(.)=1,count-selected(.)&gt;0)"/>
       <bind nodeset="/cpn/end_death_baby/examens_cliniques/msg_cicatrice" readonly="true()" type="string" relevant=" /cpn/end_death_baby/examens_cliniques/s_inspect_abdomen ='scar'"/>
       <bind nodeset="/cpn/end_death_baby/examens_cliniques/msg_eruption" readonly="true()" type="string" relevant=" /cpn/end_death_baby/examens_cliniques/s_inspect_abdomen ='eruption' or  /cpn/end_death_baby/examens_cliniques/s_inspect_abdomen ='masse'"/>
       <bind nodeset="/cpn/end_death_baby/examens_cliniques/presentation_foetus" type="select1" relevant=" /cpn/imp_approx_daydayweeks =28" required="1"/>
@@ -3747,7 +3781,7 @@ Au cas contraire rendez-vous dans un mois pour d'autres examens de confirmation 
       <bind nodeset="/cpn/end_death_baby/examens_cliniques/g_exam/presenta_vscieuse" readonly="true()" type="string" relevant=" /cpn/end_death_baby/examens_cliniques/g_exam/position_grossesse =1"/>
       <bind nodeset="/cpn/end_death_baby/examens_cliniques/g_exam/bcf_examen" type="select1" relevant=" /cpn/imp_approx_daydayweeks &gt;=20" required="1"/>
       <bind nodeset="/cpn/end_death_baby/examens_cliniques/g_exam/bcf_action" readonly="true()" type="string" relevant=" /cpn/end_death_baby/examens_cliniques/g_exam/bcf_examen =-1"/>
-      <bind nodeset="/cpn/end_death_baby/examens_cliniques/g_exam/s_inspection_vulve" type="select" required="1" constraint="if(selected(.,&quot;z_none&quot;),count-selected(.)=1,count-selected(.)&gt;0)" jr:constraintMsg="jr:itext('/cpn/end_death_baby/examens_cliniques/g_exam/s_inspection_vulve:jr:constraintMsg')"/>
+      <bind nodeset="/cpn/end_death_baby/examens_cliniques/g_exam/s_inspection_vulve" type="select" jr:constraintMsg="jr:itext('/cpn/end_death_baby/examens_cliniques/g_exam/s_inspection_vulve:jr:constraintMsg')" required="1" constraint="if(selected(.,&quot;z_none&quot;),count-selected(.)=1,count-selected(.)&gt;0)"/>
       <bind nodeset="/cpn/end_death_baby/examens_cliniques/g_exam/msg_sang_perte" readonly="true()" type="string" relevant=" /cpn/end_death_baby/examens_cliniques/g_exam/s_inspection_vulve ='saignmt'"/>
       <bind nodeset="/cpn/end_death_baby/examens_cliniques/g_exam/msg_lbel" readonly="true()" type="string" relevant=" /cpn/end_death_baby/examens_cliniques/g_exam/s_inspection_vulve ='perte'"/>
       <bind nodeset="/cpn/end_death_baby/examens_cliniques/g_exam/msg_perte_blanche" readonly="true()" type="string" relevant=" /cpn/end_death_baby/examens_cliniques/g_exam/s_inspection_vulve ='perte_b'"/>
@@ -3760,7 +3794,7 @@ Au cas contraire rendez-vous dans un mois pour d'autres examens de confirmation 
       <bind nodeset="/cpn/end_death_baby/examens_cliniques/g_exam/bassin_examen" type="select1" required="1"/>
       <bind nodeset="/cpn/end_death_baby/examens_cliniques/g_exam/msg_retreci" readonly="true()" type="string" relevant=" /cpn/end_death_baby/examens_cliniques/g_exam/bassin_examen ='2'"/>
       <bind nodeset="/cpn/end_death_baby/inferieur_sa" relevant="( /cpn/test_grossesse/r_test_grossesse =1 or  /cpn/test_grossesse/s_grossesse ='visible') and  /cpn/imp_approx_daydayweeks &lt;21 and  /cpn/end_death_baby/examens_cliniques/g_exam/s_inspection_vulve ='saignmt'"/>
-      <bind nodeset="/cpn/end_death_baby/inferieur_sa/surveillance_vitaux" type="select" required="1" constraint="if(selected(.,'0'),count-selected(.)=1,count-selected(.)&gt;0)" jr:constraintMsg="jr:itext('/cpn/end_death_baby/inferieur_sa/surveillance_vitaux:jr:constraintMsg')"/>
+      <bind nodeset="/cpn/end_death_baby/inferieur_sa/surveillance_vitaux" type="select" jr:constraintMsg="jr:itext('/cpn/end_death_baby/inferieur_sa/surveillance_vitaux:jr:constraintMsg')" required="1" constraint="if(selected(.,'0'),count-selected(.)=1,count-selected(.)&gt;0)"/>
       <bind nodeset="/cpn/end_death_baby/inferieur_sa/action_imediat" readonly="true()" type="string" relevant="count-selected( /cpn/end_death_baby/inferieur_sa/surveillance_vitaux )&gt;0 and  /cpn/end_death_baby/inferieur_sa/surveillance_vitaux !='0'"/>
       <bind nodeset="/cpn/end_death_baby/inferieur_sa/examination" relevant=" /cpn/end_death_baby/inferieur_sa/surveillance_vitaux ='0'"/>
       <bind nodeset="/cpn/end_death_baby/inferieur_sa/examination/examen_speculum" type="select"/>
@@ -3783,7 +3817,7 @@ Au cas contraire rendez-vous dans un mois pour d'autres examens de confirmation 
       <bind nodeset="/cpn/end_death_baby/inferieur_sa/prengnency_malaire" readonly="true()" type="string" relevant=" /cpn/end_death_baby/inferieur_sa/diagnostic_no ='4'"/>
       <bind nodeset="/cpn/end_death_baby/end_avrtmt" relevant=" /cpn/end_death_baby/inferieur_sa/diagnostic_yes !='1' and  /cpn/end_death_baby/inferieur_sa/diagnostic_yes !='2' and ( /cpn/end_death_baby/inferieur_sa/diagnostic_no !='2' and  /cpn/end_death_baby/inferieur_sa/diagnostic_no !='3' and  /cpn/end_death_baby/inferieur_sa/diagnostic_no !='4')"/>
       <bind nodeset="/cpn/end_death_baby/end_avrtmt/sgt_superieur" relevant="( /cpn/test_grossesse/r_test_grossesse =1 or  /cpn/test_grossesse/s_grossesse ='visible') and ( /cpn/imp_approx_daydayweeks &gt;20) and  /cpn/end_death_baby/examens_cliniques/g_exam/s_inspection_vulve ='saignmt'"/>
-      <bind nodeset="/cpn/end_death_baby/end_avrtmt/sgt_superieur/surveillance_vitaux_t" type="select" required="1" constraint="if(selected(.,'0'),count-selected(.)=1,count-selected(.)&gt;0)" jr:constraintMsg="jr:itext('/cpn/end_death_baby/end_avrtmt/sgt_superieur/surveillance_vitaux_t:jr:constraintMsg')"/>
+      <bind nodeset="/cpn/end_death_baby/end_avrtmt/sgt_superieur/surveillance_vitaux_t" type="select" jr:constraintMsg="jr:itext('/cpn/end_death_baby/end_avrtmt/sgt_superieur/surveillance_vitaux_t:jr:constraintMsg')" required="1" constraint="if(selected(.,'0'),count-selected(.)=1,count-selected(.)&gt;0)"/>
       <bind nodeset="/cpn/end_death_baby/end_avrtmt/sgt_superieur/action_imediat_t" readonly="true()" type="string" relevant="count-selected( /cpn/end_death_baby/end_avrtmt/sgt_superieur/surveillance_vitaux_t )&gt;0 and  /cpn/end_death_baby/end_avrtmt/sgt_superieur/surveillance_vitaux_t !='0'"/>
       <bind nodeset="/cpn/end_death_baby/end_avrtmt/sgt_superieur/examination_t" relevant=" /cpn/end_death_baby/end_avrtmt/sgt_superieur/surveillance_vitaux_t ='0'"/>
       <bind nodeset="/cpn/end_death_baby/end_avrtmt/sgt_superieur/examination_t/examen_speculum_t" type="select" required="1"/>
@@ -3822,10 +3856,14 @@ Au cas contraire rendez-vous dans un mois pour d'autres examens de confirmation 
       <bind nodeset="/cpn/end_death_baby/end_avrtmt/tt_fer/taux_glycemie/t_taux_glycemie" type="select1" required="1"/>
       <bind nodeset="/cpn/end_death_baby/end_avrtmt/tt_fer/taux_glycemie/t_taux_glycemie_hypo" readonly="true()" type="string" relevant=" /cpn/end_death_baby/end_avrtmt/tt_fer/taux_glycemie/t_taux_glycemie ='hypoglycemie'"/>
       <bind nodeset="/cpn/end_death_baby/end_avrtmt/tt_fer/taux_glycemie/t_glycemie_hyper" readonly="true()" type="string" relevant=" /cpn/end_death_baby/end_avrtmt/tt_fer/taux_glycemie/t_taux_glycemie ='hyperglycemie'"/>
-      <bind nodeset="/cpn/end_death_baby/end_avrtmt/tt_fer/test_hiv" relevant=" /cpn/test_grossesse/r_test_grossesse =1 or  /cpn/test_grossesse/s_grossesse ='visible'"/>
-      <bind nodeset="/cpn/end_death_baby/end_avrtmt/tt_fer/test_hiv/r_test_hiv" type="select1" required="1"/>
-      <bind nodeset="/cpn/end_death_baby/end_avrtmt/tt_fer/test_hiv/test_hiv_note" readonly="true()" type="string" relevant=" /cpn/end_death_baby/end_avrtmt/tt_fer/test_hiv/r_test_hiv ='1'"/>
-      <bind nodeset="/cpn/end_death_baby/end_avrtmt/tt_fer/test_hiv/r_test_hiv_note" readonly="true()" type="string" relevant=" /cpn/end_death_baby/end_avrtmt/tt_fer/test_hiv/r_test_hiv ='3' or  /cpn/end_death_baby/end_avrtmt/tt_fer/test_hiv/r_test_hiv ='4'"/>
+      <bind nodeset="/cpn/end_death_baby/end_avrtmt/tt_fer/test_hiv" relevant=" /cpn/test_grossesse/r_test_grossesse =1 or  /cpn/test_grossesse/s_grossesse ='visible' or  /cpn/method_none/age_estima &gt;0 or  /cpn/method_none/label_esti &gt;0"/>
+      <bind nodeset="/cpn/end_death_baby/end_avrtmt/tt_fer/test_hiv/r_vih_advices" type="select1"/>
+      <bind nodeset="/cpn/end_death_baby/end_avrtmt/tt_fer/test_hiv/r_test_hiv" type="select1" relevant=" /cpn/end_death_baby/end_avrtmt/tt_fer/test_hiv/r_vih_advices =1" required="1"/>
+      <bind nodeset="/cpn/end_death_baby/end_avrtmt/tt_fer/test_hiv/confirm_test_hiv" type="select1" relevant=" /cpn/end_death_baby/end_avrtmt/tt_fer/test_hiv/r_test_hiv =1" required="1"/>
+      <bind nodeset="/cpn/end_death_baby/end_avrtmt/tt_fer/test_hiv/test_hiv_note" readonly="true()" type="string" relevant=" /cpn/end_death_baby/end_avrtmt/tt_fer/test_hiv/confirm_test_hiv ='1'"/>
+      <bind nodeset="/cpn/end_death_baby/end_avrtmt/tt_fer/test_hiv/rup_test_hiv_note" readonly="true()" type="string" relevant=" /cpn/end_death_baby/end_avrtmt/tt_fer/test_hiv/confirm_test_hiv ='4' or  /cpn/end_death_baby/end_avrtmt/tt_fer/test_hiv/r_test_hiv ='4'"/>
+      <bind nodeset="/cpn/end_death_baby/end_avrtmt/tt_fer/test_hiv/indet_test_hiv_note" readonly="true()" type="string" relevant=" /cpn/end_death_baby/end_avrtmt/tt_fer/test_hiv/confirm_test_hiv ='3' or  /cpn/end_death_baby/end_avrtmt/tt_fer/test_hiv/r_test_hiv ='3'"/>
+      <bind nodeset="/cpn/end_death_baby/end_avrtmt/tt_fer/test_hiv/neg_test_hiv_note" readonly="true()" type="string" relevant=" /cpn/end_death_baby/end_avrtmt/tt_fer/test_hiv/confirm_test_hiv ='2' or  /cpn/end_death_baby/end_avrtmt/tt_fer/test_hiv/r_test_hiv ='2'"/>
       <bind nodeset="/cpn/end_death_baby/end_avrtmt/tt_fer/test_syphilis" relevant=" /cpn/test_grossesse/r_test_grossesse =1 or  /cpn/test_grossesse/s_grossesse ='visible'"/>
       <bind nodeset="/cpn/end_death_baby/end_avrtmt/tt_fer/test_syphilis/r_test_syphilis" type="select1" required="1"/>
       <bind nodeset="/cpn/end_death_baby/end_avrtmt/tt_fer/test_syphilis/test_syphilis_note" readonly="true()" type="string" relevant=" /cpn/end_death_baby/end_avrtmt/tt_fer/test_syphilis/r_test_syphilis ='1'"/>
@@ -3866,72 +3904,72 @@ Au cas contraire rendez-vous dans un mois pour d'autres examens de confirmation 
  /cpn/end_death_baby/end_avrtmt/tt_fer/test_rubeole/r_test_rubeole =1)"/>
       <bind nodeset="/cpn/end_death_baby/end_avrtmt/mesure_preventifs" relevant=" /cpn/test_grossesse/r_test_grossesse =1 or  /cpn/test_grossesse/s_grossesse ='visible'"/>
       <bind nodeset="/cpn/end_death_baby/end_avrtmt/mesure_preventifs/label_mesure_preventif" type="select1"/>
-      <bind nodeset="/cpn/end_death_baby/end_avrtmt/mesure_preventifs/p_faf" type="select1" required="1" calculate="coalesce(., /cpn/_case_p_faf )"/>
+      <bind nodeset="/cpn/end_death_baby/end_avrtmt/mesure_preventifs/p_faf" type="select1" calculate="coalesce(., /cpn/_case_p_faf )" required="1"/>
       <bind nodeset="/cpn/end_death_baby/end_avrtmt/mesure_preventifs/msg_faf" readonly="true()" type="string" relevant=" /cpn/end_death_baby/end_avrtmt/mesure_preventifs/p_faf =-1"/>
-      <bind nodeset="/cpn/end_death_baby/end_avrtmt/mesure_preventifs/p_moustiquaire" type="select1" required="1" calculate="coalesce(., /cpn/_case_p_moustiquaire )"/>
+      <bind nodeset="/cpn/end_death_baby/end_avrtmt/mesure_preventifs/p_moustiquaire" type="select1" calculate="coalesce(., /cpn/_case_p_moustiquaire )" required="1"/>
       <bind nodeset="/cpn/end_death_baby/end_avrtmt/mesure_preventifs/msg_moustiquaire" readonly="true()" type="string" relevant=" /cpn/end_death_baby/end_avrtmt/mesure_preventifs/p_moustiquaire =-1"/>
-      <bind nodeset="/cpn/end_death_baby/end_avrtmt/mesure_preventifs/p_tpi" type="select1" relevant=" /cpn/imp_approx_daydayweeks  &gt;=16 or  /cpn/imp_approx_daydayweeks &gt;=16" calculate="coalesce(., /cpn/_case_p_tpi )" required="1"/>
+      <bind nodeset="/cpn/end_death_baby/end_avrtmt/mesure_preventifs/p_tpi" type="select1" relevant=" /cpn/imp_approx_daydayweeks  &gt;=16 or  /cpn/imp_approx_daydayweeks &gt;=16" required="1" calculate="coalesce(., /cpn/_case_p_tpi )"/>
       <bind nodeset="/cpn/end_death_baby/end_avrtmt/mesure_preventifs/msg_tpi" readonly="true()" type="string" relevant=" /cpn/end_death_baby/end_avrtmt/mesure_preventifs/p_tpi =-1"/>
-      <bind nodeset="/cpn/end_death_baby/end_avrtmt/mesure_preventifs/p_deparasitage" type="select1" relevant=" /cpn/imp_approx_daydayweeks  &gt;12 or  /cpn/imp_approx_daydayweeks &gt;12" calculate="coalesce(., /cpn/_case_p_deparasitage )" required="1"/>
+      <bind nodeset="/cpn/end_death_baby/end_avrtmt/mesure_preventifs/p_deparasitage" type="select1" relevant=" /cpn/imp_approx_daydayweeks  &gt;12 or  /cpn/imp_approx_daydayweeks &gt;12" required="1" calculate="coalesce(., /cpn/_case_p_deparasitage )"/>
       <bind nodeset="/cpn/end_death_baby/end_avrtmt/mesure_preventifs/msg_deparasitage" readonly="true()" type="string" relevant=" /cpn/end_death_baby/end_avrtmt/mesure_preventifs/p_deparasitage =-1"/>
-      <bind nodeset="/cpn/end_death_baby/end_avrtmt/mesure_preventifs/p_conseils" type="select1" required="1" calculate="coalesce(., /cpn/_case_p_conseils )"/>
+      <bind nodeset="/cpn/end_death_baby/end_avrtmt/mesure_preventifs/p_conseils" type="select1" calculate="coalesce(., /cpn/_case_p_conseils )" required="1"/>
       <bind nodeset="/cpn/end_death_baby/end_avrtmt/mesure_preventifs/msg_conseil_nutri" readonly="true()" type="string" relevant=" /cpn/end_death_baby/end_avrtmt/mesure_preventifs/p_conseils =-1"/>
-      <bind nodeset="/cpn/end_death_baby/end_avrtmt/mesure_preventifs/p_hygiene" type="select1" required="1" calculate="coalesce(., /cpn/_case_p_hygiene )"/>
+      <bind nodeset="/cpn/end_death_baby/end_avrtmt/mesure_preventifs/p_hygiene" type="select1" calculate="coalesce(., /cpn/_case_p_hygiene )" required="1"/>
       <bind nodeset="/cpn/end_death_baby/end_avrtmt/mesure_preventifs/msg_conseil_hygiene" readonly="true()" type="string" relevant=" /cpn/end_death_baby/end_avrtmt/mesure_preventifs/p_hygiene =-1"/>
-      <bind nodeset="/cpn/end_death_baby/end_avrtmt/mesure_preventifs/p_info" type="select1" required="1" calculate="coalesce(., /cpn/_case_p_info )"/>
+      <bind nodeset="/cpn/end_death_baby/end_avrtmt/mesure_preventifs/p_info" type="select1" calculate="coalesce(., /cpn/_case_p_info )" required="1"/>
       <bind nodeset="/cpn/end_death_baby/end_avrtmt/mesure_preventifs/msg_conseil_danger" readonly="true()" type="string" relevant=" /cpn/end_death_baby/end_avrtmt/mesure_preventifs/p_info =-1"/>
-      <bind nodeset="/cpn/end_death_baby/end_avrtmt/mesure_preventifs/p_ptme" type="select1" required="1" calculate="coalesce(., /cpn/_case_p_ptme )"/>
+      <bind nodeset="/cpn/end_death_baby/end_avrtmt/mesure_preventifs/p_ptme" type="select1" calculate="coalesce(., /cpn/_case_p_ptme )" required="1"/>
       <bind nodeset="/cpn/end_death_baby/end_avrtmt/mesure_preventifs/msg_conseil_ptme" readonly="true()" type="string" relevant=" /cpn/end_death_baby/end_avrtmt/mesure_preventifs/p_ptme =-1"/>
-      <bind nodeset="/cpn/end_death_baby/end_avrtmt/mesure_preventifs/p_vih" type="select1" relevant=" /cpn/end_death_baby/end_avrtmt/tt_fer/test_hiv/r_test_hiv =1" calculate="coalesce(., /cpn/_case_p_vih )" required="1"/>
+      <bind nodeset="/cpn/end_death_baby/end_avrtmt/mesure_preventifs/p_vih" type="select1" relevant=" /cpn/end_death_baby/end_avrtmt/tt_fer/test_hiv/r_test_hiv =1" required="1" calculate="coalesce(., /cpn/_case_p_vih )"/>
       <bind nodeset="/cpn/end_death_baby/end_avrtmt/mesure_preventifs/p_vih_note" readonly="true()" type="string" relevant=" /cpn/end_death_baby/end_avrtmt/mesure_preventifs/p_vih =1"/>
-      <bind nodeset="/cpn/end_death_baby/end_avrtmt/mesure_preventifs/p_autre_mesr" type="select1" relevant=" /cpn/end_death_baby/end_avrtmt/tt_fer/test_hiv/r_test_hiv =1" calculate="coalesce(., /cpn/_case_p_autre_mesr )" required="1"/>
+      <bind nodeset="/cpn/end_death_baby/end_avrtmt/mesure_preventifs/p_autre_mesr" type="select1" relevant=" /cpn/end_death_baby/end_avrtmt/tt_fer/test_hiv/r_test_hiv =1" required="1" calculate="coalesce(., /cpn/_case_p_autre_mesr )"/>
       <bind nodeset="/cpn/end_death_baby/end_avrtmt/mesure_preventifs/p_text_mesr" type="string" relevant=" /cpn/end_death_baby/end_avrtmt/mesure_preventifs/p_autre_mesr =1"/>
-      <bind nodeset="/cpn/end_death_baby/end_avrtmt/sign_danger" relevant=" /cpn/test_grossesse/r_test_grossesse =1 or  /cpn/test_grossesse/s_grossesse ='visible'"/>
+      <bind nodeset="/cpn/end_death_baby/end_avrtmt/sign_danger" relevant=" /cpn/intro/p_int_cpn =1 and ( /cpn/test_grossesse/r_test_grossesse =1 or  /cpn/test_grossesse/s_grossesse ='visible')"/>
       <bind nodeset="/cpn/end_death_baby/end_avrtmt/sign_danger/label_sign_danger" type="select1"/>
-      <bind nodeset="/cpn/end_death_baby/end_avrtmt/sign_danger/s_saignement" type="select1" required="1" calculate="coalesce(., /cpn/_case_s_saignement )"/>
+      <bind nodeset="/cpn/end_death_baby/end_avrtmt/sign_danger/s_saignement" type="select1" calculate="coalesce(., /cpn/_case_s_saignement )" required="1"/>
       <bind nodeset="/cpn/end_death_baby/end_avrtmt/sign_danger/msg_saign_vagi" readonly="true()" type="string" relevant=" /cpn/end_death_baby/end_avrtmt/sign_danger/s_saignement =1"/>
-      <bind nodeset="/cpn/end_death_baby/end_avrtmt/sign_danger/s_leucorrhee" type="select1" required="1" calculate="coalesce(., /cpn/_case_s_leucorrhee )"/>
+      <bind nodeset="/cpn/end_death_baby/end_avrtmt/sign_danger/s_leucorrhee" type="select1" calculate="coalesce(., /cpn/_case_s_leucorrhee )" required="1"/>
       <bind nodeset="/cpn/end_death_baby/end_avrtmt/sign_danger/msg_leucorrh" readonly="true()" type="string" relevant=" /cpn/end_death_baby/end_avrtmt/sign_danger/s_leucorrhee =1"/>
-      <bind nodeset="/cpn/end_death_baby/end_avrtmt/sign_danger/s_perte" type="select1" required="1" calculate="coalesce(., /cpn/_case_s_perte )"/>
+      <bind nodeset="/cpn/end_death_baby/end_avrtmt/sign_danger/s_perte" type="select1" calculate="coalesce(., /cpn/_case_s_perte )" required="1"/>
       <bind nodeset="/cpn/end_death_baby/end_avrtmt/sign_danger/msg_perte_liqui" readonly="true()" type="string" relevant=" /cpn/end_death_baby/end_avrtmt/sign_danger/s_perte =1"/>
-      <bind nodeset="/cpn/end_death_baby/end_avrtmt/sign_danger/s_cephale" type="select1" required="1" calculate="coalesce(., /cpn/_case_s_cephale )"/>
+      <bind nodeset="/cpn/end_death_baby/end_avrtmt/sign_danger/s_cephale" type="select1" calculate="coalesce(., /cpn/_case_s_cephale )" required="1"/>
       <bind nodeset="/cpn/end_death_baby/end_avrtmt/sign_danger/msg_cephale" readonly="true()" type="string" relevant=" /cpn/end_death_baby/end_avrtmt/sign_danger/s_cephale =1"/>
-      <bind nodeset="/cpn/end_death_baby/end_avrtmt/sign_danger/s_convulsion" type="select1" required="1" calculate="coalesce(., /cpn/_case_s_convulsion )"/>
+      <bind nodeset="/cpn/end_death_baby/end_avrtmt/sign_danger/s_convulsion" type="select1" calculate="coalesce(., /cpn/_case_s_convulsion )" required="1"/>
       <bind nodeset="/cpn/end_death_baby/end_avrtmt/sign_danger/msg_convulsion" readonly="true()" type="string" relevant=" /cpn/end_death_baby/end_avrtmt/sign_danger/s_convulsion =1"/>
-      <bind nodeset="/cpn/end_death_baby/end_avrtmt/sign_danger/s_respiration" type="select1" required="1" calculate="coalesce(., /cpn/_case_s_respiration )"/>
+      <bind nodeset="/cpn/end_death_baby/end_avrtmt/sign_danger/s_respiration" type="select1" calculate="coalesce(., /cpn/_case_s_respiration )" required="1"/>
       <bind nodeset="/cpn/end_death_baby/end_avrtmt/sign_danger/msg_respiration" readonly="true()" type="string" relevant=" /cpn/end_death_baby/end_avrtmt/sign_danger/s_respiration =1"/>
-      <bind nodeset="/cpn/end_death_baby/end_avrtmt/sign_danger/s_essoufflement" type="select1" required="1" calculate="coalesce(., /cpn/_case_s_essoufflement )"/>
+      <bind nodeset="/cpn/end_death_baby/end_avrtmt/sign_danger/s_essoufflement" type="select1" calculate="coalesce(., /cpn/_case_s_essoufflement )" required="1"/>
       <bind nodeset="/cpn/end_death_baby/end_avrtmt/sign_danger/msg_essoufflemt" readonly="true()" type="string" relevant=" /cpn/end_death_baby/end_avrtmt/sign_danger/s_essoufflement =1"/>
-      <bind nodeset="/cpn/end_death_baby/end_avrtmt/sign_danger/s_fievre" type="select1" required="1" calculate="coalesce(., /cpn/_case_s_fievre )"/>
+      <bind nodeset="/cpn/end_death_baby/end_avrtmt/sign_danger/s_fievre" type="select1" calculate="coalesce(., /cpn/_case_s_fievre )" required="1"/>
       <bind nodeset="/cpn/end_death_baby/end_avrtmt/sign_danger/msg_fievr" readonly="true()" type="string" relevant=" /cpn/end_death_baby/end_avrtmt/sign_danger/s_fievre =1"/>
-      <bind nodeset="/cpn/end_death_baby/end_avrtmt/sign_danger/s_douleur" type="select1" required="1" calculate="coalesce(., /cpn/_case_s_douleur )"/>
+      <bind nodeset="/cpn/end_death_baby/end_avrtmt/sign_danger/s_douleur" type="select1" calculate="coalesce(., /cpn/_case_s_douleur )" required="1"/>
       <bind nodeset="/cpn/end_death_baby/end_avrtmt/sign_danger/msg_doulr" readonly="true()" type="string" relevant=" /cpn/end_death_baby/end_avrtmt/sign_danger/s_douleur =1"/>
-      <bind nodeset="/cpn/end_death_baby/end_avrtmt/sign_danger/s_mains" type="select1" required="1" calculate="coalesce(., /cpn/_case_s_mains )"/>
+      <bind nodeset="/cpn/end_death_baby/end_avrtmt/sign_danger/s_mains" type="select1" calculate="coalesce(., /cpn/_case_s_mains )" required="1"/>
       <bind nodeset="/cpn/end_death_baby/end_avrtmt/sign_danger/msg_hands" readonly="true()" type="string" relevant=" /cpn/end_death_baby/end_avrtmt/sign_danger/s_mains =1"/>
-      <bind nodeset="/cpn/end_death_baby/end_avrtmt/sign_danger/s_toux" type="select1" required="1" calculate="coalesce(., /cpn/_case_s_toux )"/>
+      <bind nodeset="/cpn/end_death_baby/end_avrtmt/sign_danger/s_toux" type="select1" calculate="coalesce(., /cpn/_case_s_toux )" required="1"/>
       <bind nodeset="/cpn/end_death_baby/end_avrtmt/sign_danger/msg_tx" readonly="true()" type="string" relevant=" /cpn/end_death_baby/end_avrtmt/sign_danger/s_toux =1"/>
       <bind nodeset="/cpn/end_death_baby/end_avrtmt/sign_travail" relevant=" /cpn/test_grossesse/r_test_grossesse =1 or  /cpn/test_grossesse/s_grossesse ='visible'"/>
       <bind nodeset="/cpn/end_death_baby/end_avrtmt/sign_travail/label_sign_travail" type="select1"/>
-      <bind nodeset="/cpn/end_death_baby/end_avrtmt/sign_travail/s_pertes_vaginales" type="select1" required="1" calculate="coalesce(., /cpn/_case_s_pertes_vaginales )"/>
+      <bind nodeset="/cpn/end_death_baby/end_avrtmt/sign_travail/s_pertes_vaginales" type="select1" calculate="coalesce(., /cpn/_case_s_pertes_vaginales )" required="1"/>
       <bind nodeset="/cpn/end_death_baby/end_avrtmt/sign_travail/msg_p_vagi" readonly="true()" type="string" relevant=" /cpn/end_death_baby/end_avrtmt/sign_travail/s_pertes_vaginales =1"/>
-      <bind nodeset="/cpn/end_death_baby/end_avrtmt/sign_travail/s_contraction_uterine" type="select1" required="1" calculate="coalesce(., /cpn/_case_s_contraction_uterine )"/>
+      <bind nodeset="/cpn/end_death_baby/end_avrtmt/sign_travail/s_contraction_uterine" type="select1" calculate="coalesce(., /cpn/_case_s_contraction_uterine )" required="1"/>
       <bind nodeset="/cpn/end_death_baby/end_avrtmt/sign_travail/msg_contract_ut" readonly="true()" type="string" relevant=" /cpn/end_death_baby/end_avrtmt/sign_travail/s_contraction_uterine =1"/>
-      <bind nodeset="/cpn/end_death_baby/end_avrtmt/sign_travail/s_rupture_poche" type="select1" required="1" calculate="coalesce(., /cpn/_case_s_rupture_poche )"/>
+      <bind nodeset="/cpn/end_death_baby/end_avrtmt/sign_travail/s_rupture_poche" type="select1" calculate="coalesce(., /cpn/_case_s_rupture_poche )" required="1"/>
       <bind nodeset="/cpn/end_death_baby/end_avrtmt/sign_travail/msg_rup_poche" readonly="true()" type="string" relevant=" /cpn/end_death_baby/end_avrtmt/sign_travail/s_rupture_poche =1"/>
       <bind nodeset="/cpn/end_death_baby/end_avrtmt/prepa_accouche" relevant=" /cpn/test_grossesse/r_test_grossesse =1 or  /cpn/test_grossesse/s_grossesse ='visible'"/>
       <bind nodeset="/cpn/end_death_baby/end_avrtmt/prepa_accouche/label_prepa_accouche" type="select1"/>
-      <bind nodeset="/cpn/end_death_baby/end_avrtmt/prepa_accouche/s_lieu_accouche" type="select1" required="1" calculate="coalesce(., /cpn/_case_s_lieu_accouche )"/>
+      <bind nodeset="/cpn/end_death_baby/end_avrtmt/prepa_accouche/s_lieu_accouche" type="select1" calculate="coalesce(., /cpn/_case_s_lieu_accouche )" required="1"/>
       <bind nodeset="/cpn/end_death_baby/end_avrtmt/prepa_accouche/lieu_accouche" type="string" relevant=" /cpn/end_death_baby/end_avrtmt/prepa_accouche/s_lieu_accouche =1" calculate="coalesce(., /cpn/_case_lieu_accouche )"/>
-      <bind nodeset="/cpn/end_death_baby/end_avrtmt/prepa_accouche/s_moyen_transport" type="select1" required="1" calculate="coalesce(., /cpn/_case_s_moyen_transport )"/>
+      <bind nodeset="/cpn/end_death_baby/end_avrtmt/prepa_accouche/s_moyen_transport" type="select1" calculate="coalesce(., /cpn/_case_s_moyen_transport )" required="1"/>
       <bind nodeset="/cpn/end_death_baby/end_avrtmt/prepa_accouche/moyen_transport" type="string" relevant=" /cpn/end_death_baby/end_avrtmt/prepa_accouche/s_moyen_transport =1" calculate="coalesce(., /cpn/_case_moyen_transport )"/>
-      <bind nodeset="/cpn/end_death_baby/end_avrtmt/prepa_accouche/s_economie" type="select1" required="1" calculate="coalesce(., /cpn/_case_s_economie )"/>
-      <bind nodeset="/cpn/end_death_baby/end_avrtmt/prepa_accouche/s_preneurs_decisions" type="select1" required="1" calculate="coalesce(., /cpn/_case_s_preneurs_decisions )"/>
+      <bind nodeset="/cpn/end_death_baby/end_avrtmt/prepa_accouche/s_economie" type="select1" calculate="coalesce(., /cpn/_case_s_economie )" required="1"/>
+      <bind nodeset="/cpn/end_death_baby/end_avrtmt/prepa_accouche/s_preneurs_decisions" type="select1" calculate="coalesce(., /cpn/_case_s_preneurs_decisions )" required="1"/>
       <bind nodeset="/cpn/end_death_baby/end_avrtmt/prepa_accouche/preneurs_decisions" type="string" relevant=" /cpn/end_death_baby/end_avrtmt/prepa_accouche/s_preneurs_decisions =1" calculate="coalesce(., /cpn/_case_preneurs_decisions )"/>
-      <bind nodeset="/cpn/end_death_baby/end_avrtmt/prepa_accouche/s_donneurs_sang" type="select1" required="1" calculate="coalesce(., /cpn/_case_s_donneurs_sang )"/>
+      <bind nodeset="/cpn/end_death_baby/end_avrtmt/prepa_accouche/s_donneurs_sang" type="select1" calculate="coalesce(., /cpn/_case_s_donneurs_sang )" required="1"/>
       <bind nodeset="/cpn/end_death_baby/end_avrtmt/prepa_accouche/donneurs_sang" type="string" relevant=" /cpn/end_death_baby/end_avrtmt/prepa_accouche/s_donneurs_sang =1" calculate="coalesce(., /cpn/_case_donneurs_sang )"/>
-      <bind nodeset="/cpn/end_death_baby/end_avrtmt/prepa_accouche/s_id_accompagnate" type="select1" required="1" calculate="coalesce(., /cpn/_case_s_id_accompagnate )"/>
+      <bind nodeset="/cpn/end_death_baby/end_avrtmt/prepa_accouche/s_id_accompagnate" type="select1" calculate="coalesce(., /cpn/_case_s_id_accompagnate )" required="1"/>
       <bind nodeset="/cpn/end_death_baby/end_avrtmt/prepa_accouche/id_accompagnate_note" type="string" relevant=" /cpn/end_death_baby/end_avrtmt/prepa_accouche/s_id_accompagnate =1" calculate="coalesce(., /cpn/_case_id_accompagnate_note )"/>
-      <bind nodeset="/cpn/end_death_baby/end_avrtmt/prepa_accouche/s_necessaires" type="select1" required="1" calculate="coalesce(., /cpn/_case_s_necessaires )"/>
+      <bind nodeset="/cpn/end_death_baby/end_avrtmt/prepa_accouche/s_necessaires" type="select1" calculate="coalesce(., /cpn/_case_s_necessaires )" required="1"/>
       <bind nodeset="/cpn/end_death_baby/end_avrtmt/g_resume" relevant=" /cpn/test_grossesse/r_test_grossesse =1 or  /cpn/test_grossesse/s_grossesse ='visible'"/>
       <bind nodeset="/cpn/end_death_baby/end_avrtmt/g_resume/g_observations" type="string" required="1"/>
       <bind nodeset="/cpn/end_death_baby/end_avrtmt/g_resume/g_intervention" type="string" required="1"/>
@@ -3965,11 +4003,11 @@ Au cas contraire rendez-vous dans un mois pour d'autres examens de confirmation 
       <bind nodeset="/cpn/pev_femme/fields/dose_vaccin/vat3_recap" type="string" calculate="if( /cpn/pev_femme/fields/date_vat3 &gt;0,format-date( /cpn/pev_femme/fields/date_vat3 ,'%d/%m/%Y'),'')"/>
       <bind nodeset="/cpn/pev_femme/fields/dose_vaccin/vat4_recap" type="string" calculate="if( /cpn/pev_femme/fields/date_vat4 &gt;0,format-date( /cpn/pev_femme/fields/date_vat4 ,'%d/%m/%Y'),'')"/>
       <bind nodeset="/cpn/pev_femme/fields/dose_vaccin/vat5_recap" type="string" calculate="if( /cpn/pev_femme/fields/date_vat5 &gt;0,format-date( /cpn/pev_femme/fields/date_vat5 ,'%d/%m/%Y'),'')"/>
-      <bind nodeset="/cpn/pev_femme/fields/dose_vaccin/e_date_vat1" type="date" relevant=" /cpn/pev_femme/fields/dose_vaccin/is_vat1_missed =1" constraint="(decimal-date-time(today()) - decimal-date-time( /cpn/pev_femme/fields/dose_vaccin/e_date_vat1 ))&gt;=28" jr:constraintMsg="jr:itext('/cpn/pev_femme/fields/dose_vaccin/e_date_vat1:jr:constraintMsg')"/>
-      <bind nodeset="/cpn/pev_femme/fields/dose_vaccin/e_date_vat2" type="date" relevant=" /cpn/pev_femme/fields/dose_vaccin/is_vat2_missed =1" constraint="(decimal-date-time(today()) - decimal-date-time( /cpn/pev_femme/fields/dose_vaccin/e_date_vat2 ))&gt;=168" jr:constraintMsg="jr:itext('/cpn/pev_femme/fields/dose_vaccin/e_date_vat2:jr:constraintMsg')"/>
-      <bind nodeset="/cpn/pev_femme/fields/dose_vaccin/e_date_vat3" type="date" relevant=" /cpn/pev_femme/fields/dose_vaccin/is_vat3_missed =1" constraint="(decimal-date-time(today()) - decimal-date-time( /cpn/pev_femme/fields/dose_vaccin/e_date_vat2 ))&gt;=336" jr:constraintMsg="jr:itext('/cpn/pev_femme/fields/dose_vaccin/e_date_vat3:jr:constraintMsg')"/>
-      <bind nodeset="/cpn/pev_femme/fields/dose_vaccin/e_date_vat4" type="date" relevant=" /cpn/pev_femme/fields/dose_vaccin/is_vat4_missed =1" constraint="(decimal-date-time(today()) - decimal-date-time( /cpn/pev_femme/fields/dose_vaccin/e_date_vat4 ))&gt;=336" jr:constraintMsg="jr:itext('/cpn/pev_femme/fields/dose_vaccin/e_date_vat4:jr:constraintMsg')"/>
-      <bind nodeset="/cpn/pev_femme/fields/dose_vaccin/e_date_vat5" type="date" relevant=" /cpn/pev_femme/fields/dose_vaccin/is_vat5_missed =1" constraint="(decimal-date-time(today()) - decimal-date-time( /cpn/pev_femme/fields/dose_vaccin/e_date_vat4 ))&gt;=336" jr:constraintMsg="jr:itext('/cpn/pev_femme/fields/dose_vaccin/e_date_vat5:jr:constraintMsg')"/>
+      <bind nodeset="/cpn/pev_femme/fields/dose_vaccin/e_date_vat1" type="date" jr:constraintMsg="jr:itext('/cpn/pev_femme/fields/dose_vaccin/e_date_vat1:jr:constraintMsg')" constraint="(decimal-date-time(today()) - decimal-date-time( /cpn/pev_femme/fields/dose_vaccin/e_date_vat1 ))&gt;=28" relevant=" /cpn/pev_femme/fields/dose_vaccin/is_vat1_missed =1"/>
+      <bind nodeset="/cpn/pev_femme/fields/dose_vaccin/e_date_vat2" type="date" jr:constraintMsg="jr:itext('/cpn/pev_femme/fields/dose_vaccin/e_date_vat2:jr:constraintMsg')" constraint="(decimal-date-time(today()) - decimal-date-time( /cpn/pev_femme/fields/dose_vaccin/e_date_vat2 ))&gt;=168" relevant=" /cpn/pev_femme/fields/dose_vaccin/is_vat2_missed =1"/>
+      <bind nodeset="/cpn/pev_femme/fields/dose_vaccin/e_date_vat3" type="date" jr:constraintMsg="jr:itext('/cpn/pev_femme/fields/dose_vaccin/e_date_vat3:jr:constraintMsg')" constraint="(decimal-date-time(today()) - decimal-date-time( /cpn/pev_femme/fields/dose_vaccin/e_date_vat2 ))&gt;=336" relevant=" /cpn/pev_femme/fields/dose_vaccin/is_vat3_missed =1"/>
+      <bind nodeset="/cpn/pev_femme/fields/dose_vaccin/e_date_vat4" type="date" jr:constraintMsg="jr:itext('/cpn/pev_femme/fields/dose_vaccin/e_date_vat4:jr:constraintMsg')" constraint="(decimal-date-time(today()) - decimal-date-time( /cpn/pev_femme/fields/dose_vaccin/e_date_vat4 ))&gt;=336" relevant=" /cpn/pev_femme/fields/dose_vaccin/is_vat4_missed =1"/>
+      <bind nodeset="/cpn/pev_femme/fields/dose_vaccin/e_date_vat5" type="date" jr:constraintMsg="jr:itext('/cpn/pev_femme/fields/dose_vaccin/e_date_vat5:jr:constraintMsg')" constraint="(decimal-date-time(today()) - decimal-date-time( /cpn/pev_femme/fields/dose_vaccin/e_date_vat4 ))&gt;=336" relevant=" /cpn/pev_femme/fields/dose_vaccin/is_vat5_missed =1"/>
       <bind nodeset="/cpn/pev_femme/fields/dose_vaccin/rdv_vat2" type="string" calculate="format-date(date(decimal-date-time( /cpn/pev_femme/fields/date_vat1 )+30),'%d/%m/%Y')"/>
       <bind nodeset="/cpn/pev_femme/fields/dose_vaccin/rdv_vat3" type="string" calculate="format-date(date(decimal-date-time( /cpn/pev_femme/fields/date_vat2 )+180),'%d/%m/%Y')"/>
       <bind nodeset="/cpn/pev_femme/fields/dose_vaccin/rdv_vat4" type="string" calculate="format-date(date(decimal-date-time( /cpn/pev_femme/fields/date_vat3 )+365),'%d/%m/%Y')"/>
@@ -5780,6 +5818,17 @@ Au cas contraire rendez-vous dans un mois pour d'autres examens de confirmation 
           </group>
           <group ref="/cpn/end_death_baby/end_avrtmt/tt_fer/test_hiv">
             <label ref="jr:itext('/cpn/end_death_baby/end_avrtmt/tt_fer/test_hiv:label')"/>
+            <select1 ref="/cpn/end_death_baby/end_avrtmt/tt_fer/test_hiv/r_vih_advices">
+              <label ref="jr:itext('/cpn/end_death_baby/end_avrtmt/tt_fer/test_hiv/r_vih_advices:label')"/>
+              <item>
+                <label ref="jr:itext('/cpn/end_death_baby/end_avrtmt/tt_fer/test_hiv/r_vih_advices/1:label')"/>
+                <value>1</value>
+              </item>
+              <item>
+                <label ref="jr:itext('/cpn/end_death_baby/end_avrtmt/tt_fer/test_hiv/r_vih_advices/2:label')"/>
+                <value>2</value>
+              </item>
+            </select1>
             <select1 ref="/cpn/end_death_baby/end_avrtmt/tt_fer/test_hiv/r_test_hiv">
               <label ref="jr:itext('/cpn/end_death_baby/end_avrtmt/tt_fer/test_hiv/r_test_hiv:label')"/>
               <item>
@@ -5799,11 +5848,36 @@ Au cas contraire rendez-vous dans un mois pour d'autres examens de confirmation 
                 <value>4</value>
               </item>
             </select1>
+            <select1 ref="/cpn/end_death_baby/end_avrtmt/tt_fer/test_hiv/confirm_test_hiv">
+              <label ref="jr:itext('/cpn/end_death_baby/end_avrtmt/tt_fer/test_hiv/confirm_test_hiv:label')"/>
+              <item>
+                <label ref="jr:itext('/cpn/end_death_baby/end_avrtmt/tt_fer/test_hiv/confirm_test_hiv/1:label')"/>
+                <value>1</value>
+              </item>
+              <item>
+                <label ref="jr:itext('/cpn/end_death_baby/end_avrtmt/tt_fer/test_hiv/confirm_test_hiv/2:label')"/>
+                <value>2</value>
+              </item>
+              <item>
+                <label ref="jr:itext('/cpn/end_death_baby/end_avrtmt/tt_fer/test_hiv/confirm_test_hiv/3:label')"/>
+                <value>3</value>
+              </item>
+              <item>
+                <label ref="jr:itext('/cpn/end_death_baby/end_avrtmt/tt_fer/test_hiv/confirm_test_hiv/4:label')"/>
+                <value>4</value>
+              </item>
+            </select1>
             <input ref="/cpn/end_death_baby/end_avrtmt/tt_fer/test_hiv/test_hiv_note">
               <label ref="jr:itext('/cpn/end_death_baby/end_avrtmt/tt_fer/test_hiv/test_hiv_note:label')"/>
             </input>
-            <input ref="/cpn/end_death_baby/end_avrtmt/tt_fer/test_hiv/r_test_hiv_note">
-              <label ref="jr:itext('/cpn/end_death_baby/end_avrtmt/tt_fer/test_hiv/r_test_hiv_note:label')"/>
+            <input ref="/cpn/end_death_baby/end_avrtmt/tt_fer/test_hiv/rup_test_hiv_note">
+              <label ref="jr:itext('/cpn/end_death_baby/end_avrtmt/tt_fer/test_hiv/rup_test_hiv_note:label')"/>
+            </input>
+            <input ref="/cpn/end_death_baby/end_avrtmt/tt_fer/test_hiv/indet_test_hiv_note">
+              <label ref="jr:itext('/cpn/end_death_baby/end_avrtmt/tt_fer/test_hiv/indet_test_hiv_note:label')"/>
+            </input>
+            <input ref="/cpn/end_death_baby/end_avrtmt/tt_fer/test_hiv/neg_test_hiv_note">
+              <label ref="jr:itext('/cpn/end_death_baby/end_avrtmt/tt_fer/test_hiv/neg_test_hiv_note:label')"/>
             </input>
           </group>
           <group ref="/cpn/end_death_baby/end_avrtmt/tt_fer/test_syphilis">

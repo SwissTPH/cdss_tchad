@@ -1,5 +1,5 @@
-const {injectDataFromForm} = require('./stph-extras');
-const {getField, addDays} = require('./nools-extra');
+const {injectDataFromForm, isFormArrayHasSourceId} = require('./stph-extras');
+const {getField} = require('./nools-extra');
 
 const IMCI_FORMS = ['imci_interogation'];
 
@@ -442,45 +442,38 @@ const IMCI_CASE_DATA = [
 const TASK_FORM = 'pcmie_test_diag';
 
 var generateIMCIContent =  function (content, contact, report){
-    console.log('generateIMCIContent');
+    //console.log('generateIMCIContent'+ content.source_id);
+    
+    content.source_report_id = report._id;
     injectDataFromForm(content,'_case_',IMCI_CASE_DATA, IMCI_FORMS , [report]);
-    console.log('generateIMCIContent Done');
+    content['patient_id'] = report.contact._id;
+    content['source_form_id'] = report.id;
+    console.log('end  generateIMCIContent for' + content.patient_id);
 };
 //TODO: redirect after task
 /*function navigateToTask() {
       Router.navigate(['first'])
 }*/
-  
+
 
 function getIMCIContactLabel (contact, report){
     getField(report, 'p_age') + ' months ('
 + getField(report, 'g_reg.p_weight') + 'Kg); note: ' + getField(report, 'g_pause_required.text_end');
 }
 
-function IMCIappliesIf(contact, report) {
-    if (getField(report, 'g_pause_required.ask_pause')) {
-        return getField(report, 'g_pause_required.ask_pause') === 'Yes' && getField(report, 'source_id') === '';
-    } else { return false; }
-}
 
-function IMCIresolveIf(contact, report, event, dueDate) {
-    const startTime = Math.max(addDays(dueDate, -event.start).getTime(), report.reported_date);
-    const endTime = addDays(dueDate, event.end + 1).getTime();
-    const forms = [TASK_FORM];
-    const matchingReports = contact.reports
-        .filter(c_report => forms.includes(c_report.form))
-        .filter(c_report => c_report.reported_date >= startTime && c_report.reported_date <= endTime)
-        .filter(c_report => getField(c_report, 'source_id') === report._id);
-    return matchingReports.length > 0;
+function IMCIresolveIf(contact, report) {
+    
+    return isFormArrayHasSourceId( report, contact.reports);
 }
 
 
 module.exports = {
     TASK_FORM,
+    IMCI_FORMS,
     generateIMCIContent,
     getIMCIContactLabel,
-    IMCIappliesIf,
-    IMCIresolveIf
+    IMCIresolveIf,
 };
 
 
