@@ -444,11 +444,9 @@ const TASK_FORM = 'pcmie_test_diag';
 var generateIMCIContent =  function (content, contact, report){
     //console.log('generateIMCIContent'+ content.source_id);
     
-    content.source_report_id = report._id;
     injectDataFromForm(content,'_case_',IMCI_CASE_DATA, IMCI_FORMS , [report]);
     content['patient_id'] = report.contact._id;
-    content['source_form_id'] = report.id;
-    console.log('end  generateIMCIContent for' + content.patient_id);
+     console.log('end  generateIMCIContent for' + content.patient_id);
 };
 //TODO: redirect after task
 /*function navigateToTask() {

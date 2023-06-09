@@ -39,16 +39,15 @@ function initDatas(report_list, datas_list, forms_list) {
   // add the date only if found on the master and has value in report_path
 
   function isFormArrayHasSourceId(report,reports) {
-    //console.log('_id'+ c_report.fields._id)
-    console.log('_id:'+report._id);
-    //console.log('_id'+report.fields.source_id);
-    reports.forEach(function (c_report) {
-      console.log('id: '+ c_report.fields.source_form_id);
-      if (report._id === c_report.fields.source_form_id) {
-        return true;
+    var found = false;
+    reports.every(c_report => {
+      if (report._id === c_report.fields.source_id) {
+        found = true;
+        return false;
       }
+      return true;
     });
-    return false;
+    return found;
   }
 
 function addDatas(result, nodes, datas_list){
