@@ -29,6 +29,21 @@
           <text id="/data/inputs/user/name:label">
             <value>Nom</value>
           </text>
+          <text id="/data/person/a_type/nmd:label">
+            <value>Nomade</value>
+          </text>
+          <text id="/data/person/a_type/za:label">
+            <value>A</value>
+          </text>
+          <text id="/data/person/a_type/zb:label">
+            <value>B</value>
+          </text>
+          <text id="/data/person/a_type/zh:label">
+            <value>Hors zone</value>
+          </text>
+          <text id="/data/person/a_type:label">
+            <value>Zone du patient:</value>
+          </text>
           <text id="/data/person/ephemeral_dob/age_label:label">
             <value>**Please enter date of birth**</value>
           </text>
@@ -65,6 +80,18 @@ DOB ISO: <output value=" /data/person/ephemeral_dob/dob_iso "/></value></text>
           <text id="/data/person/notes:label">
             <value>Notes</value>
           </text>
+          <text id="/data/person/o_type/cam:label">
+            <value>Camp</value>
+          </text>
+          <text id="/data/person/o_type/frk:label">
+            <value>Ferrick</value>
+          </text>
+          <text id="/data/person/o_type/vge:label">
+            <value>Village/Quartier</value>
+          </text>
+          <text id="/data/person/o_type:label">
+            <value>Provenance du patient:</value>
+          </text>
           <text id="/data/person/p_ref:hint">
             <value>Afin de retrouver le cas une fois les résultats de test disponible</value>
           </text>
@@ -79,6 +106,9 @@ DOB ISO: <output value=" /data/person/ephemeral_dob/dob_iso "/></value></text>
           </text>
           <text id="/data/person/p_type/local:label">
             <value>Autochtone</value>
+          </text>
+          <text id="/data/person/p_type/nomad:label">
+            <value>Nomade</value>
           </text>
           <text id="/data/person/p_type/refugee:label">
             <value>Réfugié</value>
@@ -125,7 +155,7 @@ DOB ISO: <output value=" /data/person/ephemeral_dob/dob_iso "/></value></text>
         </translation>
       </itext>
       <instance>
-        <data id="contact:person:create" prefix="J1!contact:person:create!" delimiter="#" version="2305021407">
+        <data id="contact:person:create" prefix="J1!contact:person:create!" delimiter="#" version="2306121442">
           <inputs>
             <meta>
               <location>
@@ -168,6 +198,9 @@ DOB ISO: <output value=" /data/person/ephemeral_dob/dob_iso "/></value></text>
             </ephemeral_dob>
             <sex/>
             <p_type/>
+            <o_type/>
+            <o_comment/>
+            <a_type/>
             <notes/>
             <meta tag="hidden">
               <created_by/>
@@ -199,7 +232,7 @@ DOB ISO: <output value=" /data/person/ephemeral_dob/dob_iso "/></value></text>
       <bind nodeset="/data/person/parent" type="string"/>
       <bind nodeset="/data/person/type" type="string"/>
       <bind nodeset="/data/person/role" type="select1"/>
-      <bind nodeset="/data/person/p_ref" type="int" relevant=" /data/person/role ='patient'" jr:requiredMsg="jr:itext('/data/person/p_ref:jr:requiredMsg')" constraint="(. - int(. div 10)*10) = (int(. div 10) mod 7)" required="1" jr:constraintMsg="jr:itext('/data/person/p_ref:jr:constraintMsg')"/>
+      <bind nodeset="/data/person/p_ref" type="int" jr:requiredMsg="jr:itext('/data/person/p_ref:jr:requiredMsg')" relevant=" /data/person/role ='patient'" required="1" jr:constraintMsg="jr:itext('/data/person/p_ref:jr:constraintMsg')" constraint="(. - int(. div 10)*10) = (int(. div 10) mod 7)"/>
       <bind nodeset="/data/person/full_name" type="string" relevant=" /data/person/role !='patient'"/>
       <bind nodeset="/data/person/name" type="string" calculate="coalesce( /data/person/full_name ,int( /data/person/p_ref ))"/>
       <bind nodeset="/data/person/as_int_lead" type="string" calculate="int( /data/person/p_ref  div 10)"/>
@@ -222,6 +255,9 @@ DOB ISO: <output value=" /data/person/ephemeral_dob/dob_iso "/></value></text>
       <bind nodeset="/data/person/ephemeral_dob/dob_debug" readonly="true()" type="string" relevant="false()"/>
       <bind nodeset="/data/person/sex" type="select1" required="1"/>
       <bind nodeset="/data/person/p_type" type="select1"/>
+      <bind nodeset="/data/person/o_type" type="select1"/>
+      <bind nodeset="/data/person/o_comment" type="string" relevant=" /data/person/o_type ='cam' or  /data/person/o_type ='vge' or  /data/person/o_type ='frk'"/>
+      <bind nodeset="/data/person/a_type" type="select1"/>
       <bind nodeset="/data/person/notes" type="string"/>
       <bind nodeset="/data/person/meta/created_by" type="string" calculate="../../../inputs/user/name"/>
       <bind nodeset="/data/person/meta/created_by_person_uuid" type="string" calculate="../../../inputs/user/contact_id"/>
@@ -342,6 +378,45 @@ DOB ISO: <output value=" /data/person/ephemeral_dob/dob_iso "/></value></text>
         <item>
           <label ref="jr:itext('/data/person/p_type/local:label')"/>
           <value>local</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/person/p_type/nomad:label')"/>
+          <value>nomad</value>
+        </item>
+      </select1>
+      <select1 ref="/data/person/o_type">
+        <label ref="jr:itext('/data/person/o_type:label')"/>
+        <item>
+          <label ref="jr:itext('/data/person/o_type/cam:label')"/>
+          <value>cam</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/person/o_type/vge:label')"/>
+          <value>vge</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/person/o_type/frk:label')"/>
+          <value>frk</value>
+        </item>
+      </select1>
+      <input ref="/data/person/o_comment"/>
+      <select1 ref="/data/person/a_type">
+        <label ref="jr:itext('/data/person/a_type:label')"/>
+        <item>
+          <label ref="jr:itext('/data/person/a_type/za:label')"/>
+          <value>za</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/person/a_type/zb:label')"/>
+          <value>zb</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/person/a_type/zh:label')"/>
+          <value>zh</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/person/a_type/nmd:label')"/>
+          <value>nmd</value>
         </item>
       </select1>
       <input appearance="multiline" ref="/data/person/notes">
