@@ -49,12 +49,19 @@ var IMMUNIZATION_CHILD_DOSES = [
   ['penta1', 'penta1'],
   ['penta2', 'penta2'],
   ['penta3', 'penta3'],
-  ['vpi', 'vpi'],
-  ['var', 'var'],
+  ['vpi1', 'vpi1'],
+  ['vpi2', 'vpi2'],
+  ['var1', 'var1'],
+  ['var2', 'var2'],
   ['vaa', 'vaa'],
   ['meni', 'meni'],
   ['vita', 'vita'],
   ['meb', 'meb'],
+  ['rota1', 'rota1'],
+  ['rota2', 'rota2'],
+  ['pneumo1', 'pneumo1'],
+  ['pneumo2', 'pneumo2'],
+  ['pneumo3', 'pneumo3'],
 ];
 
 var IMMUNIZATION_CHLID_LIST = [
@@ -67,6 +74,8 @@ var IMMUNIZATION_CHLID_LIST = [
   'meni',
   'vita',
   'meb',
+  'pneumo', 
+  'rota',
 ];
 
 

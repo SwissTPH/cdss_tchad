@@ -14,6 +14,6 @@
   "context": {
     "person": true,
     "place": false,
-    "expression": "contact.type === 'person' && contact.sex === 'female' && (!contact.date_of_birth || ageInYears(contact) >= 10)"
+    "expression": "contact.type === 'person' && contact.sex === 'female' && (!contact.date_of_birth || (ageInYears(contact) >= 12 && ageInYears(contact) <= 50))"
   }
 }

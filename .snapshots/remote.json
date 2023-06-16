@@ -1,35 +1,56 @@
 {
   "form:adult": {
-    "cht-tchad.swisstph-mis.ch/medic": "NgJ6b/MBgVkRIdPUmrJv0Q=="
+    "cht-tchad.swisstph-mis.ch/medic": "Kicy/BJyDEeVZR2MtuRoPQ=="
   },
   "form:pev_enfant": {
-    "cht-tchad.swisstph-mis.ch/medic": "k+PitypLOImLndRkfPRreA=="
+    "cht-tchad.swisstph-mis.ch/medic": "gIrEo7cVAIkd45vWoZrEKQ=="
   },
   "privacy-policies": {
     "cht-tchad.swisstph-mis.ch/medic": "/twR+Q8i4pmWKN/3fUP6tQ=="
   },
   "form:pev_femme": {
-    "cht-tchad.swisstph-mis.ch/medic": "1NQDE5TTd8TtcMKyoW4mCw=="
+    "cht-tchad.swisstph-mis.ch/medic": "q2ADkeJ0zXlkyiDIy85Saw=="
   },
   "form:cpn": {
-    "cht-tchad.swisstph-mis.ch/medic": "QIll+YrCgQIb95/ECWydDA=="
+    "cht-tchad.swisstph-mis.ch/medic": "ICRNQsUoZcHaCZRheIt4Yw=="
   },
   "form:cpon": {
-    "cht-tchad.swisstph-mis.ch/medic": "VQXfdu6n4XPj+JVDxffJhw=="
+    "cht-tchad.swisstph-mis.ch/medic": "seLDXPGLCnFSI9n2pdhSWA=="
   },
   "form:contact:person": {
     "cht-tchad.swisstph-mis.ch/medic": "vdW8iCRZhyJBQQIlu2YLYQ=="
   },
   "form:contact:person:create": {
-    "cht-tchad.swisstph-mis.ch/medic": "AhOXZ1f2uutw1FVAVMjz7g=="
+    "cht-tchad.swisstph-mis.ch/medic": "zd9u0/N4Kq/BgdFPEd8nrg=="
   },
   "form:imci_interogation": {
-    "cht-tchad.swisstph-mis.ch/medic": "2LJHHU9o95jZnFHUB5CbBg=="
+    "cht-tchad.swisstph-mis.ch/medic": "7GUuygvBfY8qe5T0NgzAGg=="
   },
   "form:pcmie_test_diag": {
-    "cht-tchad.swisstph-mis.ch/medic": "QzNHfjdSeOk3nISv2RiQ3g=="
+    "cht-tchad.swisstph-mis.ch/medic": "xOqB7z1URBkkqZSIJGMfXQ=="
   },
   "extension-libs": {
     "cht-tchad.swisstph-mis.ch/medic": "cJYRavtRf7g+DLdH1oWRTg=="
+  },
+  "form:contact:clinic:create": {
+    "cht-tchad.swisstph-mis.ch/medic": "KfkhudunziEQLSnlwe0rVA=="
+  },
+  "form:contact:clinic:edit": {
+    "cht-tchad.swisstph-mis.ch/medic": "vyx6QmZMU32CDSIR/unqWQ=="
+  },
+  "form:contact:district_hospital:create": {
+    "cht-tchad.swisstph-mis.ch/medic": "CoeVTm9aWgpx+yXpxI3t8A=="
+  },
+  "form:contact:district_hospital:edit": {
+    "cht-tchad.swisstph-mis.ch/medic": "iPJsVPZbhI3S89BUwkLJSQ=="
+  },
+  "form:contact:health_center:create": {
+    "cht-tchad.swisstph-mis.ch/medic": "tkiyY0Dp3xHhCba0Wote0Q=="
+  },
+  "form:contact:health_center:edit": {
+    "cht-tchad.swisstph-mis.ch/medic": "ZAkqUZF1oSpynuwp8davVQ=="
+  },
+  "form:contact:person:edit": {
+    "cht-tchad.swisstph-mis.ch/medic": "MyngI62tVqZWJi7IKRoFBQ=="
   }
 }
