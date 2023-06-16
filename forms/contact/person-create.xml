@@ -122,20 +122,23 @@ DOB ISO: <output value=" /data/person/ephemeral_dob/dob_iso "/></value></text>
           <text id="/data/person/parent:label">
             <value>identifiant du parent</value>
           </text>
+          <text id="/data/person/role/other:label">
+            <value>Consultant/medecin</value>
+          </text>
           <text id="/data/person/role/patient:label">
             <value>Patient</value>
           </text>
           <text id="/data/person/role:label">
             <value>Role</value>
           </text>
-          <text id="/data/person/sex/f:label">
+          <text id="/data/person/sex/female:label">
             <value>Féminin</value>
           </text>
-          <text id="/data/person/sex/m:label">
+          <text id="/data/person/sex/male:label">
             <value>Masculin</value>
           </text>
           <text id="/data/person/sex:label">
-            <value>Quel est le sexe de l'enfant ?</value>
+            <value>Quel est le sexe de la personne ?</value>
           </text>
           <text id="/data/person/type:label">
             <value>Type</value>
@@ -149,7 +152,7 @@ DOB ISO: <output value=" /data/person/ephemeral_dob/dob_iso "/></value></text>
         </translation>
       </itext>
       <instance>
-        <data id="contact:person:create" prefix="J1!contact:person:create!" delimiter="#" version="2306141631">
+        <data id="contact:person:create" prefix="J1!contact:person:create!" delimiter="#" version="2306161006">
           <inputs>
             <meta>
               <location>
@@ -170,6 +173,7 @@ DOB ISO: <output value=" /data/person/ephemeral_dob/dob_iso "/></value></text>
             <type/>
             <role/>
             <p_ref/>
+            <short_name/>
             <name/>
             <as_int_lead/>
             <as_int_mod/>
@@ -225,8 +229,9 @@ DOB ISO: <output value=" /data/person/ephemeral_dob/dob_iso "/></value></text>
       <bind nodeset="/data/person/parent" type="string"/>
       <bind nodeset="/data/person/type" type="string"/>
       <bind nodeset="/data/person/role" type="select1"/>
-      <bind nodeset="/data/person/p_ref" type="int" constraint="(. - int(. div 10)*10) = (int(. div 10) mod 7)" required="1" jr:requiredMsg="jr:itext('/data/person/p_ref:jr:requiredMsg')" relevant=" /data/person/role ='patient'" jr:constraintMsg="jr:itext('/data/person/p_ref:jr:constraintMsg')"/>
-      <bind nodeset="/data/person/name" type="string" calculate="coalesce(int( /data/person/p_ref ))"/>
+      <bind nodeset="/data/person/p_ref" type="int" relevant=" /data/person/role ='patient'" constraint="(. - int(. div 10)*10) = (int(. div 10) mod 7)" jr:constraintMsg="jr:itext('/data/person/p_ref:jr:constraintMsg')" required="1" jr:requiredMsg="jr:itext('/data/person/p_ref:jr:requiredMsg')"/>
+      <bind nodeset="/data/person/short_name" type="string" relevant=" /data/person/role ='other'"/>
+      <bind nodeset="/data/person/name" type="string" calculate="coalesce(int( /data/person/p_ref ), /data/person/short_name )"/>
       <bind nodeset="/data/person/as_int_lead" type="string" calculate="int( /data/person/p_ref  div 10)"/>
       <bind nodeset="/data/person/as_int_mod" type="string" calculate=" /data/person/p_ref  -  /data/person/as_int_lead *10"/>
       <bind nodeset="/data/person/as_int_mod_calc" type="string" calculate=" /data/person/as_int_lead  mod 7"/>
@@ -234,10 +239,10 @@ DOB ISO: <output value=" /data/person/ephemeral_dob/dob_iso "/></value></text>
       <bind nodeset="/data/person/validation_ko" readonly="true()" type="string" relevant=" /data/person/as_int_mod != /data/person/as_int_mod_calc  and  /data/person/p_ref &gt;0"/>
       <bind nodeset="/data/person/date_of_birth" type="string" calculate="../ephemeral_dob/dob_iso"/>
       <bind nodeset="/data/person/date_of_birth_method" type="string" calculate="../ephemeral_dob/dob_method"/>
-      <bind nodeset="/data/person/ephemeral_dob/dob_calendar" type="date" constraint=". &lt;= now()" relevant="not(selected(../dob_method,'approx'))" jr:constraintMsg="jr:itext('/data/person/ephemeral_dob/dob_calendar:jr:constraintMsg')"/>
+      <bind nodeset="/data/person/ephemeral_dob/dob_calendar" type="date" relevant="not(selected(../dob_method,'approx'))" constraint=". &lt;= now()" jr:constraintMsg="jr:itext('/data/person/ephemeral_dob/dob_calendar:jr:constraintMsg')"/>
       <bind nodeset="/data/person/ephemeral_dob/age_label" readonly="true()" type="string" relevant="selected(../dob_method,'approx')"/>
-      <bind nodeset="/data/person/ephemeral_dob/age_years" type="int" constraint=". &gt;= 0 and . &lt;= 130" relevant="selected(../dob_method,'approx')" jr:constraintMsg="jr:itext('/data/person/ephemeral_dob/age_years:jr:constraintMsg')"/>
-      <bind nodeset="/data/person/ephemeral_dob/age_months" type="int" constraint=". &gt;= 0 and . &lt;= 11" relevant="selected(../dob_method,'approx')" jr:constraintMsg="jr:itext('/data/person/ephemeral_dob/age_months:jr:constraintMsg')"/>
+      <bind nodeset="/data/person/ephemeral_dob/age_years" type="int" relevant="selected(../dob_method,'approx')" constraint=". &gt;= 0 and . &lt;= 130" jr:constraintMsg="jr:itext('/data/person/ephemeral_dob/age_years:jr:constraintMsg')"/>
+      <bind nodeset="/data/person/ephemeral_dob/age_months" type="int" relevant="selected(../dob_method,'approx')" constraint=". &gt;= 0 and . &lt;= 11" jr:constraintMsg="jr:itext('/data/person/ephemeral_dob/age_months:jr:constraintMsg')"/>
       <bind nodeset="/data/person/ephemeral_dob/dob_method" type="select"/>
       <bind nodeset="/data/person/ephemeral_dob/dob_approx" type="string" calculate="add-date(today(), 0- /data/person/ephemeral_dob/age_years , 0- /data/person/ephemeral_dob/age_months )"/>
       <bind nodeset="/data/person/ephemeral_dob/dob_raw" type="string" calculate="if(not(selected(  /data/person/ephemeral_dob/dob_method ,'approx')), 
@@ -246,10 +251,10 @@ DOB ISO: <output value=" /data/person/ephemeral_dob/dob_iso "/></value></text>
       <bind nodeset="/data/person/ephemeral_dob/dob_iso" type="string" calculate="format-date-time(../dob_raw,&quot;%Y-%m-%d&quot;)"/>
       <bind nodeset="/data/person/ephemeral_dob/dob_debug" readonly="true()" type="string" relevant="false()"/>
       <bind nodeset="/data/person/sex" type="select1" required="1"/>
-      <bind nodeset="/data/person/p_type" type="select1"/>
-      <bind nodeset="/data/person/o_type" type="select1"/>
+      <bind nodeset="/data/person/p_type" type="select1" relevant=" /data/person/role ='patient'"/>
+      <bind nodeset="/data/person/o_type" type="select1" relevant=" /data/person/role ='patient'"/>
       <bind nodeset="/data/person/o_comment" type="string" relevant=" /data/person/o_type ='cam' or  /data/person/o_type ='vge' or  /data/person/o_type ='frk'"/>
-      <bind nodeset="/data/person/a_type" type="select1"/>
+      <bind nodeset="/data/person/a_type" type="select1" relevant=" /data/person/role ='patient'"/>
       <bind nodeset="/data/person/notes" type="string"/>
       <bind nodeset="/data/person/meta/created_by" type="string" calculate="../../../inputs/user/name"/>
       <bind nodeset="/data/person/meta/created_by_person_uuid" type="string" calculate="../../../inputs/user/contact_id"/>
@@ -300,11 +305,16 @@ DOB ISO: <output value=" /data/person/ephemeral_dob/dob_iso "/></value></text>
           <label ref="jr:itext('/data/person/role/patient:label')"/>
           <value>patient</value>
         </item>
+        <item>
+          <label ref="jr:itext('/data/person/role/other:label')"/>
+          <value>other</value>
+        </item>
       </select1>
       <input ref="/data/person/p_ref">
         <label ref="jr:itext('/data/person/p_ref:label')"/>
         <hint ref="jr:itext('/data/person/p_ref:hint')"/>
       </input>
+      <input ref="/data/person/short_name"/>
       <input ref="/data/person/validation_ok">
         <label ref="jr:itext('/data/person/validation_ok:label')"/>
       </input>
@@ -338,12 +348,12 @@ DOB ISO: <output value=" /data/person/ephemeral_dob/dob_iso "/></value></text>
       <select1 appearance="columns" ref="/data/person/sex">
         <label ref="jr:itext('/data/person/sex:label')"/>
         <item>
-          <label ref="jr:itext('/data/person/sex/m:label')"/>
-          <value>m</value>
+          <label ref="jr:itext('/data/person/sex/female:label')"/>
+          <value>female</value>
         </item>
         <item>
-          <label ref="jr:itext('/data/person/sex/f:label')"/>
-          <value>f</value>
+          <label ref="jr:itext('/data/person/sex/male:label')"/>
+          <value>male</value>
         </item>
       </select1>
       <select1 ref="/data/person/p_type">
