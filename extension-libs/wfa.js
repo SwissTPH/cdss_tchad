@@ -66,9 +66,6 @@ let WeightForAgeFemale ={
 	19:{'l':0.2099,'s':0.14138,'m':3.7584},
 	20:{'l':0.2061,'s':0.14098,'m':3.7968},
 	21:{'l':0.2024,'s':0.1406,'m':3.8352},
-	22:{'l':0.1989,'s':0.14021,'m':3.8735},
-	23:{'l':0.1954,'s':0.13984,'m':3.9116},
-	24:{'l':0.1919,'s':0.13947,'m':3.9495},
 	25:{'l':0.1886,'s':0.1391,'m':3.9872},
 	26:{'l':0.1853,'s':0.13875,'m':4.0247},
 	27:{'l':0.1821,'s':0.1384,'m':4.0618},
@@ -263,9 +260,6 @@ let WeightForAgeMale = {
 	182:{'l':0.126,'s':0.10959,'m':7.926},
 	197:{'l':0.1197,'s':0.10925,'m':8.112},
 	227:{'l':0.1081,'s':0.1089,'m':8.4474},
-	257:{'l':0.0974,'s':0.1088,'m':8.7453},
-	287:{'l':0.0875,'s':0.10884,'m':9.0169},
-	317:{'l':0.0782,'s':0.10896,'m':9.2691},
 	347:{'l':0.0695,'s':0.10913,'m':9.5077},
 	377:{'l':0.0613,'s':0.10934,'m':9.7364},
 	407:{'l':0.0534,'s':0.10959,'m':9.9575},
@@ -338,11 +332,11 @@ function computeZScore(y, m ,l,s){
 
 }
 
-function computeReverseZScore(y, m ,l,s){
+function computeReverseZScore(z, m ,l,s){
     return (m * Math.pow((z*s*l+1),(1/l)));
 }
 
-module.exports = function(field_sex, field_age_in_day, field_weight ) {
+module.exports = function(field_sex, field_age_in_day, field_weight, reverse = false) {
     //collect data
     let sex = getStrValue(field_sex);
     let age = getDecimalValue(field_age_in_day); //getAgeInMonth(getDateValue(field_dob))
@@ -357,15 +351,24 @@ module.exports = function(field_sex, field_age_in_day, field_weight ) {
     }else{
         row = WeightForAgeMale[age_min]
     }
+	let value = null;
+	if (reverse){
+		value = computeReverseZScore(
+			weight, // z-score in that case
+			row['m'], 
+			row['l'] ,
+			row['s']
+		); 
+	}else{
+		value = computeZScore(
+			weight,
+			row['m'], 
+			row['l'] ,
+			row['s']
+		);
+	}
 
-    //swich treatement
-    let value = computeZScore(
-        weight,
-        row['m'], 
-        row['l'] ,
-        row['s']
-    )    
     //console.log('treatment for '+str_treatment.v + ': age '+ age+', sex' + sex +', weight ' +weight + ' -> ' + obj.t +': '+ obj.v )
-    return { 't':'num','v':value};
+    return { 't':'num','v':value.toFixed(2)};
 }
 

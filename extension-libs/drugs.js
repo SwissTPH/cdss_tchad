@@ -72,7 +72,7 @@ const TREATMENTS = [
 
 
 function getSlice(DICT,val){
-    prev = 0;
+    prev = null;
     int_val = parseFloat(val);
     if (int_val !== ''){
         
@@ -83,7 +83,7 @@ function getSlice(DICT,val){
             prev  = value;
         }
     }
-    return null
+    return prev
 }
 
 

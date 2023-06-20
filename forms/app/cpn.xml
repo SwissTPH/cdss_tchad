@@ -3626,53 +3626,53 @@ Au cas contraire rendez-vous dans un mois pour d'autres examens de confirmation 
       <bind nodeset="/cpn/_case_no_info_pregnancy_reason" type="string" calculate="if(instance('contact-summary')/context/cpn_no_info_pregnancy_reason!='',(instance('contact-summary')/context/cpn_no_info_pregnancy_reason),'')"/>
       <bind nodeset="/cpn/_case_age_estima" type="string" calculate="if(instance('contact-summary')/context/cpn_age_estima!='',(instance('contact-summary')/context/cpn_age_estima),'')"/>
       <bind nodeset="/cpn/_case_label_esti" type="string" calculate="if(instance('contact-summary')/context/cpn_label_esti!='',(instance('contact-summary')/context/cpn_label_esti),'')"/>
-      <bind nodeset="/cpn/intro/p_int_cpn" type="select1" calculate="coalesce(.,string( /cpn/_case_p_int_cpn ))" required="1"/>
+      <bind nodeset="/cpn/intro/p_int_cpn" type="select1" required="1" calculate="coalesce(.,string( /cpn/_case_p_int_cpn ))"/>
       <bind nodeset="/cpn/intro/e_date_cpn_1" type="date" relevant=" /cpn/intro/p_int_cpn &gt;1 and (coalesce( /cpn/_case_date_cpn_1 ,'')='' and coalesce( /cpn/_case_missed_cpn_1 ,'')='')" required="coalesce( /cpn/intro/missed_cpn_1 ,'')=''"/>
       <bind nodeset="/cpn/intro/date_cpn_1" type="string" calculate="if( /cpn/intro/p_int_cpn =1, today(), coalesce( /cpn/_case_date_cpn_1 , /cpn/intro/e_date_cpn_1 ))"/>
-      <bind nodeset="/cpn/intro/missed_cpn_1" type="select1" calculate="coalesce(., /cpn/_case_missed_cpn_1 )" relevant=" /cpn/intro/p_int_cpn &gt;1 and (coalesce( /cpn/_case_date_cpn_1 ,'')='' and coalesce( /cpn/_case_missed_cpn_1 ,'')='')" required="coalesce( /cpn/intro/date_cpn_1 ,'')=''"/>
+      <bind nodeset="/cpn/intro/missed_cpn_1" type="select1" relevant=" /cpn/intro/p_int_cpn &gt;1 and (coalesce( /cpn/_case_date_cpn_1 ,'')='' and coalesce( /cpn/_case_missed_cpn_1 ,'')='')" required="coalesce( /cpn/intro/date_cpn_1 ,'')=''" calculate="coalesce(., /cpn/_case_missed_cpn_1 )"/>
       <bind nodeset="/cpn/intro/e_date_cpn_2" type="date" relevant=" /cpn/intro/p_int_cpn &gt;2 and (coalesce( /cpn/_case_date_cpn_2 ,'')='' and coalesce( /cpn/_case_missed_cpn_2 ,'')='')" required="coalesce( /cpn/intro/missed_cpn_2 ,'')=''"/>
       <bind nodeset="/cpn/intro/date_cpn_2" type="string" calculate="if( /cpn/intro/p_int_cpn =2, today(), coalesce( /cpn/_case_date_cpn_2 , /cpn/intro/e_date_cpn_2 ))"/>
-      <bind nodeset="/cpn/intro/missed_cpn_2" type="select1" calculate="coalesce(., /cpn/_case_missed_cpn_2 )" relevant=" /cpn/intro/p_int_cpn &gt;2 and (coalesce( /cpn/_case_date_cpn_2 ,'')='' and coalesce( /cpn/_case_missed_cpn_2 ,'')='')" required="coalesce( /cpn/intro/date_cpn_2 ,'')=''"/>
+      <bind nodeset="/cpn/intro/missed_cpn_2" type="select1" relevant=" /cpn/intro/p_int_cpn &gt;2 and (coalesce( /cpn/_case_date_cpn_2 ,'')='' and coalesce( /cpn/_case_missed_cpn_2 ,'')='')" required="coalesce( /cpn/intro/date_cpn_2 ,'')=''" calculate="coalesce(., /cpn/_case_missed_cpn_2 )"/>
       <bind nodeset="/cpn/intro/e_date_cpn_3" type="date" relevant=" /cpn/intro/p_int_cpn &gt;3 and (coalesce( /cpn/_case_date_cpn_3 ,'')='' and coalesce( /cpn/_case_missed_cpn_3 ,'')='')" required="coalesce( /cpn/intro/missed_cpn_3 ,'')=''"/>
       <bind nodeset="/cpn/intro/date_cpn_3" type="string" calculate="if( /cpn/intro/p_int_cpn =3, today(), coalesce( /cpn/_case_date_cpn_3 , /cpn/intro/e_date_cpn_3 ))"/>
-      <bind nodeset="/cpn/intro/missed_cpn_3" type="select1" calculate="coalesce(., /cpn/_case_missed_cpn_3 )" relevant=" /cpn/intro/p_int_cpn &gt;3 and (coalesce( /cpn/_case_date_cpn_3 ,'')='' and coalesce( /cpn/_case_missed_cpn_3 ,'')='')" required="coalesce( /cpn/intro/date_cpn_3 ,'')=''"/>
+      <bind nodeset="/cpn/intro/missed_cpn_3" type="select1" relevant=" /cpn/intro/p_int_cpn &gt;3 and (coalesce( /cpn/_case_date_cpn_3 ,'')='' and coalesce( /cpn/_case_missed_cpn_3 ,'')='')" required="coalesce( /cpn/intro/date_cpn_3 ,'')=''" calculate="coalesce(., /cpn/_case_missed_cpn_3 )"/>
       <bind nodeset="/cpn/intro/e_date_cpn_4" type="date" relevant=" /cpn/intro/p_int_cpn &gt;4 and (coalesce( /cpn/_case_date_cpn_4 ,'')='' and coalesce( /cpn/_case_missed_cpn_4 ,'')='')" required="coalesce( /cpn/intro/missed_cpn_4 ,'')=''"/>
       <bind nodeset="/cpn/intro/date_cpn_4" type="string" calculate="if( /cpn/intro/p_int_cpn =4, today(), coalesce( /cpn/_case_date_cpn_4 , /cpn/intro/e_date_cpn_4 ))"/>
-      <bind nodeset="/cpn/intro/missed_cpn_4" type="select1" calculate="coalesce(., /cpn/_case_missed_cpn_4 )" relevant=" /cpn/intro/p_int_cpn &gt;4 and (coalesce( /cpn/_case_date_cpn_4 ,'')='' and coalesce( /cpn/_case_missed_cpn_4 ,'')='')" required="coalesce( /cpn/intro/date_cpn_4 ,'')=''"/>
+      <bind nodeset="/cpn/intro/missed_cpn_4" type="select1" relevant=" /cpn/intro/p_int_cpn &gt;4 and (coalesce( /cpn/_case_date_cpn_4 ,'')='' and coalesce( /cpn/_case_missed_cpn_4 ,'')='')" required="coalesce( /cpn/intro/date_cpn_4 ,'')=''" calculate="coalesce(., /cpn/_case_missed_cpn_4 )"/>
       <bind nodeset="/cpn/intro/e_date_cpn_5" type="date" relevant=" /cpn/intro/p_int_cpn &gt;5 and (coalesce( /cpn/_case_date_cpn_5 ,'')='' and coalesce( /cpn/_case_missed_cpn_5 ,'')='')" required="coalesce( /cpn/intro/missed_cpn_5 ,'')=''"/>
       <bind nodeset="/cpn/intro/date_cpn_5" type="string" calculate="if( /cpn/intro/p_int_cpn =5, today(), coalesce( /cpn/_case_date_cpn_5 , /cpn/intro/e_date_cpn_5 ))"/>
-      <bind nodeset="/cpn/intro/missed_cpn_5" type="select1" calculate="coalesce(., /cpn/_case_missed_cpn_5 )" relevant=" /cpn/intro/p_int_cpn &gt;5 and (coalesce( /cpn/_case_date_cpn_5 ,'')='' and coalesce( /cpn/_case_missed_cpn_5 ,'')='')" required="coalesce( /cpn/intro/date_cpn_5 ,'')=''"/>
+      <bind nodeset="/cpn/intro/missed_cpn_5" type="select1" relevant=" /cpn/intro/p_int_cpn &gt;5 and (coalesce( /cpn/_case_date_cpn_5 ,'')='' and coalesce( /cpn/_case_missed_cpn_5 ,'')='')" required="coalesce( /cpn/intro/date_cpn_5 ,'')=''" calculate="coalesce(., /cpn/_case_missed_cpn_5 )"/>
       <bind nodeset="/cpn/intro/e_date_cpn_6" type="date" relevant=" /cpn/intro/p_int_cpn &gt;6 and (coalesce( /cpn/_case_date_cpn_6 ,'')='' and coalesce( /cpn/_case_missed_cpn_6 ,'')='')" required="coalesce( /cpn/intro/missed_cpn_6 ,'')=''"/>
       <bind nodeset="/cpn/intro/date_cpn_6" type="string" calculate="if( /cpn/intro/p_int_cpn =6, today(), coalesce( /cpn/_case_date_cpn_6 , /cpn/intro/e_date_cpn_6 ))"/>
-      <bind nodeset="/cpn/intro/missed_cpn_6" type="select1" calculate="coalesce(., /cpn/_case_missed_cpn_6 )" relevant=" /cpn/intro/p_int_cpn &gt;6 and (coalesce( /cpn/_case_date_cpn_6 ,'')='' and coalesce( /cpn/_case_missed_cpn_6 ,'')='')" required="coalesce( /cpn/intro/date_cpn_6 ,'')=''"/>
+      <bind nodeset="/cpn/intro/missed_cpn_6" type="select1" relevant=" /cpn/intro/p_int_cpn &gt;6 and (coalesce( /cpn/_case_date_cpn_6 ,'')='' and coalesce( /cpn/_case_missed_cpn_6 ,'')='')" required="coalesce( /cpn/intro/date_cpn_6 ,'')=''" calculate="coalesce(., /cpn/_case_missed_cpn_6 )"/>
       <bind nodeset="/cpn/intro/e_date_cpn_7" type="date" relevant=" /cpn/intro/p_int_cpn &gt;7 and (coalesce( /cpn/_case_date_cpn_7 ,'')='' and coalesce( /cpn/_case_missed_cpn_7 ,'')='')" required="coalesce( /cpn/intro/missed_cpn_7 ,'')=''"/>
       <bind nodeset="/cpn/intro/date_cpn_7" type="string" calculate="if( /cpn/intro/p_int_cpn =7, today(), coalesce( /cpn/_case_date_cpn_7 , /cpn/intro/e_date_cpn_7 ))"/>
-      <bind nodeset="/cpn/intro/missed_cpn_7" type="select1" calculate="coalesce(., /cpn/_case_missed_cpn_7 )" relevant=" /cpn/intro/p_int_cpn &gt;7 and (coalesce( /cpn/_case_date_cpn_7 ,'')='' and coalesce( /cpn/_case_missed_cpn_7 ,'')='')" required="coalesce( /cpn/intro/date_cpn_7 ,'')=''"/>
+      <bind nodeset="/cpn/intro/missed_cpn_7" type="select1" relevant=" /cpn/intro/p_int_cpn &gt;7 and (coalesce( /cpn/_case_date_cpn_7 ,'')='' and coalesce( /cpn/_case_missed_cpn_7 ,'')='')" required="coalesce( /cpn/intro/date_cpn_7 ,'')=''" calculate="coalesce(., /cpn/_case_missed_cpn_7 )"/>
       <bind nodeset="/cpn/intro/e_date_cpn_8" type="date" relevant=" /cpn/intro/p_int_cpn &gt;8 and (coalesce( /cpn/_case_date_cpn_8 ,'')='' and coalesce( /cpn/_case_missed_cpn_8 ,'')='')" required="coalesce( /cpn/intro/missed_cpn_8 ,'')=''"/>
       <bind nodeset="/cpn/intro/date_cpn_8" type="string" calculate="if( /cpn/intro/p_int_cpn =8, today(), coalesce( /cpn/_case_date_cpn_8 , /cpn/intro/e_date_cpn_8 ))"/>
-      <bind nodeset="/cpn/intro/missed_cpn_8" type="select1" calculate="coalesce(., /cpn/_case_missed_cpn_8 )" relevant=" /cpn/intro/p_int_cpn &gt;8 and (coalesce( /cpn/_case_date_cpn_8 ,'')='' and coalesce( /cpn/_case_missed_cpn_8 ,'')='')" required="coalesce( /cpn/intro/date_cpn_8 ,'')=''"/>
-      <bind nodeset="/cpn/intro/p_poids" type="decimal" jr:constraintMsg="jr:itext('/cpn/intro/p_poids:jr:constraintMsg')" constraint=".&gt;=20" required="1"/>
+      <bind nodeset="/cpn/intro/missed_cpn_8" type="select1" relevant=" /cpn/intro/p_int_cpn &gt;8 and (coalesce( /cpn/_case_date_cpn_8 ,'')='' and coalesce( /cpn/_case_missed_cpn_8 ,'')='')" required="coalesce( /cpn/intro/date_cpn_8 ,'')=''" calculate="coalesce(., /cpn/_case_missed_cpn_8 )"/>
+      <bind nodeset="/cpn/intro/p_poids" type="decimal" constraint=".&gt;=20" required="1" jr:constraintMsg="jr:itext('/cpn/intro/p_poids:jr:constraintMsg')"/>
       <bind nodeset="/cpn/intro/p_taille" type="decimal" required="1"/>
       <bind nodeset="/cpn/intro/p_tension" type="select1" required="1"/>
-      <bind nodeset="/cpn/intro/p_temperature" type="decimal" jr:constraintMsg="jr:itext('/cpn/intro/p_temperature:jr:constraintMsg')" constraint=".&gt;32 and .&lt;45" required="1"/>
+      <bind nodeset="/cpn/intro/p_temperature" type="decimal" constraint=".&gt;32 and .&lt;45" required="1" jr:constraintMsg="jr:itext('/cpn/intro/p_temperature:jr:constraintMsg')"/>
       <bind nodeset="/cpn/test_grossesse/s_grossesse" type="select1" required="1"/>
       <bind nodeset="/cpn/test_grossesse/t_uterine" type="string" relevant=" /cpn/test_grossesse/s_grossesse ='visible'" required="1"/>
       <bind nodeset="/cpn/test_grossesse/p_grossesse_note" readonly="true()" type="string" relevant=" /cpn/test_grossesse/s_grossesse ='non_visible'"/>
-      <bind nodeset="/cpn/test_grossesse/r_test_grossesse" type="select1" calculate="coalesce(., /cpn/_case_r_test_grossesse )" relevant=" /cpn/test_grossesse/s_grossesse ='non_visible'" required="1"/>
+      <bind nodeset="/cpn/test_grossesse/r_test_grossesse" type="select1" relevant=" /cpn/test_grossesse/s_grossesse ='non_visible'" required="1" calculate="coalesce(., /cpn/_case_r_test_grossesse )"/>
       <bind nodeset="/cpn/test_grossesse/bb_test_neg" readonly="true()" type="string" relevant=" /cpn/test_grossesse/r_test_grossesse =-1"/>
       <bind nodeset="/cpn/test_grossesse/test_grossesse_note" readonly="true()" type="string" relevant=" /cpn/test_grossesse/r_test_grossesse =0"/>
-      <bind nodeset="/cpn/test_grossesse/t_test_grossesse" type="select" calculate="coalesce(., /cpn/_case_t_test_grossesse )" relevant=" /cpn/test_grossesse/r_test_grossesse =0" required="1"/>
+      <bind nodeset="/cpn/test_grossesse/t_test_grossesse" type="select" relevant=" /cpn/test_grossesse/r_test_grossesse =0" required="1" calculate="coalesce(., /cpn/_case_t_test_grossesse )"/>
       <bind nodeset="/cpn/test_grossesse/is_end_bbtest" type="string" calculate="number( /cpn/test_grossesse/s_grossesse ='non_visible' and  /cpn/test_grossesse/r_test_grossesse =-1)"/>
       <bind nodeset="/cpn/age_grossesse" relevant=" /cpn/test_grossesse/r_test_grossesse =1 or  /cpn/test_grossesse/s_grossesse ='visible'"/>
-      <bind nodeset="/cpn/age_grossesse/affi_method" type="select1" calculate="coalesce(., /cpn/_case_affi_method )" required="1"/>
+      <bind nodeset="/cpn/age_grossesse/affi_method" type="select1" required="1" calculate="coalesce(., /cpn/_case_affi_method )"/>
       <bind nodeset="/cpn/method_ddr" relevant="( /cpn/test_grossesse/r_test_grossesse =1 or  /cpn/test_grossesse/s_grossesse ='visible') and  /cpn/age_grossesse/affi_method ='method_ddr'"/>
-      <bind nodeset="/cpn/method_ddr/ddr_date" type="date" calculate="coalesce(., /cpn/_case_ddr_date )" jr:constraintMsg="jr:itext('/cpn/method_ddr/ddr_date:jr:constraintMsg')" constraint="decimal-date-time(today()) - decimal-date-time(.) &gt;30 and decimal-date-time(today()) - decimal-date-time(.) &lt; 300" required="1"/>
+      <bind nodeset="/cpn/method_ddr/ddr_date" type="date" constraint="decimal-date-time(today()) - decimal-date-time(.) &gt;30 and decimal-date-time(today()) - decimal-date-time(.) &lt; 300" required="1" jr:constraintMsg="jr:itext('/cpn/method_ddr/ddr_date:jr:constraintMsg')" calculate="coalesce(., /cpn/_case_ddr_date )"/>
       <bind nodeset="/cpn/method_dpa" relevant=" /cpn/test_grossesse/r_test_grossesse =1 or  /cpn/test_grossesse/s_grossesse ='visible'"/>
-      <bind nodeset="/cpn/method_dpa/dpa_date" type="date" calculate="coalesce(., /cpn/_case_dpa_date )" relevant=" /cpn/age_grossesse/affi_method ='method_dpa'" constraint="today()&lt;. and (decimal-date-time(.) - decimal-date-time(today()) &lt; 273)"/>
+      <bind nodeset="/cpn/method_dpa/dpa_date" type="date" constraint="today()&lt;. and (decimal-date-time(.) - decimal-date-time(today()) &lt; 273)" relevant=" /cpn/age_grossesse/affi_method ='method_dpa'" calculate="coalesce(., /cpn/_case_dpa_date )"/>
       <bind nodeset="/cpn/method_none" relevant="( /cpn/test_grossesse/r_test_grossesse =1 or  /cpn/test_grossesse/s_grossesse ='visible') and  /cpn/age_grossesse/affi_method ='method_none'"/>
-      <bind nodeset="/cpn/method_none/no_info_pregnancy_reason" type="select1" calculate="coalesce(., /cpn/_case_no_info_pregnancy_reason )" required="1"/>
-      <bind nodeset="/cpn/method_none/age_estima" type="int" calculate="coalesce(., /cpn/_case_age_estima )" relevant=" /cpn/method_none/no_info_pregnancy_reason =1"/>
-      <bind nodeset="/cpn/method_none/label_esti" type="int" calculate="coalesce(., /cpn/_case_label_esti )" relevant=" /cpn/method_none/no_info_pregnancy_reason =-1"/>
+      <bind nodeset="/cpn/method_none/no_info_pregnancy_reason" type="select1" required="1" calculate="coalesce(., /cpn/_case_no_info_pregnancy_reason )"/>
+      <bind nodeset="/cpn/method_none/age_estima" type="int" relevant=" /cpn/method_none/no_info_pregnancy_reason =1" calculate="coalesce(., /cpn/_case_age_estima )"/>
+      <bind nodeset="/cpn/method_none/label_esti" type="int" relevant=" /cpn/method_none/no_info_pregnancy_reason =-1" calculate="coalesce(., /cpn/_case_label_esti )"/>
       <bind nodeset="/cpn/imp_approx_daydayweeks" type="string" calculate="int((today() - ( /cpn/p_ddr ))div 7)"/>
       <bind nodeset="/cpn/p_ddr" type="string" calculate="if( /cpn/method_ddr/ddr_date !='',  /cpn/method_ddr/ddr_date , if(  /cpn/method_dpa/dpa_date !='',  /cpn/method_dpa/dpa_date ,format-date(date(decimal-date-time( /cpn/method_dpa/dpa_date ) - 40 *7 ),'%d/%m/%Y')))"/>
       <bind nodeset="/cpn/p_dpa" type="string" calculate="format-date(date(decimal-date-time( /cpn/p_ddr ) + 40 *7),'%d/%m/%Y')"/>
@@ -3691,7 +3691,7 @@ Au cas contraire rendez-vous dans un mois pour d'autres examens de confirmation 
       <bind nodeset="/cpn/plainte_principale/mains" type="select1" required="1"/>
       <bind nodeset="/cpn/plainte_principale/toux" type="select1" required="1"/>
       <bind nodeset="/cpn/preeclampsie_debut" relevant="( /cpn/test_grossesse/r_test_grossesse =1 or  /cpn/test_grossesse/s_grossesse ='visible') and  /cpn/imp_approx_daydayweeks &gt;=20 and ( /cpn/intro/p_tension ='Hyper_tention' or  /cpn/intro/p_tension ='Modéré') and and ( /cpn/plainte_principale/cephale =1 or  /cpn/plainte_principale/convulsion =1 or  /cpn/plainte_principale/respiration =1 or  /cpn/plainte_principale/mains =1 or  /cpn/plainte_principale/essoufflement =1)"/>
-      <bind nodeset="/cpn/preeclampsie_debut/preeclampsie/sign_preeclampsia" type="select" jr:constraintMsg="jr:itext('/cpn/preeclampsie_debut/preeclampsie/sign_preeclampsia:jr:constraintMsg')" constraint="if(selected(.,&quot;z_none&quot;),count-selected(.)=1,count-selected(.)&gt;0)" required="1"/>
+      <bind nodeset="/cpn/preeclampsie_debut/preeclampsie/sign_preeclampsia" type="select" constraint="if(selected(.,&quot;z_none&quot;),count-selected(.)=1,count-selected(.)&gt;0)" required="1" jr:constraintMsg="jr:itext('/cpn/preeclampsie_debut/preeclampsie/sign_preeclampsia:jr:constraintMsg')"/>
       <bind nodeset="/cpn/preeclampsie_debut/preeclampsie/T_band_u" type="select1"/>
       <bind nodeset="/cpn/preeclampsie_debut/preeclampsie/band_u" type="select1" relevant=" /cpn/preeclampsie_debut/preeclampsie/T_band_u =1"/>
       <bind nodeset="/cpn/preeclampsie_debut/ftus_gp/death_or_no" type="select1"/>
@@ -3719,18 +3719,18 @@ Au cas contraire rendez-vous dans un mois pour d'autres examens de confirmation 
       <bind nodeset="/cpn/preeclampsie_debut/reference_district/transfer" type="select1"/>
       <bind nodeset="/cpn/end_death_baby" relevant="( /cpn/test_grossesse/r_test_grossesse =1 or  /cpn/test_grossesse/s_grossesse ='visible' and  /cpn/imp_approx_daydayweeks &gt;0 and  /cpn/preeclampsie_debut/ftus_gp/death_or_no !=-1)"/>
       <bind nodeset="/cpn/end_death_baby/antecedent_medical/antecedent_medical_question_note" type="select1"/>
-      <bind nodeset="/cpn/end_death_baby/antecedent_medical/diabete" type="select1" calculate="coalesce(., /cpn/_case_diabete )" required="1"/>
+      <bind nodeset="/cpn/end_death_baby/antecedent_medical/diabete" type="select1" required="1" calculate="coalesce(., /cpn/_case_diabete )"/>
       <bind nodeset="/cpn/end_death_baby/antecedent_medical/msg_diabete" readonly="true()" type="string" relevant=" /cpn/end_death_baby/antecedent_medical/diabete =1"/>
-      <bind nodeset="/cpn/end_death_baby/antecedent_medical/drepanocytose" type="select1" calculate="coalesce(., /cpn/_case_drepanocytose )" required="1"/>
+      <bind nodeset="/cpn/end_death_baby/antecedent_medical/drepanocytose" type="select1" required="1" calculate="coalesce(., /cpn/_case_drepanocytose )"/>
       <bind nodeset="/cpn/end_death_baby/antecedent_medical/msg_drepa" readonly="true()" type="string" relevant=" /cpn/end_death_baby/antecedent_medical/drepanocytose =1"/>
-      <bind nodeset="/cpn/end_death_baby/antecedent_medical/cardiopathie" type="select1" calculate="coalesce(., /cpn/_case_cardiopathie )" required="1"/>
+      <bind nodeset="/cpn/end_death_baby/antecedent_medical/cardiopathie" type="select1" required="1" calculate="coalesce(., /cpn/_case_cardiopathie )"/>
       <bind nodeset="/cpn/end_death_baby/antecedent_medical/msg_cardio" readonly="true()" type="string" relevant=" /cpn/end_death_baby/antecedent_medical/cardiopathie =1"/>
-      <bind nodeset="/cpn/end_death_baby/antecedent_medical/hypertension_ateriel" type="select1" calculate="coalesce(., /cpn/_case_hypertension_ateriel )" required="1"/>
+      <bind nodeset="/cpn/end_death_baby/antecedent_medical/hypertension_ateriel" type="select1" required="1" calculate="coalesce(., /cpn/_case_hypertension_ateriel )"/>
       <bind nodeset="/cpn/end_death_baby/antecedent_medical/msg_tension_ar" readonly="true()" type="string" relevant=" /cpn/end_death_baby/antecedent_medical/hypertension_ateriel =1"/>
-      <bind nodeset="/cpn/end_death_baby/antecedent_medical/tuberculose" type="select1" calculate="coalesce(., /cpn/_case_tuberculose )" required="1"/>
+      <bind nodeset="/cpn/end_death_baby/antecedent_medical/tuberculose" type="select1" required="1" calculate="coalesce(., /cpn/_case_tuberculose )"/>
       <bind nodeset="/cpn/end_death_baby/antecedent_medical/msg_tuberculose" readonly="true()" type="string" relevant=" /cpn/end_death_baby/antecedent_medical/tuberculose =1"/>
-      <bind nodeset="/cpn/end_death_baby/antecedent_medical/autre" type="select1" calculate="coalesce(., /cpn/_case_autre )" required="1"/>
-      <bind nodeset="/cpn/end_death_baby/antecedent_medical/sign_antecedent" type="string" calculate="coalesce(., /cpn/_case_sign_antecedent )" relevant=" /cpn/end_death_baby/antecedent_medical/autre =1" required="1"/>
+      <bind nodeset="/cpn/end_death_baby/antecedent_medical/autre" type="select1" required="1" calculate="coalesce(., /cpn/_case_autre )"/>
+      <bind nodeset="/cpn/end_death_baby/antecedent_medical/sign_antecedent" type="string" relevant=" /cpn/end_death_baby/antecedent_medical/autre =1" required="1" calculate="coalesce(., /cpn/_case_sign_antecedent )"/>
       <bind nodeset="/cpn/end_death_baby/gyneco_obstetri" relevant=" /cpn/test_grossesse/r_test_grossesse =1 or  /cpn/test_grossesse/s_grossesse ='visible'"/>
       <bind nodeset="/cpn/end_death_baby/gyneco_obstetri/gyneco_obstetri_question_note" readonly="true()" type="string"/>
       <bind nodeset="/cpn/end_death_baby/gyneco_obstetri/label_gyneco" type="select1"/>
@@ -3760,7 +3760,7 @@ Au cas contraire rendez-vous dans un mois pour d'autres examens de confirmation 
       <bind nodeset="/cpn/end_death_baby/gyneco_obstetri/gyneco_rien" type="select1" required="1"/>
       <bind nodeset="/cpn/end_death_baby/gyneco_obstetri/precision" type="string" relevant=" /cpn/end_death_baby/gyneco_obstetri/gyneco_rien =1"/>
       <bind nodeset="/cpn/examens_cliniques" relevant=" /cpn/test_grossesse/r_test_grossesse =1 or  /cpn/test_grossesse/s_grossesse ='visible'"/>
-      <bind nodeset="/cpn/examens_cliniques/s_inspect_abdomen" type="select" jr:constraintMsg="jr:itext('/cpn/examens_cliniques/s_inspect_abdomen:jr:constraintMsg')" constraint="if(selected(.,&quot;z_none&quot;),count-selected(.)=1,count-selected(.)&gt;0)" required="1"/>
+      <bind nodeset="/cpn/examens_cliniques/s_inspect_abdomen" type="select" constraint="if(selected(.,&quot;z_none&quot;),count-selected(.)=1,count-selected(.)&gt;0)" required="1" jr:constraintMsg="jr:itext('/cpn/examens_cliniques/s_inspect_abdomen:jr:constraintMsg')"/>
       <bind nodeset="/cpn/examens_cliniques/msg_cicatrice" readonly="true()" type="string" relevant=" /cpn/examens_cliniques/s_inspect_abdomen ='scar'"/>
       <bind nodeset="/cpn/examens_cliniques/msg_eruption" readonly="true()" type="string" relevant=" /cpn/examens_cliniques/s_inspect_abdomen ='eruption' or  /cpn/examens_cliniques/s_inspect_abdomen ='masse'"/>
       <bind nodeset="/cpn/examens_cliniques/presentation_foetus" type="select1" relevant=" /cpn/imp_approx_daydayweeks =28" required="1"/>
@@ -3784,7 +3784,7 @@ Au cas contraire rendez-vous dans un mois pour d'autres examens de confirmation 
       <bind nodeset="/cpn/examens_cliniques/g_exam/presenta_vscieuse" readonly="true()" type="string" relevant=" /cpn/examens_cliniques/g_exam/position_grossesse =1"/>
       <bind nodeset="/cpn/examens_cliniques/g_exam/bcf_examen" type="select1" relevant=" /cpn/imp_approx_daydayweeks &gt;=20" required="1"/>
       <bind nodeset="/cpn/examens_cliniques/g_exam/bcf_action" readonly="true()" type="string" relevant=" /cpn/examens_cliniques/g_exam/bcf_examen =-1"/>
-      <bind nodeset="/cpn/examens_cliniques/g_exam/s_inspection_vulve" type="select" jr:constraintMsg="jr:itext('/cpn/examens_cliniques/g_exam/s_inspection_vulve:jr:constraintMsg')" constraint="if(selected(.,&quot;z_none&quot;),count-selected(.)=1,count-selected(.)&gt;0)" required="1"/>
+      <bind nodeset="/cpn/examens_cliniques/g_exam/s_inspection_vulve" type="select" constraint="if(selected(.,&quot;z_none&quot;),count-selected(.)=1,count-selected(.)&gt;0)" required="1" jr:constraintMsg="jr:itext('/cpn/examens_cliniques/g_exam/s_inspection_vulve:jr:constraintMsg')"/>
       <bind nodeset="/cpn/examens_cliniques/g_exam/msg_sang_perte" readonly="true()" type="string" relevant=" /cpn/examens_cliniques/g_exam/s_inspection_vulve ='saignmt'"/>
       <bind nodeset="/cpn/examens_cliniques/g_exam/msg_lbel" readonly="true()" type="string" relevant=" /cpn/examens_cliniques/g_exam/s_inspection_vulve ='perte'"/>
       <bind nodeset="/cpn/examens_cliniques/g_exam/msg_perte_blanche" readonly="true()" type="string" relevant=" /cpn/examens_cliniques/g_exam/s_inspection_vulve ='perte_b'"/>
@@ -3797,7 +3797,7 @@ Au cas contraire rendez-vous dans un mois pour d'autres examens de confirmation 
       <bind nodeset="/cpn/examens_cliniques/g_exam/bassin_examen" type="select1" required="1"/>
       <bind nodeset="/cpn/examens_cliniques/g_exam/msg_retreci" readonly="true()" type="string" relevant=" /cpn/examens_cliniques/g_exam/bassin_examen ='2'"/>
       <bind nodeset="/cpn/inferieur_sa" relevant="(( /cpn/test_grossesse/r_test_grossesse =1 or  /cpn/test_grossesse/s_grossesse ='visible' or  /cpn/method_none/age_estima &gt;0 or  /cpn/method_none/label_esti &gt;0) and (  /cpn/imp_approx_daydayweeks &gt;0 or  /cpn/method_none/age_estima &gt;0 or  /cpn/method_none/label_esti &gt;0) and  /cpn/preeclampsie_debut/ftus_gp/death_or_no !=-1 and  /cpn/preeclampsie_debut/reference_district/transfer !=1) and (( /cpn/test_grossesse/r_test_grossesse =1 or  /cpn/test_grossesse/s_grossesse ='visible') and  /cpn/imp_approx_daydayweeks &lt;21 and  /cpn/examens_cliniques/g_exam/s_inspection_vulve ='saignmt')"/>
-      <bind nodeset="/cpn/inferieur_sa/surveillance_vitaux" type="select" jr:constraintMsg="jr:itext('/cpn/inferieur_sa/surveillance_vitaux:jr:constraintMsg')" constraint="if(selected(.,'0'),count-selected(.)=1,count-selected(.)&gt;0)" required="1"/>
+      <bind nodeset="/cpn/inferieur_sa/surveillance_vitaux" type="select" constraint="if(selected(.,'0'),count-selected(.)=1,count-selected(.)&gt;0)" required="1" jr:constraintMsg="jr:itext('/cpn/inferieur_sa/surveillance_vitaux:jr:constraintMsg')"/>
       <bind nodeset="/cpn/inferieur_sa/action_imediat" readonly="true()" type="string" relevant="count-selected( /cpn/inferieur_sa/surveillance_vitaux )&gt;0 and  /cpn/inferieur_sa/surveillance_vitaux !='0'"/>
       <bind nodeset="/cpn/inferieur_sa/examination" relevant=" /cpn/inferieur_sa/surveillance_vitaux ='0'"/>
       <bind nodeset="/cpn/inferieur_sa/examination/examen_speculum" type="select"/>
@@ -3819,7 +3819,7 @@ Au cas contraire rendez-vous dans un mois pour d'autres examens de confirmation 
       <bind nodeset="/cpn/inferieur_sa/bce_col" readonly="true()" type="string" relevant=" /cpn/inferieur_sa/diagnostic_no ='3'"/>
       <bind nodeset="/cpn/inferieur_sa/prengnency_malaire" readonly="true()" type="string" relevant=" /cpn/inferieur_sa/diagnostic_no ='4'"/>
       <bind nodeset="/cpn/sgt_superieur" relevant="(( /cpn/test_grossesse/r_test_grossesse =1 or  /cpn/test_grossesse/s_grossesse ='visible' or  /cpn/method_none/age_estima &gt;0 or  /cpn/method_none/label_esti &gt;0) and (  /cpn/imp_approx_daydayweeks &gt;0 or  /cpn/method_none/age_estima &gt;0 or  /cpn/method_none/label_esti &gt;0) and  /cpn/preeclampsie_debut/ftus_gp/death_or_no !=-1 and  /cpn/preeclampsie_debut/reference_district/transfer !=1) and (( /cpn/test_grossesse/r_test_grossesse =1 or  /cpn/test_grossesse/s_grossesse ='visible') and ( /cpn/imp_approx_daydayweeks &gt;20) and  /cpn/examens_cliniques/g_exam/s_inspection_vulve ='saignmt')"/>
-      <bind nodeset="/cpn/sgt_superieur/surveillance_vitaux_t" type="select" jr:constraintMsg="jr:itext('/cpn/sgt_superieur/surveillance_vitaux_t:jr:constraintMsg')" constraint="if(selected(.,'0'),count-selected(.)=1,count-selected(.)&gt;0)" required="1"/>
+      <bind nodeset="/cpn/sgt_superieur/surveillance_vitaux_t" type="select" constraint="if(selected(.,'0'),count-selected(.)=1,count-selected(.)&gt;0)" required="1" jr:constraintMsg="jr:itext('/cpn/sgt_superieur/surveillance_vitaux_t:jr:constraintMsg')"/>
       <bind nodeset="/cpn/sgt_superieur/action_imediat_t" readonly="true()" type="string" relevant="count-selected( /cpn/sgt_superieur/surveillance_vitaux_t )&gt;0 and  /cpn/sgt_superieur/surveillance_vitaux_t !='0'"/>
       <bind nodeset="/cpn/sgt_superieur/examination_t" relevant=" /cpn/sgt_superieur/surveillance_vitaux_t ='0'"/>
       <bind nodeset="/cpn/sgt_superieur/examination_t/examen_speculum_t" type="select" required="1"/>
@@ -3967,18 +3967,18 @@ Au cas contraire rendez-vous dans un mois pour d'autres examens de confirmation 
       <bind nodeset="/cpn/start_prepa" relevant="( /cpn/test_grossesse/r_test_grossesse =1 or  /cpn/test_grossesse/s_grossesse ='visible' or  /cpn/method_none/age_estima &gt;0 or  /cpn/method_none/label_esti &gt;0) and (  /cpn/imp_approx_daydayweeks &gt;0 or  /cpn/method_none/age_estima &gt;0 or  /cpn/method_none/label_esti &gt;0) and ( /cpn/preeclampsie_debut/ftus_gp/death_or_no !=-1 and  /cpn/preeclampsie_debut/reference_district/transfer !=1) and ( /cpn/intro/p_int_cpn =3 or  /cpn/intro/p_int_cpn =4 or  /cpn/intro/p_int_cpn =5 or  /cpn/intro/p_int_cpn =6 or  /cpn/intro/p_int_cpn =7 or  /cpn/intro/p_int_cpn =8)"/>
       <bind nodeset="/cpn/start_prepa/prepa_accouche" relevant="( /cpn/test_grossesse/r_test_grossesse =1 or  /cpn/test_grossesse/s_grossesse ='visible' or  /cpn/method_none/age_estima &gt;0 or  /cpn/method_none/label_esti &gt;0) and  /cpn/transfert_t/final_step_t !=1 and (( /cpn/inferieur_sa/diagnostic_yes !='1' and  /cpn/inferieur_sa/diagnostic_yes !='2') and ( /cpn/inferieur_sa/diagnostic_no !='2' and  /cpn/inferieur_sa/diagnostic_no !='3' and  /cpn/inferieur_sa/diagnostic_no !='4'))"/>
       <bind nodeset="/cpn/start_prepa/prepa_accouche/label_prepa_accouche" type="select1"/>
-      <bind nodeset="/cpn/start_prepa/prepa_accouche/s_lieu_accouche" type="select1" calculate=" /cpn/_case_s_lieu_accouche " required="1"/>
-      <bind nodeset="/cpn/start_prepa/prepa_accouche/lieu_accouche" type="string" calculate=" /cpn/_case_lieu_accouche " relevant=" /cpn/start_prepa/prepa_accouche/s_lieu_accouche =1"/>
-      <bind nodeset="/cpn/start_prepa/prepa_accouche/s_moyen_transport" type="select1" calculate=" /cpn/_case_s_moyen_transport " required="1"/>
-      <bind nodeset="/cpn/start_prepa/prepa_accouche/moyen_transport" type="string" calculate=" /cpn/_case_moyen_transport " relevant=" /cpn/start_prepa/prepa_accouche/s_moyen_transport =1"/>
-      <bind nodeset="/cpn/start_prepa/prepa_accouche/s_economie" type="select1" calculate=" /cpn/_case_s_economie " required="1"/>
-      <bind nodeset="/cpn/start_prepa/prepa_accouche/s_preneurs_decisions" type="select1" calculate=" /cpn/_case_s_preneurs_decisions " required="1"/>
-      <bind nodeset="/cpn/start_prepa/prepa_accouche/preneurs_decisions" type="string" calculate=" /cpn/_case_preneurs_decisions " relevant=" /cpn/start_prepa/prepa_accouche/s_preneurs_decisions =1" required="1"/>
-      <bind nodeset="/cpn/start_prepa/prepa_accouche/s_donneurs_sang" type="select1" calculate=" /cpn/_case_s_donneurs_sang " required="1"/>
-      <bind nodeset="/cpn/start_prepa/prepa_accouche/donneurs_sang" type="string" calculate=" /cpn/_case_donneurs_sang " relevant=" /cpn/start_prepa/prepa_accouche/s_donneurs_sang =1" required="1"/>
-      <bind nodeset="/cpn/start_prepa/prepa_accouche/s_id_accompagnate" type="select1" calculate=" /cpn/_case_s_id_accompagnate " required="1"/>
-      <bind nodeset="/cpn/start_prepa/prepa_accouche/id_accompagnate_note" type="string" calculate=" /cpn/_case_id_accompagnate_note " relevant=" /cpn/start_prepa/prepa_accouche/s_id_accompagnate =1" required="1"/>
-      <bind nodeset="/cpn/start_prepa/prepa_accouche/s_necessaires" type="select1" calculate=" /cpn/_case_s_necessaires " required="1"/>
+      <bind nodeset="/cpn/start_prepa/prepa_accouche/s_lieu_accouche" type="select1" required="1" calculate=" /cpn/_case_s_lieu_accouche "/>
+      <bind nodeset="/cpn/start_prepa/prepa_accouche/lieu_accouche" type="string" relevant=" /cpn/start_prepa/prepa_accouche/s_lieu_accouche =1" calculate=" /cpn/_case_lieu_accouche "/>
+      <bind nodeset="/cpn/start_prepa/prepa_accouche/s_moyen_transport" type="select1" required="1" calculate=" /cpn/_case_s_moyen_transport "/>
+      <bind nodeset="/cpn/start_prepa/prepa_accouche/moyen_transport" type="string" relevant=" /cpn/start_prepa/prepa_accouche/s_moyen_transport =1" calculate=" /cpn/_case_moyen_transport "/>
+      <bind nodeset="/cpn/start_prepa/prepa_accouche/s_economie" type="select1" required="1" calculate=" /cpn/_case_s_economie "/>
+      <bind nodeset="/cpn/start_prepa/prepa_accouche/s_preneurs_decisions" type="select1" required="1" calculate=" /cpn/_case_s_preneurs_decisions "/>
+      <bind nodeset="/cpn/start_prepa/prepa_accouche/preneurs_decisions" type="string" relevant=" /cpn/start_prepa/prepa_accouche/s_preneurs_decisions =1" required="1" calculate=" /cpn/_case_preneurs_decisions "/>
+      <bind nodeset="/cpn/start_prepa/prepa_accouche/s_donneurs_sang" type="select1" required="1" calculate=" /cpn/_case_s_donneurs_sang "/>
+      <bind nodeset="/cpn/start_prepa/prepa_accouche/donneurs_sang" type="string" relevant=" /cpn/start_prepa/prepa_accouche/s_donneurs_sang =1" required="1" calculate=" /cpn/_case_donneurs_sang "/>
+      <bind nodeset="/cpn/start_prepa/prepa_accouche/s_id_accompagnate" type="select1" required="1" calculate=" /cpn/_case_s_id_accompagnate "/>
+      <bind nodeset="/cpn/start_prepa/prepa_accouche/id_accompagnate_note" type="string" relevant=" /cpn/start_prepa/prepa_accouche/s_id_accompagnate =1" required="1" calculate=" /cpn/_case_id_accompagnate_note "/>
+      <bind nodeset="/cpn/start_prepa/prepa_accouche/s_necessaires" type="select1" required="1" calculate=" /cpn/_case_s_necessaires "/>
       <bind nodeset="/cpn/g_resume" relevant=" /cpn/test_grossesse/r_test_grossesse =1 or  /cpn/test_grossesse/s_grossesse ='visible'"/>
       <bind nodeset="/cpn/g_resume/g_observations" type="string" required="1"/>
       <bind nodeset="/cpn/g_resume/g_intervention" type="string" required="1"/>
@@ -3986,11 +3986,11 @@ Au cas contraire rendez-vous dans un mois pour d'autres examens de confirmation 
       <bind nodeset="/cpn/start_calender" relevant="( /cpn/test_grossesse/r_test_grossesse =1 or  /cpn/test_grossesse/s_grossesse ='visible' or  /cpn/method_none/age_estima &gt;0 or  /cpn/method_none/label_esti &gt;0) and (  /cpn/imp_approx_daydayweeks &gt;0 or  /cpn/method_none/age_estima &gt;0 or  /cpn/method_none/label_esti &gt;0) and  /cpn/preeclampsie_debut/ftus_gp/death_or_no !=-1 and  /cpn/preeclampsie_debut/reference_district/transfer !=1"/>
       <bind nodeset="/cpn/start_calender/g_calendrier" relevant="( /cpn/test_grossesse/r_test_grossesse =1 or  /cpn/test_grossesse/s_grossesse ='visible' or  /cpn/method_none/age_estima &gt;0 or  /cpn/method_none/label_esti &gt;0) and  /cpn/transfert_t/final_step_t !=1 and (( /cpn/inferieur_sa/diagnostic_yes !='1' and  /cpn/inferieur_sa/diagnostic_yes !='2') and ( /cpn/inferieur_sa/diagnostic_no !='2' and  /cpn/inferieur_sa/diagnostic_no !='3' and  /cpn/inferieur_sa/diagnostic_no !='4'))"/>
       <bind nodeset="/cpn/start_calender/g_calendrier/g_td/r_vat" type="select1" required="1"/>
-      <bind nodeset="/cpn/start_calender/g_calendrier/g_td/v_vat1_dat" type="date" relevant=" /cpn/start_calender/g_calendrier/g_td/r_vat =2" jr:constraintMsg="jr:itext('/cpn/start_calender/g_calendrier/g_td/v_vat1_dat:jr:constraintMsg')" constraint="today()&gt;=."/>
-      <bind nodeset="/cpn/start_calender/g_calendrier/g_td/v_vat2_dat" type="date" relevant=" /cpn/start_calender/g_calendrier/g_td/r_vat =2" jr:constraintMsg="jr:itext('/cpn/start_calender/g_calendrier/g_td/v_vat2_dat:jr:constraintMsg')" constraint="today()&gt;=."/>
-      <bind nodeset="/cpn/start_calender/g_calendrier/g_td/v_vat3_dat" type="date" relevant=" /cpn/start_calender/g_calendrier/g_td/r_vat =2" jr:constraintMsg="jr:itext('/cpn/start_calender/g_calendrier/g_td/v_vat3_dat:jr:constraintMsg')" constraint="today()&gt;=."/>
-      <bind nodeset="/cpn/start_calender/g_calendrier/g_td/v_vat4_dat" type="date" relevant=" /cpn/start_calender/g_calendrier/g_td/r_vat =2" jr:constraintMsg="jr:itext('/cpn/start_calender/g_calendrier/g_td/v_vat4_dat:jr:constraintMsg')" constraint="today()&gt;=."/>
-      <bind nodeset="/cpn/start_calender/g_calendrier/g_td/v_vat5_dat" type="date" relevant=" /cpn/start_calender/g_calendrier/g_td/r_vat =2" jr:constraintMsg="jr:itext('/cpn/start_calender/g_calendrier/g_td/v_vat5_dat:jr:constraintMsg')" constraint="today()&gt;=."/>
+      <bind nodeset="/cpn/start_calender/g_calendrier/g_td/v_vat1_dat" type="date" constraint="today()&gt;=." relevant=" /cpn/start_calender/g_calendrier/g_td/r_vat =2" jr:constraintMsg="jr:itext('/cpn/start_calender/g_calendrier/g_td/v_vat1_dat:jr:constraintMsg')"/>
+      <bind nodeset="/cpn/start_calender/g_calendrier/g_td/v_vat2_dat" type="date" constraint="today()&gt;=." relevant=" /cpn/start_calender/g_calendrier/g_td/r_vat =2" jr:constraintMsg="jr:itext('/cpn/start_calender/g_calendrier/g_td/v_vat2_dat:jr:constraintMsg')"/>
+      <bind nodeset="/cpn/start_calender/g_calendrier/g_td/v_vat3_dat" type="date" constraint="today()&gt;=." relevant=" /cpn/start_calender/g_calendrier/g_td/r_vat =2" jr:constraintMsg="jr:itext('/cpn/start_calender/g_calendrier/g_td/v_vat3_dat:jr:constraintMsg')"/>
+      <bind nodeset="/cpn/start_calender/g_calendrier/g_td/v_vat4_dat" type="date" constraint="today()&gt;=." relevant=" /cpn/start_calender/g_calendrier/g_td/r_vat =2" jr:constraintMsg="jr:itext('/cpn/start_calender/g_calendrier/g_td/v_vat4_dat:jr:constraintMsg')"/>
+      <bind nodeset="/cpn/start_calender/g_calendrier/g_td/v_vat5_dat" type="date" constraint="today()&gt;=." relevant=" /cpn/start_calender/g_calendrier/g_td/r_vat =2" jr:constraintMsg="jr:itext('/cpn/start_calender/g_calendrier/g_td/v_vat5_dat:jr:constraintMsg')"/>
       <bind nodeset="/cpn/start_calender/g_calendrier/g_td/note_orienter" readonly="true()" type="string" relevant=" /cpn/start_calender/g_calendrier/g_td/r_vat =0"/>
       <bind nodeset="/cpn/start_calender/g_calendrier/g_td/vac1_note" readonly="true()" type="string" relevant=" /cpn/start_calender/g_calendrier/g_td/r_vat =2"/>
       <bind nodeset="/cpn/start_calender/g_calendrier/g_tpi/tpi1" type="select1" relevant="( /cpn/imp_approx_daydayweeks &gt;=16 and  /cpn/imp_approx_daydayweeks &lt;=36) or (  /cpn/method_none/age_estima &gt;15 and  /cpn/method_none/age_estima &lt;37 )or ( /cpn/method_none/label_esti &gt;15 and  /cpn/method_none/label_esti &lt;37 )" required="1"/>

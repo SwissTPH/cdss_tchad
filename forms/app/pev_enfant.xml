@@ -1,8 +1,7 @@
 <?xml version="1.0"?>
 <h:html xmlns="http://www.w3.org/2002/xforms" xmlns:h="http://www.w3.org/1999/xhtml" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:jr="http://openrosa.org/javarosa" xmlns:orx="http://openrosa.org/xforms">
   <h:head>
-    <h:title>VACCINATION (PEV )DE  ROUTINE AU TCHAD 
-0 à 11mois</h:title>
+    <h:title>PEV enfant</h:title>
     <model>
       <itext>
         <translation lang="fr">
@@ -24,17 +23,38 @@
           <text id="/pev_enfant/_case_date_penta3:label">
             <value>date_penta3 sauvegardée</value>
           </text>
+          <text id="/pev_enfant/_case_date_pneumo1:label">
+            <value>date_pneumo1 sauvegardée</value>
+          </text>
+          <text id="/pev_enfant/_case_date_pneumo2:label">
+            <value>date_pneumo2 sauvegardée</value>
+          </text>
+          <text id="/pev_enfant/_case_date_pneumo3:label">
+            <value>date_pneumo3 sauvegardée</value>
+          </text>
+          <text id="/pev_enfant/_case_date_rota1:label">
+            <value>date_rota1 sauvegardée</value>
+          </text>
+          <text id="/pev_enfant/_case_date_rota2:label">
+            <value>date_rota2 sauvegardée</value>
+          </text>
           <text id="/pev_enfant/_case_date_vaa:label">
             <value>date_vaa sauvegardée</value>
           </text>
-          <text id="/pev_enfant/_case_date_var:label">
-            <value>date_var sauvegardée</value>
+          <text id="/pev_enfant/_case_date_var1:label">
+            <value>date_var1 sauvegardée</value>
+          </text>
+          <text id="/pev_enfant/_case_date_var2:label">
+            <value>date_var2 sauvegardée</value>
           </text>
           <text id="/pev_enfant/_case_date_vita:label">
             <value>date_vitamine A sauvegardée</value>
           </text>
-          <text id="/pev_enfant/_case_date_vpi:label">
-            <value>date_vpi sauvegardée</value>
+          <text id="/pev_enfant/_case_date_vpi1:label">
+            <value>date_vpi1 sauvegardée</value>
+          </text>
+          <text id="/pev_enfant/_case_date_vpi2:label">
+            <value>date_vpi2 sauvegardée</value>
           </text>
           <text id="/pev_enfant/_case_date_vpo0:label">
             <value>date_vpo0 sauvegardée</value>
@@ -69,17 +89,38 @@
           <text id="/pev_enfant/date_penta3:label">
             <value>date_penta3 sauvegardée</value>
           </text>
+          <text id="/pev_enfant/date_pneumo1:label">
+            <value>date_pneumo1 sauvegardée</value>
+          </text>
+          <text id="/pev_enfant/date_pneumo2:label">
+            <value>date_pneumo2 sauvegardée</value>
+          </text>
+          <text id="/pev_enfant/date_pneumo3:label">
+            <value>date_pneumo3 sauvegardée</value>
+          </text>
+          <text id="/pev_enfant/date_rota1:label">
+            <value>date_rota1 sauvegardée</value>
+          </text>
+          <text id="/pev_enfant/date_rota2:label">
+            <value>date_rota2 sauvegardée</value>
+          </text>
           <text id="/pev_enfant/date_vaa:label">
             <value>date_vaa sauvegardée</value>
           </text>
-          <text id="/pev_enfant/date_var:label">
-            <value>date_var sauvegardée</value>
+          <text id="/pev_enfant/date_var1:label">
+            <value>date_var1 sauvegardée</value>
+          </text>
+          <text id="/pev_enfant/date_var2:label">
+            <value>date_var2 sauvegardée</value>
           </text>
           <text id="/pev_enfant/date_vita:label">
             <value>date_vitamine A sauvegardée</value>
           </text>
-          <text id="/pev_enfant/date_vpi:label">
-            <value>date_vpi sauvegardée</value>
+          <text id="/pev_enfant/date_vpi1:label">
+            <value>date_vpi1 sauvegardée</value>
+          </text>
+          <text id="/pev_enfant/date_vpi2:label">
+            <value>date_vpi2 sauvegardée</value>
           </text>
           <text id="/pev_enfant/date_vpo0:label">
             <value>date_vpo0 sauvegardée</value>
@@ -142,10 +183,10 @@
             <value>L'enfant n'a pas encore l'âge de prendre ce vaccin</value>
           </text>
           <text id="/pev_enfant/dose_penta/label_rdz_p1:label">
-            <value>Veuillez demander à la maman de ramener l'enfant avec le bébé dans 4 semaines plus exactement à partir du <output value=" /pev_enfant/dose_penta/next_rdv_penta3 "/> pour le penta 3</value>
+            <value>Veuillez demander à la maman de ramener l'enfant dans 4 semaines plus exactement à partir du <output value=" /pev_enfant/dose_penta/next_rdv_penta3 "/> pour le penta 3</value>
           </text>
           <text id="/pev_enfant/dose_penta/label_rdz_p:label">
-            <value>Veuillez demander à la maman de ramener l'enfant avec le bébé dans 4 semaines plus exactement à partir du <output value=" /pev_enfant/dose_vaccin/next_rdv_vpo2 "/> pour le penta 2</value>
+            <value>Veuillez demander à la maman de ramener l'enfant dans 4 semaines plus exactement à partir du <output value=" /pev_enfant/dose_penta/next_rdv_penta2 "/> pour le penta 2</value>
           </text>
           <text id="/pev_enfant/dose_penta/label_rupture13:label">
             <value>Il y'a manque de ce vaccin au service PEV.
@@ -166,21 +207,21 @@
  Veuillez conseiller à la maman de ramener l'enfant la semaine prochaine</value>
           </text>
           <text id="/pev_enfant/dose_penta/label_vacc_penta1:label">
-            <value>PREMIERE DOSE DE PENTA &lt;&lt;Penta1&gt;&gt;
+            <value>PREMIERE DOSE DE PENTA (Penta1 )
 
 
 
 Veuillez administrer 0.5ml en intramusculaire (IM), face antérieure de la cuisse gauche de l'enfant</value>
           </text>
           <text id="/pev_enfant/dose_penta/label_vaccp1_note:label">
-            <value>DEUXIEME DOSE DE PENTA &lt;&lt;Penta2&gt;&gt;
+            <value>DEUXIEME DOSE DE PENTA (Penta2)
 
 
 
 Veuillez administrer 0.5ml en intramusculaire (IM), face antérieure de la cuisse gauche de l'enfant</value>
           </text>
           <text id="/pev_enfant/dose_penta/label_vaccp2_note:label">
-            <value>TROISIEME DOSE DE PENTA &lt;&lt;Penta3&gt;&gt;
+            <value>TROISIEME DOSE DE PENTA (Penta3 )
 
 
 Veuillez administrer 0.5ml en intramusculaire (IM), face antérieure de la cuisse gauche de l'enfant</value>
@@ -270,13 +311,13 @@ Veuillez administrer 0.5ml en intramusculaire (IM), face antérieure de la cuiss
             <value>L'enfant n'a pas encore l'âge de prendre ce vaccin</value>
           </text>
           <text id="/pev_enfant/dose_vaccin/label_rdz_v1:label">
-            <value>Veuillez demander à la maman de ramener l'enfant avec le bébé dans 4 semaines plus exactement à partir du <output value=" /pev_enfant/dose_vaccin/next_rdv_vpo2 "/> pour le VPO 2</value>
+            <value>Veuillez demander à la maman de ramener l'enfant dans 4 semaines plus exactement à partir du <output value=" /pev_enfant/dose_vaccin/next_rdv_vpo2 "/> pour le VPO 2</value>
           </text>
           <text id="/pev_enfant/dose_vaccin/label_rdz_v2:label">
-            <value>Veuillez demander à la maman de ramener l'enfant avec le bébé dans 4 semaines plus exactement à partir du <output value=" /pev_enfant/dose_vaccin/next_rdv_vpo3 "/> pour le VPO 3</value>
+            <value>Veuillez demander à la maman de ramener l'enfant dans 4 semaines plus exactement à partir du <output value=" /pev_enfant/dose_vaccin/next_rdv_vpo3 "/> pour le VPO 3</value>
           </text>
           <text id="/pev_enfant/dose_vaccin/label_rdz_v:label">
-            <value>Veuillez demander à la maman de ramener l'enfant avec le bébé dans 6 semaines plus exactement à partir du: <output value=" /pev_enfant/dose_vaccin/next_rdv_vpo1 "/> pour le VPO 1</value>
+            <value>Veuillez demander à la maman de ramener l'enfant dans 6 semaines plus exactement à partir du: <output value=" /pev_enfant/dose_vaccin/next_rdv_vpo1 "/> pour le VPO 1</value>
           </text>
           <text id="/pev_enfant/dose_vaccin/label_rupture10:label">
             <value>Il y'a manque de ce vaccin au service PEV.
@@ -303,19 +344,19 @@ Veuillez administrer 0.5ml en intramusculaire (IM), face antérieure de la cuiss
  Veuillez conseiller à la maman de ramener l'enfant la semaine prochaine</value>
           </text>
           <text id="/pev_enfant/dose_vaccin/label_vac0_note:label">
-            <value>PREMIERE DOSE DE VPO &lt;&lt;VPO 0&gt;&gt;
+            <value>PREMIERE DOSE DE VPO (VPO 0)
 
 
 Veuillez administrer 2 gouttes de VPO dans la bouche de l'enfant.</value>
           </text>
           <text id="/pev_enfant/dose_vaccin/label_vac2_note:label">
-            <value>TROISIEME DOSE DE VPO &lt;&lt;VPO 2&gt;&gt;
+            <value>TROISIEME DOSE DE VPO (VPO2 )
 
 
 Veuillez administrer 2 gouttes de VPO dans la bouche de l'enfant.</value>
           </text>
           <text id="/pev_enfant/dose_vaccin/label_vac3_note:label">
-            <value>QUATRIEME DOSE DE VPO &lt;&lt;VPO 3&gt;&gt;
+            <value>QUATRIEME DOSE DE VPO (VPO 3)
 
 
 Veuillez administrer 2 gouttes de VPO dans la bouche de l'enfant.</value>
@@ -324,7 +365,7 @@ Veuillez administrer 2 gouttes de VPO dans la bouche de l'enfant.</value>
             <value>L'enfant a reçu toutes les doses du VPO</value>
           </text>
           <text id="/pev_enfant/dose_vaccin/label_vacc1_note:label">
-            <value>DEUXIEME DOSE DE VPO &lt;&lt;VPO 1&gt;&gt;
+            <value>DEUXIEME DOSE DE VPO (VPO 1)
 
 
 Veuillez administrer 2 gouttes de VPO dans la bouche de l'enfant.</value>
@@ -357,43 +398,64 @@ Veuillez administrer 2 gouttes de VPO dans la bouche de l'enfant.</value>
             <value>&lt;b&gt;Vaccin BCG&lt;/b&gt; Dose unique reçue à la date du <output value=" /pev_enfant/g_bilan/date_bilan_bcg "/></value>
           </text>
           <text id="/pev_enfant/g_bilan/label_bilan_meb:label">
-            <value>&lt;/b&gt;Mebendazole/Albendazole&lt;b&gt; : Unique dose réçue le: <output value=" /pev_enfant/g_bilan/date_bilan_meb "/>;</value>
+            <value>&lt;/b&gt;Mebendazole/Albendazole&lt;b&gt; Unique dose réçue le <output value=" /pev_enfant/g_bilan/date_bilan_meb "/>;</value>
           </text>
           <text id="/pev_enfant/g_bilan/label_bilan_men_a:label">
-            <value>&lt;b&gt;Vaccin Anti-meningitique A&lt;/b&gt; Unique dose réçue le : <output value=" /pev_enfant/g_bilan/date_bilan_men_a "/></value>
+            <value>&lt;b&gt;Vaccin Anti-meningitique A&lt;/b&gt; Unique dose réçue le <output value=" /pev_enfant/g_bilan/date_bilan_men_a "/></value>
           </text>
           <text id="/pev_enfant/g_bilan/label_bilan_penta1:label">
-            <value>&lt;b&gt;Penta 1&lt;/b&gt; Réçu le : <output value=" /pev_enfant/g_bilan/date_bilan_penta1 "/></value>
+            <value>&lt;b&gt;Penta 1&lt;/b&gt; Réçu le <output value=" /pev_enfant/g_bilan/date_bilan_penta1 "/></value>
           </text>
           <text id="/pev_enfant/g_bilan/label_bilan_penta2:label">
-            <value>&lt;b&gt;Penta 2&lt;/b&gt; Réçu le : <output value=" /pev_enfant/g_bilan/date_bilan_penta2 "/></value>
+            <value>&lt;b&gt;Penta 2&lt;/b&gt; Réçu le <output value=" /pev_enfant/g_bilan/date_bilan_penta2 "/></value>
           </text>
           <text id="/pev_enfant/g_bilan/label_bilan_penta3:label">
-            <value>&lt;b&gt;Penta 3&lt;/b&gt; Réçu le : <output value=" /pev_enfant/g_bilan/date_bilan_penta3 "/></value>
+            <value>&lt;b&gt;Penta 3&lt;/b&gt; Réçu le <output value=" /pev_enfant/g_bilan/date_bilan_penta3 "/></value>
+          </text>
+          <text id="/pev_enfant/g_bilan/label_bilan_pneumo1:label">
+            <value>&lt;b&gt;PNEUMO1&lt;/b&gt; Réçu le <output value=" /pev_enfant/g_bilan/date_bilan_pneumo1 "/></value>
+          </text>
+          <text id="/pev_enfant/g_bilan/label_bilan_pneumo2:label">
+            <value>&lt;b&gt;PNEUMO2&lt;/b&gt; Réçu le <output value=" /pev_enfant/g_bilan/date_bilan_pneumo2 "/></value>
+          </text>
+          <text id="/pev_enfant/g_bilan/label_bilan_pneumo3:label">
+            <value>&lt;b&gt;PNEUMO3&lt;/b&gt; Réçu le <output value=" /pev_enfant/g_bilan/date_bilan_pneumo3 "/></value>
+          </text>
+          <text id="/pev_enfant/g_bilan/label_bilan_rota1:label">
+            <value>&lt;b&gt;ROTA1&lt;/b&gt; Réçu le <output value=" /pev_enfant/g_bilan/date_bilan_rota1 "/></value>
+          </text>
+          <text id="/pev_enfant/g_bilan/label_bilan_rota2:label">
+            <value>&lt;b&gt;ROTA 2&lt;/b&gt; Réçu le <output value=" /pev_enfant/g_bilan/date_bilan_rota2 "/></value>
           </text>
           <text id="/pev_enfant/g_bilan/label_bilan_vaa:label">
-            <value>&lt;b&gt;Vaccin Anti-Amarile&lt;/b&gt; Unique dose réçue le: <output value=" /pev_enfant/g_bilan/date_bilan_vaa "/>;</value>
+            <value>&lt;b&gt;Vaccin Anti-Amarile&lt;/b&gt; Unique dose réçue le <output value=" /pev_enfant/g_bilan/date_bilan_vaa "/>;</value>
           </text>
-          <text id="/pev_enfant/g_bilan/label_bilan_var:label">
-            <value>&lt;b&gt;Vaccin anti-rougeoleux&lt;/b&gt; Unique dose réçue le : <output value=" /pev_enfant/g_bilan/date_bilan_var "/></value>
+          <text id="/pev_enfant/g_bilan/label_bilan_var1:label">
+            <value>&lt;b&gt;VAR 1&lt;/b&gt; Réçu le <output value=" /pev_enfant/g_bilan/date_bilan_var1 "/></value>
+          </text>
+          <text id="/pev_enfant/g_bilan/label_bilan_var2:label">
+            <value>&lt;b&gt;VAR 2&lt;/b&gt; Unique dose réçue le <output value=" /pev_enfant/g_bilan/date_bilan_var2 "/></value>
           </text>
           <text id="/pev_enfant/g_bilan/label_bilan_vita:label">
-            <value>&lt;b&gt;Vitamine A &lt;/b&gt; Unique dose réçue le : <output value=" /pev_enfant/g_bilan/date_bilan_vita "/>;</value>
+            <value>&lt;b&gt;Vitamine A &lt;/b&gt; Unique dose réçue le <output value=" /pev_enfant/g_bilan/date_bilan_vita "/>;</value>
           </text>
-          <text id="/pev_enfant/g_bilan/label_bilan_vpi:label">
-            <value>&lt;b&gt;VPI&lt;/b&gt; Réçu le : <output value=" /pev_enfant/g_bilan/date_bilan_vpi "/></value>
+          <text id="/pev_enfant/g_bilan/label_bilan_vpi1:label">
+            <value>&lt;b&gt;VPI 1&lt;/b&gt; Réçu le <output value=" /pev_enfant/g_bilan/date_bilan_vpi1 "/></value>
+          </text>
+          <text id="/pev_enfant/g_bilan/label_bilan_vpi2:label">
+            <value>&lt;b&gt;VPI 2&lt;/b&gt; Réçu le <output value=" /pev_enfant/g_bilan/date_bilan_vpi2 "/></value>
           </text>
           <text id="/pev_enfant/g_bilan/label_bilan_vpo0:label">
-            <value>&lt;b&gt;VPO 0&lt;/b&gt; Réçu le : <output value=" /pev_enfant/g_bilan/date_bilan_vpo0 "/></value>
+            <value>&lt;b&gt;VPO 0&lt;/b&gt; Réçu le <output value=" /pev_enfant/g_bilan/date_bilan_vpo0 "/></value>
           </text>
           <text id="/pev_enfant/g_bilan/label_bilan_vpo1:label">
-            <value>&lt;b&gt;VPO 1&lt;/b&gt; Réçu le : <output value=" /pev_enfant/g_bilan/date_bilan_vpo1 "/></value>
+            <value>&lt;b&gt;VPO 1&lt;/b&gt; Réçu le <output value=" /pev_enfant/g_bilan/date_bilan_vpo1 "/></value>
           </text>
           <text id="/pev_enfant/g_bilan/label_bilan_vpo2:label">
-            <value>&lt;b&gt;VPO 2&lt;/b&gt; Réçu le : <output value=" /pev_enfant/g_bilan/date_bilan_vpo2 "/></value>
+            <value>&lt;b&gt;VPO 2&lt;/b&gt; Réçu le <output value=" /pev_enfant/g_bilan/date_bilan_vpo2 "/></value>
           </text>
           <text id="/pev_enfant/g_bilan/label_bilan_vpo3:label">
-            <value>&lt;b&gt;VPO3&lt;/b&gt; Réçu le : <output value=" /pev_enfant/g_bilan/date_bilan_vpo3 "/></value>
+            <value>&lt;b&gt;VPO3&lt;/b&gt; Réçu le <output value=" /pev_enfant/g_bilan/date_bilan_vpo3 "/></value>
           </text>
           <text id="/pev_enfant/g_bilan/label_next_done:label">
             <value>L'enfant est complètement vacciné.
@@ -471,6 +533,146 @@ Féliciter la maman et la conseiller de ramener l'enfant au centre de santé en 
           <text id="/pev_enfant/g_mena:label">
             <value>Vaccin Anti-meningitique A</value>
           </text>
+          <text id="/pev_enfant/g_pneumo/dose_pneumo1/-1:label">
+            <value>Rupture</value>
+          </text>
+          <text id="/pev_enfant/g_pneumo/dose_pneumo1/1:label">
+            <value>Oui</value>
+          </text>
+          <text id="/pev_enfant/g_pneumo/dose_pneumo1:label">
+            <value>Pouvez-vous administrer le pneumo 1</value>
+          </text>
+          <text id="/pev_enfant/g_pneumo/dose_pneumo2/-1:label">
+            <value>Rupture</value>
+          </text>
+          <text id="/pev_enfant/g_pneumo/dose_pneumo2/1:label">
+            <value>Oui</value>
+          </text>
+          <text id="/pev_enfant/g_pneumo/dose_pneumo2:label">
+            <value>Pouvez-vous administrer le pneumo 2</value>
+          </text>
+          <text id="/pev_enfant/g_pneumo/dose_pneumo3/-1:label">
+            <value>Rupture</value>
+          </text>
+          <text id="/pev_enfant/g_pneumo/dose_pneumo3/1:label">
+            <value>Oui</value>
+          </text>
+          <text id="/pev_enfant/g_pneumo/dose_pneumo3:label">
+            <value>Pouvez-vous administrer le pneumo 3</value>
+          </text>
+          <text id="/pev_enfant/g_pneumo/e_date_pneumo1:jr:constraintMsg">
+            <value>Il est tôt pour prendre ce vaccin veuillez indiquer la date de rendez-vous à la maman.</value>
+          </text>
+          <text id="/pev_enfant/g_pneumo/e_date_pneumo1:label">
+            <value>Veuillez entrer la date de pneumo 1</value>
+          </text>
+          <text id="/pev_enfant/g_pneumo/e_date_pneumo2:jr:constraintMsg">
+            <value>Il est tôt pour prendre ce vaccin veuillez indiquer la date de rendez-vous à la maman.</value>
+          </text>
+          <text id="/pev_enfant/g_pneumo/e_date_pneumo2:label">
+            <value>Veuillez entrer la date de pneumo 2</value>
+          </text>
+          <text id="/pev_enfant/g_pneumo/e_date_pneumo3:jr:constraintMsg">
+            <value>Il est tôt pour continuer avec les autres vaccin veuillez indiquer la date de rendez-vous correcte à la maman.</value>
+          </text>
+          <text id="/pev_enfant/g_pneumo/e_date_pneumo3:label">
+            <value>Veuillez entrer la date de pneumo 3</value>
+          </text>
+          <text id="/pev_enfant/g_pneumo/label_dose_pneumo1:label">
+            <value>PREMIERE DOSE DE PNEUMO (pneumo1)
+Veuillez administrer la première dose du vaccin pneumo
+
+ Veuillez demander à la maman de ramener l'enfant dans 4 semaines plus exactement à partir du: <output value=" /pev_enfant/next_pneumo "/> pour le PNEUMO 2</value>
+          </text>
+          <text id="/pev_enfant/g_pneumo/label_dose_pneumo2:label">
+            <value>DEUXIEME DOSE DE PNEUMO (pneumo2) 
+Veuillez administrer la deuxième dose du vaccin pneumo 
+
+ Veuillez demander à la maman de ramener l'enfant avec le bébé dans 4 semaines plus exactement à partir du <output value=" /pev_enfant/next_pneumo "/> pour le PNEUMO 3</value>
+          </text>
+          <text id="/pev_enfant/g_pneumo/label_dose_pneumo3:label">
+            <value>TROISIEME DOSE DE PNEUMO (pneumo3 
+Veuillez administrer la troisième dose du vaccin pneumo)</value>
+          </text>
+          <text id="/pev_enfant/g_pneumo/label_rup_pneumo:label">
+            <value>Il y'a manque de ce vaccin au service PEV.
+ Veuillez conseiller à la maman de ramener l'enfant la semaine prochaine</value>
+          </text>
+          <text id="/pev_enfant/g_pneumo/s_ch_contact_pmo/0:label">
+            <value>Aucune dose</value>
+          </text>
+          <text id="/pev_enfant/g_pneumo/s_ch_contact_pmo/1:label">
+            <value>PNEUMO 1</value>
+          </text>
+          <text id="/pev_enfant/g_pneumo/s_ch_contact_pmo/2:label">
+            <value>PNEUMO 2</value>
+          </text>
+          <text id="/pev_enfant/g_pneumo/s_ch_contact_pmo/3:label">
+            <value>PNEUMO 3</value>
+          </text>
+          <text id="/pev_enfant/g_pneumo/s_ch_contact_pmo:label">
+            <value>Veuillez selectionnez la dernière dose de pneumo reçue par l'enfant.</value>
+          </text>
+          <text id="/pev_enfant/g_pneumo:label">
+            <value>Vaccin pneumo</value>
+          </text>
+          <text id="/pev_enfant/g_rota/dose_rota1/-1:label">
+            <value>Rupture</value>
+          </text>
+          <text id="/pev_enfant/g_rota/dose_rota1/1:label">
+            <value>Oui</value>
+          </text>
+          <text id="/pev_enfant/g_rota/dose_rota1:label">
+            <value>Pouvez-vous administrer le rota 1</value>
+          </text>
+          <text id="/pev_enfant/g_rota/dose_rota2/-1:label">
+            <value>Rupture</value>
+          </text>
+          <text id="/pev_enfant/g_rota/dose_rota2/1:label">
+            <value>Oui</value>
+          </text>
+          <text id="/pev_enfant/g_rota/dose_rota2:label">
+            <value>Pouvez-vous administrer le rota 2</value>
+          </text>
+          <text id="/pev_enfant/g_rota/e_date_rota1:jr:constraintMsg">
+            <value>Il est tôt pour prendre ce vaccin veuillez indiquer la date de rendez-vous à la maman.</value>
+          </text>
+          <text id="/pev_enfant/g_rota/e_date_rota1:label">
+            <value>Veuillez entrer la date de rota 1</value>
+          </text>
+          <text id="/pev_enfant/g_rota/e_date_rota2:jr:constraintMsg">
+            <value>Il est tôt pour prendre ce vaccin veuillez indiquer la date de rendez-vous à la maman.</value>
+          </text>
+          <text id="/pev_enfant/g_rota/e_date_rota2:label">
+            <value>Veuillez entrer la date de rota 2</value>
+          </text>
+          <text id="/pev_enfant/g_rota/label_dose_rota1:label">
+            <value>PREMIERE DOSE DE ROTA (rota 1)
+Veuillez administrer la première dose du vaccin rota</value>
+          </text>
+          <text id="/pev_enfant/g_rota/label_dose_rota2:label">
+            <value>DEUXIEME DOSE DE ROTA (rota 2 )
+Veuillez administrer la deuxième dose du vaccin rota</value>
+          </text>
+          <text id="/pev_enfant/g_rota/label_rup_rota:label">
+            <value>Il y'a manque de ce vaccin au service PEV.
+ Veuillez conseiller à la maman de ramener l'enfant la semaine prochaine</value>
+          </text>
+          <text id="/pev_enfant/g_rota/s_ch_contact_rota/0:label">
+            <value>Aucune dose</value>
+          </text>
+          <text id="/pev_enfant/g_rota/s_ch_contact_rota/1:label">
+            <value>ROTA 1</value>
+          </text>
+          <text id="/pev_enfant/g_rota/s_ch_contact_rota/2:label">
+            <value>ROTA 2</value>
+          </text>
+          <text id="/pev_enfant/g_rota/s_ch_contact_rota:label">
+            <value>Veuillez selectionnez la dernière dose de ROTA reçue par l'enfant.</value>
+          </text>
+          <text id="/pev_enfant/g_rota:label">
+            <value>Vaccin ROTA</value>
+          </text>
           <text id="/pev_enfant/g_vaa/dga_vaa/-1:label">
             <value>Rupture</value>
           </text>
@@ -542,38 +744,62 @@ Veuillez conseiller à la maman de ramener l'enfant la semaine prochaine.</value
           <text id="/pev_enfant/g_vaccin_bcg:label">
             <value>Vaccin BCG</value>
           </text>
-          <text id="/pev_enfant/g_var/dga_var/-1:label">
+          <text id="/pev_enfant/g_var/dose_var1/-1:label">
             <value>Rupture</value>
           </text>
-          <text id="/pev_enfant/g_var/dga_var/1:label">
+          <text id="/pev_enfant/g_var/dose_var1/1:label">
             <value>Oui</value>
           </text>
-          <text id="/pev_enfant/g_var/dga_var:label">
-            <value>Pouvez-vous administrer le VAR?</value>
+          <text id="/pev_enfant/g_var/dose_var1:label">
+            <value>Pouvez-vous administrer le VAR 1</value>
           </text>
-          <text id="/pev_enfant/g_var/e_date_var:label">
-            <value>Veuillez entrer la date à laquelle l'enfant a reçu le VAR.</value>
+          <text id="/pev_enfant/g_var/dose_var2/-1:label">
+            <value>Rupture</value>
           </text>
-          <text id="/pev_enfant/g_var/is_var/-1:label">
-            <value>Non</value>
-          </text>
-          <text id="/pev_enfant/g_var/is_var/1:label">
+          <text id="/pev_enfant/g_var/dose_var2/1:label">
             <value>Oui</value>
           </text>
-          <text id="/pev_enfant/g_var/is_var:label">
-            <value>L'enfant a-t-il déjà reçu le VAR?</value>
+          <text id="/pev_enfant/g_var/dose_var2:label">
+            <value>Pouvez-vous administrer le VAR 2</value>
           </text>
-          <text id="/pev_enfant/g_var/label_rupture3:label">
+          <text id="/pev_enfant/g_var/e_date_var1:jr:constraintMsg">
+            <value>Il est tôt pour prendre ce vaccin veuillez indiquer la date de rendez-vous à la maman.</value>
+          </text>
+          <text id="/pev_enfant/g_var/e_date_var1:label">
+            <value>Veuillez entrer la date de VAR 1</value>
+          </text>
+          <text id="/pev_enfant/g_var/e_date_var2:jr:constraintMsg">
+            <value>Il est tôt pour prendre ce vaccin veuillez indiquer la date de rendez-vous à la maman.</value>
+          </text>
+          <text id="/pev_enfant/g_var/e_date_var2:label">
+            <value>Veuillez entrer la date de VAR 2</value>
+          </text>
+          <text id="/pev_enfant/g_var/label_dose_var1:label">
+            <value>PREMIERE DOSE DE VAR ( VAR 1 )
+Administrer la première dose du vaccin VAR, 0.5ml en SC, face externe du 1/3 supérieur du bras droit</value>
+          </text>
+          <text id="/pev_enfant/g_var/label_dose_var2:label">
+            <value>DEUXIEME DOSE DE VAR (VAR 2 )
+Administrer la deuxième dose du vaccin VAR, 0.5ml en SC, face externe du 1/3 supérieur du bras droit</value>
+          </text>
+          <text id="/pev_enfant/g_var/label_rupture_var:label">
             <value>Il y'a manque de ce vaccin au service PEV.
-
-
  Veuillez conseiller à la maman de ramener l'enfant la semaine prochaine</value>
-          </text>
-          <text id="/pev_enfant/g_var/label_tt_var:label">
-            <value>Administrer le vaccin VAR, 0.5ml en SC, face externe du 1/3 supérieur du bras droit</value>
           </text>
           <text id="/pev_enfant/g_var/label_var_warning:label">
             <value>Le VAR est contre indiqué pour cet enfant: Sa mére est séropositive soit confirmée ou probable</value>
+          </text>
+          <text id="/pev_enfant/g_var/s_ch_contact_var/0:label">
+            <value>Aucune dose</value>
+          </text>
+          <text id="/pev_enfant/g_var/s_ch_contact_var/1:label">
+            <value>VAR 1</value>
+          </text>
+          <text id="/pev_enfant/g_var/s_ch_contact_var/2:label">
+            <value>VAR 2</value>
+          </text>
+          <text id="/pev_enfant/g_var/s_ch_contact_var:label">
+            <value>Veuillez selectionnez la dernière dose de VAR reçue par l'enfant.</value>
           </text>
           <text id="/pev_enfant/g_var:label">
             <value>Vaccin VAR</value>
@@ -611,35 +837,59 @@ Veuillez conseiller à la maman de ramener l'enfant la semaine prochaine.</value
           <text id="/pev_enfant/g_vitaa:label">
             <value>Vitamine A</value>
           </text>
-          <text id="/pev_enfant/g_vpi/dga_vpi/-1:label">
+          <text id="/pev_enfant/g_vpi/dose_vpi1/-1:label">
             <value>Rupture</value>
           </text>
-          <text id="/pev_enfant/g_vpi/dga_vpi/1:label">
+          <text id="/pev_enfant/g_vpi/dose_vpi1/1:label">
             <value>Oui</value>
           </text>
-          <text id="/pev_enfant/g_vpi/dga_vpi:label">
-            <value>Pouvez-vous administrer le vaccin VPI?</value>
+          <text id="/pev_enfant/g_vpi/dose_vpi1:label">
+            <value>Pouvez-vous administrer le VPI 1</value>
           </text>
-          <text id="/pev_enfant/g_vpi/e_date_vpi:label">
-            <value>Veuillez entrer la date à la quelle l'enfant a reçu ce vaccin.</value>
+          <text id="/pev_enfant/g_vpi/dose_vpi2/-1:label">
+            <value>Rupture</value>
           </text>
-          <text id="/pev_enfant/g_vpi/is_vpi/-1:label">
-            <value>Non</value>
-          </text>
-          <text id="/pev_enfant/g_vpi/is_vpi/1:label">
+          <text id="/pev_enfant/g_vpi/dose_vpi2/1:label">
             <value>Oui</value>
           </text>
-          <text id="/pev_enfant/g_vpi/is_vpi:label">
-            <value>L'enfant a-t-il déjà reçu le vaccin VPI?</value>
+          <text id="/pev_enfant/g_vpi/dose_vpi2:label">
+            <value>Pouvez-vous administrer le VPI 2</value>
           </text>
-          <text id="/pev_enfant/g_vpi/label_rupture6:label">
+          <text id="/pev_enfant/g_vpi/e_date_vpi1:jr:constraintMsg">
+            <value>Il est tôt pour prendre ce vaccin veuillez indiquer la date de rendez-vous à la maman.</value>
+          </text>
+          <text id="/pev_enfant/g_vpi/e_date_vpi1:label">
+            <value>Veuillez entrer la date de VPI 1</value>
+          </text>
+          <text id="/pev_enfant/g_vpi/e_date_vpi2:jr:constraintMsg">
+            <value>Il est tôt pour prendre ce vaccin veuillez indiquer la date de rendez-vous à la maman.</value>
+          </text>
+          <text id="/pev_enfant/g_vpi/e_date_vpi2:label">
+            <value>Veuillez entrer la date de VPI 2</value>
+          </text>
+          <text id="/pev_enfant/g_vpi/label_dose_vpi1:label">
+            <value>PREMIERE DOSE DE VPI (VPI 1)
+Veuillez administrer la prémière dose du vaccin VPI</value>
+          </text>
+          <text id="/pev_enfant/g_vpi/label_dose_vpi2:label">
+            <value>DEUXIEME DOSE DE VPI ( VPI2 )
+Veuillez administrer la deuxième dose du vaccin VPI</value>
+          </text>
+          <text id="/pev_enfant/g_vpi/label_rup_vpi:label">
             <value>Il y'a manque de ce vaccin au service PEV.
-
-
  Veuillez conseiller à la maman de ramener l'enfant la semaine prochaine</value>
           </text>
-          <text id="/pev_enfant/g_vpi/label_tt_vpi:label">
-            <value>Veuillez administrer 0,5ml en intramusculaire (IM), face antérieure de la cuisse droite de l'enfant.</value>
+          <text id="/pev_enfant/g_vpi/s_ch_contact_vpi/0:label">
+            <value>Aucune dose</value>
+          </text>
+          <text id="/pev_enfant/g_vpi/s_ch_contact_vpi/1:label">
+            <value>VPI 1</value>
+          </text>
+          <text id="/pev_enfant/g_vpi/s_ch_contact_vpi/2:label">
+            <value>VPI 2</value>
+          </text>
+          <text id="/pev_enfant/g_vpi/s_ch_contact_vpi:label">
+            <value>Veuillez selectionnez la dernière dose de VPI reçue par l'enfant.</value>
           </text>
           <text id="/pev_enfant/g_vpi:label">
             <value>Vaccin VPI</value>
@@ -665,17 +915,38 @@ Veuillez conseiller à la maman de ramener l'enfant la semaine prochaine.</value
           <text id="/pev_enfant/inputs/contact/_input_date_penta3:label">
             <value>date_penta3 sauvegardée</value>
           </text>
+          <text id="/pev_enfant/inputs/contact/_input_date_pneumo1:label">
+            <value>date_pneumo1 sauvegardée</value>
+          </text>
+          <text id="/pev_enfant/inputs/contact/_input_date_pneumo2:label">
+            <value>date_pneumo2 sauvegardée</value>
+          </text>
+          <text id="/pev_enfant/inputs/contact/_input_date_pneumo3:label">
+            <value>date_pneumo3 sauvegardée</value>
+          </text>
+          <text id="/pev_enfant/inputs/contact/_input_date_rota1:label">
+            <value>date_rota1 sauvegardée</value>
+          </text>
+          <text id="/pev_enfant/inputs/contact/_input_date_rota2:label">
+            <value>date_rota2 sauvegardée</value>
+          </text>
           <text id="/pev_enfant/inputs/contact/_input_date_vaa:label">
             <value>date_vaa sauvegardée</value>
           </text>
-          <text id="/pev_enfant/inputs/contact/_input_date_var:label">
-            <value>date_var sauvegardée</value>
+          <text id="/pev_enfant/inputs/contact/_input_date_var1:label">
+            <value>date_var1 sauvegardée</value>
+          </text>
+          <text id="/pev_enfant/inputs/contact/_input_date_var2:label">
+            <value>date_var2 sauvegardée</value>
           </text>
           <text id="/pev_enfant/inputs/contact/_input_date_vita:label">
             <value>date_vitamine A sauvegardée</value>
           </text>
-          <text id="/pev_enfant/inputs/contact/_input_date_vpi:label">
-            <value>date_vpi sauvegardée</value>
+          <text id="/pev_enfant/inputs/contact/_input_date_vpi1:label">
+            <value>date_vpi1 sauvegardée</value>
+          </text>
+          <text id="/pev_enfant/inputs/contact/_input_date_vpi2:label">
+            <value>date_vpi2 sauvegardée</value>
           </text>
           <text id="/pev_enfant/inputs/contact/_input_date_vpo0:label">
             <value>date_vpo0 sauvegardée</value>
@@ -758,7 +1029,7 @@ Si le test est négatif; poursuivre le calendrier vaccinal normal de l' enfant.<
         </translation>
       </itext>
       <instance>
-        <pev_enfant id="pev_enfant" prefix="J1!pev_enfant!" delimiter="#" version="2303271302">
+        <pev_enfant id="pev_enfant" prefix="J1!pev_enfant!" delimiter="#" version="2306171515">
           <inputs>
             <meta>
               <location>
@@ -784,8 +1055,15 @@ Si le test est négatif; poursuivre le calendrier vaccinal normal de l' enfant.<
               <_input_date_penta1/>
               <_input_date_penta2/>
               <_input_date_penta3/>
-              <_input_date_vpi/>
-              <_input_date_var/>
+              <_input_date_pneumo1/>
+              <_input_date_pneumo2/>
+              <_input_date_pneumo3/>
+              <_input_date_rota1/>
+              <_input_date_rota2/>
+              <_input_date_vpi1/>
+              <_input_date_vpi2/>
+              <_input_date_var1/>
+              <_input_date_var2/>
               <_input_date_vaa/>
               <_input_date_meni/>
               <_input_date_vita/>
@@ -803,8 +1081,15 @@ Si le test est négatif; poursuivre le calendrier vaccinal normal de l' enfant.<
           <date_penta1/>
           <date_penta2/>
           <date_penta3/>
-          <date_vpi/>
-          <date_var/>
+          <date_pneumo1/>
+          <date_pneumo2/>
+          <date_pneumo3/>
+          <date_rota1/>
+          <date_rota2/>
+          <date_vpi1/>
+          <date_vpi2/>
+          <date_var1/>
+          <date_var2/>
           <date_vaa/>
           <date_meni/>
           <date_vita/>
@@ -818,8 +1103,15 @@ Si le test est négatif; poursuivre le calendrier vaccinal normal de l' enfant.<
           <_case_date_penta1/>
           <_case_date_penta2/>
           <_case_date_penta3/>
-          <_case_date_vpi/>
-          <_case_date_var/>
+          <_case_date_pneumo1/>
+          <_case_date_pneumo2/>
+          <_case_date_pneumo3/>
+          <_case_date_rota1/>
+          <_case_date_rota2/>
+          <_case_date_vpi1/>
+          <_case_date_vpi2/>
+          <_case_date_var1/>
+          <_case_date_var2/>
           <_case_date_vaa/>
           <_case_date_meni/>
           <_case_date_vita/>
@@ -845,6 +1137,8 @@ Si le test est négatif; poursuivre le calendrier vaccinal normal de l' enfant.<
           </g_vaccin_bcg>
           <next_vpo/>
           <next_penta/>
+          <next_pneumo/>
+          <next_rota/>
           <next_vpi/>
           <next_var/>
           <next_men_a/>
@@ -917,14 +1211,68 @@ Si le test est négatif; poursuivre le calendrier vaccinal normal de l' enfant.<
             <label_vaccp3_note/>
             <invalide_dose_penta/>
           </dose_penta>
+          <g_pneumo>
+            <is_missed_pneumo1/>
+            <is_missed_pneumo2/>
+            <is_missed_pneumo3/>
+            <s_ch_contact_pmo/>
+            <e_date_pneumo1/>
+            <e_date_pneumo2/>
+            <e_date_pneumo3/>
+            <pneumo1_needed/>
+            <dose_pneumo1/>
+            <label_dose_pneumo1/>
+            <pneumo2_needed/>
+            <dose_pneumo2/>
+            <label_dose_pneumo2/>
+            <pneumo3_needed/>
+            <dose_pneumo3/>
+            <label_dose_pneumo3/>
+            <label_rup_pneumo/>
+          </g_pneumo>
+          <g_rota>
+            <is_missed_rota1/>
+            <is_missed_rota2/>
+            <s_ch_contact_rota/>
+            <e_date_rota1/>
+            <e_date_rota2/>
+            <rota_needed/>
+            <dose_rota1/>
+            <label_dose_rota1/>
+            <rota1_needed/>
+            <dose_rota2/>
+            <label_dose_rota2/>
+            <label_rup_rota/>
+          </g_rota>
           <g_vpi>
-            <is_vpi/>
-            <is_vpi_missed/>
-            <dga_vpi/>
-            <label_tt_vpi/>
-            <label_rupture6/>
-            <e_date_vpi/>
+            <is_missed_vpi1/>
+            <is_missed_vpi2/>
+            <s_ch_contact_vpi/>
+            <e_date_vpi1/>
+            <e_date_vpi2/>
+            <vpi1_needed/>
+            <dose_vpi1/>
+            <label_dose_vpi1/>
+            <vpi2_needed/>
+            <dose_vpi2/>
+            <label_dose_vpi2/>
+            <label_rup_vpi/>
           </g_vpi>
+          <g_var>
+            <label_var_warning/>
+            <is_missed_var1/>
+            <is_missed_var2/>
+            <s_ch_contact_var/>
+            <e_date_var1/>
+            <e_date_var2/>
+            <var_needed/>
+            <dose_var1/>
+            <label_dose_var1/>
+            <var1_needed/>
+            <dose_var2/>
+            <label_dose_var2/>
+            <label_rupture_var/>
+          </g_var>
           <g_mena>
             <is_men_a/>
             <is_meni_missed/>
@@ -941,15 +1289,6 @@ Si le test est négatif; poursuivre le calendrier vaccinal normal de l' enfant.<
             <label_tt_vita/>
             <label_rupture4/>
           </g_vitaa>
-          <g_var>
-            <is_var/>
-            <label_var_warning/>
-            <is_var_missed/>
-            <dga_var/>
-            <e_date_var/>
-            <label_tt_var/>
-            <label_rupture3/>
-          </g_var>
           <g_vaa>
             <is_vaa/>
             <label_vaa_warning/>
@@ -985,12 +1324,26 @@ Si le test est négatif; poursuivre le calendrier vaccinal normal de l' enfant.<
             <label_bilan_penta2/>
             <date_bilan_penta3/>
             <label_bilan_penta3/>
-            <date_bilan_vpi/>
-            <label_bilan_vpi/>
-            <date_bilan_var/>
-            <label_bilan_var/>
+            <date_bilan_pneumo1/>
+            <label_bilan_pneumo1/>
+            <date_bilan_pneumo2/>
+            <label_bilan_pneumo2/>
+            <date_bilan_pneumo3/>
+            <label_bilan_pneumo3/>
             <date_bilan_men_a/>
             <label_bilan_men_a/>
+            <date_bilan_vpi1/>
+            <label_bilan_vpi1/>
+            <date_bilan_vpi2/>
+            <label_bilan_vpi2/>
+            <date_bilan_var1/>
+            <label_bilan_var1/>
+            <date_bilan_var2/>
+            <label_bilan_var2/>
+            <date_bilan_rota1/>
+            <label_bilan_rota1/>
+            <date_bilan_rota2/>
+            <label_bilan_rota2/>
             <date_bilan_vita/>
             <label_bilan_vita/>
             <date_bilan_vaa/>
@@ -1022,8 +1375,15 @@ Si le test est négatif; poursuivre le calendrier vaccinal normal de l' enfant.<
       <bind nodeset="/pev_enfant/inputs/contact/_input_date_penta1" type="date"/>
       <bind nodeset="/pev_enfant/inputs/contact/_input_date_penta2" type="date"/>
       <bind nodeset="/pev_enfant/inputs/contact/_input_date_penta3" type="date"/>
-      <bind nodeset="/pev_enfant/inputs/contact/_input_date_vpi" type="date"/>
-      <bind nodeset="/pev_enfant/inputs/contact/_input_date_var" type="date"/>
+      <bind nodeset="/pev_enfant/inputs/contact/_input_date_pneumo1" type="date"/>
+      <bind nodeset="/pev_enfant/inputs/contact/_input_date_pneumo2" type="date"/>
+      <bind nodeset="/pev_enfant/inputs/contact/_input_date_pneumo3" type="date"/>
+      <bind nodeset="/pev_enfant/inputs/contact/_input_date_rota1" type="date"/>
+      <bind nodeset="/pev_enfant/inputs/contact/_input_date_rota2" type="date"/>
+      <bind nodeset="/pev_enfant/inputs/contact/_input_date_vpi1" type="date"/>
+      <bind nodeset="/pev_enfant/inputs/contact/_input_date_vpi2" type="date"/>
+      <bind nodeset="/pev_enfant/inputs/contact/_input_date_var1" type="date"/>
+      <bind nodeset="/pev_enfant/inputs/contact/_input_date_var2" type="date"/>
       <bind nodeset="/pev_enfant/inputs/contact/_input_date_vaa" type="date"/>
       <bind nodeset="/pev_enfant/inputs/contact/_input_date_meni" type="date"/>
       <bind nodeset="/pev_enfant/inputs/contact/_input_date_vita" type="date"/>
@@ -1039,8 +1399,15 @@ Si le test est négatif; poursuivre le calendrier vaccinal normal de l' enfant.<
       <bind nodeset="/pev_enfant/date_penta1" type="string" calculate="if( /pev_enfant/dose_penta/dose_pta1 =1,today(),if( /pev_enfant/dose_penta/is_missed_penta1 =1, /pev_enfant/dose_penta/e_date_penta1 , /pev_enfant/_case_date_penta1 ))"/>
       <bind nodeset="/pev_enfant/date_penta2" type="string" calculate="if( /pev_enfant/dose_penta/dose_pta2 =1,today(),if( /pev_enfant/dose_penta/is_missed_penta2 =1, /pev_enfant/dose_penta/e_date_penta2 , /pev_enfant/_case_date_penta2 ))"/>
       <bind nodeset="/pev_enfant/date_penta3" type="string" calculate="if( /pev_enfant/dose_penta/dose_pta3 =1,today(),if( /pev_enfant/dose_penta/is_missed_penta3 =1, /pev_enfant/dose_penta/e_date_penta3 , /pev_enfant/_case_date_penta3 ))"/>
-      <bind nodeset="/pev_enfant/date_vpi" type="string" calculate="if( /pev_enfant/g_vpi/dga_vpi =1 ,today(),if( /pev_enfant/g_vpi/is_vpi_missed =1, /pev_enfant/g_vpi/e_date_vpi , /pev_enfant/_case_date_vpi ))"/>
-      <bind nodeset="/pev_enfant/date_var" type="string" calculate="if( /pev_enfant/g_var/dga_var =1 ,today(),if( /pev_enfant/g_var/is_var_missed =1, /pev_enfant/g_var/e_date_var , /pev_enfant/_case_date_var ))"/>
+      <bind nodeset="/pev_enfant/date_pneumo1" type="string" calculate="if( /pev_enfant/g_pneumo/dose_pneumo1 =1,today(),if( /pev_enfant/g_pneumo/is_missed_pneumo1 =1, /pev_enfant/g_pneumo/e_date_pneumo1 , /pev_enfant/_case_date_pneumo1 ))"/>
+      <bind nodeset="/pev_enfant/date_pneumo2" type="string" calculate="if( /pev_enfant/g_pneumo/dose_pneumo2 =1,today(),if( /pev_enfant/g_pneumo/is_missed_pneumo2 =1, /pev_enfant/g_pneumo/e_date_pneumo1 , /pev_enfant/_case_date_pneumo2 ))"/>
+      <bind nodeset="/pev_enfant/date_pneumo3" type="string" calculate="if( /pev_enfant/g_pneumo/dose_pneumo3 =1,today(),if( /pev_enfant/g_pneumo/is_missed_pneumo3 =1, /pev_enfant/g_pneumo/e_date_pneumo3 , /pev_enfant/_case_date_pneumo3 ))"/>
+      <bind nodeset="/pev_enfant/date_rota1" type="string" calculate="if( /pev_enfant/g_rota/dose_rota1 =1 ,today(),if( /pev_enfant/g_rota/is_missed_rota1 =1, /pev_enfant/g_rota/e_date_rota1 , /pev_enfant/_case_date_rota1 ))"/>
+      <bind nodeset="/pev_enfant/date_rota2" type="string" calculate="if( /pev_enfant/g_rota/dose_rota2 =1 ,today(),if( /pev_enfant/g_rota/is_missed_rota2 =1, /pev_enfant/g_rota/e_date_rota2 , /pev_enfant/_case_date_rota2 ))"/>
+      <bind nodeset="/pev_enfant/date_vpi1" type="string" calculate="if( /pev_enfant/g_vpi/dose_vpi1 =1 ,today(),if( /pev_enfant/g_vpi/is_missed_vpi1 =1, /pev_enfant/g_vpi/e_date_vpi1 , /pev_enfant/_case_date_vpi1 ))"/>
+      <bind nodeset="/pev_enfant/date_vpi2" type="string" calculate="if( /pev_enfant/g_vpi/dose_vpi2 =1 ,today(),if( /pev_enfant/g_vpi/is_missed_vpi2 =1, /pev_enfant/g_vpi/e_date_vpi2 , /pev_enfant/_case_date_vpi2 ))"/>
+      <bind nodeset="/pev_enfant/date_var1" type="string" calculate="if( /pev_enfant/g_var/dose_var1 =1 ,today(),if( /pev_enfant/g_var/is_missed_var1 =1, /pev_enfant/g_var/e_date_var1 , /pev_enfant/_case_date_var1 ))"/>
+      <bind nodeset="/pev_enfant/date_var2" type="string" calculate="if( /pev_enfant/g_var/dose_var2 =1 ,today(),if( /pev_enfant/g_var/is_missed_var2 =1, /pev_enfant/g_var/e_date_var2 , /pev_enfant/_case_date_var2 ))"/>
       <bind nodeset="/pev_enfant/date_vaa" type="string" calculate="if( /pev_enfant/g_vaa/dga_vaa =1 ,today(),if( /pev_enfant/g_vaa/is_vaa_missed =1, /pev_enfant/g_vaa/e_date_vaa , /pev_enfant/_case_date_vaa ))"/>
       <bind nodeset="/pev_enfant/date_meni" type="string" calculate="if( /pev_enfant/g_mena/dga_men =1 ,today(),if( /pev_enfant/g_mena/is_meni_missed =1, /pev_enfant/g_mena/e_date_meni , /pev_enfant/_case_date_meni ))"/>
       <bind nodeset="/pev_enfant/date_vita" type="string" calculate="if( /pev_enfant/g_vitaa/dga_vitaa =1 ,today(),if( /pev_enfant/g_vitaa/is_vita_missed =1, /pev_enfant/g_vitaa/e_date_vita , /pev_enfant/_case_date_vita ))"/>
@@ -1054,8 +1421,15 @@ Si le test est négatif; poursuivre le calendrier vaccinal normal de l' enfant.<
       <bind nodeset="/pev_enfant/_case_date_penta1" type="string" calculate="if(instance('contact-summary')/context/imm_date_penta1!='',date(instance('contact-summary')/context/imm_date_penta1),'')"/>
       <bind nodeset="/pev_enfant/_case_date_penta2" type="string" calculate="if(instance('contact-summary')/context/imm_date_penta2!='',date(instance('contact-summary')/context/imm_date_penta2),'')"/>
       <bind nodeset="/pev_enfant/_case_date_penta3" type="string" calculate="if(instance('contact-summary')/context/imm_date_penta3!='',date(instance('contact-summary')/context/imm_date_penta3),'')"/>
-      <bind nodeset="/pev_enfant/_case_date_vpi" type="string" calculate="if(instance('contact-summary')/context/imm_date_vpi!='',date(instance('contact-summary')/context/imm_date_vpi),'')"/>
-      <bind nodeset="/pev_enfant/_case_date_var" type="string" calculate="if(instance('contact-summary')/context/imm_date_var!='',date(instance('contact-summary')/context/imm_date_var),'')"/>
+      <bind nodeset="/pev_enfant/_case_date_pneumo1" type="string" calculate="if(instance('contact-summary')/context/imm_date_pneumo1!='',date(instance('contact-summary')/context/imm_date_pneumo1),'')"/>
+      <bind nodeset="/pev_enfant/_case_date_pneumo2" type="string" calculate="if(instance('contact-summary')/context/imm_date_pneumo2!='',date(instance('contact-summary')/context/imm_date_pneumo2),'')"/>
+      <bind nodeset="/pev_enfant/_case_date_pneumo3" type="string" calculate="if(instance('contact-summary')/context/imm_date_pneumo3!='',date(instance('contact-summary')/context/imm_date_pneumo3),'')"/>
+      <bind nodeset="/pev_enfant/_case_date_rota1" type="string" calculate="if(instance('contact-summary')/context/imm_date_rota1!='',date(instance('contact-summary')/context/imm_date_rota1),'')"/>
+      <bind nodeset="/pev_enfant/_case_date_rota2" type="string" calculate="if(instance('contact-summary')/context/imm_date_rota2!='',date(instance('contact-summary')/context/imm_date_rota2),'')"/>
+      <bind nodeset="/pev_enfant/_case_date_vpi1" type="string" calculate="if(instance('contact-summary')/context/imm_date_vpi1!='',date(instance('contact-summary')/context/imm_date_vpi1),'')"/>
+      <bind nodeset="/pev_enfant/_case_date_vpi2" type="string" calculate="if(instance('contact-summary')/context/imm_date_vpi2!='',date(instance('contact-summary')/context/imm_date_vpi2),'')"/>
+      <bind nodeset="/pev_enfant/_case_date_var1" type="string" calculate="if(instance('contact-summary')/context/imm_date_var1!='',date(instance('contact-summary')/context/imm_date_var1),'')"/>
+      <bind nodeset="/pev_enfant/_case_date_var2" type="string" calculate="if(instance('contact-summary')/context/imm_date_var2!='',date(instance('contact-summary')/context/imm_date_var2),'')"/>
       <bind nodeset="/pev_enfant/_case_date_vaa" type="string" calculate="if(instance('contact-summary')/context/imm_date_vaa!='',date(instance('contact-summary')/context/imm_date_vaa),'')"/>
       <bind nodeset="/pev_enfant/_case_date_meni" type="string" calculate="if(instance('contact-summary')/context/imm_date_meni!='',date(instance('contact-summary')/context/imm_date_meni),'')"/>
       <bind nodeset="/pev_enfant/_case_date_vita" type="string" calculate="if(instance('contact-summary')/context/imm_date_vita!='',date(instance('contact-summary')/context/imm_date_vita),'')"/>
@@ -1063,133 +1437,176 @@ Si le test est négatif; poursuivre le calendrier vaccinal normal de l' enfant.<
       <bind nodeset="/pev_enfant/age_days" type="string" calculate="int(decimal-date-time(today() -  /pev_enfant/date_naissance ))"/>
       <bind nodeset="/pev_enfant/age_weeks" type="string" calculate="int(  /pev_enfant/age_days  div 7)"/>
       <bind nodeset="/pev_enfant/age_months" type="string" calculate="int( /pev_enfant/age_days  div 30)"/>
-      <bind nodeset="/pev_enfant/s_enfant/ch_mere_vih" type="select1" jr:requiredMsg="jr:itext('/pev_enfant/s_enfant/ch_mere_vih:jr:requiredMsg')" required="1"/>
-      <bind nodeset="/pev_enfant/s_enfant/ch_mere_diag" type="select1" relevant=" /pev_enfant/s_enfant/ch_mere_vih =0" jr:requiredMsg="jr:itext('/pev_enfant/s_enfant/ch_mere_diag:jr:requiredMsg')" required="1"/>
-      <bind nodeset="/pev_enfant/s_enfant/is_vih_mere_test_possible" type="select1" relevant=" /pev_enfant/s_enfant/ch_mere_diag =1" required="1"/>
-      <bind nodeset="/pev_enfant/s_enfant/is_vih_mere_test" type="select1" relevant=" /pev_enfant/s_enfant/is_vih_mere_test_possible =1" required="1"/>
+      <bind nodeset="/pev_enfant/s_enfant/ch_mere_vih" type="select1" required="1" jr:requiredMsg="jr:itext('/pev_enfant/s_enfant/ch_mere_vih:jr:requiredMsg')"/>
+      <bind nodeset="/pev_enfant/s_enfant/ch_mere_diag" type="select1" required="1" relevant=" /pev_enfant/s_enfant/ch_mere_vih =0" jr:requiredMsg="jr:itext('/pev_enfant/s_enfant/ch_mere_diag:jr:requiredMsg')"/>
+      <bind nodeset="/pev_enfant/s_enfant/is_vih_mere_test_possible" type="select1" required="1" relevant=" /pev_enfant/s_enfant/ch_mere_diag =1"/>
+      <bind nodeset="/pev_enfant/s_enfant/is_vih_mere_test" type="select1" required="1" relevant=" /pev_enfant/s_enfant/is_vih_mere_test_possible =1"/>
       <bind nodeset="/pev_enfant/s_enfant/tt_referer" readonly="true()" type="string" relevant=" /pev_enfant/s_enfant/is_vih_mere_test_possible =-1"/>
-      <bind nodeset="/pev_enfant/g_vaccin_bcg/is_dose_bcg" type="select1" relevant="( /pev_enfant/s_enfant/ch_mere_vih =-1 or  /pev_enfant/s_enfant/is_vih_mere_test =-1 or  /pev_enfant/s_enfant/ch_mere_diag =-1) and coalesce( /pev_enfant/_case_date_bcg ,'')=''" required="1"/>
+      <bind nodeset="/pev_enfant/g_vaccin_bcg/is_dose_bcg" type="select1" required="1" relevant="( /pev_enfant/s_enfant/ch_mere_vih =-1 or  /pev_enfant/s_enfant/is_vih_mere_test =-1 or  /pev_enfant/s_enfant/ch_mere_diag =-1) and coalesce( /pev_enfant/_case_date_bcg ,'')=''"/>
       <bind nodeset="/pev_enfant/g_vaccin_bcg/label_bcg_warning" readonly="true()" type="string" relevant="( /pev_enfant/s_enfant/ch_mere_vih =1 or  /pev_enfant/s_enfant/is_vih_mere_test =1 )"/>
-      <bind nodeset="/pev_enfant/g_vaccin_bcg/dga_bcg" type="select1" relevant=" /pev_enfant/g_vaccin_bcg/is_dose_bcg =-1" required="1"/>
+      <bind nodeset="/pev_enfant/g_vaccin_bcg/dga_bcg" type="select1" required="1" relevant=" /pev_enfant/g_vaccin_bcg/is_dose_bcg =-1"/>
       <bind nodeset="/pev_enfant/g_vaccin_bcg/is_bcg_missed" type="string" calculate="number( /pev_enfant/g_vaccin_bcg/is_dose_bcg =1 and coalesce( /pev_enfant/_case_date_bcg ,'')='')"/>
       <bind nodeset="/pev_enfant/g_vaccin_bcg/label_tt_bcg" readonly="true()" type="string" relevant=" /pev_enfant/g_vaccin_bcg/is_dose_bcg =-1 and  /pev_enfant/g_vaccin_bcg/dga_bcg =1"/>
       <bind nodeset="/pev_enfant/g_vaccin_bcg/label_return_bcg" readonly="true()" type="string" relevant=" /pev_enfant/g_vaccin_bcg/dga_bcg =-1"/>
-      <bind nodeset="/pev_enfant/g_vaccin_bcg/e_date_bcg" type="date" constraint=".&lt;= today() and .&gt;= /pev_enfant/date_naissance " relevant=" /pev_enfant/g_vaccin_bcg/is_bcg_missed =1" required="1"/>
+      <bind nodeset="/pev_enfant/g_vaccin_bcg/e_date_bcg" type="date" constraint=".&lt;= today() and .&gt;= /pev_enfant/date_naissance " required="1" relevant=" /pev_enfant/g_vaccin_bcg/is_bcg_missed =1"/>
       <bind nodeset="/pev_enfant/next_vpo" type="string" calculate="max(if( /pev_enfant/date_vpo3 !='','2999-12-31', if( /pev_enfant/date_vpo2 !='',date(decimal-date-time( /pev_enfant/date_vpo2 )+28), if( /pev_enfant/date_vpo1 !='',date(decimal-date-time( /pev_enfant/date_vpo1 )+28), if( /pev_enfant/date_vpo1 !='',date(decimal-date-time( /pev_enfant/date_vpo0 )+42), /pev_enfant/date_naissance )))),today())"/>
       <bind nodeset="/pev_enfant/next_penta" type="string" calculate="max(if( /pev_enfant/date_penta3 !='','2999-12-31', if( /pev_enfant/date_penta2 !='',date(decimal-date-time( /pev_enfant/date_penta2 )+28), if( /pev_enfant/date_penta1 !='',date(decimal-date-time( /pev_enfant/date_penta1 )+28), date(decimal-date-time( /pev_enfant/date_naissance )+42)))),today())"/>
-      <bind nodeset="/pev_enfant/next_vpi" type="string" calculate="max(if( /pev_enfant/date_vpi !='','2999-12-31',date(decimal-date-time( /pev_enfant/date_naissance )+96)),today())"/>
-      <bind nodeset="/pev_enfant/next_var" type="string" calculate="max(if( /pev_enfant/date_var !='','2999-12-31',date(decimal-date-time( /pev_enfant/date_naissance )+270)),today())"/>
+      <bind nodeset="/pev_enfant/next_pneumo" type="string" calculate="max(if( /pev_enfant/date_pneumo3 !='','2999-12-31', if( /pev_enfant/date_pneumo2 !='',date(decimal-date-time( /pev_enfant/date_pneumo2 )+28), if( /pev_enfant/date_pneumo1 !='',date(decimal-date-time( /pev_enfant/date_pneumo1 )+28), date(decimal-date-time( /pev_enfant/date_naissance )+42)))),today())"/>
+      <bind nodeset="/pev_enfant/next_rota" type="string" calculate="max( if( /pev_enfant/date_rota2 !='','2999-12-31', if( /pev_enfant/date_rota1 !='',date(decimal-date-time( /pev_enfant/date_rota1 )+28), date(decimal-date-time( /pev_enfant/date_naissance )+42))),today())"/>
+      <bind nodeset="/pev_enfant/next_vpi" type="string" calculate="max( if( /pev_enfant/date_vpi2 !='','2999-12-31', if( /pev_enfant/date_vpi1 !='',date(decimal-date-time( /pev_enfant/date_vpi1 )+172), date(decimal-date-time( /pev_enfant/date_naissance )+98))),today())"/>
+      <bind nodeset="/pev_enfant/next_var" type="string" calculate="max( if( /pev_enfant/date_var2 !='','2999-12-31', if( /pev_enfant/date_var1 !='',date(decimal-date-time( /pev_enfant/date_var1 )+172), date(decimal-date-time( /pev_enfant/date_naissance )+270))),today())"/>
       <bind nodeset="/pev_enfant/next_men_a" type="string" calculate="max(if( /pev_enfant/date_meni !='','2999-12-31',date(decimal-date-time( /pev_enfant/date_naissance )+270)),today())"/>
       <bind nodeset="/pev_enfant/next_vita" type="string" calculate="max(if( /pev_enfant/date_vita !='','2999-12-31',date(decimal-date-time( /pev_enfant/date_naissance )+270)),today())"/>
       <bind nodeset="/pev_enfant/next_vaa" type="string" calculate="max(if( /pev_enfant/date_vaa !='','2999-12-31',date(decimal-date-time( /pev_enfant/date_naissance )+270)),today())"/>
       <bind nodeset="/pev_enfant/next_meb" type="string" calculate="max(if( /pev_enfant/date_meb !='','2999-12-31',date(decimal-date-time( /pev_enfant/date_naissance )+270)),today())"/>
-      <bind nodeset="/pev_enfant/next_rdv_autres" type="string" calculate="min( /pev_enfant/next_vpo ,  /pev_enfant/next_penta , /pev_enfant/next_vpi , /pev_enfant/next_var , /pev_enfant/next_men_a , /pev_enfant/next_vita , /pev_enfant/next_vaa , /pev_enfant/next_meb )"/>
+      <bind nodeset="/pev_enfant/next_rdv_autres" type="string" calculate="min( /pev_enfant/next_vpo ,  /pev_enfant/next_penta ,  /pev_enfant/next_pneumo , /pev_enfant/next_vpi , /pev_enfant/next_var ,  /pev_enfant/next_rota ,  /pev_enfant/next_men_a ,  /pev_enfant/next_vita , /pev_enfant/next_vaa ,  /pev_enfant/next_meb )"/>
       <bind nodeset="/pev_enfant/next_rdv" type="string" calculate="format-date( /pev_enfant/next_rdv_autres ,'%d/%m/%Y')"/>
       <bind nodeset="/pev_enfant/dose_vaccin/is_vpo0_missed" type="string" calculate="number( /pev_enfant/dose_vaccin/s_ch_contact &gt;=1 and coalesce( /pev_enfant/_case_date_vpo0 ,'')='')"/>
       <bind nodeset="/pev_enfant/dose_vaccin/is_vpo1_missed" type="string" calculate="number( /pev_enfant/dose_vaccin/s_ch_contact &gt;=2 and coalesce( /pev_enfant/_case_date_vpo1 ,'')='')"/>
       <bind nodeset="/pev_enfant/dose_vaccin/is_vpo2_missed" type="string" calculate="number( /pev_enfant/dose_vaccin/s_ch_contact &gt;=3 and coalesce( /pev_enfant/_case_date_vpo2 ,'')='')"/>
       <bind nodeset="/pev_enfant/dose_vaccin/is_vpo3_missed" type="string" calculate="number( /pev_enfant/dose_vaccin/s_ch_contact &gt;=4 and coalesce( /pev_enfant/_case_date_vpo3 ,'')='')"/>
-      <bind nodeset="/pev_enfant/dose_vaccin/s_ch_contact" type="select1" relevant="coalesce( /pev_enfant/_case_date_vpo3 ,'')=''" calculate="if(coalesce( /pev_enfant/_case_date_vpo2 ,'')!='','3',
-if(coalesce( /pev_enfant/_case_date_vpo1 ,'')!='','2',
-if(coalesce( /pev_enfant/_case_date_vpo0 ,'')!='','1','0'
-)))" required="1"/>
-      <bind nodeset="/pev_enfant/dose_vaccin/e_date_vpo0" type="date" constraint=".&lt;= today() and .&gt;= /pev_enfant/date_naissance " jr:constraintMsg="jr:itext('/pev_enfant/dose_vaccin/e_date_vpo0:jr:constraintMsg')" relevant=" /pev_enfant/dose_vaccin/is_vpo0_missed =1" required="1"/>
-      <bind nodeset="/pev_enfant/dose_vaccin/e_date_vpo1" type="date" constraint=".&lt;= today() and .&gt; /pev_enfant/date_naissance  and (decimal-date-time( /pev_enfant/dose_vaccin/e_date_vpo1 )-decimal-date-time(.)&gt;=28)" jr:constraintMsg="jr:itext('/pev_enfant/dose_vaccin/e_date_vpo1:jr:constraintMsg')" relevant=" /pev_enfant/dose_vaccin/is_vpo1_missed =1 and int(decimal-date-time(today() -  /pev_enfant/date_naissance ))&gt;=42" required="1"/>
-      <bind nodeset="/pev_enfant/dose_vaccin/e_date_vpo2" type="date" constraint=".&lt;= today() and .&gt; /pev_enfant/date_naissance  and (decimal-date-time( /pev_enfant/dose_vaccin/e_date_vpo2 )-decimal-date-time(.)&gt;=28)" jr:constraintMsg="jr:itext('/pev_enfant/dose_vaccin/e_date_vpo2:jr:constraintMsg')" relevant=" /pev_enfant/dose_vaccin/is_vpo2_missed =1 and int(decimal-date-time(today() -  /pev_enfant/date_naissance ))&gt;=70" required="1"/>
-      <bind nodeset="/pev_enfant/dose_vaccin/e_date_vpo3" type="date" constraint=".&lt;= today() and .&gt; /pev_enfant/date_naissance  and (decimal-date-time( /pev_enfant/dose_vaccin/e_date_vpo3 )-decimal-date-time(.)&gt;=28)" jr:constraintMsg="jr:itext('/pev_enfant/dose_vaccin/e_date_vpo3:jr:constraintMsg')" relevant=" /pev_enfant/dose_vaccin/is_vpo3_missed =1 and int(decimal-date-time(today() -  /pev_enfant/date_naissance ))&gt;=98" required="1"/>
+      <bind nodeset="/pev_enfant/dose_vaccin/s_ch_contact" type="select1" required="1" relevant="coalesce( /pev_enfant/_case_date_vpo3 ,'')=''"/>
+      <bind nodeset="/pev_enfant/dose_vaccin/e_date_vpo0" type="date" required="1" constraint="(decimal-date-time(today())-decimal-date-time( /pev_enfant/date_naissance ))&gt;=42" jr:constraintMsg="jr:itext('/pev_enfant/dose_vaccin/e_date_vpo0:jr:constraintMsg')" relevant=" /pev_enfant/dose_vaccin/is_vpo0_missed =1"/>
+      <bind nodeset="/pev_enfant/dose_vaccin/e_date_vpo1" type="date" required="1" constraint="(decimal-date-time( /pev_enfant/dose_vaccin/e_date_vpo1 )-decimal-date-time( /pev_enfant/dose_vaccin/e_date_vpo0 ))&gt;=42" jr:constraintMsg="jr:itext('/pev_enfant/dose_vaccin/e_date_vpo1:jr:constraintMsg')" relevant=" /pev_enfant/dose_vaccin/is_vpo1_missed =1"/>
+      <bind nodeset="/pev_enfant/dose_vaccin/e_date_vpo2" type="date" required="1" constraint="(decimal-date-time( /pev_enfant/dose_vaccin/e_date_vpo2 )-decimal-date-time( /pev_enfant/dose_vaccin/e_date_vpo1 ))&gt;=28" jr:constraintMsg="jr:itext('/pev_enfant/dose_vaccin/e_date_vpo2:jr:constraintMsg')" relevant=" /pev_enfant/dose_vaccin/is_vpo2_missed =1"/>
+      <bind nodeset="/pev_enfant/dose_vaccin/e_date_vpo3" type="date" required="1" constraint="(decimal-date-time( /pev_enfant/dose_vaccin/e_date_vpo3 )-decimal-date-time( /pev_enfant/dose_vaccin/e_date_vpo2 ))&gt;=28" jr:constraintMsg="jr:itext('/pev_enfant/dose_vaccin/e_date_vpo3:jr:constraintMsg')" relevant=" /pev_enfant/dose_vaccin/is_vpo3_missed =1"/>
       <bind nodeset="/pev_enfant/dose_vaccin/vpo0_needed" type="string" calculate="number( /pev_enfant/dose_vaccin/s_ch_contact =0 )"/>
-      <bind nodeset="/pev_enfant/dose_vaccin/give_vpo0" type="select1" relevant=" /pev_enfant/dose_vaccin/vpo0_needed =1" required="1"/>
+      <bind nodeset="/pev_enfant/dose_vaccin/give_vpo0" type="select1" required="1" relevant=" /pev_enfant/dose_vaccin/vpo0_needed =1"/>
       <bind nodeset="/pev_enfant/dose_vaccin/label_rupture12" readonly="true()" type="string" relevant=" /pev_enfant/dose_vaccin/give_vpo0 =-1"/>
       <bind nodeset="/pev_enfant/dose_vaccin/label_vac0_note" readonly="true()" type="string" relevant=" /pev_enfant/dose_vaccin/give_vpo0 =1"/>
       <bind nodeset="/pev_enfant/dose_vaccin/next_rdv_vpo1" type="string" calculate="format-date(date(decimal-date-time( /pev_enfant/date_vpo0 )+42),'%d/%m/%Y')"/>
       <bind nodeset="/pev_enfant/dose_vaccin/label_rdz_v" readonly="true()" type="string" relevant=" /pev_enfant/dose_vaccin/give_vpo0 =1"/>
       <bind nodeset="/pev_enfant/dose_vaccin/vpo1_needed" type="string" calculate="number( /pev_enfant/dose_vaccin/s_ch_contact =1 )"/>
-      <bind nodeset="/pev_enfant/dose_vaccin/give_vpo1" type="select1" relevant=" /pev_enfant/dose_vaccin/vpo1_needed =1 and int(decimal-date-time(today() -  /pev_enfant/date_naissance ))&gt;=42" required="1"/>
+      <bind nodeset="/pev_enfant/dose_vaccin/give_vpo1" type="select1" required="1" relevant=" /pev_enfant/dose_vaccin/vpo1_needed =1 and int(decimal-date-time(today() -  /pev_enfant/date_naissance ))&gt;=42"/>
       <bind nodeset="/pev_enfant/dose_vaccin/label_rupture11" readonly="true()" type="string" relevant=" /pev_enfant/dose_vaccin/give_vpo1 =-1 and int(decimal-date-time(today() -  /pev_enfant/date_naissance ))&gt;=42"/>
       <bind nodeset="/pev_enfant/dose_vaccin/label_vacc1_note" readonly="true()" type="string" relevant=" /pev_enfant/dose_vaccin/give_vpo1 =1 and int(decimal-date-time(today() -  /pev_enfant/date_naissance ))&gt;=42"/>
       <bind nodeset="/pev_enfant/dose_vaccin/next_rdv_vpo2" type="string" calculate="format-date(date(decimal-date-time( /pev_enfant/date_vpo1 )+28),'%d/%m/%Y')"/>
       <bind nodeset="/pev_enfant/dose_vaccin/label_rdz_v1" readonly="true()" type="string" relevant=" /pev_enfant/dose_vaccin/give_vpo1 =1 and int(decimal-date-time(today() -  /pev_enfant/date_naissance ))&gt;=42"/>
       <bind nodeset="/pev_enfant/dose_vaccin/vpo2_needed" type="string" calculate="number( /pev_enfant/dose_vaccin/s_ch_contact =2)"/>
-      <bind nodeset="/pev_enfant/dose_vaccin/give_vpo2" type="select1" relevant=" /pev_enfant/dose_vaccin/vpo2_needed =1 and int(decimal-date-time(today() -  /pev_enfant/date_naissance ))&gt;=70" required="1"/>
-      <bind nodeset="/pev_enfant/dose_vaccin/label_rupture10" readonly="true()" type="string" relevant=" /pev_enfant/dose_vaccin/give_vpo2 =-1 and int(decimal-date-time(today() -  /pev_enfant/date_naissance ))&gt;=70"/>
+      <bind nodeset="/pev_enfant/dose_vaccin/give_vpo2" type="select1" required="1" relevant=" /pev_enfant/dose_vaccin/vpo2_needed =1 and int(decimal-date-time(today() -  /pev_enfant/date_naissance ))&gt;=70"/>
+      <bind nodeset="/pev_enfant/dose_vaccin/label_rupture10" readonly="true()" type="string" relevant=" /pev_enfant/dose_vaccin/give_vpo2 =-1"/>
       <bind nodeset="/pev_enfant/dose_vaccin/label_vac2_note" readonly="true()" type="string" relevant=" /pev_enfant/dose_vaccin/give_vpo2 =1 and int(decimal-date-time(today() -  /pev_enfant/date_naissance ))&gt;=70"/>
       <bind nodeset="/pev_enfant/dose_vaccin/label_rdz_v2" readonly="true()" type="string" relevant=" /pev_enfant/dose_vaccin/give_vpo2 =1 and int(decimal-date-time(today() -  /pev_enfant/date_naissance ))&gt;=70"/>
       <bind nodeset="/pev_enfant/dose_vaccin/next_rdv_vpo3" type="string" calculate="format-date(date(decimal-date-time( /pev_enfant/date_vpo2 )+28),'%d/%m/%Y')"/>
       <bind nodeset="/pev_enfant/dose_vaccin/vpo3_needed" type="string" calculate="number( /pev_enfant/dose_vaccin/s_ch_contact =3)"/>
-      <bind nodeset="/pev_enfant/dose_vaccin/give_vpo3" type="select1" relevant=" /pev_enfant/dose_vaccin/vpo3_needed =1 and int(decimal-date-time(today() -  /pev_enfant/date_naissance ))&gt;=98" required="1"/>
+      <bind nodeset="/pev_enfant/dose_vaccin/give_vpo3" type="select1" required="1" relevant=" /pev_enfant/dose_vaccin/vpo3_needed =1 and int(decimal-date-time(today() -  /pev_enfant/date_naissance ))&gt;=98"/>
       <bind nodeset="/pev_enfant/dose_vaccin/label_rupture9" readonly="true()" type="string" relevant=" /pev_enfant/dose_vaccin/give_vpo3 =-1 and int(decimal-date-time(today() -  /pev_enfant/date_naissance ))&gt;=98"/>
       <bind nodeset="/pev_enfant/dose_vaccin/label_vac3_note" readonly="true()" type="string" relevant=" /pev_enfant/dose_vaccin/give_vpo3 =1 and int(decimal-date-time(today() -  /pev_enfant/date_naissance ))&gt;=98"/>
       <bind nodeset="/pev_enfant/dose_vaccin/label_vac4_note" readonly="true()" type="string" relevant=" /pev_enfant/date_vpo3 !='' and int(decimal-date-time(today() -  /pev_enfant/date_naissance ))&gt;=98"/>
       <bind nodeset="/pev_enfant/dose_vaccin/vpo4_needed" type="string" calculate="number( /pev_enfant/dose_vaccin/s_ch_contact =4)"/>
       <bind nodeset="/pev_enfant/dose_vaccin/invalide_dose_vpo" readonly="true()" type="string" relevant="( /pev_enfant/dose_vaccin/vpo1_needed =1 and int(decimal-date-time(today() -  /pev_enfant/date_naissance ))&lt;42) or ( /pev_enfant/dose_vaccin/vpo2_needed =1 and int(decimal-date-time(today() -  /pev_enfant/date_naissance ))&lt;70) or ( /pev_enfant/dose_vaccin/vpo3_needed =1 and int(decimal-date-time(today() -  /pev_enfant/date_naissance ))&lt;98) or ( /pev_enfant/dose_vaccin/vpo4_needed =1 and int(decimal-date-time(today() -  /pev_enfant/date_naissance ))&lt;252)"/>
+      <bind nodeset="/pev_enfant/dose_penta" relevant=" /pev_enfant/age_days &gt;=42"/>
       <bind nodeset="/pev_enfant/dose_penta/is_missed_penta1" type="string" calculate="number( /pev_enfant/dose_penta/s_ch_contact_pta &gt;=1 and coalesce( /pev_enfant/_case_date_penta1 ,'')='')"/>
       <bind nodeset="/pev_enfant/dose_penta/is_missed_penta2" type="string" calculate="number( /pev_enfant/dose_penta/s_ch_contact_pta &gt;=2 and coalesce( /pev_enfant/_case_date_penta2 ,'')='')"/>
       <bind nodeset="/pev_enfant/dose_penta/is_missed_penta3" type="string" calculate="number( /pev_enfant/dose_penta/s_ch_contact_pta &gt;=3 and coalesce( /pev_enfant/_case_date_penta3 ,'')='')"/>
-      <bind nodeset="/pev_enfant/dose_penta/s_ch_contact_pta" type="select1" relevant="coalesce( /pev_enfant/_case_date_penta3 ,'')='' and  /pev_enfant/age_days &gt;41" calculate="if(coalesce( /pev_enfant/_case_date_penta2 ,'')!='','2',
-if(coalesce( /pev_enfant/_case_date_penta1 ,'')!='','1','0'
-))" required="1"/>
-      <bind nodeset="/pev_enfant/dose_penta/e_date_penta1" type="date" constraint=".&lt;= today() and (decimal-date-time(.)-decimal-date-time( /pev_enfant/date_naissance )&gt;=42)" jr:constraintMsg="jr:itext('/pev_enfant/dose_penta/e_date_penta1:jr:constraintMsg')" relevant=" /pev_enfant/dose_penta/is_missed_penta1 =1 and int(decimal-date-time(today() -  /pev_enfant/date_naissance ))&gt;=42" required="1"/>
-      <bind nodeset="/pev_enfant/dose_penta/e_date_penta2" type="date" constraint=".&lt;= today() and .&gt; /pev_enfant/date_naissance  and (decimal-date-time(.)-decimal-date-time( /pev_enfant/dose_penta/e_date_penta1 )&gt;=28)" jr:constraintMsg="jr:itext('/pev_enfant/dose_penta/e_date_penta2:jr:constraintMsg')" relevant=" /pev_enfant/dose_penta/is_missed_penta2 =1 and int(decimal-date-time(today() -  /pev_enfant/date_naissance ))&gt;=70" required="1"/>
-      <bind nodeset="/pev_enfant/dose_penta/e_date_penta3" type="date" constraint=".&lt;= today() and .&gt; /pev_enfant/date_naissance  and (decimal-date-time(.)-decimal-date-time( /pev_enfant/dose_penta/e_date_penta2 )&gt;=28)" jr:constraintMsg="jr:itext('/pev_enfant/dose_penta/e_date_penta3:jr:constraintMsg')" relevant=" /pev_enfant/dose_penta/is_missed_penta3 =1 and int(decimal-date-time(today() -  /pev_enfant/date_naissance ))&gt;=252" required="1"/>
+      <bind nodeset="/pev_enfant/dose_penta/s_ch_contact_pta" type="select1" required="1" relevant="coalesce( /pev_enfant/_case_date_penta3 ,'')='' and  /pev_enfant/age_days &gt;41"/>
+      <bind nodeset="/pev_enfant/dose_penta/e_date_penta1" type="date" required="1" constraint="(decimal-date-time(today())-decimal-date-time( /pev_enfant/dose_penta/e_date_penta1 ))&gt;=28" jr:constraintMsg="jr:itext('/pev_enfant/dose_penta/e_date_penta1:jr:constraintMsg')" relevant=" /pev_enfant/dose_penta/is_missed_penta1 =1"/>
+      <bind nodeset="/pev_enfant/dose_penta/e_date_penta2" type="date" required="1" constraint="(decimal-date-time( /pev_enfant/dose_penta/e_date_penta2 )-decimal-date-time( /pev_enfant/dose_penta/e_date_penta1 ))&gt;=28" jr:constraintMsg="jr:itext('/pev_enfant/dose_penta/e_date_penta2:jr:constraintMsg')" relevant=" /pev_enfant/dose_penta/is_missed_penta2 =1"/>
+      <bind nodeset="/pev_enfant/dose_penta/e_date_penta3" type="date" required="1" constraint="(decimal-date-time( /pev_enfant/dose_penta/e_date_penta3 )-decimal-date-time( /pev_enfant/dose_penta/e_date_penta2 ))&gt;=28" jr:constraintMsg="jr:itext('/pev_enfant/dose_penta/e_date_penta3:jr:constraintMsg')" relevant=" /pev_enfant/dose_penta/is_missed_penta3 =1"/>
       <bind nodeset="/pev_enfant/dose_penta/penta_needed" type="string" calculate="number( /pev_enfant/dose_penta/s_ch_contact_pta =0)"/>
-      <bind nodeset="/pev_enfant/dose_penta/dose_pta1" type="select1" relevant=" /pev_enfant/dose_penta/penta_needed =1" required="1"/>
+      <bind nodeset="/pev_enfant/dose_penta/dose_pta1" type="select1" required="1" relevant=" /pev_enfant/dose_penta/penta_needed =1"/>
       <bind nodeset="/pev_enfant/dose_penta/label_rupture13" readonly="true()" type="string" relevant=" /pev_enfant/dose_penta/dose_pta1 =-1"/>
       <bind nodeset="/pev_enfant/dose_penta/label_vacc_penta1" readonly="true()" type="string" relevant=" /pev_enfant/dose_penta/dose_pta1 =1"/>
       <bind nodeset="/pev_enfant/dose_penta/next_rdv_penta2" type="string" calculate="format-date(date(decimal-date-time( /pev_enfant/date_penta1 )+28),'%d/%m/%Y')"/>
       <bind nodeset="/pev_enfant/dose_penta/label_rdz_p" readonly="true()" type="string" relevant=" /pev_enfant/dose_penta/dose_pta1 =1"/>
       <bind nodeset="/pev_enfant/dose_penta/penta1_needed" type="string" calculate="number(  /pev_enfant/dose_penta/s_ch_contact_pta =1)"/>
-      <bind nodeset="/pev_enfant/dose_penta/dose_pta2" type="select1" relevant=" /pev_enfant/dose_penta/penta1_needed =1 and int(decimal-date-time(today() -  /pev_enfant/date_naissance ))&gt;=70" required="1"/>
+      <bind nodeset="/pev_enfant/dose_penta/dose_pta2" type="select1" required="1" relevant=" /pev_enfant/dose_penta/penta1_needed =1 and int(decimal-date-time(today() -  /pev_enfant/date_naissance ))&gt;=70"/>
       <bind nodeset="/pev_enfant/dose_penta/label_rupture8" readonly="true()" type="string" relevant=" /pev_enfant/dose_penta/dose_pta2 =-1 and int(decimal-date-time(today() -  /pev_enfant/date_naissance ))&gt;=70"/>
       <bind nodeset="/pev_enfant/dose_penta/label_vaccp1_note" readonly="true()" type="string" relevant=" /pev_enfant/dose_penta/dose_pta2 =1 and int(decimal-date-time(today() -  /pev_enfant/date_naissance ))&gt;=70"/>
       <bind nodeset="/pev_enfant/dose_penta/next_rdv_penta3" type="string" calculate="format-date(date(decimal-date-time( /pev_enfant/date_penta2 )+28),'%d/%m/%Y')"/>
       <bind nodeset="/pev_enfant/dose_penta/label_rdz_p1" readonly="true()" type="string" relevant=" /pev_enfant/dose_penta/dose_pta2 =1 and int(decimal-date-time(today() -  /pev_enfant/date_naissance ))&gt;=70"/>
       <bind nodeset="/pev_enfant/dose_penta/penta2_needed" type="string" calculate="number( /pev_enfant/dose_penta/s_ch_contact_pta = 2 )"/>
-      <bind nodeset="/pev_enfant/dose_penta/dose_pta3" type="select1" relevant=" /pev_enfant/dose_penta/penta2_needed =1 and int(decimal-date-time(today() -  /pev_enfant/date_naissance ))&gt;=98" required="1"/>
+      <bind nodeset="/pev_enfant/dose_penta/dose_pta3" type="select1" required="1" relevant=" /pev_enfant/dose_penta/penta2_needed =1 and int(decimal-date-time(today() -  /pev_enfant/date_naissance ))&gt;=98"/>
       <bind nodeset="/pev_enfant/dose_penta/label_vaccp2_note" readonly="true()" type="string" relevant=" /pev_enfant/dose_penta/dose_pta3 =1 and int(decimal-date-time(today() -  /pev_enfant/date_naissance ))&gt;=98"/>
       <bind nodeset="/pev_enfant/dose_penta/label_rupture7" readonly="true()" type="string" relevant=" /pev_enfant/dose_penta/dose_pta3 =-1 and int(decimal-date-time(today() -  /pev_enfant/date_naissance ))&gt;=98"/>
       <bind nodeset="/pev_enfant/dose_penta/penta3_needed" type="string" calculate="number( /pev_enfant/dose_penta/s_ch_contact_pta = 3 )"/>
       <bind nodeset="/pev_enfant/dose_penta/label_vaccp3_note" readonly="true()" type="string" relevant=" /pev_enfant/date_penta3 !='' and int(decimal-date-time(today() -  /pev_enfant/date_naissance ))&gt;=98"/>
       <bind nodeset="/pev_enfant/dose_penta/invalide_dose_penta" readonly="true()" type="string" relevant="( /pev_enfant/dose_penta/penta1_needed =1 and int(decimal-date-time(today() -  /pev_enfant/date_naissance ))&lt;70 ) or ( /pev_enfant/dose_penta/penta2_needed =1 and int(decimal-date-time(today() -  /pev_enfant/date_naissance ))&lt;98) or ( /pev_enfant/dose_penta/penta3_needed =1 and int(decimal-date-time(today() -  /pev_enfant/date_naissance ))&lt;252)"/>
-      <bind nodeset="/pev_enfant/g_vpi/is_vpi" type="select1" relevant=" /pev_enfant/_case_date_vpi ='' and  /pev_enfant/age_days &gt;95" required="1"/>
-      <bind nodeset="/pev_enfant/g_vpi/is_vpi_missed" type="string" calculate="number( /pev_enfant/g_vpi/is_vpi =1 and coalesce( /pev_enfant/_case_date_vpi ,'')='')"/>
-      <bind nodeset="/pev_enfant/g_vpi/dga_vpi" type="select1" relevant=" /pev_enfant/g_vpi/is_vpi =-1" required="1"/>
-      <bind nodeset="/pev_enfant/g_vpi/label_tt_vpi" readonly="true()" type="string" relevant=" /pev_enfant/g_vpi/dga_vpi =1"/>
-      <bind nodeset="/pev_enfant/g_vpi/label_rupture6" readonly="true()" type="string" relevant=" /pev_enfant/g_vpi/dga_vpi =-1"/>
-      <bind nodeset="/pev_enfant/g_vpi/e_date_vpi" type="date" relevant=" /pev_enfant/g_vpi/is_vpi_missed =1"/>
-      <bind nodeset="/pev_enfant/g_mena/is_men_a" type="select1" relevant=" /pev_enfant/age_days &gt;270 and  /pev_enfant/age_days &lt;331 and  /pev_enfant/_case_date_meni =''" required="1"/>
+      <bind nodeset="/pev_enfant/g_pneumo" relevant=" /pev_enfant/age_days &gt;=42"/>
+      <bind nodeset="/pev_enfant/g_pneumo/is_missed_pneumo1" type="string" calculate="number( /pev_enfant/g_pneumo/s_ch_contact_pmo &gt;=1 and coalesce( /pev_enfant/_case_date_pneumo1 ,'')='')"/>
+      <bind nodeset="/pev_enfant/g_pneumo/is_missed_pneumo2" type="string" calculate="number( /pev_enfant/g_pneumo/s_ch_contact_pmo &gt;=2 and coalesce( /pev_enfant/_case_date_pneumo2 ,'')='')"/>
+      <bind nodeset="/pev_enfant/g_pneumo/is_missed_pneumo3" type="string" calculate="number( /pev_enfant/g_pneumo/s_ch_contact_pmo &gt;=3 and coalesce( /pev_enfant/_case_date_pneumo3 ,'')='')"/>
+      <bind nodeset="/pev_enfant/g_pneumo/s_ch_contact_pmo" type="select1" required="1" relevant="coalesce( /pev_enfant/_case_date_pneumo3 ,'')=''"/>
+      <bind nodeset="/pev_enfant/g_pneumo/e_date_pneumo1" type="date" required="1" constraint="(decimal-date-time(today())-decimal-date-time( /pev_enfant/g_pneumo/e_date_pneumo1 ))&gt;=42" jr:constraintMsg="jr:itext('/pev_enfant/g_pneumo/e_date_pneumo1:jr:constraintMsg')" relevant=" /pev_enfant/g_pneumo/is_missed_pneumo1 =1"/>
+      <bind nodeset="/pev_enfant/g_pneumo/e_date_pneumo2" type="date" required="1" constraint="(decimal-date-time( /pev_enfant/g_pneumo/e_date_pneumo2 )-decimal-date-time( /pev_enfant/g_pneumo/e_date_pneumo1 ))&gt;=28" jr:constraintMsg="jr:itext('/pev_enfant/g_pneumo/e_date_pneumo2:jr:constraintMsg')" relevant=" /pev_enfant/g_pneumo/is_missed_pneumo2 =1"/>
+      <bind nodeset="/pev_enfant/g_pneumo/e_date_pneumo3" type="date" required="1" constraint="(decimal-date-time( /pev_enfant/g_pneumo/e_date_pneumo3 )-decimal-date-time( /pev_enfant/g_pneumo/e_date_pneumo2 ))&gt;=28" jr:constraintMsg="jr:itext('/pev_enfant/g_pneumo/e_date_pneumo3:jr:constraintMsg')" relevant=" /pev_enfant/g_pneumo/is_missed_pneumo3 =1"/>
+      <bind nodeset="/pev_enfant/g_pneumo/pneumo1_needed" type="string" calculate="number( /pev_enfant/g_pneumo/s_ch_contact_pmo =0)"/>
+      <bind nodeset="/pev_enfant/g_pneumo/dose_pneumo1" type="select1" required="1" relevant=" /pev_enfant/g_pneumo/pneumo1_needed =1"/>
+      <bind nodeset="/pev_enfant/g_pneumo/label_dose_pneumo1" readonly="true()" type="string" relevant=" /pev_enfant/g_pneumo/dose_pneumo1 =1"/>
+      <bind nodeset="/pev_enfant/g_pneumo/pneumo2_needed" type="string" calculate="number(  /pev_enfant/g_pneumo/s_ch_contact_pmo =1)"/>
+      <bind nodeset="/pev_enfant/g_pneumo/dose_pneumo2" type="select1" required="1" relevant=" /pev_enfant/g_pneumo/pneumo2_needed =1"/>
+      <bind nodeset="/pev_enfant/g_pneumo/label_dose_pneumo2" readonly="true()" type="string" relevant=" /pev_enfant/g_pneumo/dose_pneumo2 =1"/>
+      <bind nodeset="/pev_enfant/g_pneumo/pneumo3_needed" type="string" calculate="number( /pev_enfant/g_pneumo/s_ch_contact_pmo = 2 )"/>
+      <bind nodeset="/pev_enfant/g_pneumo/dose_pneumo3" type="select1" required="1" relevant=" /pev_enfant/g_pneumo/pneumo3_needed =1"/>
+      <bind nodeset="/pev_enfant/g_pneumo/label_dose_pneumo3" readonly="true()" type="string" relevant=" /pev_enfant/g_pneumo/dose_pneumo3 =1"/>
+      <bind nodeset="/pev_enfant/g_pneumo/label_rup_pneumo" readonly="true()" type="string" relevant=" /pev_enfant/g_pneumo/dose_pneumo1 =-1 or  /pev_enfant/g_pneumo/dose_pneumo2 =-1 or  /pev_enfant/g_pneumo/dose_pneumo3 =-1"/>
+      <bind nodeset="/pev_enfant/g_rota" relevant=" /pev_enfant/age_days &gt;=42"/>
+      <bind nodeset="/pev_enfant/g_rota/is_missed_rota1" type="string" calculate="number( /pev_enfant/g_rota/s_ch_contact_rota &gt;=1 and coalesce( /pev_enfant/_case_date_rota1 ,'')='')"/>
+      <bind nodeset="/pev_enfant/g_rota/is_missed_rota2" type="string" calculate="number( /pev_enfant/g_rota/s_ch_contact_rota &gt;=2 and coalesce( /pev_enfant/_case_date_rota2 ,'')='')"/>
+      <bind nodeset="/pev_enfant/g_rota/s_ch_contact_rota" type="select1" required="1" relevant="coalesce( /pev_enfant/_case_date_rota2 ,'')='' and  /pev_enfant/age_days &gt;=42"/>
+      <bind nodeset="/pev_enfant/g_rota/e_date_rota1" type="date" required="1" constraint="(decimal-date-time(today())-decimal-date-time( /pev_enfant/g_rota/e_date_rota1 ))&gt;=42" jr:constraintMsg="jr:itext('/pev_enfant/g_rota/e_date_rota1:jr:constraintMsg')" relevant=" /pev_enfant/g_rota/is_missed_rota1 =1 and int(decimal-date-time(today() -  /pev_enfant/date_naissance ))&gt;=42"/>
+      <bind nodeset="/pev_enfant/g_rota/e_date_rota2" type="date" required="1" constraint="(decimal-date-time( /pev_enfant/g_rota/e_date_rota2 )-decimal-date-time( /pev_enfant/g_rota/e_date_rota1 ))&gt;=28" jr:constraintMsg="jr:itext('/pev_enfant/g_rota/e_date_rota2:jr:constraintMsg')" relevant=" /pev_enfant/g_rota/is_missed_rota2 =1"/>
+      <bind nodeset="/pev_enfant/g_rota/rota_needed" type="string" calculate="number( /pev_enfant/g_rota/s_ch_contact_rota =0)"/>
+      <bind nodeset="/pev_enfant/g_rota/dose_rota1" type="select1" required="1" relevant=" /pev_enfant/g_rota/rota_needed =1"/>
+      <bind nodeset="/pev_enfant/g_rota/label_dose_rota1" readonly="true()" type="string" relevant=" /pev_enfant/g_rota/dose_rota1 =1"/>
+      <bind nodeset="/pev_enfant/g_rota/rota1_needed" type="string" calculate="number(  /pev_enfant/g_rota/s_ch_contact_rota =1)"/>
+      <bind nodeset="/pev_enfant/g_rota/dose_rota2" type="select1" required="1" relevant=" /pev_enfant/g_rota/rota1_needed =1"/>
+      <bind nodeset="/pev_enfant/g_rota/label_dose_rota2" readonly="true()" type="string" relevant=" /pev_enfant/g_rota/dose_rota2 =1"/>
+      <bind nodeset="/pev_enfant/g_rota/label_rup_rota" readonly="true()" type="string" relevant=" /pev_enfant/g_rota/dose_rota1 =-1 or  /pev_enfant/g_rota/dose_rota2 =-1"/>
+      <bind nodeset="/pev_enfant/g_vpi" relevant=" /pev_enfant/age_days &gt;=98"/>
+      <bind nodeset="/pev_enfant/g_vpi/is_missed_vpi1" type="string" calculate="number( /pev_enfant/g_vpi/s_ch_contact_vpi &gt;=1 and coalesce( /pev_enfant/_case_date_vpi1 ,'')='')"/>
+      <bind nodeset="/pev_enfant/g_vpi/is_missed_vpi2" type="string" calculate="number( /pev_enfant/g_vpi/s_ch_contact_vpi &gt;=2 and coalesce( /pev_enfant/_case_date_vpi2 ,'')='')"/>
+      <bind nodeset="/pev_enfant/g_vpi/s_ch_contact_vpi" type="select1" required="1" relevant="coalesce( /pev_enfant/_case_date_vpi2 ,'')=''"/>
+      <bind nodeset="/pev_enfant/g_vpi/e_date_vpi1" type="date" required="1" constraint="(decimal-date-time(today())-decimal-date-time( /pev_enfant/g_vpi/e_date_vpi1 ))&gt;=98" jr:constraintMsg="jr:itext('/pev_enfant/g_vpi/e_date_vpi1:jr:constraintMsg')" relevant=" /pev_enfant/g_vpi/is_missed_vpi1 =1"/>
+      <bind nodeset="/pev_enfant/g_vpi/e_date_vpi2" type="date" required="1" constraint="(decimal-date-time(today())-decimal-date-time( /pev_enfant/date_naissance ))&gt;=270" jr:constraintMsg="jr:itext('/pev_enfant/g_vpi/e_date_vpi2:jr:constraintMsg')" relevant=" /pev_enfant/g_vpi/is_missed_vpi2 =1"/>
+      <bind nodeset="/pev_enfant/g_vpi/vpi1_needed" type="string" calculate="number( /pev_enfant/g_vpi/s_ch_contact_vpi =0)"/>
+      <bind nodeset="/pev_enfant/g_vpi/dose_vpi1" type="select1" required="1" relevant=" /pev_enfant/g_vpi/vpi1_needed =1"/>
+      <bind nodeset="/pev_enfant/g_vpi/label_dose_vpi1" readonly="true()" type="string" relevant=" /pev_enfant/g_vpi/dose_vpi1 =1"/>
+      <bind nodeset="/pev_enfant/g_vpi/vpi2_needed" type="string" calculate="number(  /pev_enfant/g_vpi/s_ch_contact_vpi =1)"/>
+      <bind nodeset="/pev_enfant/g_vpi/dose_vpi2" type="select1" required="1" relevant=" /pev_enfant/g_vpi/vpi2_needed =1"/>
+      <bind nodeset="/pev_enfant/g_vpi/label_dose_vpi2" readonly="true()" type="string" relevant=" /pev_enfant/g_vpi/dose_vpi2 =1 and  /pev_enfant/age_days &gt;=270"/>
+      <bind nodeset="/pev_enfant/g_vpi/label_rup_vpi" readonly="true()" type="string" relevant=" /pev_enfant/g_vpi/dose_vpi2 =-1"/>
+      <bind nodeset="/pev_enfant/g_var" relevant=" /pev_enfant/age_days &gt;=270"/>
+      <bind nodeset="/pev_enfant/g_var/label_var_warning" readonly="true()" type="string" relevant="( /pev_enfant/s_enfant/ch_mere_vih =1 or  /pev_enfant/s_enfant/is_vih_mere_test =1 )"/>
+      <bind nodeset="/pev_enfant/g_var/is_missed_var1" type="string" calculate="number( /pev_enfant/g_var/s_ch_contact_var &gt;=1 and coalesce( /pev_enfant/_case_date_var1 ,'')='')"/>
+      <bind nodeset="/pev_enfant/g_var/is_missed_var2" type="string" calculate="number( /pev_enfant/g_var/s_ch_contact_var &gt;=2 and coalesce( /pev_enfant/_case_date_var2 ,'')='')"/>
+      <bind nodeset="/pev_enfant/g_var/s_ch_contact_var" type="select1" required="1" relevant="coalesce( /pev_enfant/_case_date_var2 ,'')=''"/>
+      <bind nodeset="/pev_enfant/g_var/e_date_var1" type="date" required="1" constraint="(decimal-date-time(today())-decimal-date-time( /pev_enfant/g_var/e_date_var1 ))&gt;=270" jr:constraintMsg="jr:itext('/pev_enfant/g_var/e_date_var1:jr:constraintMsg')" relevant=" /pev_enfant/g_var/is_missed_var1 =1"/>
+      <bind nodeset="/pev_enfant/g_var/e_date_var2" type="date" required="1" constraint="(decimal-date-time( /pev_enfant/g_var/e_date_var2 )-decimal-date-time( /pev_enfant/g_var/e_date_var1 ))&gt;=180" jr:constraintMsg="jr:itext('/pev_enfant/g_var/e_date_var2:jr:constraintMsg')" relevant=" /pev_enfant/g_var/is_missed_var2 =1"/>
+      <bind nodeset="/pev_enfant/g_var/var_needed" type="string" calculate="number( /pev_enfant/g_var/s_ch_contact_var =0)"/>
+      <bind nodeset="/pev_enfant/g_var/dose_var1" type="select1" required="1" relevant=" /pev_enfant/g_var/var_needed =1"/>
+      <bind nodeset="/pev_enfant/g_var/label_dose_var1" readonly="true()" type="string" relevant=" /pev_enfant/g_var/dose_var1 =1"/>
+      <bind nodeset="/pev_enfant/g_var/var1_needed" type="string" calculate="number(  /pev_enfant/g_var/s_ch_contact_var =1)"/>
+      <bind nodeset="/pev_enfant/g_var/dose_var2" type="select1" required="1" relevant=" /pev_enfant/g_var/var1_needed =1"/>
+      <bind nodeset="/pev_enfant/g_var/label_dose_var2" readonly="true()" type="string" relevant=" /pev_enfant/g_var/dose_var2 =1 and  /pev_enfant/age_days &gt;=450"/>
+      <bind nodeset="/pev_enfant/g_var/label_rupture_var" readonly="true()" type="string" relevant=" /pev_enfant/g_var/dose_var1 =-1 or  /pev_enfant/g_var/dose_var2 =-1"/>
+      <bind nodeset="/pev_enfant/g_mena" relevant=" /pev_enfant/age_days &gt;=270"/>
+      <bind nodeset="/pev_enfant/g_mena/is_men_a" type="select1" required="1"/>
       <bind nodeset="/pev_enfant/g_mena/is_meni_missed" type="string" calculate="number( /pev_enfant/g_mena/is_men_a =1 and coalesce( /pev_enfant/_case_date_meni ,'')='')"/>
-      <bind nodeset="/pev_enfant/g_mena/dga_men" type="select1" relevant=" /pev_enfant/g_mena/is_men_a =-1" required="1"/>
+      <bind nodeset="/pev_enfant/g_mena/dga_men" type="select1" required="1" relevant=" /pev_enfant/g_mena/is_men_a =-1"/>
       <bind nodeset="/pev_enfant/g_mena/label_tt_men" readonly="true()" type="string" relevant=" /pev_enfant/g_mena/dga_men =1"/>
       <bind nodeset="/pev_enfant/g_mena/label_rupture5" readonly="true()" type="string" relevant=" /pev_enfant/g_mena/dga_men =-1"/>
-      <bind nodeset="/pev_enfant/g_mena/e_date_meni" type="date" relevant=" /pev_enfant/g_mena/is_meni_missed =1" calculate="if( /pev_enfant/g_mena/is_meni_missed =1,'', /pev_enfant/_case_date_meni )"/>
-      <bind nodeset="/pev_enfant/g_vitaa" relevant=" /pev_enfant/age_days &gt;270 and  /pev_enfant/age_days &lt;331 and  /pev_enfant/_case_date_vita =''"/>
+      <bind nodeset="/pev_enfant/g_mena/e_date_meni" type="date" calculate="if( /pev_enfant/g_mena/is_meni_missed =1,'', /pev_enfant/_case_date_meni )" relevant=" /pev_enfant/g_mena/is_meni_missed =1"/>
+      <bind nodeset="/pev_enfant/g_vitaa" relevant=" /pev_enfant/age_days &gt;=270"/>
       <bind nodeset="/pev_enfant/g_vitaa/is_vit_a" type="select1" required="1"/>
       <bind nodeset="/pev_enfant/g_vitaa/is_vita_missed" type="string" calculate="number( /pev_enfant/g_vitaa/is_vit_a =1 and coalesce( /pev_enfant/_case_date_vita ,'')='')"/>
-      <bind nodeset="/pev_enfant/g_vitaa/dga_vitaa" type="select1" relevant=" /pev_enfant/g_vitaa/is_vit_a =-1" required="1"/>
-      <bind nodeset="/pev_enfant/g_vitaa/e_date_vita" type="date" relevant=" /pev_enfant/g_vitaa/is_vita_missed =1" calculate="if( /pev_enfant/g_vitaa/is_vita_missed =1,'', /pev_enfant/_case_date_vita )"/>
+      <bind nodeset="/pev_enfant/g_vitaa/dga_vitaa" type="select1" required="1" relevant=" /pev_enfant/g_vitaa/is_vit_a =-1"/>
+      <bind nodeset="/pev_enfant/g_vitaa/e_date_vita" type="date" calculate="if( /pev_enfant/g_vitaa/is_vita_missed =1,'', /pev_enfant/_case_date_vita )" relevant=" /pev_enfant/g_vitaa/is_vita_missed =1"/>
       <bind nodeset="/pev_enfant/g_vitaa/label_tt_vita" readonly="true()" type="string" relevant=" /pev_enfant/g_vitaa/dga_vitaa =1"/>
       <bind nodeset="/pev_enfant/g_vitaa/label_rupture4" readonly="true()" type="string" relevant=" /pev_enfant/g_vitaa/dga_vitaa =-1"/>
-      <bind nodeset="/pev_enfant/g_var" relevant=" /pev_enfant/age_days &gt;270 and  /pev_enfant/age_days &lt;331 and  /pev_enfant/_case_date_var =''"/>
-      <bind nodeset="/pev_enfant/g_var/is_var" type="select1" relevant="( /pev_enfant/s_enfant/ch_mere_vih =-1 or  /pev_enfant/s_enfant/is_vih_mere_test =-1 or  /pev_enfant/s_enfant/ch_mere_diag =-1)" required="1"/>
-      <bind nodeset="/pev_enfant/g_var/label_var_warning" readonly="true()" type="string" relevant="( /pev_enfant/s_enfant/ch_mere_vih =1 or  /pev_enfant/s_enfant/is_vih_mere_test =1 )"/>
-      <bind nodeset="/pev_enfant/g_var/is_var_missed" type="string" calculate="number( /pev_enfant/g_var/is_var =1 and coalesce( /pev_enfant/_case_date_var ,'')='')"/>
-      <bind nodeset="/pev_enfant/g_var/dga_var" type="select1" relevant=" /pev_enfant/g_var/is_var =-1" required="1"/>
-      <bind nodeset="/pev_enfant/g_var/e_date_var" type="date" relevant=" /pev_enfant/g_var/is_var_missed =1"/>
-      <bind nodeset="/pev_enfant/g_var/label_tt_var" readonly="true()" type="string" relevant=" /pev_enfant/g_var/dga_var =1"/>
-      <bind nodeset="/pev_enfant/g_var/label_rupture3" readonly="true()" type="string" relevant=" /pev_enfant/g_var/dga_var =-1"/>
-      <bind nodeset="/pev_enfant/g_vaa" relevant=" /pev_enfant/age_days &gt;270 and  /pev_enfant/age_days &lt;331 and  /pev_enfant/_case_date_vaa =''"/>
-      <bind nodeset="/pev_enfant/g_vaa/is_vaa" type="select1" relevant="( /pev_enfant/s_enfant/ch_mere_vih =-1 or  /pev_enfant/s_enfant/is_vih_mere_test =-1 or  /pev_enfant/s_enfant/ch_mere_diag =-1)" required="1"/>
+      <bind nodeset="/pev_enfant/g_vaa" relevant=" /pev_enfant/age_days &gt;=270"/>
+      <bind nodeset="/pev_enfant/g_vaa/is_vaa" type="select1" required="1" relevant="( /pev_enfant/s_enfant/ch_mere_vih =-1 or  /pev_enfant/s_enfant/is_vih_mere_test =-1 or  /pev_enfant/s_enfant/ch_mere_diag =-1)"/>
       <bind nodeset="/pev_enfant/g_vaa/label_vaa_warning" readonly="true()" type="string" relevant="( /pev_enfant/s_enfant/ch_mere_vih =1 or  /pev_enfant/s_enfant/is_vih_mere_test =1 )"/>
       <bind nodeset="/pev_enfant/g_vaa/is_vaa_missed" type="string" calculate="number( /pev_enfant/g_vaa/is_vaa =1 and coalesce( /pev_enfant/_case_date_vaa ,'')='')"/>
-      <bind nodeset="/pev_enfant/g_vaa/dga_vaa" type="select1" relevant=" /pev_enfant/g_vaa/is_vaa =-1" required="1"/>
+      <bind nodeset="/pev_enfant/g_vaa/dga_vaa" type="select1" required="1" relevant=" /pev_enfant/g_vaa/is_vaa =-1"/>
       <bind nodeset="/pev_enfant/g_vaa/e_date_vaa" type="date" relevant=" /pev_enfant/g_vaa/is_vaa_missed =1"/>
       <bind nodeset="/pev_enfant/g_vaa/label_tt_vaa" readonly="true()" type="string" relevant=" /pev_enfant/g_vaa/dga_vaa =1"/>
       <bind nodeset="/pev_enfant/g_vaa/label_rupture2" readonly="true()" type="string" relevant=" /pev_enfant/g_vaa/dga_vaa =-1"/>
-      <bind nodeset="/pev_enfant/g_meb" relevant=" /pev_enfant/age_days &gt;270 and  /pev_enfant/age_days &lt;331 and  /pev_enfant/_case_date_meb =''"/>
+      <bind nodeset="/pev_enfant/g_meb" relevant=" /pev_enfant/age_days &gt;=270"/>
       <bind nodeset="/pev_enfant/g_meb/is_meb" type="select1" required="1"/>
       <bind nodeset="/pev_enfant/g_meb/e_date_meb" type="date" relevant=" /pev_enfant/g_meb/is_meb =1"/>
       <bind nodeset="/pev_enfant/g_meb/is_meb_missed" type="string" calculate="number( /pev_enfant/g_meb/is_meb =1 and coalesce( /pev_enfant/_case_date_meb ,'')='')"/>
-      <bind nodeset="/pev_enfant/g_meb/dga_meb" type="select1" relevant=" /pev_enfant/g_meb/is_meb =-1" required="1"/>
+      <bind nodeset="/pev_enfant/g_meb/dga_meb" type="select1" required="1" relevant=" /pev_enfant/g_meb/is_meb =-1"/>
       <bind nodeset="/pev_enfant/g_meb/label_tt_meb" readonly="true()" type="string" relevant=" /pev_enfant/g_meb/dga_meb =1"/>
       <bind nodeset="/pev_enfant/g_meb/label_rupture1" readonly="true()" type="string" relevant=" /pev_enfant/g_meb/dga_meb =-1"/>
       <bind nodeset="/pev_enfant/g_bilan/label_attention" readonly="true()" type="string"/>
@@ -1209,19 +1626,33 @@ if(coalesce( /pev_enfant/_case_date_penta1 ,'')!='','1','0'
       <bind nodeset="/pev_enfant/g_bilan/label_bilan_penta2" readonly="true()" type="string" relevant=" /pev_enfant/date_penta2 !=''"/>
       <bind nodeset="/pev_enfant/g_bilan/date_bilan_penta3" type="string" calculate="format-date( /pev_enfant/date_penta3 ,'%d/%m/%Y')"/>
       <bind nodeset="/pev_enfant/g_bilan/label_bilan_penta3" readonly="true()" type="string" relevant=" /pev_enfant/date_penta3 !=''"/>
-      <bind nodeset="/pev_enfant/g_bilan/date_bilan_vpi" type="string" calculate="format-date( /pev_enfant/date_vpi ,'%d/%m/%Y')"/>
-      <bind nodeset="/pev_enfant/g_bilan/label_bilan_vpi" readonly="true()" type="string" relevant=" /pev_enfant/date_vpi  !=''"/>
-      <bind nodeset="/pev_enfant/g_bilan/date_bilan_var" type="string" calculate="format-date( /pev_enfant/date_var ,'%d/%m/%Y')"/>
-      <bind nodeset="/pev_enfant/g_bilan/label_bilan_var" readonly="true()" type="string" relevant=" /pev_enfant/date_var !=''"/>
+      <bind nodeset="/pev_enfant/g_bilan/date_bilan_pneumo1" type="string" calculate="format-date( /pev_enfant/date_pneumo1 ,'%d/%m/%Y')"/>
+      <bind nodeset="/pev_enfant/g_bilan/label_bilan_pneumo1" readonly="true()" type="string" relevant=" /pev_enfant/date_pneumo1 !=''"/>
+      <bind nodeset="/pev_enfant/g_bilan/date_bilan_pneumo2" type="string" calculate="format-date( /pev_enfant/date_pneumo2 ,'%d/%m/%Y')"/>
+      <bind nodeset="/pev_enfant/g_bilan/label_bilan_pneumo2" readonly="true()" type="string" relevant=" /pev_enfant/date_pneumo2 !=''"/>
+      <bind nodeset="/pev_enfant/g_bilan/date_bilan_pneumo3" type="string" calculate="format-date( /pev_enfant/date_pneumo3 ,'%d/%m/%Y')"/>
+      <bind nodeset="/pev_enfant/g_bilan/label_bilan_pneumo3" readonly="true()" type="string" relevant=" /pev_enfant/date_pneumo3 !=''"/>
       <bind nodeset="/pev_enfant/g_bilan/date_bilan_men_a" type="string" calculate="format-date( /pev_enfant/date_meni ,'%d/%m/%Y')"/>
       <bind nodeset="/pev_enfant/g_bilan/label_bilan_men_a" readonly="true()" type="string" relevant=" /pev_enfant/date_meni !=''"/>
+      <bind nodeset="/pev_enfant/g_bilan/date_bilan_vpi1" type="string" calculate="format-date( /pev_enfant/date_vpi1 ,'%d/%m/%Y')"/>
+      <bind nodeset="/pev_enfant/g_bilan/label_bilan_vpi1" readonly="true()" type="string" relevant=" /pev_enfant/date_vpi1  !=''"/>
+      <bind nodeset="/pev_enfant/g_bilan/date_bilan_vpi2" type="string" calculate="format-date( /pev_enfant/date_vpi2 ,'%d/%m/%Y')"/>
+      <bind nodeset="/pev_enfant/g_bilan/label_bilan_vpi2" readonly="true()" type="string" relevant=" /pev_enfant/date_vpi2  !=''"/>
+      <bind nodeset="/pev_enfant/g_bilan/date_bilan_var1" type="string" calculate="format-date( /pev_enfant/date_var1 ,'%d/%m/%Y')"/>
+      <bind nodeset="/pev_enfant/g_bilan/label_bilan_var1" readonly="true()" type="string" relevant=" /pev_enfant/date_var1 != ''"/>
+      <bind nodeset="/pev_enfant/g_bilan/date_bilan_var2" type="string" calculate="format-date( /pev_enfant/date_var2 ,'%d/%m/%Y')"/>
+      <bind nodeset="/pev_enfant/g_bilan/label_bilan_var2" readonly="true()" type="string" relevant=" /pev_enfant/date_var2 !=''"/>
+      <bind nodeset="/pev_enfant/g_bilan/date_bilan_rota1" type="string" calculate="format-date( /pev_enfant/date_rota1 ,'%d/%m/%Y')"/>
+      <bind nodeset="/pev_enfant/g_bilan/label_bilan_rota1" readonly="true()" type="string" relevant=" /pev_enfant/date_rota1  !=''"/>
+      <bind nodeset="/pev_enfant/g_bilan/date_bilan_rota2" type="string" calculate="format-date( /pev_enfant/date_rota2 ,'%d/%m/%Y')"/>
+      <bind nodeset="/pev_enfant/g_bilan/label_bilan_rota2" readonly="true()" type="string" relevant=" /pev_enfant/date_rota2  !=''"/>
       <bind nodeset="/pev_enfant/g_bilan/date_bilan_vita" type="string" calculate="format-date( /pev_enfant/date_vita ,'%d/%m/%Y')"/>
       <bind nodeset="/pev_enfant/g_bilan/label_bilan_vita" readonly="true()" type="string" relevant=" /pev_enfant/date_vita !=''"/>
       <bind nodeset="/pev_enfant/g_bilan/date_bilan_vaa" type="string" calculate="format-date( /pev_enfant/date_vaa ,'%d/%m/%Y')"/>
       <bind nodeset="/pev_enfant/g_bilan/label_bilan_vaa" readonly="true()" type="string" relevant=" /pev_enfant/date_vaa !=''"/>
       <bind nodeset="/pev_enfant/g_bilan/date_bilan_meb" type="string" calculate="format-date( /pev_enfant/date_meb ,'%d/%m/%Y')"/>
       <bind nodeset="/pev_enfant/g_bilan/label_bilan_meb" readonly="true()" type="string" relevant=" /pev_enfant/date_meb !=''"/>
-      <bind nodeset="/pev_enfant/g_bilan/label_next_rdv" readonly="true()" type="string" relevant="( /pev_enfant/g_vpi/dga_vpi =1 and  /pev_enfant/dose_penta/dose_pta3 =1 and  /pev_enfant/dose_vaccin/give_vpo3 =1) and (  /pev_enfant/next_rdv_autres  != '2999-12-31') and (decimal-date-time(today())-decimal-date-time( /pev_enfant/date_naissance )&lt; 270)"/>
+      <bind nodeset="/pev_enfant/g_bilan/label_next_rdv" readonly="true()" type="string" relevant="( /pev_enfant/dose_penta/dose_pta3 =1 and  /pev_enfant/g_pneumo/dose_pneumo3 =1 and  /pev_enfant/dose_vaccin/give_vpo3 =1) and (  /pev_enfant/next_rdv_autres  != '2999-12-31') and (decimal-date-time(today())-decimal-date-time( /pev_enfant/date_naissance )&lt; 690)"/>
       <bind nodeset="/pev_enfant/g_bilan/label_next_done" readonly="true()" type="string" relevant=" /pev_enfant/next_rdv_autres  = '2999-12-31'"/>
       <bind nodeset="/pev_enfant/meta/instanceID" type="string" readonly="true()" calculate="concat('uuid:', uuid())"/>
     </model>
@@ -1264,11 +1695,32 @@ if(coalesce( /pev_enfant/_case_date_penta1 ,'')!='','1','0'
         <input ref="/pev_enfant/inputs/contact/_input_date_penta3">
           <label ref="jr:itext('/pev_enfant/inputs/contact/_input_date_penta3:label')"/>
         </input>
-        <input ref="/pev_enfant/inputs/contact/_input_date_vpi">
-          <label ref="jr:itext('/pev_enfant/inputs/contact/_input_date_vpi:label')"/>
+        <input ref="/pev_enfant/inputs/contact/_input_date_pneumo1">
+          <label ref="jr:itext('/pev_enfant/inputs/contact/_input_date_pneumo1:label')"/>
         </input>
-        <input ref="/pev_enfant/inputs/contact/_input_date_var">
-          <label ref="jr:itext('/pev_enfant/inputs/contact/_input_date_var:label')"/>
+        <input ref="/pev_enfant/inputs/contact/_input_date_pneumo2">
+          <label ref="jr:itext('/pev_enfant/inputs/contact/_input_date_pneumo2:label')"/>
+        </input>
+        <input ref="/pev_enfant/inputs/contact/_input_date_pneumo3">
+          <label ref="jr:itext('/pev_enfant/inputs/contact/_input_date_pneumo3:label')"/>
+        </input>
+        <input ref="/pev_enfant/inputs/contact/_input_date_rota1">
+          <label ref="jr:itext('/pev_enfant/inputs/contact/_input_date_rota1:label')"/>
+        </input>
+        <input ref="/pev_enfant/inputs/contact/_input_date_rota2">
+          <label ref="jr:itext('/pev_enfant/inputs/contact/_input_date_rota2:label')"/>
+        </input>
+        <input ref="/pev_enfant/inputs/contact/_input_date_vpi1">
+          <label ref="jr:itext('/pev_enfant/inputs/contact/_input_date_vpi1:label')"/>
+        </input>
+        <input ref="/pev_enfant/inputs/contact/_input_date_vpi2">
+          <label ref="jr:itext('/pev_enfant/inputs/contact/_input_date_vpi2:label')"/>
+        </input>
+        <input ref="/pev_enfant/inputs/contact/_input_date_var1">
+          <label ref="jr:itext('/pev_enfant/inputs/contact/_input_date_var1:label')"/>
+        </input>
+        <input ref="/pev_enfant/inputs/contact/_input_date_var2">
+          <label ref="jr:itext('/pev_enfant/inputs/contact/_input_date_var2:label')"/>
         </input>
         <input ref="/pev_enfant/inputs/contact/_input_date_vaa">
           <label ref="jr:itext('/pev_enfant/inputs/contact/_input_date_vaa:label')"/>
@@ -1590,38 +2042,248 @@ if(coalesce( /pev_enfant/_case_date_penta1 ,'')!='','1','0'
         <label ref="jr:itext('/pev_enfant/dose_penta/invalide_dose_penta:label')"/>
       </input>
     </group>
+    <group appearance="field-list" ref="/pev_enfant/g_pneumo">
+      <label ref="jr:itext('/pev_enfant/g_pneumo:label')"/>
+      <select1 ref="/pev_enfant/g_pneumo/s_ch_contact_pmo">
+        <label ref="jr:itext('/pev_enfant/g_pneumo/s_ch_contact_pmo:label')"/>
+        <item>
+          <label ref="jr:itext('/pev_enfant/g_pneumo/s_ch_contact_pmo/0:label')"/>
+          <value>0</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/pev_enfant/g_pneumo/s_ch_contact_pmo/1:label')"/>
+          <value>1</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/pev_enfant/g_pneumo/s_ch_contact_pmo/2:label')"/>
+          <value>2</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/pev_enfant/g_pneumo/s_ch_contact_pmo/3:label')"/>
+          <value>3</value>
+        </item>
+      </select1>
+      <input ref="/pev_enfant/g_pneumo/e_date_pneumo1">
+        <label ref="jr:itext('/pev_enfant/g_pneumo/e_date_pneumo1:label')"/>
+      </input>
+      <input ref="/pev_enfant/g_pneumo/e_date_pneumo2">
+        <label ref="jr:itext('/pev_enfant/g_pneumo/e_date_pneumo2:label')"/>
+      </input>
+      <input ref="/pev_enfant/g_pneumo/e_date_pneumo3">
+        <label ref="jr:itext('/pev_enfant/g_pneumo/e_date_pneumo3:label')"/>
+      </input>
+      <select1 ref="/pev_enfant/g_pneumo/dose_pneumo1">
+        <label ref="jr:itext('/pev_enfant/g_pneumo/dose_pneumo1:label')"/>
+        <item>
+          <label ref="jr:itext('/pev_enfant/g_pneumo/dose_pneumo1/1:label')"/>
+          <value>1</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/pev_enfant/g_pneumo/dose_pneumo1/-1:label')"/>
+          <value>-1</value>
+        </item>
+      </select1>
+      <input ref="/pev_enfant/g_pneumo/label_dose_pneumo1">
+        <label ref="jr:itext('/pev_enfant/g_pneumo/label_dose_pneumo1:label')"/>
+      </input>
+      <select1 ref="/pev_enfant/g_pneumo/dose_pneumo2">
+        <label ref="jr:itext('/pev_enfant/g_pneumo/dose_pneumo2:label')"/>
+        <item>
+          <label ref="jr:itext('/pev_enfant/g_pneumo/dose_pneumo2/1:label')"/>
+          <value>1</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/pev_enfant/g_pneumo/dose_pneumo2/-1:label')"/>
+          <value>-1</value>
+        </item>
+      </select1>
+      <input ref="/pev_enfant/g_pneumo/label_dose_pneumo2">
+        <label ref="jr:itext('/pev_enfant/g_pneumo/label_dose_pneumo2:label')"/>
+      </input>
+      <select1 ref="/pev_enfant/g_pneumo/dose_pneumo3">
+        <label ref="jr:itext('/pev_enfant/g_pneumo/dose_pneumo3:label')"/>
+        <item>
+          <label ref="jr:itext('/pev_enfant/g_pneumo/dose_pneumo3/1:label')"/>
+          <value>1</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/pev_enfant/g_pneumo/dose_pneumo3/-1:label')"/>
+          <value>-1</value>
+        </item>
+      </select1>
+      <input ref="/pev_enfant/g_pneumo/label_dose_pneumo3">
+        <label ref="jr:itext('/pev_enfant/g_pneumo/label_dose_pneumo3:label')"/>
+      </input>
+      <input ref="/pev_enfant/g_pneumo/label_rup_pneumo">
+        <label ref="jr:itext('/pev_enfant/g_pneumo/label_rup_pneumo:label')"/>
+      </input>
+    </group>
+    <group appearance="field-list" ref="/pev_enfant/g_rota">
+      <label ref="jr:itext('/pev_enfant/g_rota:label')"/>
+      <select1 ref="/pev_enfant/g_rota/s_ch_contact_rota">
+        <label ref="jr:itext('/pev_enfant/g_rota/s_ch_contact_rota:label')"/>
+        <item>
+          <label ref="jr:itext('/pev_enfant/g_rota/s_ch_contact_rota/0:label')"/>
+          <value>0</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/pev_enfant/g_rota/s_ch_contact_rota/1:label')"/>
+          <value>1</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/pev_enfant/g_rota/s_ch_contact_rota/2:label')"/>
+          <value>2</value>
+        </item>
+      </select1>
+      <input ref="/pev_enfant/g_rota/e_date_rota1">
+        <label ref="jr:itext('/pev_enfant/g_rota/e_date_rota1:label')"/>
+      </input>
+      <input ref="/pev_enfant/g_rota/e_date_rota2">
+        <label ref="jr:itext('/pev_enfant/g_rota/e_date_rota2:label')"/>
+      </input>
+      <select1 ref="/pev_enfant/g_rota/dose_rota1">
+        <label ref="jr:itext('/pev_enfant/g_rota/dose_rota1:label')"/>
+        <item>
+          <label ref="jr:itext('/pev_enfant/g_rota/dose_rota1/1:label')"/>
+          <value>1</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/pev_enfant/g_rota/dose_rota1/-1:label')"/>
+          <value>-1</value>
+        </item>
+      </select1>
+      <input ref="/pev_enfant/g_rota/label_dose_rota1">
+        <label ref="jr:itext('/pev_enfant/g_rota/label_dose_rota1:label')"/>
+      </input>
+      <select1 ref="/pev_enfant/g_rota/dose_rota2">
+        <label ref="jr:itext('/pev_enfant/g_rota/dose_rota2:label')"/>
+        <item>
+          <label ref="jr:itext('/pev_enfant/g_rota/dose_rota2/1:label')"/>
+          <value>1</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/pev_enfant/g_rota/dose_rota2/-1:label')"/>
+          <value>-1</value>
+        </item>
+      </select1>
+      <input ref="/pev_enfant/g_rota/label_dose_rota2">
+        <label ref="jr:itext('/pev_enfant/g_rota/label_dose_rota2:label')"/>
+      </input>
+      <input ref="/pev_enfant/g_rota/label_rup_rota">
+        <label ref="jr:itext('/pev_enfant/g_rota/label_rup_rota:label')"/>
+      </input>
+    </group>
     <group appearance="field-list" ref="/pev_enfant/g_vpi">
       <label ref="jr:itext('/pev_enfant/g_vpi:label')"/>
-      <select1 ref="/pev_enfant/g_vpi/is_vpi">
-        <label ref="jr:itext('/pev_enfant/g_vpi/is_vpi:label')"/>
+      <select1 ref="/pev_enfant/g_vpi/s_ch_contact_vpi">
+        <label ref="jr:itext('/pev_enfant/g_vpi/s_ch_contact_vpi:label')"/>
         <item>
-          <label ref="jr:itext('/pev_enfant/g_vpi/is_vpi/1:label')"/>
+          <label ref="jr:itext('/pev_enfant/g_vpi/s_ch_contact_vpi/0:label')"/>
+          <value>0</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/pev_enfant/g_vpi/s_ch_contact_vpi/1:label')"/>
           <value>1</value>
         </item>
         <item>
-          <label ref="jr:itext('/pev_enfant/g_vpi/is_vpi/-1:label')"/>
-          <value>-1</value>
+          <label ref="jr:itext('/pev_enfant/g_vpi/s_ch_contact_vpi/2:label')"/>
+          <value>2</value>
         </item>
       </select1>
-      <select1 ref="/pev_enfant/g_vpi/dga_vpi">
-        <label ref="jr:itext('/pev_enfant/g_vpi/dga_vpi:label')"/>
+      <input ref="/pev_enfant/g_vpi/e_date_vpi1">
+        <label ref="jr:itext('/pev_enfant/g_vpi/e_date_vpi1:label')"/>
+      </input>
+      <input ref="/pev_enfant/g_vpi/e_date_vpi2">
+        <label ref="jr:itext('/pev_enfant/g_vpi/e_date_vpi2:label')"/>
+      </input>
+      <select1 ref="/pev_enfant/g_vpi/dose_vpi1">
+        <label ref="jr:itext('/pev_enfant/g_vpi/dose_vpi1:label')"/>
         <item>
-          <label ref="jr:itext('/pev_enfant/g_vpi/dga_vpi/1:label')"/>
+          <label ref="jr:itext('/pev_enfant/g_vpi/dose_vpi1/1:label')"/>
           <value>1</value>
         </item>
         <item>
-          <label ref="jr:itext('/pev_enfant/g_vpi/dga_vpi/-1:label')"/>
+          <label ref="jr:itext('/pev_enfant/g_vpi/dose_vpi1/-1:label')"/>
           <value>-1</value>
         </item>
       </select1>
-      <input ref="/pev_enfant/g_vpi/label_tt_vpi">
-        <label ref="jr:itext('/pev_enfant/g_vpi/label_tt_vpi:label')"/>
+      <input ref="/pev_enfant/g_vpi/label_dose_vpi1">
+        <label ref="jr:itext('/pev_enfant/g_vpi/label_dose_vpi1:label')"/>
       </input>
-      <input ref="/pev_enfant/g_vpi/label_rupture6">
-        <label ref="jr:itext('/pev_enfant/g_vpi/label_rupture6:label')"/>
+      <select1 ref="/pev_enfant/g_vpi/dose_vpi2">
+        <label ref="jr:itext('/pev_enfant/g_vpi/dose_vpi2:label')"/>
+        <item>
+          <label ref="jr:itext('/pev_enfant/g_vpi/dose_vpi2/1:label')"/>
+          <value>1</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/pev_enfant/g_vpi/dose_vpi2/-1:label')"/>
+          <value>-1</value>
+        </item>
+      </select1>
+      <input ref="/pev_enfant/g_vpi/label_dose_vpi2">
+        <label ref="jr:itext('/pev_enfant/g_vpi/label_dose_vpi2:label')"/>
       </input>
-      <input appearance=".&lt;= today() and .&gt; /pev_enfant/date_naissance " ref="/pev_enfant/g_vpi/e_date_vpi">
-        <label ref="jr:itext('/pev_enfant/g_vpi/e_date_vpi:label')"/>
+      <input ref="/pev_enfant/g_vpi/label_rup_vpi">
+        <label ref="jr:itext('/pev_enfant/g_vpi/label_rup_vpi:label')"/>
+      </input>
+    </group>
+    <group appearance="field-list" ref="/pev_enfant/g_var">
+      <label ref="jr:itext('/pev_enfant/g_var:label')"/>
+      <input ref="/pev_enfant/g_var/label_var_warning">
+        <label ref="jr:itext('/pev_enfant/g_var/label_var_warning:label')"/>
+      </input>
+      <select1 ref="/pev_enfant/g_var/s_ch_contact_var">
+        <label ref="jr:itext('/pev_enfant/g_var/s_ch_contact_var:label')"/>
+        <item>
+          <label ref="jr:itext('/pev_enfant/g_var/s_ch_contact_var/0:label')"/>
+          <value>0</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/pev_enfant/g_var/s_ch_contact_var/1:label')"/>
+          <value>1</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/pev_enfant/g_var/s_ch_contact_var/2:label')"/>
+          <value>2</value>
+        </item>
+      </select1>
+      <input ref="/pev_enfant/g_var/e_date_var1">
+        <label ref="jr:itext('/pev_enfant/g_var/e_date_var1:label')"/>
+      </input>
+      <input ref="/pev_enfant/g_var/e_date_var2">
+        <label ref="jr:itext('/pev_enfant/g_var/e_date_var2:label')"/>
+      </input>
+      <select1 ref="/pev_enfant/g_var/dose_var1">
+        <label ref="jr:itext('/pev_enfant/g_var/dose_var1:label')"/>
+        <item>
+          <label ref="jr:itext('/pev_enfant/g_var/dose_var1/1:label')"/>
+          <value>1</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/pev_enfant/g_var/dose_var1/-1:label')"/>
+          <value>-1</value>
+        </item>
+      </select1>
+      <input ref="/pev_enfant/g_var/label_dose_var1">
+        <label ref="jr:itext('/pev_enfant/g_var/label_dose_var1:label')"/>
+      </input>
+      <select1 ref="/pev_enfant/g_var/dose_var2">
+        <label ref="jr:itext('/pev_enfant/g_var/dose_var2:label')"/>
+        <item>
+          <label ref="jr:itext('/pev_enfant/g_var/dose_var2/1:label')"/>
+          <value>1</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/pev_enfant/g_var/dose_var2/-1:label')"/>
+          <value>-1</value>
+        </item>
+      </select1>
+      <input ref="/pev_enfant/g_var/label_dose_var2">
+        <label ref="jr:itext('/pev_enfant/g_var/label_dose_var2:label')"/>
+      </input>
+      <input ref="/pev_enfant/g_var/label_rupture_var">
+        <label ref="jr:itext('/pev_enfant/g_var/label_rupture_var:label')"/>
       </input>
     </group>
     <group appearance="field-list" ref="/pev_enfant/g_mena">
@@ -1654,7 +2316,7 @@ if(coalesce( /pev_enfant/_case_date_penta1 ,'')!='','1','0'
       <input ref="/pev_enfant/g_mena/label_rupture5">
         <label ref="jr:itext('/pev_enfant/g_mena/label_rupture5:label')"/>
       </input>
-      <input appearance=".&lt;= today() and .&gt; /pev_enfant/date_naissance " ref="/pev_enfant/g_mena/e_date_meni">
+      <input ref="/pev_enfant/g_mena/e_date_meni">
         <label ref="jr:itext('/pev_enfant/g_mena/e_date_meni:label')"/>
       </input>
     </group>
@@ -1682,7 +2344,7 @@ if(coalesce( /pev_enfant/_case_date_penta1 ,'')!='','1','0'
           <value>-1</value>
         </item>
       </select1>
-      <input appearance=".&lt;= today() and .&gt; /pev_enfant/date_naissance " ref="/pev_enfant/g_vitaa/e_date_vita">
+      <input ref="/pev_enfant/g_vitaa/e_date_vita">
         <label ref="jr:itext('/pev_enfant/g_vitaa/e_date_vita:label')"/>
       </input>
       <input ref="/pev_enfant/g_vitaa/label_tt_vita">
@@ -1690,43 +2352,6 @@ if(coalesce( /pev_enfant/_case_date_penta1 ,'')!='','1','0'
       </input>
       <input ref="/pev_enfant/g_vitaa/label_rupture4">
         <label ref="jr:itext('/pev_enfant/g_vitaa/label_rupture4:label')"/>
-      </input>
-    </group>
-    <group appearance="field-list" ref="/pev_enfant/g_var">
-      <label ref="jr:itext('/pev_enfant/g_var:label')"/>
-      <select1 ref="/pev_enfant/g_var/is_var">
-        <label ref="jr:itext('/pev_enfant/g_var/is_var:label')"/>
-        <item>
-          <label ref="jr:itext('/pev_enfant/g_var/is_var/1:label')"/>
-          <value>1</value>
-        </item>
-        <item>
-          <label ref="jr:itext('/pev_enfant/g_var/is_var/-1:label')"/>
-          <value>-1</value>
-        </item>
-      </select1>
-      <input ref="/pev_enfant/g_var/label_var_warning">
-        <label ref="jr:itext('/pev_enfant/g_var/label_var_warning:label')"/>
-      </input>
-      <select1 ref="/pev_enfant/g_var/dga_var">
-        <label ref="jr:itext('/pev_enfant/g_var/dga_var:label')"/>
-        <item>
-          <label ref="jr:itext('/pev_enfant/g_var/dga_var/1:label')"/>
-          <value>1</value>
-        </item>
-        <item>
-          <label ref="jr:itext('/pev_enfant/g_var/dga_var/-1:label')"/>
-          <value>-1</value>
-        </item>
-      </select1>
-      <input appearance=".&lt;= today() and .&gt; /pev_enfant/date_naissance " ref="/pev_enfant/g_var/e_date_var">
-        <label ref="jr:itext('/pev_enfant/g_var/e_date_var:label')"/>
-      </input>
-      <input ref="/pev_enfant/g_var/label_tt_var">
-        <label ref="jr:itext('/pev_enfant/g_var/label_tt_var:label')"/>
-      </input>
-      <input ref="/pev_enfant/g_var/label_rupture3">
-        <label ref="jr:itext('/pev_enfant/g_var/label_rupture3:label')"/>
       </input>
     </group>
     <group appearance="field-list" ref="/pev_enfant/g_vaa">
@@ -1756,7 +2381,7 @@ if(coalesce( /pev_enfant/_case_date_penta1 ,'')!='','1','0'
           <value>-1</value>
         </item>
       </select1>
-      <input appearance=".&lt;= today() and .&gt; /pev_enfant/date_naissance " ref="/pev_enfant/g_vaa/e_date_vaa">
+      <input ref="/pev_enfant/g_vaa/e_date_vaa">
         <label ref="jr:itext('/pev_enfant/g_vaa/e_date_vaa:label')"/>
       </input>
       <input ref="/pev_enfant/g_vaa/label_tt_vaa">
@@ -1779,7 +2404,7 @@ if(coalesce( /pev_enfant/_case_date_penta1 ,'')!='','1','0'
           <value>-1</value>
         </item>
       </select1>
-      <input appearance=".&lt;= today() and .&gt; /pev_enfant/date_naissance " ref="/pev_enfant/g_meb/e_date_meb">
+      <input ref="/pev_enfant/g_meb/e_date_meb">
         <label ref="jr:itext('/pev_enfant/g_meb/e_date_meb:label')"/>
       </input>
       <select1 ref="/pev_enfant/g_meb/dga_meb">
@@ -1829,14 +2454,35 @@ if(coalesce( /pev_enfant/_case_date_penta1 ,'')!='','1','0'
       <input ref="/pev_enfant/g_bilan/label_bilan_penta3">
         <label ref="jr:itext('/pev_enfant/g_bilan/label_bilan_penta3:label')"/>
       </input>
-      <input ref="/pev_enfant/g_bilan/label_bilan_vpi">
-        <label ref="jr:itext('/pev_enfant/g_bilan/label_bilan_vpi:label')"/>
+      <input ref="/pev_enfant/g_bilan/label_bilan_pneumo1">
+        <label ref="jr:itext('/pev_enfant/g_bilan/label_bilan_pneumo1:label')"/>
       </input>
-      <input ref="/pev_enfant/g_bilan/label_bilan_var">
-        <label ref="jr:itext('/pev_enfant/g_bilan/label_bilan_var:label')"/>
+      <input ref="/pev_enfant/g_bilan/label_bilan_pneumo2">
+        <label ref="jr:itext('/pev_enfant/g_bilan/label_bilan_pneumo2:label')"/>
+      </input>
+      <input ref="/pev_enfant/g_bilan/label_bilan_pneumo3">
+        <label ref="jr:itext('/pev_enfant/g_bilan/label_bilan_pneumo3:label')"/>
       </input>
       <input ref="/pev_enfant/g_bilan/label_bilan_men_a">
         <label ref="jr:itext('/pev_enfant/g_bilan/label_bilan_men_a:label')"/>
+      </input>
+      <input ref="/pev_enfant/g_bilan/label_bilan_vpi1">
+        <label ref="jr:itext('/pev_enfant/g_bilan/label_bilan_vpi1:label')"/>
+      </input>
+      <input ref="/pev_enfant/g_bilan/label_bilan_vpi2">
+        <label ref="jr:itext('/pev_enfant/g_bilan/label_bilan_vpi2:label')"/>
+      </input>
+      <input ref="/pev_enfant/g_bilan/label_bilan_var1">
+        <label ref="jr:itext('/pev_enfant/g_bilan/label_bilan_var1:label')"/>
+      </input>
+      <input ref="/pev_enfant/g_bilan/label_bilan_var2">
+        <label ref="jr:itext('/pev_enfant/g_bilan/label_bilan_var2:label')"/>
+      </input>
+      <input ref="/pev_enfant/g_bilan/label_bilan_rota1">
+        <label ref="jr:itext('/pev_enfant/g_bilan/label_bilan_rota1:label')"/>
+      </input>
+      <input ref="/pev_enfant/g_bilan/label_bilan_rota2">
+        <label ref="jr:itext('/pev_enfant/g_bilan/label_bilan_rota2:label')"/>
       </input>
       <input ref="/pev_enfant/g_bilan/label_bilan_vita">
         <label ref="jr:itext('/pev_enfant/g_bilan/label_bilan_vita:label')"/>
