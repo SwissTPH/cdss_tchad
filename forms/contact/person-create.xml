@@ -229,7 +229,7 @@ DOB ISO: <output value=" /data/person/ephemeral_dob/dob_iso "/></value></text>
       <bind nodeset="/data/person/parent" type="string"/>
       <bind nodeset="/data/person/type" type="string"/>
       <bind nodeset="/data/person/role" type="select1"/>
-      <bind nodeset="/data/person/p_ref" type="int" relevant=" /data/person/role ='patient'" constraint="(. - int(. div 10)*10) = (int(. div 10) mod 7)" jr:constraintMsg="jr:itext('/data/person/p_ref:jr:constraintMsg')" required="1" jr:requiredMsg="jr:itext('/data/person/p_ref:jr:requiredMsg')"/>
+      <bind nodeset="/data/person/p_ref" type="int" jr:constraintMsg="jr:itext('/data/person/p_ref:jr:constraintMsg')" jr:requiredMsg="jr:itext('/data/person/p_ref:jr:requiredMsg')" relevant=" /data/person/role ='patient'" constraint="(. - int(. div 10)*10) = (int(. div 10) mod 7)" required="1"/>
       <bind nodeset="/data/person/short_name" type="string" relevant=" /data/person/role ='other'"/>
       <bind nodeset="/data/person/name" type="string" calculate="coalesce(int( /data/person/p_ref ), /data/person/short_name )"/>
       <bind nodeset="/data/person/as_int_lead" type="string" calculate="int( /data/person/p_ref  div 10)"/>

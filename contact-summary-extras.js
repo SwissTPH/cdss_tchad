@@ -147,7 +147,7 @@ function getImmFileds(allReports, list_doses, list_forms, list_imm) {
   var immunizations = initImmunizations(allReports, list_doses, list_forms );
   list_imm.forEach(function(imm) {
     var field = {
-      label: 'contact.imm.' + imm,
+      label: 'contact.profile.imm.' + imm,
       translate: true,
       width: 6,
     };

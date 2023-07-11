@@ -81,7 +81,7 @@
             <value>Possible ANGINE (StrepA)</value>
           </text>
           <text id="/pcmie_test_diag/_case_d_angina_to_test:label">
-            <value>ANGINE ä tester</value>
+            <value>ANGINE à tester</value>
           </text>
           <text id="/pcmie_test_diag/_case_d_ano_rectal_cleft:label">
             <value>Fissure anorectale</value>
@@ -335,17 +335,23 @@
           <text id="/pcmie_test_diag/_case_d_ictere:label">
             <value>Ictère</value>
           </text>
+          <text id="/pcmie_test_diag/_case_d_illness_fever:label">
+            <value>Maladie fébrile</value>
+          </text>
           <text id="/pcmie_test_diag/_case_d_illness_fever_severe_malaria_possible:label">
             <value>Maladie fébrile très grave (suspicion paludisme grave)</value>
           </text>
           <text id="/pcmie_test_diag/_case_d_illness_fever_severe_malaria_to_test:label">
-            <value>Maladie fébrile très grave ( paludisme grave ä tester)</value>
+            <value>Maladie fébrile très grave ( paludisme grave à tester)</value>
           </text>
           <text id="/pcmie_test_diag/_case_d_illness_fever_severe_persistent:label">
             <value>Maladie avec fièvre persistante</value>
           </text>
+          <text id="/pcmie_test_diag/_case_d_illness_fever_severe_persistent_malaria_possible:label">
+            <value>Maladie avec fièvre persistante ( paludisme possible)</value>
+          </text>
           <text id="/pcmie_test_diag/_case_d_illness_fever_severe_persistent_malaria_to_test:label">
-            <value>Maladie avec fièvre persistante ( paludisme grave ä tester)</value>
+            <value>Maladie avec fièvre persistante ( paludisme grave à tester)</value>
           </text>
           <text id="/pcmie_test_diag/_case_d_illness_severe_malaria_possible:label">
             <value>Maladie très grave (suspicion paludisme)</value>
@@ -456,7 +462,7 @@
             <value>Rougeole grave et compliquée</value>
           </text>
           <text id="/pcmie_test_diag/_case_d_meningitis_malaria_to_test:label">
-            <value>Meningite ( paludisme grave ä tester)</value>
+            <value>Meningite ( paludisme grave à tester)</value>
           </text>
           <text id="/pcmie_test_diag/_case_d_meningitis_no_malaria:label">
             <value>Méningite (paludisme exclu)</value>
@@ -853,6 +859,9 @@
           </text>
           <text id="/pcmie_test_diag/g_diag/label_case_d_herpes_genital_observe:label">
             <value>Herpes Genital à observer</value>
+          </text>
+          <text id="/pcmie_test_diag/g_diag/label_case_d_illness_fever:label">
+            <value>Maladie fébrile</value>
           </text>
           <text id="/pcmie_test_diag/g_diag/label_case_d_impetigo:label">
             <value>Impetigo</value>
@@ -5624,7 +5633,7 @@ rigueur/frissons &lt;/u&gt;</value>
             <value>Anémie grave à tester</value>
           </text>
           <text id="/pcmie_test_diag/result/d_angina_to_test:label">
-            <value>ANGINE ä tester</value>
+            <value>ANGINE à tester</value>
           </text>
           <text id="/pcmie_test_diag/result/d_ano_rectal_cleft:label">
             <value>Fissure anorectale</value>
@@ -5846,10 +5855,13 @@ rigueur/frissons &lt;/u&gt;</value>
             <value>Hypoglycémie possible</value>
           </text>
           <text id="/pcmie_test_diag/result/d_illness_fever_severe_malaria_to_test:label">
-            <value>Maladie fébrile très grave ( paludisme grave ä tester)</value>
+            <value>Maladie fébrile très grave ( paludisme grave à tester)</value>
+          </text>
+          <text id="/pcmie_test_diag/result/d_illness_fever_severe_persistent_malaria_possible:label">
+            <value>Maladie avec fièvre persistante ( paludisme grave possible</value>
           </text>
           <text id="/pcmie_test_diag/result/d_illness_fever_severe_persistent_malaria_to_test:label">
-            <value>Maladie avec fièvre persistante ( paludisme grave ä tester)</value>
+            <value>Maladie avec fièvre persistante ( paludisme grave à tester)</value>
           </text>
           <text id="/pcmie_test_diag/result/d_illness_severe_malaria_to_test:label">
             <value>Maladie grave ( paludisme grave à tester)</value>
@@ -5933,7 +5945,7 @@ rigueur/frissons &lt;/u&gt;</value>
             <value>Rougeole grave et compliquée</value>
           </text>
           <text id="/pcmie_test_diag/result/d_meningitis_malaria_to_test:label">
-            <value>Meningite ( paludisme grave ä tester)</value>
+            <value>Meningite ( paludisme grave à tester)</value>
           </text>
           <text id="/pcmie_test_diag/result/d_meningococcal_scepticism_possible:label">
             <value>nan</value>
@@ -6508,7 +6520,7 @@ prurigineuses en bouquets</value>
         </translation>
       </itext>
       <instance>
-        <pcmie_test_diag id="pcmie_test_diag" prefix="J1!pcmie_test_diag!" delimiter="#" version="2306091735">
+        <pcmie_test_diag id="pcmie_test_diag" prefix="J1!pcmie_test_diag!" delimiter="#" version="2307111103">
           <inputs>
             <meta>
               <location>
@@ -6530,7 +6542,7 @@ prurigineuses en bouquets</value>
               <date_of_birth/>
             </contact>
           </inputs>
-          <_id/>
+          <patient_uuid/>
           <patient_id/>
           <name/>
           <source_id/>
@@ -6540,6 +6552,7 @@ prurigineuses en bouquets</value>
           <_case_p_age>0</_case_p_age>
           <_case_p_weight>0</_case_p_weight>
           <_case_p_weight_age>0</_case_p_weight_age>
+          <_case_d_illness_fever/>
           <_case_d_convulsion>0</_case_d_convulsion>
           <_case_d_convulsion_epi>0</_case_d_convulsion_epi>
           <_case_a_iv_possible>0</_case_a_iv_possible>
@@ -6718,6 +6731,7 @@ prurigineuses en bouquets</value>
           <_case_d_illness_fever_severe_malaria_to_test>0</_case_d_illness_fever_severe_malaria_to_test>
           <_case_d_illness_fever_severe_persistent>0</_case_d_illness_fever_severe_persistent>
           <_case_d_illness_fever_severe_persistent_malaria_to_test>0</_case_d_illness_fever_severe_persistent_malaria_to_test>
+          <_case_d_illness_fever_severe_persistent_malaria_possible>0</_case_d_illness_fever_severe_persistent_malaria_possible>
           <_case_d_meningitis_no_malaria>0</_case_d_meningitis_no_malaria>
           <_case_d_malaria_neuro>0</_case_d_malaria_neuro>
           <_case_d_malaria_severe>0</_case_d_malaria_severe>
@@ -6915,6 +6929,7 @@ prurigineuses en bouquets</value>
             <d_fever/>
             <d_illness_fever_severe_malaria_to_test/>
             <d_illness_fever_severe_persistent_malaria_to_test/>
+            <d_illness_fever_severe_persistent_malaria_possible/>
             <d_meningitis_malaria_to_test/>
             <d_illness_severe_malaria_to_test/>
             <d_tuberculosis_possible/>
@@ -6990,6 +7005,7 @@ prurigineuses en bouquets</value>
             <d_lower_urinary_tract_infection/>
             <d_cervical_infection/>
             <d_genital_discharge_treat/>
+            <d_illness_fever/>
             <f_is_salbutamol_effect/>
           </result>
           <g__malaria_rdt>
@@ -7247,6 +7263,7 @@ prurigineuses en bouquets</value>
             <label_case_d_postictal_state/>
             <label_case_d_convulsion_with_febrile_sickness/>
             <label_case_d_first_convulsion_non_febrile/>
+            <label_case_d_illness_fever/>
             <throat_404/>
             <mouth_404/>
             <eye_404/>
@@ -8214,76 +8231,76 @@ prurigineuses en bouquets</value>
             <itextId>static_instance-lut_drugs_choice-0</itextId>
             <Max_age_months>100</Max_age_months>
             <Max_weight_kg>100</Max_weight_kg>
-            <Other>0</Other>
-            <name>artesunate_rectal</name>
-            <Min_age_months>6</Min_age_months>
-            <filter>malaria_severe</filter>
             <Min_weight_kg>4</Min_weight_kg>
+            <filter>malaria_severe</filter>
+            <Min_age_months>6</Min_age_months>
+            <name>artesunate_rectal</name>
+            <Other>0</Other>
           </item>
           <item>
             <itextId>static_instance-lut_drugs_choice-1</itextId>
             <Max_age_months>100</Max_age_months>
             <Max_weight_kg>100</Max_weight_kg>
-            <Other>0</Other>
-            <name>artesunate</name>
-            <Min_age_months>0</Min_age_months>
-            <filter>malaria_severe</filter>
             <Min_weight_kg>0</Min_weight_kg>
+            <filter>malaria_severe</filter>
+            <Min_age_months>0</Min_age_months>
+            <name>artesunate</name>
+            <Other>0</Other>
           </item>
           <item>
             <itextId>static_instance-lut_drugs_choice-2</itextId>
             <Max_age_months>100</Max_age_months>
             <Max_weight_kg>100</Max_weight_kg>
-            <Other>0</Other>
-            <name>artemether_im</name>
-            <Min_age_months>0</Min_age_months>
-            <filter>malaria_severe</filter>
             <Min_weight_kg>0</Min_weight_kg>
+            <filter>malaria_severe</filter>
+            <Min_age_months>0</Min_age_months>
+            <name>artemether_im</name>
+            <Other>0</Other>
           </item>
           <item>
             <itextId>static_instance-lut_drugs_choice-3</itextId>
             <Max_age_months>100</Max_age_months>
             <Max_weight_kg>100</Max_weight_kg>
-            <Other>1</Other>
-            <name>quinine_iv</name>
-            <Min_age_months>0</Min_age_months>
-            <filter>malaria_severe</filter>
             <Min_weight_kg>0</Min_weight_kg>
+            <filter>malaria_severe</filter>
+            <Min_age_months>0</Min_age_months>
+            <name>quinine_iv</name>
+            <Other>1</Other>
           </item>
           <item>
             <itextId>static_instance-lut_drugs_choice-4</itextId>
-            <Min_weight_kg>0</Min_weight_kg>
             <Max_age_months>100</Max_age_months>
+            <Min_weight_kg>0</Min_weight_kg>
             <Max_weight_kg>18</Max_weight_kg>
             <filter>as_aq</filter>
-            <name>as_25_aq_67</name>
             <Min_age_months>0</Min_age_months>
+            <name>as_25_aq_67</name>
           </item>
           <item>
             <itextId>static_instance-lut_drugs_choice-5</itextId>
-            <Min_weight_kg>0</Min_weight_kg>
             <Max_age_months>100</Max_age_months>
+            <Min_weight_kg>0</Min_weight_kg>
             <Max_weight_kg>100</Max_weight_kg>
             <filter>as_aq</filter>
-            <name>as_50_aq_135</name>
             <Min_age_months>0</Min_age_months>
+            <name>as_50_aq_135</name>
           </item>
           <item>
             <itextId>static_instance-lut_drugs_choice-6</itextId>
-            <Min_weight_kg>36</Min_weight_kg>
             <Max_age_months>100</Max_age_months>
+            <Min_weight_kg>36</Min_weight_kg>
             <Max_weight_kg>100</Max_weight_kg>
             <filter>as_aq</filter>
-            <name>as_100_aq_270</name>
             <Min_age_months>0</Min_age_months>
+            <name>as_100_aq_270</name>
           </item>
           <item>
             <itextId>static_instance-lut_drugs_choice-7</itextId>
-            <Max_age_months>100</Max_age_months>
             <Min_weight_kg>0</Min_weight_kg>
+            <Max_age_months>100</Max_age_months>
             <Max_weight_kg>100</Max_weight_kg>
-            <name>z_none</name>
             <Min_age_months>0</Min_age_months>
+            <name>z_none</name>
           </item>
         </root>
       </instance>
@@ -8713,7 +8730,7 @@ prurigineuses en bouquets</value>
       <bind nodeset="/pcmie_test_diag/inputs/contact/name" type="string"/>
       <bind nodeset="/pcmie_test_diag/inputs/contact/sex" type="string"/>
       <bind nodeset="/pcmie_test_diag/inputs/contact/date_of_birth" type="date"/>
-      <bind nodeset="/pcmie_test_diag/_id" type="string" calculate="../inputs/contact/_id"/>
+      <bind nodeset="/pcmie_test_diag/patient_uuid" type="string" calculate="../inputs/contact/_id"/>
       <bind nodeset="/pcmie_test_diag/patient_id" type="string" calculate="../inputs/contact/patient_id"/>
       <bind nodeset="/pcmie_test_diag/name" type="string" calculate="../inputs/contact/name"/>
       <bind nodeset="/pcmie_test_diag/source_id" type="string" calculate="../inputs/source_id"/>
@@ -8723,6 +8740,7 @@ prurigineuses en bouquets</value>
       <bind nodeset="/pcmie_test_diag/_case_p_age" type="string"/>
       <bind nodeset="/pcmie_test_diag/_case_p_weight" type="string"/>
       <bind nodeset="/pcmie_test_diag/_case_p_weight_age" type="string"/>
+      <bind nodeset="/pcmie_test_diag/_case_d_illness_fever" type="string"/>
       <bind nodeset="/pcmie_test_diag/_case_d_convulsion" type="string"/>
       <bind nodeset="/pcmie_test_diag/_case_d_convulsion_epi" type="string"/>
       <bind nodeset="/pcmie_test_diag/_case_a_iv_possible" type="string"/>
@@ -8777,7 +8795,7 @@ prurigineuses en bouquets</value>
       <bind nodeset="/pcmie_test_diag/_case_d_eczema_extensive" type="string"/>
       <bind nodeset="/pcmie_test_diag/_case_d_eczema" type="string"/>
       <bind nodeset="/pcmie_test_diag/_case_d_eczema_extensive_superinfected" type="string"/>
-      <bind nodeset="/pcmie_test_diag/_case_d_skin_problem_not_diagnosed" type="string"/>
+      <bind nodeset="/pcmie_test_diag/_case_d_skin_problem_not_diagnosed" type="string" required="3"/>
       <bind nodeset="/pcmie_test_diag/_case_d_vision_loss" type="string"/>
       <bind nodeset="/pcmie_test_diag/_case_d_eye_injury" type="string"/>
       <bind nodeset="/pcmie_test_diag/_case_d_orbital_cellulitis" type="string"/>
@@ -8901,6 +8919,7 @@ prurigineuses en bouquets</value>
       <bind nodeset="/pcmie_test_diag/_case_d_illness_fever_severe_malaria_to_test" type="string"/>
       <bind nodeset="/pcmie_test_diag/_case_d_illness_fever_severe_persistent" type="string"/>
       <bind nodeset="/pcmie_test_diag/_case_d_illness_fever_severe_persistent_malaria_to_test" type="string"/>
+      <bind nodeset="/pcmie_test_diag/_case_d_illness_fever_severe_persistent_malaria_possible" type="string"/>
       <bind nodeset="/pcmie_test_diag/_case_d_meningitis_no_malaria" type="string"/>
       <bind nodeset="/pcmie_test_diag/_case_d_malaria_neuro" type="string"/>
       <bind nodeset="/pcmie_test_diag/_case_d_malaria_severe" type="string"/>
@@ -9105,6 +9124,7 @@ selected( /pcmie_test_diag/g_urine_test_m/tt_urine_test_m ,'clear_urine') and  /
       <bind nodeset="/pcmie_test_diag/result/d_fever" type="string" calculate=" /pcmie_test_diag/_case_d_fever "/>
       <bind nodeset="/pcmie_test_diag/result/d_illness_fever_severe_malaria_to_test" type="string" calculate=" /pcmie_test_diag/_case_d_illness_fever_severe_malaria_to_test "/>
       <bind nodeset="/pcmie_test_diag/result/d_illness_fever_severe_persistent_malaria_to_test" type="string" calculate=" /pcmie_test_diag/_case_d_illness_fever_severe_persistent_malaria_to_test "/>
+      <bind nodeset="/pcmie_test_diag/result/d_illness_fever_severe_persistent_malaria_possible" type="string" calculate=" /pcmie_test_diag/_case_d_illness_fever_severe_persistent_malaria_possible "/>
       <bind nodeset="/pcmie_test_diag/result/d_meningitis_malaria_to_test" type="string" calculate=" /pcmie_test_diag/_case_d_meningitis_malaria_to_test "/>
       <bind nodeset="/pcmie_test_diag/result/d_illness_severe_malaria_to_test" type="string" calculate=" /pcmie_test_diag/_case_d_illness_severe_malaria_to_test "/>
       <bind nodeset="/pcmie_test_diag/result/d_tuberculosis_possible" type="string" calculate=" /pcmie_test_diag/_case_d_tuberculosis_possible "/>
@@ -9138,13 +9158,13 @@ selected( /pcmie_test_diag/g_urine_test_m/tt_urine_test_m ,'clear_urine') and  /
       <bind nodeset="/pcmie_test_diag/result/d_hiv_susceptible" type="string" calculate="number( /pcmie_test_diag/_case_d_hiv_susceptible =1 or  /pcmie_test_diag/g_hiv_rdt/s_is_breastfeeding =1 or ( /pcmie_test_diag/g_hiv_rdt/f_tr_hiv =1 and  /pcmie_test_diag/result/p_age &lt;18))"/>
       <bind nodeset="/pcmie_test_diag/result/d_illness_severe_malaria_possible" type="string" calculate="number( /pcmie_test_diag/_case_d_illness_severe_malaria_possible =1 or (  /pcmie_test_diag/_case_d_illness_severe_malaria_to_test =1 and  /pcmie_test_diag/g__malaria_rdt/t_is_malaria =-1) )"/>
       <bind nodeset="/pcmie_test_diag/result/d_illness_severe_no_malaria" type="string" calculate="number( /pcmie_test_diag/_case_d_illness_severe_no_malaria =1 or (  /pcmie_test_diag/_case_d_illness_severe_malaria_to_test =1 and  /pcmie_test_diag/g__malaria_rdt/f_tr_malaria =-1))"/>
-      <bind nodeset="/pcmie_test_diag/result/d_illness_fever_severe_malaria_possible" type="string" calculate="number( /pcmie_test_diag/_case_d_illness_fever_severe_malaria_possible =1 or ( /pcmie_test_diag/_case_d_meningitis_malaria_to_test =1 and  /pcmie_test_diag/g__malaria_rdt/t_is_malaria =-1) or ( /pcmie_test_diag/_case_d_illness_fever_severe_malaria_to_test =1 and  /pcmie_test_diag/g__malaria_rdt/t_is_malaria =-1) or ( /pcmie_test_diag/_case_d_illness_fever_severe_persistent_malaria_to_test =1 and  /pcmie_test_diag/g__malaria_rdt/t_is_malaria =-1))"/>
+      <bind nodeset="/pcmie_test_diag/result/d_illness_fever_severe_malaria_possible" type="string" calculate="number( /pcmie_test_diag/_case_d_illness_fever_severe_malaria_possible =1 or  /pcmie_test_diag/_case_d_illness_fever_severe_persistent_malaria_possible =1 or ( /pcmie_test_diag/_case_d_meningitis_malaria_to_test =1 and  /pcmie_test_diag/g__malaria_rdt/t_is_malaria =-1) or ( /pcmie_test_diag/_case_d_illness_fever_severe_malaria_to_test =1 and  /pcmie_test_diag/g__malaria_rdt/t_is_malaria =-1) or ( /pcmie_test_diag/_case_d_illness_fever_severe_persistent_malaria_to_test =1 and  /pcmie_test_diag/g__malaria_rdt/t_is_malaria =-1) )"/>
       <bind nodeset="/pcmie_test_diag/result/d_illness_fever_severe_persistent" type="string" calculate="number( /pcmie_test_diag/_case_d_illness_fever_severe_persistent =1 or ( /pcmie_test_diag/_case_d_illness_fever_severe_persistent_malaria_to_test =1 and  /pcmie_test_diag/g__malaria_rdt/f_tr_malaria =-1) or ( /pcmie_test_diag/_case_d_illness_fever_severe_persistent_malaria_to_test =1 and  /pcmie_test_diag/g__malaria_rdt/t_is_malaria =-1))"/>
       <bind nodeset="/pcmie_test_diag/result/d_meningitis_no_malaria" type="string" calculate="number( /pcmie_test_diag/_case_d_meningitis_no_malaria =1 or ( /pcmie_test_diag/_case_d_meningitis_malaria_to_test =1 and  /pcmie_test_diag/g__malaria_rdt/f_tr_malaria =-1))"/>
       <bind nodeset="/pcmie_test_diag/result/d_malaria_neuro" type="string" calculate="number( /pcmie_test_diag/_case_d_malaria_neuro =1 or ( /pcmie_test_diag/_case_d_meningitis_malaria_to_test =1 and  /pcmie_test_diag/g__malaria_rdt/f_tr_malaria =1) or ( /pcmie_test_diag/_case_d_illness_severe_malaria_to_test =1 and  /pcmie_test_diag/g__malaria_rdt/f_tr_malaria =1 and  /pcmie_test_diag/_case_d_convulsion =1 ))"/>
       <bind nodeset="/pcmie_test_diag/result/d_malaria_severe" type="string" calculate="number( /pcmie_test_diag/_case_d_malaria_severe =1 or ( /pcmie_test_diag/_case_d_illness_severe_malaria_to_test =1 and  /pcmie_test_diag/g__malaria_rdt/f_tr_malaria =1 and  /pcmie_test_diag/_case_d_convulsion =0 ) or ( /pcmie_test_diag/_case_d_illness_fever_severe_malaria_to_test =1 and  /pcmie_test_diag/g__malaria_rdt/f_tr_malaria =1) or ( /pcmie_test_diag/_case_d_illness_fever_severe_persistent_malaria_to_test =1 and  /pcmie_test_diag/g__malaria_rdt/f_tr_malaria =1))"/>
       <bind nodeset="/pcmie_test_diag/result/d_malaria" type="string" calculate="number( /pcmie_test_diag/_case_d_malaria =1 or ( /pcmie_test_diag/_case_d_malaria_to_test =1 and  /pcmie_test_diag/g__malaria_rdt/f_tr_malaria =1))"/>
-      <bind nodeset="/pcmie_test_diag/result/d_malaria_possible" type="string" calculate="number( /pcmie_test_diag/_case_d_malaria_possible =1 or ( /pcmie_test_diag/_case_d_malaria_to_test =1 and  /pcmie_test_diag/g__malaria_rdt/t_is_malaria =-1)) or ( /pcmie_test_diag/_case_d_illness_fever_severe_persistent_malaria_to_test =1 and  /pcmie_test_diag/g__malaria_rdt/t_is_malaria =-1)"/>
+      <bind nodeset="/pcmie_test_diag/result/d_malaria_possible" type="string" calculate="number( /pcmie_test_diag/_case_d_malaria_possible =1 or ( /pcmie_test_diag/_case_d_malaria_to_test =1 and  /pcmie_test_diag/g__malaria_rdt/t_is_malaria =-1) or ( /pcmie_test_diag/_case_d_illness_fever_severe_persistent_malaria_to_test =1 and  /pcmie_test_diag/g__malaria_rdt/t_is_malaria =-1))"/>
       <bind nodeset="/pcmie_test_diag/result/d_ictere" type="string" calculate="number( /pcmie_test_diag/_case_d_ictere =1 or  /pcmie_test_diag/g_hepatitis_rdt/f_tr_hepatitis =-1)"/>
       <bind nodeset="/pcmie_test_diag/result/d_anemia_severe" type="string" calculate="number( /pcmie_test_diag/_case_d_anemia_severe =1 or (  /pcmie_test_diag/_case_d_anemia_severe_to_test =1 and  /pcmie_test_diag/g_hemoglobin_rdt/f_dec_hemoglobin &gt;0 and  /pcmie_test_diag/g_hemoglobin_rdt/f_dec_hemoglobin  &lt;5 ))"/>
       <bind nodeset="/pcmie_test_diag/result/d_anemia_moderate" type="string" calculate="number( /pcmie_test_diag/_case_d_anemia_moderate =1 or (  /pcmie_test_diag/_case_d_anemia_moderate_to_test =1 and ( /pcmie_test_diag/g_hemoglobin_rdt/t_is_hemoglobin =-1 or (  /pcmie_test_diag/g_hemoglobin_rdt/f_dec_hemoglobin &gt;=5 and  /pcmie_test_diag/g_hemoglobin_rdt/f_dec_hemoglobin  &lt;= 11 ) )))"/>
@@ -9190,6 +9210,7 @@ or  /pcmie_test_diag/g_urine_test_m/s_is_flank_pain_or_chills_m =-1 or
 ( /pcmie_test_diag/as_is_suspicion_lower_urinary_tract_infection_m =1 and  /pcmie_test_diag/result/d_fever &lt;1 and  /pcmie_test_diag/_case_as_is_red_swollen_tender_testicles &lt;1))"/>
       <bind nodeset="/pcmie_test_diag/result/d_cervical_infection" type="string" calculate="number(  /pcmie_test_diag/g_urine_test_f/s_is_genital_discharge_painful =1)"/>
       <bind nodeset="/pcmie_test_diag/result/d_genital_discharge_treat" type="string" calculate="number( selected( /pcmie_test_diag/g_urine_test_f/s_is_mucopurulent_discharge , 'high_yes'))"/>
+      <bind nodeset="/pcmie_test_diag/result/d_illness_fever" type="string" calculate="number( /pcmie_test_diag/_case_d_illness_fever =0)"/>
       <bind nodeset="/pcmie_test_diag/result/f_is_salbutamol_effect" type="select1" relevant=" /pcmie_test_diag/_case_d_wheezing_to_follow =1" required="1"/>
       <bind nodeset="/pcmie_test_diag/g__malaria_rdt" relevant=" /pcmie_test_diag/_case_d_illness_fever_severe_malaria_to_test =1 or
  /pcmie_test_diag/_case_d_illness_fever_severe_persistent_malaria_to_test =1 or
@@ -9205,13 +9226,13 @@ or  /pcmie_test_diag/g_urine_test_m/s_is_flank_pain_or_chills_m =-1 or
       <bind nodeset="/pcmie_test_diag/g_hepatitis_rdt/dh_is_hepatitis" type="select1" relevant=" /pcmie_test_diag/g_hepatitis_rdt/f_tr_hepatitis =1 or  /pcmie_test_diag/g_hepatitis_rdt/t_is_hepatitis =1" required="1"/>
       <bind nodeset="/pcmie_test_diag/g_hemoglobin_rdt" relevant=" /pcmie_test_diag/_case_d_anemia_moderate_to_test =1 or  /pcmie_test_diag/_case_d_anemia_severe_to_test =1"/>
       <bind nodeset="/pcmie_test_diag/g_hemoglobin_rdt/t_is_hemoglobin" type="select1" required="1"/>
-      <bind nodeset="/pcmie_test_diag/g_hemoglobin_rdt/f_dec_hemoglobin" type="decimal" relevant=" /pcmie_test_diag/g_hemoglobin_rdt/t_is_hemoglobin =1" jr:constraintMsg="jr:itext('/pcmie_test_diag/g_hemoglobin_rdt/f_dec_hemoglobin:jr:constraintMsg')" constraint=".&gt;1 and .&lt;16" required="1"/>
+      <bind nodeset="/pcmie_test_diag/g_hemoglobin_rdt/f_dec_hemoglobin" type="decimal" jr:constraintMsg="jr:itext('/pcmie_test_diag/g_hemoglobin_rdt/f_dec_hemoglobin:jr:constraintMsg')" relevant=" /pcmie_test_diag/g_hemoglobin_rdt/t_is_hemoglobin =1" constraint=".&gt;1 and .&lt;16" required="1"/>
       <bind nodeset="/pcmie_test_diag/g_strep_a_rdt" relevant=" /pcmie_test_diag/_case_d_angina_to_test =1"/>
       <bind nodeset="/pcmie_test_diag/g_strep_a_rdt/f_tr_strep_a" type="select1" required="1"/>
       <bind nodeset="/pcmie_test_diag/g_strep_a_rdt/label_strep_a" readonly="true()" type="string" relevant="selected( /pcmie_test_diag/g_strep_a_rdt/f_tr_strep_a ,'0')"/>
       <bind nodeset="/pcmie_test_diag/g_strep_a_rdt/t_is_strep_a" type="select1" relevant="selected( /pcmie_test_diag/g_strep_a_rdt/f_tr_strep_a ,'0')"/>
       <bind nodeset="/pcmie_test_diag/g_strep_a_rdt/t_drinking" type="select1" relevant="( /pcmie_test_diag/result/d_angina =1 or  /pcmie_test_diag/result/d_pharyngitis_viral =1 )" required="1"/>
-      <bind nodeset="/pcmie_test_diag/g_strep_a_rdt/f_ch_dehydration" type="select" relevant="( /pcmie_test_diag/g_strep_a_rdt/t_drinking =-1)" jr:constraintMsg="jr:itext('/pcmie_test_diag/g_strep_a_rdt/f_ch_dehydration:jr:constraintMsg')" constraint="if(selected(.,&quot;z_none&quot;),count-selected(.)=1,not(count-selected(.)=0 
+      <bind nodeset="/pcmie_test_diag/g_strep_a_rdt/f_ch_dehydration" type="select" jr:constraintMsg="jr:itext('/pcmie_test_diag/g_strep_a_rdt/f_ch_dehydration:jr:constraintMsg')" relevant="( /pcmie_test_diag/g_strep_a_rdt/t_drinking =-1)" constraint="if(selected(.,&quot;z_none&quot;),count-selected(.)=1,not(count-selected(.)=0 
 or (selected(.,'s_lethargic') and selected(.,'s_cranky') ) 
 or (selected(.,'s_no_drink') and selected(.,'s_thirsty') )
 or (selected(.,'s_skin_fold_fast_fade') and selected(.,'s_skin_fold_slow_fade') )))" required="1"/>
@@ -9447,6 +9468,7 @@ or ((selected( /pcmie_test_diag/g_urine_test_m/tt_urine_test_m , 'clear_urine') 
       <bind nodeset="/pcmie_test_diag/g_diag/label_case_d_postictal_state" readonly="true()" type="string" relevant=" /pcmie_test_diag/result/d_postictal_state =1"/>
       <bind nodeset="/pcmie_test_diag/g_diag/label_case_d_convulsion_with_febrile_sickness" readonly="true()" type="string" relevant=" /pcmie_test_diag/result/d_convulsion_with_febrile_sickness =1"/>
       <bind nodeset="/pcmie_test_diag/g_diag/label_case_d_first_convulsion_non_febrile" readonly="true()" type="string" relevant=" /pcmie_test_diag/result/d_first_convulsion_non_febrile =1"/>
+      <bind nodeset="/pcmie_test_diag/g_diag/label_case_d_illness_fever" readonly="true()" type="string" relevant=" /pcmie_test_diag/result/d_illness_fever =1"/>
       <bind nodeset="/pcmie_test_diag/g_diag/throat_404" type="string" calculate="number(
  /pcmie_test_diag/result/d_upper_resp_infection_severe !=1 and
  /pcmie_test_diag/result/d_angina_possible !=1 and
@@ -9704,9 +9726,9 @@ and  /pcmie_test_diag/g_treatment/a_referral =0 and  /pcmie_test_diag/g_treatmen
       <bind nodeset="/pcmie_test_diag/g_treatment/g_tt_malaria/dg_artemether_im_ml" type="string" calculate=" /pcmie_test_diag/g_treatment/g_tt_malaria/dg_artemether_im_ml_2  * 2"/>
       <bind nodeset="/pcmie_test_diag/g_treatment/g_tt_malaria/dg_artemether_im_mg" type="string" calculate=" /pcmie_test_diag/g_treatment/g_tt_malaria/dg_artemether_im_ml_2  * 160"/>
       <bind nodeset="/pcmie_test_diag/g_treatment/g_tt_malaria/label_tt_malaria_severe_artemether_im" readonly="true()" type="string" relevant=" /pcmie_test_diag/g_treatment/g_tt_malaria/dga_sel_antimalaria_severe =&quot;artemether_im&quot;"/>
-      <bind nodeset="/pcmie_test_diag/g_treatment/g_tt_malaria/dg_artesunate_iv_ml" type="string" calculate="cht:extension-lib('drugs.js','artemether_im_ml', /pcmie_test_diag/result/p_sel_gender ,  /pcmie_test_diag/result/p_age , /pcmie_test_diag/result/p_weight )"/>
+      <bind nodeset="/pcmie_test_diag/g_treatment/g_tt_malaria/dg_artesunate_iv_ml" type="string" calculate="cht:extension-lib('drugs.js','artemether_iv_ml', /pcmie_test_diag/result/p_sel_gender ,  /pcmie_test_diag/result/p_age , /pcmie_test_diag/result/p_weight )"/>
       <bind nodeset="/pcmie_test_diag/g_treatment/g_tt_malaria/dg_artesunate_iv_mg" type="string" calculate=" /pcmie_test_diag/g_treatment/g_tt_malaria/dg_artesunate_iv_ml  * 10"/>
-      <bind nodeset="/pcmie_test_diag/g_treatment/g_tt_malaria/dgm_is_artesunate_iv_im" type="select1" relevant=" /pcmie_test_diag/g_treatment/g_tt_malaria/dga_sel_antimalaria_severe =&quot;artesunate&quot; and  /pcmie_test_diag/g_treatment/g_tt_malaria/dg_artesunate_im_ml &lt;10" calculate="if( /pcmie_test_diag/g_treatment/g_tt_malaria/dg_artesunate_im_ml &gt;10,'iv','')" required="1"/>
+      <bind nodeset="/pcmie_test_diag/g_treatment/g_tt_malaria/dgm_is_artesunate_iv_im" type="select1" relevant=" /pcmie_test_diag/g_treatment/g_tt_malaria/dga_sel_antimalaria_severe =&quot;artesunate&quot; and  /pcmie_test_diag/g_treatment/g_tt_malaria/dg_artesunate_im_ml &lt;10" required="1" calculate="coalesce(.,if( /pcmie_test_diag/g_treatment/g_tt_malaria/dg_artesunate_im_ml &gt;10,'iv',''))"/>
       <bind nodeset="/pcmie_test_diag/g_treatment/g_tt_malaria/label_tt_malaria_severe_artesunate_iv" readonly="true()" type="string" relevant=" /pcmie_test_diag/g_treatment/g_tt_malaria/dga_sel_antimalaria_severe =&quot;artesunate&quot; and ( /pcmie_test_diag/g_treatment/g_tt_malaria/dgm_is_artesunate_iv_im  = &quot;iv&quot; or  /pcmie_test_diag/g_treatment/g_tt_malaria/dg_artesunate_im_ml &gt;10)"/>
       <bind nodeset="/pcmie_test_diag/g_treatment/g_tt_malaria/dg_artesunate_im_ml" type="string" calculate="cht:extension-lib('drugs.js','artesunate_im_ml', /pcmie_test_diag/result/p_sel_gender ,  /pcmie_test_diag/result/p_age , /pcmie_test_diag/result/p_weight )"/>
       <bind nodeset="/pcmie_test_diag/g_treatment/g_tt_malaria/dg_artesunate_im_mg" type="string" calculate=" /pcmie_test_diag/g_treatment/g_tt_malaria/dg_artesunate_im_ml  * 20"/>
@@ -9802,13 +9824,13 @@ and  /pcmie_test_diag/g_treatment/a_referral =0 and  /pcmie_test_diag/g_treatmen
       <bind nodeset="/pcmie_test_diag/g_treatment/g_tt_antibiotics/ig404_amoxicillin_over_cotrimoxazole" type="string" calculate="number( /pcmie_test_diag/g_treatment/g_tt_antibiotics/ig_amoxicillin_over_cotrimoxazole =1 and  /pcmie_test_diag/g_treatment/g_tt_antibiotics/dga_is_amoxicillin =-1 and  /pcmie_test_diag/g_treatment/g_tt_antibiotics/dga_is_cotrimoxazole =-1)"/>
       <bind nodeset="/pcmie_test_diag/g_treatment/g_tt_antibiotics/ig404_amoxicillin_over_coamoxiclav" type="string" calculate="number( /pcmie_test_diag/g_treatment/g_tt_antibiotics/ig_amoxicillin_over_coamoxiclav =1 and  /pcmie_test_diag/g_treatment/g_tt_antibiotics/dga_is_amoxicillin =-1 and  /pcmie_test_diag/g_treatment/g_tt_antibiotics/dga_is_coamoxiclav =-1)"/>
       <bind nodeset="/pcmie_test_diag/g_treatment/g_tt_antibiotics/ig404_amoxicillin_over_ciprofloxacine" type="string" calculate="number( /pcmie_test_diag/g_treatment/g_tt_antibiotics/ig_amoxicillin_over_ciprofloxacine =1 and  /pcmie_test_diag/g_treatment/g_tt_antibiotics/dga_is_amoxicillin =-1 and  /pcmie_test_diag/g_treatment/g_tt_antibiotics/adg_is_ciprofloxacin_1 =-1)"/>
-      <bind nodeset="/pcmie_test_diag/g_treatment/g_tt_antibiotics/ig404_amoxicillin_alone" type="string" calculate=" /pcmie_test_diag/g_treatment/g_tt_antibiotics/ig_amoxicillin_alone =1 and  /pcmie_test_diag/g_treatment/g_tt_antibiotics/dga_is_amoxicillin =1"/>
+      <bind nodeset="/pcmie_test_diag/g_treatment/g_tt_antibiotics/ig404_amoxicillin_alone" type="string" calculate="number( /pcmie_test_diag/g_treatment/g_tt_antibiotics/ig_amoxicillin_alone =1 and  /pcmie_test_diag/g_treatment/g_tt_antibiotics/dga_is_amoxicillin =1)"/>
       <bind nodeset="/pcmie_test_diag/g_treatment/g_tt_antibiotics/dgd_amoxicillin" type="string" calculate="number( /pcmie_test_diag/g_treatment/g_tt_antibiotics/ig404_amoxicillin_over_ciprofloxacine =1 or  /pcmie_test_diag/g_treatment/g_tt_antibiotics/ig404_amoxicillin_alone =1 or  /pcmie_test_diag/g_treatment/g_tt_antibiotics/ig404_amoxicillin_over_cotrimoxazole =1 or  /pcmie_test_diag/g_treatment/g_tt_antibiotics/ig404_amoxicillin_over_coamoxiclav =1 or  /pcmie_test_diag/g_treatment/g_tt_antibiotics/adg_is_amoxicillin_1 =1 or  /pcmie_test_diag/g_treatment/g_tt_antibiotics/adg_is_amoxicillin_2 =1 )"/>
       <bind nodeset="/pcmie_test_diag/g_treatment/g_tt_antibiotics/as_amoxicillin_1" type="string" calculate="number( /pcmie_test_diag/g_treatment/g_tt_antibiotics/ig_amoxicillin_alone =1 or  /pcmie_test_diag/g_treatment/g_tt_antibiotics/ig_amoxicillin_over_ciprofloxacine =1 or  /pcmie_test_diag/g_treatment/g_tt_antibiotics/ig_amoxicillin_over_cotrimoxazole =1 or ( /pcmie_test_diag/g_treatment/g_tt_antibiotics/ig_amoxicillin_over_cotrimoxazole =1 and  /pcmie_test_diag/g_treatment/g_tt_antibiotics/adg_is_cotrimoxazole_1 =-1) or  /pcmie_test_diag/g_treatment/g_tt_antibiotics/ig_amoxicillin_over_coamoxiclav =1 or ( /pcmie_test_diag/g_treatment/g_tt_antibiotics/ig_penicillin_b_over_amoxicilin_over_penicillin_v =1 and  /pcmie_test_diag/g_treatment/g_tt_antibiotics/dga_is_penicillin_b =-1 ))"/>
       <bind nodeset="/pcmie_test_diag/g_treatment/g_tt_antibiotics/adg_is_amoxicillin_1" type="select1" relevant=" /pcmie_test_diag/g_treatment/g_tt_antibiotics/as_amoxicillin_1 =1" required="1"/>
       <bind nodeset="/pcmie_test_diag/g_treatment/g_tt_antibiotics/adg_is_cotrimoxazole_2" type="select1" relevant=" /pcmie_test_diag/g_treatment/g_tt_antibiotics/as_cotrimoxazole_2 =1" required="1"/>
       <bind nodeset="/pcmie_test_diag/g_treatment/g_tt_antibiotics/ig_penicillin_g_over_penicillin_p" type="string" calculate="number( /pcmie_test_diag/result/d_upper_resp_infection_severe =1)"/>
-      <bind nodeset="/pcmie_test_diag/g_treatment/g_tt_antibiotics/ig404_penicillin_g_over_penicillin_p" type="string" calculate="( /pcmie_test_diag/g_treatment/g_tt_antibiotics/ig_penicillin_g_over_penicillin_p =1 and  /pcmie_test_diag/g_treatment/g_tt_antibiotics/dga_is_penicillin_g =-1 and  /pcmie_test_diag/g_treatment/g_tt_antibiotics/dga_is_penicillin_p =-1)"/>
+      <bind nodeset="/pcmie_test_diag/g_treatment/g_tt_antibiotics/ig404_penicillin_g_over_penicillin_p" type="string" calculate="number( /pcmie_test_diag/g_treatment/g_tt_antibiotics/ig_penicillin_g_over_penicillin_p =1 and  /pcmie_test_diag/g_treatment/g_tt_antibiotics/dga_is_penicillin_g =-1 and  /pcmie_test_diag/g_treatment/g_tt_antibiotics/dga_is_penicillin_p =-1)"/>
       <bind nodeset="/pcmie_test_diag/g_treatment/g_tt_antibiotics/dgd_penicillin_g" type="string" calculate="number( /pcmie_test_diag/g_treatment/g_tt_antibiotics/ig404_penicillin_g_over_penicillin_p =1 or  /pcmie_test_diag/g_treatment/g_tt_antibiotics/dga_is_penicillin_g =1)"/>
       <bind nodeset="/pcmie_test_diag/g_treatment/g_tt_antibiotics/as_penicillin_g" type="string" calculate="number( /pcmie_test_diag/g_treatment/g_tt_antibiotics/ig_penicillin_g_over_penicillin_p =1)"/>
       <bind nodeset="/pcmie_test_diag/g_treatment/g_tt_antibiotics/dga_is_penicillin_g" type="select1" relevant=" /pcmie_test_diag/g_treatment/g_tt_antibiotics/as_penicillin_g =1" required="1"/>
@@ -10181,7 +10203,7 @@ if( /pcmie_test_diag/result/p_age &gt;24, &quot;appliquer 3 nuits consécutives,
 if( /pcmie_test_diag/result/p_age &gt;36 and  /pcmie_test_diag/result/p_age &lt;72, 300,
 if( /pcmie_test_diag/result/p_age &gt;72, 400, 0
 )))"/>
-      <bind nodeset="/pcmie_test_diag/g_treatment/gg_tt_non_antibiotics/dg_praziquantel_mg" type="string" calculate="int( /pcmie_test_diag/g_treatment/gg_tt_non_antibiotics/dg_praziquantel_dose *  /pcmie_test_diag/result/p_weight_age )"/>
+      <bind nodeset="/pcmie_test_diag/g_treatment/gg_tt_non_antibiotics/dg_praziquantel_mg" type="string" calculate="int( /pcmie_test_diag/g_treatment/gg_tt_non_antibiotics/dg_praziquantel_dose )"/>
       <bind nodeset="/pcmie_test_diag/g_treatment/gg_tt_non_antibiotics/dg_praziquantel_tab_4" type="string" calculate="4* /pcmie_test_diag/g_treatment/gg_tt_non_antibiotics/dg_praziquantel_mg  div  /pcmie_test_diag/g_treatment/gg_tt_non_antibiotics/form_is_praziquantel_1 "/>
       <bind nodeset="/pcmie_test_diag/g_treatment/gg_tt_non_antibiotics/dg_praziquantel_tab_label" type="string" calculate="jr:choice-name(int( /pcmie_test_diag/g_treatment/gg_tt_non_antibiotics/dg_praziquantel_tab_4 ),' /pcmie_test_diag/hiden_tab_4 ')"/>
       <bind nodeset="/pcmie_test_diag/g_treatment/gg_tt_non_antibiotics/label_tt_praziquantel" readonly="true()" type="string" relevant=" /pcmie_test_diag/g_treatment/gg_tt_non_antibiotics/dga_is_praziquantel =1 and  /pcmie_test_diag/g_treatment/gg_tt_non_antibiotics/form_is_praziquantel_1 !=&quot;&quot;"/>
@@ -10231,7 +10253,7 @@ if( /pcmie_test_diag/result/p_age &gt;72, 400, 0
       <bind nodeset="/pcmie_test_diag/g_treatment/g_tt_malnutrition/dga_is_nutributter" type="select1" relevant="false() and ( /pcmie_test_diag/result/d_malnutrition_moderate =1 or  /pcmie_test_diag/result/d_malnutrition_severe =1 ) and  /pcmie_test_diag/g_treatment/g_tt_malnutrition/dga_is_supercereal =-1" required="1"/>
       <bind nodeset="/pcmie_test_diag/g_treatment/g_tt_malnutrition/label_tt_baby_canbe_malnurished" readonly="true()" type="string" relevant=" /pcmie_test_diag/result/d_malnutrition_cannot_assess =1"/>
       <bind nodeset="/pcmie_test_diag/g_treatment/g_tt_malnutrition/dgs_nutri_6p" type="select" relevant=" /pcmie_test_diag/g_treatment/g_tt_malnutrition/as_nuti_referral =1" constraint=".='1'" required="1"/>
-      <bind nodeset="/pcmie_test_diag/g_treatment/g_tt_malnutrition/as_nuti_referral" type="string" calculate="(  /pcmie_test_diag/g_treatment/g_tt_malnutrition/dga_is_rusf =-1 or  /pcmie_test_diag/g_treatment/g_tt_malnutrition/dga_is_ruft =-1) and  /pcmie_test_diag/g_treatment/a_referral_any =0"/>
+      <bind nodeset="/pcmie_test_diag/g_treatment/g_tt_malnutrition/as_nuti_referral" type="string" calculate="number((  /pcmie_test_diag/g_treatment/g_tt_malnutrition/dga_is_rusf =-1 or  /pcmie_test_diag/g_treatment/g_tt_malnutrition/dga_is_ruft =-1) and  /pcmie_test_diag/g_treatment/a_referral_any =0)"/>
       <bind nodeset="/pcmie_test_diag/g_treatment/g_drug_specific/label_eye_injury_1" readonly="true()" type="string" relevant=" /pcmie_test_diag/result/d_eye_injury =1"/>
       <bind nodeset="/pcmie_test_diag/g_treatment/g_drug_specific/label_eye_injury_2" readonly="true()" type="string" relevant=" /pcmie_test_diag/result/d_eye_injury =1"/>
       <bind nodeset="/pcmie_test_diag/g_treatment/g_drug_specific/label_herpetic_keratitis" readonly="true()" type="string" relevant=" /pcmie_test_diag/result/d_herpetic_keratitis =1"/>
@@ -10244,7 +10266,7 @@ if( /pcmie_test_diag/result/p_age &gt;72, 400, 0
       <bind nodeset="/pcmie_test_diag/g_treatment/g_drug_specific/label_abdomen_acture" readonly="true()" type="string" relevant=" /pcmie_test_diag/result/d_abdomen_acute =1"/>
       <bind nodeset="/pcmie_test_diag/g_treatment/g_drug_specific/label_intestinal_invagination" readonly="true()" type="string" relevant=" /pcmie_test_diag/result/d_acute_intestinal_invagination =1"/>
       <bind nodeset="/pcmie_test_diag/g_treatment/g_drug_specific/a_iv_possible_surgical" type="select1" relevant="coalesce( /pcmie_test_diag/result/a_iv_possible ,0)=0 and (  /pcmie_test_diag/result/d_abdomen_acute =1 or
- /pcmie_test_diag/result/d_acute_intestinal_invagination =1)" calculate=" /pcmie_test_diag/result/a_iv_possible =1" required="1"/>
+ /pcmie_test_diag/result/d_acute_intestinal_invagination =1)" required="1" calculate=" /pcmie_test_diag/result/a_iv_possible =1"/>
       <bind nodeset="/pcmie_test_diag/g_treatment/g_drug_specific/dg_paracetamol_iv_mg" type="string" calculate="min( /pcmie_test_diag/g_treatment/dg_15_wa ,500)"/>
       <bind nodeset="/pcmie_test_diag/g_treatment/g_drug_specific/dg_paracetamol_iv_500_ml" type="string" calculate="int( /pcmie_test_diag/g_treatment/g_drug_specific/dg_paracetamol_iv_mg  div 5)"/>
       <bind nodeset="/pcmie_test_diag/g_treatment/g_drug_specific/dg_paracetamol_iv_1000_ml" type="string" calculate=" /pcmie_test_diag/g_treatment/g_drug_specific/dg_paracetamol_iv_500_ml  div 2"/>
@@ -11922,6 +11944,9 @@ if( /pcmie_test_diag/result/d_anemia_moderate =1 ,2,0))"/>
       </input>
       <input ref="/pcmie_test_diag/g_diag/label_case_d_first_convulsion_non_febrile">
         <label ref="jr:itext('/pcmie_test_diag/g_diag/label_case_d_first_convulsion_non_febrile:label')"/>
+      </input>
+      <input ref="/pcmie_test_diag/g_diag/label_case_d_illness_fever">
+        <label ref="jr:itext('/pcmie_test_diag/g_diag/label_case_d_illness_fever:label')"/>
       </input>
       <input ref="/pcmie_test_diag/g_diag/label_404">
         <label ref="jr:itext('/pcmie_test_diag/g_diag/label_404:label')"/>

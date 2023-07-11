@@ -389,6 +389,7 @@ const IMCI_CASE_DATA = [
     'd_malaria_severe',
     'd_malaria',
     'd_malaria_possible',
+    'd_illness_fever_severe_persistent_malaria_possible',
     'd_meningitis_malaria_to_test',
     'd_malaria_to_test',
     'd_illness_severe_malaria_to_test',
@@ -436,7 +437,8 @@ const IMCI_CASE_DATA = [
     'd_dysentery_severe',
     'd_intestinal_bilharziasis',
     'p_height',
-    'dga_is_salbutamol_sget_stylepray',
+    'dga_is_salbutamol_spray',
+    'd_illness_fever',
 ];
  
 const TASK_FORM = 'pcmie_test_diag';
