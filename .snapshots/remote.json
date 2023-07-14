@@ -1,21 +1,21 @@
 {
   "form:adult": {
-    "cht-tchad.swisstph-mis.ch/medic": "lbXvCak+pTXnIPNtkpWjYA=="
+    "cht-tchad.swisstph-mis.ch/medic": "ebMVCbrFPaX27H0AXG3k7A=="
   },
   "form:pev_enfant": {
-    "cht-tchad.swisstph-mis.ch/medic": "qZhsaxkePLJqFfbBfo5WOQ=="
+    "cht-tchad.swisstph-mis.ch/medic": "+Y0AiGBvTS9gfar6hCi9Lw=="
   },
   "privacy-policies": {
     "cht-tchad.swisstph-mis.ch/medic": "/twR+Q8i4pmWKN/3fUP6tQ=="
   },
   "form:pev_femme": {
-    "cht-tchad.swisstph-mis.ch/medic": "6Cx6f7OamQcf9eUBkTt/XQ=="
+    "cht-tchad.swisstph-mis.ch/medic": "53HYIL4QbU4iepwy0fL4MQ=="
   },
   "form:cpn": {
-    "cht-tchad.swisstph-mis.ch/medic": "MexFnanFC/ZnwBQyuW9Aww=="
+    "cht-tchad.swisstph-mis.ch/medic": "6V4aSF1R71c3clvz8TnYZA=="
   },
   "form:cpon": {
-    "cht-tchad.swisstph-mis.ch/medic": "9+sF7DyO2DWg4u75XsZ9QA=="
+    "cht-tchad.swisstph-mis.ch/medic": "YkBTP5tP65x/+/eG7doJbA=="
   },
   "form:contact:person": {
     "cht-tchad.swisstph-mis.ch/medic": "vdW8iCRZhyJBQQIlu2YLYQ=="
@@ -24,10 +24,10 @@
     "cht-tchad.swisstph-mis.ch/medic": "z8c8ejjFlF8tJiqTc9RcfQ=="
   },
   "form:imci_interogation": {
-    "cht-tchad.swisstph-mis.ch/medic": "poL5cK3mBaPeboJHAdyX/w=="
+    "cht-tchad.swisstph-mis.ch/medic": "SCiAV2O2gryxuRImp+vHKw=="
   },
   "form:pcmie_test_diag": {
-    "cht-tchad.swisstph-mis.ch/medic": "dW4CrTWfaWZ7RC1Iysshbw=="
+    "cht-tchad.swisstph-mis.ch/medic": "OYQVNzTHUdxNSE66zoXWEQ=="
   },
   "extension-libs": {
     "cht-tchad.swisstph-mis.ch/medic": "cbfaVRgphhPuv4R5RmHmcw=="
@@ -57,6 +57,9 @@
     "cht-tchad.swisstph-mis.ch/medic": "qmjrti/ngaVXwyIUJc+TSg=="
   },
   "form:replace_user": {
-    "cht-tchad.swisstph-mis.ch/medic": "apqGqb/eXukZbpSyYIyceA=="
+    "cht-tchad.swisstph-mis.ch/medic": "DpOH333efknGeHrYd64J1Q=="
+  },
+  "form:msf": {
+    "cht-tchad.swisstph-mis.ch/medic": "+pjGtEniMUpZukfqUKmqGA=="
   }
 }
