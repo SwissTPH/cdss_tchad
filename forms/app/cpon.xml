@@ -5002,14 +5002,14 @@ ou Methyldopa 250mg : 2cp fois 3 à 4 par jour(Maxi 2g/jr)</value>
       <bind nodeset="/cpon/g_patient/e_date_cpon_3" type="date" relevant=" /cpon/g_patienta/p_int_cpon &gt;=3 and (coalesce( /cpon/_case_date_cpon_3 ,'')='' and coalesce( /cpon/_case_missed_cpon_3 ,'')='')"/>
       <bind nodeset="/cpon/g_patient/date_cpon_3" type="string" calculate="if( /cpon/g_patienta/p_int_cpon =3, today(), coalesce( /cpon/_case_date_cpon_3 , /cpon/g_patient/e_date_cpon_3 ))"/>
       <bind nodeset="/cpon/g_patient/missed_cpon_3" type="select1" relevant=" /cpon/g_patienta/p_int_cpon &gt;=3 and (coalesce( /cpon/_case_date_cpon_3 ,'')='' and coalesce( /cpon/_case_missed_cpon_3 ,'')='')"/>
-      <bind nodeset="/cpon/g_patienta/p_int_cpon" type="select1" required="1" calculate="coalesce(.,if( /cpon/_case_p_int_cpon ='','1',
+      <bind nodeset="/cpon/g_patienta/p_int_cpon" type="select1" calculate="coalesce(.,if( /cpon/_case_p_int_cpon ='','1',
 if( /cpon/_case_p_int_cpon !='1','2',
-if( /cpon/_case_p_int_cpon !='2','3'))))"/>
-      <bind nodeset="/cpon/g_patienta/b_vie" type="select1" required="1" relevant=" /cpon/g_patienta/p_int_cpon ='1'"/>
-      <bind nodeset="/cpon/g_patienta/b_vie2" type="select1" required="1" relevant=" /cpon/g_patienta/p_int_cpon ='2'"/>
-      <bind nodeset="/cpon/g_patienta/bebe_cpon3" type="select1" required="1" relevant=" /cpon/g_patienta/p_int_cpon ='3'"/>
-      <bind nodeset="/cpon/g_patienta/s_dead_born" type="select1" required="1" relevant=" /cpon/g_patienta/b_vie ='2'"/>
-      <bind nodeset="/cpon/g_patienta/dead_born" type="string" required="1" relevant=" /cpon/g_patienta/s_dead_born ='m_frais'"/>
+if( /cpon/_case_p_int_cpon !='2','3'))))" required="1"/>
+      <bind nodeset="/cpon/g_patienta/b_vie" type="select1" relevant=" /cpon/g_patienta/p_int_cpon ='1'" required="1"/>
+      <bind nodeset="/cpon/g_patienta/b_vie2" type="select1" relevant=" /cpon/g_patienta/p_int_cpon ='2'" required="1"/>
+      <bind nodeset="/cpon/g_patienta/bebe_cpon3" type="select1" relevant=" /cpon/g_patienta/p_int_cpon ='3'" required="1"/>
+      <bind nodeset="/cpon/g_patienta/s_dead_born" type="select1" relevant=" /cpon/g_patienta/b_vie ='2'" required="1"/>
+      <bind nodeset="/cpon/g_patienta/dead_born" type="string" relevant=" /cpon/g_patienta/s_dead_born ='m_frais'" required="1"/>
       <bind nodeset="/cpon/interro_BB" relevant="( /cpon/g_patienta/b_vie2 =1 or  /cpon/g_patienta/b_vie2 =3 or  /cpon/g_patienta/b_vie =1 or  /cpon/g_patienta/b_vie =3 or  /cpon/g_patienta/bebe_cpon3 =1 or  /cpon/g_patienta/bebe_cpon3 =3)"/>
       <bind nodeset="/cpon/interro_BB/group_bb/nombre_bb" type="select1" required="1"/>
       <bind nodeset="/cpon/interro_BB/group_bb/iput_precision" type="string" relevant=" /cpon/interro_BB/group_bb/nombre_bb ='autre'"/>
@@ -5021,7 +5021,7 @@ if( /cpon/_case_p_int_cpon !='2','3'))))"/>
       <bind nodeset="/cpon/interro_BB/group_bb/group_bebe_unique/peri_thora_bb" type="decimal" required="1"/>
       <bind nodeset="/cpon/interro_BB/group_bb/group_bebe_unique/frequence_bb" type="decimal" required="1"/>
       <bind nodeset="/cpon/interro_BB/group_bb/group_bebe_unique/peri_cra_bb" type="decimal" required="1"/>
-      <bind nodeset="/cpon/interro_BB/group_bb/group_bebe_unique/temperature_bb" type="decimal" constraint=".&gt;32 and .&lt;45" jr:constraintMsg="jr:itext('/cpon/interro_BB/group_bb/group_bebe_unique/temperature_bb:jr:constraintMsg')" required="1"/>
+      <bind nodeset="/cpon/interro_BB/group_bb/group_bebe_unique/temperature_bb" type="decimal" jr:constraintMsg="jr:itext('/cpon/interro_BB/group_bb/group_bebe_unique/temperature_bb:jr:constraintMsg')" constraint=".&gt;32 and .&lt;45" required="1"/>
       <bind nodeset="/cpon/interro_BB/group_bb/group_bebe_unique/naissance_bb" type="select1" required="1"/>
       <bind nodeset="/cpon/interro_BB/group_bb/group_bebe_unique/msg_prema" readonly="true()" type="string" relevant=" /cpon/interro_BB/group_bb/group_bebe_unique/naissance_bb ='premature' or  /cpon/interro_BB/group_bb/group_bebe_unique/naissance_bb ='petit'"/>
       <bind nodeset="/cpon/interro_BB/group_bb/group_bebe_unique/coloration_bb" type="select" constraint="if(selected(.,'normale'),count-selected(.)=1,count-selected(.)&gt;0)" required="1"/>
@@ -5061,7 +5061,7 @@ if( /cpon/_case_p_int_cpon !='2','3'))))"/>
       <bind nodeset="/cpon/interro_BB/group_bb/group_bebe_jumeaux1/peri_thora_bbj1" type="decimal" required="1"/>
       <bind nodeset="/cpon/interro_BB/group_bb/group_bebe_jumeaux1/frequence_bbj1" type="decimal" required="1"/>
       <bind nodeset="/cpon/interro_BB/group_bb/group_bebe_jumeaux1/peri_cra_bbj1" type="decimal" required="1"/>
-      <bind nodeset="/cpon/interro_BB/group_bb/group_bebe_jumeaux1/temperature_bbj1" type="decimal" constraint=".&gt;32 and .&lt;45" jr:constraintMsg="jr:itext('/cpon/interro_BB/group_bb/group_bebe_jumeaux1/temperature_bbj1:jr:constraintMsg')" required="1"/>
+      <bind nodeset="/cpon/interro_BB/group_bb/group_bebe_jumeaux1/temperature_bbj1" type="decimal" jr:constraintMsg="jr:itext('/cpon/interro_BB/group_bb/group_bebe_jumeaux1/temperature_bbj1:jr:constraintMsg')" constraint=".&gt;32 and .&lt;45" required="1"/>
       <bind nodeset="/cpon/interro_BB/group_bb/group_bebe_jumeaux1/naissance_bbj1" type="select1" required="1"/>
       <bind nodeset="/cpon/interro_BB/group_bb/group_bebe_jumeaux1/msg_premaj1" readonly="true()" type="string" relevant=" /cpon/interro_BB/group_bb/group_bebe_jumeaux1/naissance_bbj1 ='premature' or  /cpon/interro_BB/group_bb/group_bebe_jumeaux1/naissance_bbj1 ='petit'"/>
       <bind nodeset="/cpon/interro_BB/group_bb/group_bebe_jumeaux1/coloration_bbj1" type="select" constraint="if(selected(.,'normale'),count-selected(.)=1,count-selected(.)&gt;0)" required="1"/>
@@ -5101,7 +5101,7 @@ if( /cpon/_case_p_int_cpon !='2','3'))))"/>
       <bind nodeset="/cpon/interro_BB/group_bb/group_bebe_jumeaux2/peri_thora_bbj2" type="decimal" required="1"/>
       <bind nodeset="/cpon/interro_BB/group_bb/group_bebe_jumeaux2/frequence_bbj2" type="decimal" required="1"/>
       <bind nodeset="/cpon/interro_BB/group_bb/group_bebe_jumeaux2/peri_cra_bbj2" type="decimal" required="1"/>
-      <bind nodeset="/cpon/interro_BB/group_bb/group_bebe_jumeaux2/temperature_bbj2" type="decimal" constraint=".&gt;32 and .&lt;45" jr:constraintMsg="jr:itext('/cpon/interro_BB/group_bb/group_bebe_jumeaux2/temperature_bbj2:jr:constraintMsg')" required="1"/>
+      <bind nodeset="/cpon/interro_BB/group_bb/group_bebe_jumeaux2/temperature_bbj2" type="decimal" jr:constraintMsg="jr:itext('/cpon/interro_BB/group_bb/group_bebe_jumeaux2/temperature_bbj2:jr:constraintMsg')" constraint=".&gt;32 and .&lt;45" required="1"/>
       <bind nodeset="/cpon/interro_BB/group_bb/group_bebe_jumeaux2/naissance_bbj2" type="select1" required="1"/>
       <bind nodeset="/cpon/interro_BB/group_bb/group_bebe_jumeaux2/msg_premaj2" readonly="true()" type="string" relevant=" /cpon/interro_BB/group_bb/group_bebe_jumeaux2/naissance_bbj2 ='premature' or  /cpon/interro_BB/group_bb/group_bebe_jumeaux2/naissance_bbj2 ='petit'"/>
       <bind nodeset="/cpon/interro_BB/group_bb/group_bebe_jumeaux2/coloration_bbj2" type="select" constraint="if(selected(.,'normale'),count-selected(.)=1,count-selected(.)&gt;0)" required="1"/>
@@ -5141,7 +5141,7 @@ if( /cpon/_case_p_int_cpon !='2','3'))))"/>
       <bind nodeset="/cpon/interro_BB/group_bb/group_bebe_triplet1/peri_thora_bbt1" type="decimal" required="1"/>
       <bind nodeset="/cpon/interro_BB/group_bb/group_bebe_triplet1/frequence_bbt1" type="decimal" required="1"/>
       <bind nodeset="/cpon/interro_BB/group_bb/group_bebe_triplet1/peri_cra_bbt1" type="decimal" required="1"/>
-      <bind nodeset="/cpon/interro_BB/group_bb/group_bebe_triplet1/temperature_bbt1" type="decimal" constraint=".&gt;32 and .&lt;45" jr:constraintMsg="jr:itext('/cpon/interro_BB/group_bb/group_bebe_triplet1/temperature_bbt1:jr:constraintMsg')" required="1"/>
+      <bind nodeset="/cpon/interro_BB/group_bb/group_bebe_triplet1/temperature_bbt1" type="decimal" jr:constraintMsg="jr:itext('/cpon/interro_BB/group_bb/group_bebe_triplet1/temperature_bbt1:jr:constraintMsg')" constraint=".&gt;32 and .&lt;45" required="1"/>
       <bind nodeset="/cpon/interro_BB/group_bb/group_bebe_triplet1/naissance_bbt1" type="select1" required="1"/>
       <bind nodeset="/cpon/interro_BB/group_bb/group_bebe_triplet1/msg_premat1" readonly="true()" type="string" relevant=" /cpon/interro_BB/group_bb/group_bebe_triplet1/naissance_bbt1 ='premature' or  /cpon/interro_BB/group_bb/group_bebe_triplet1/naissance_bbt1 ='petit'"/>
       <bind nodeset="/cpon/interro_BB/group_bb/group_bebe_triplet1/coloration_bbt1" type="select" constraint="if(selected(.,'normale'),count-selected(.)=1,count-selected(.)&gt;0)" required="1"/>
@@ -5181,7 +5181,7 @@ if( /cpon/_case_p_int_cpon !='2','3'))))"/>
       <bind nodeset="/cpon/interro_BB/group_bb/group_bebe_triplet2/peri_thora_bb2" type="decimal" required="1"/>
       <bind nodeset="/cpon/interro_BB/group_bb/group_bebe_triplet2/frequence_bb2" type="decimal" required="1"/>
       <bind nodeset="/cpon/interro_BB/group_bb/group_bebe_triplet2/peri_cra_bb2" type="decimal" required="1"/>
-      <bind nodeset="/cpon/interro_BB/group_bb/group_bebe_triplet2/temperature_bb2" type="decimal" constraint=".&gt;32 and .&lt;45" jr:constraintMsg="jr:itext('/cpon/interro_BB/group_bb/group_bebe_triplet2/temperature_bb2:jr:constraintMsg')" required="1"/>
+      <bind nodeset="/cpon/interro_BB/group_bb/group_bebe_triplet2/temperature_bb2" type="decimal" jr:constraintMsg="jr:itext('/cpon/interro_BB/group_bb/group_bebe_triplet2/temperature_bb2:jr:constraintMsg')" constraint=".&gt;32 and .&lt;45" required="1"/>
       <bind nodeset="/cpon/interro_BB/group_bb/group_bebe_triplet2/naissance_bb2" type="select1" required="1"/>
       <bind nodeset="/cpon/interro_BB/group_bb/group_bebe_triplet2/msg_prema2" readonly="true()" type="string" relevant=" /cpon/interro_BB/group_bb/group_bebe_triplet2/naissance_bb2 ='premature' or  /cpon/interro_BB/group_bb/group_bebe_triplet2/naissance_bb2 ='petit'"/>
       <bind nodeset="/cpon/interro_BB/group_bb/group_bebe_triplet2/coloration_bb2" type="select" constraint="if(selected(.,'normale'),count-selected(.)=1,count-selected(.)&gt;0)" required="1"/>
@@ -5221,7 +5221,7 @@ if( /cpon/_case_p_int_cpon !='2','3'))))"/>
       <bind nodeset="/cpon/interro_BB/group_bb/group_bebe_triplet3/peri_thora_bbt3" type="decimal" required="1"/>
       <bind nodeset="/cpon/interro_BB/group_bb/group_bebe_triplet3/frequence_bbt3" type="decimal" required="1"/>
       <bind nodeset="/cpon/interro_BB/group_bb/group_bebe_triplet3/peri_cra_bbt3" type="decimal" required="1"/>
-      <bind nodeset="/cpon/interro_BB/group_bb/group_bebe_triplet3/temperature_bbt3" type="decimal" constraint=".&gt;32 and .&lt;45" jr:constraintMsg="jr:itext('/cpon/interro_BB/group_bb/group_bebe_triplet3/temperature_bbt3:jr:constraintMsg')" required="1"/>
+      <bind nodeset="/cpon/interro_BB/group_bb/group_bebe_triplet3/temperature_bbt3" type="decimal" jr:constraintMsg="jr:itext('/cpon/interro_BB/group_bb/group_bebe_triplet3/temperature_bbt3:jr:constraintMsg')" constraint=".&gt;32 and .&lt;45" required="1"/>
       <bind nodeset="/cpon/interro_BB/group_bb/group_bebe_triplet3/naissance_bbt3" type="select1" required="1"/>
       <bind nodeset="/cpon/interro_BB/group_bb/group_bebe_triplet3/msg_premat3" readonly="true()" type="string" relevant=" /cpon/interro_BB/group_bb/group_bebe_triplet3/naissance_bbt3 ='premature' or  /cpon/interro_BB/group_bb/group_bebe_triplet3/naissance_bbt3 ='petit'"/>
       <bind nodeset="/cpon/interro_BB/group_bb/group_bebe_triplet3/coloration_bbt3" type="select" constraint="if(selected(.,'normale'),count-selected(.)=1,count-selected(.)&gt;0)" required="1"/>
@@ -5263,7 +5263,7 @@ if( /cpon/_case_p_int_cpon !='2','3'))))"/>
       <bind nodeset="/cpon/interro_BB/soin_bb_unique/b_vih_oui" readonly="true()" type="string" relevant=" /cpon/interro_BB/soin_bb_unique/b_vih =1 or  /cpon/g_cpon/statut_vih =1"/>
       <bind nodeset="/cpon/interro_BB/soin_bb_unique/b_lesion" type="select1" required="1"/>
       <bind nodeset="/cpon/interro_BB/soin_bb_unique/b_lesion_oui" readonly="true()" type="string" relevant=" /cpon/interro_BB/soin_bb_unique/b_lesion =1"/>
-      <bind nodeset="/cpon/interro_BB/soin_bb_unique/b_bcg" type="select1" required="1" relevant=" /cpon/interro_BB/soin_bb_unique/b_vih =-1"/>
+      <bind nodeset="/cpon/interro_BB/soin_bb_unique/b_bcg" type="select1" relevant=" /cpon/interro_BB/soin_bb_unique/b_vih =-1" required="1"/>
       <bind nodeset="/cpon/interro_BB/soin_bb_unique/msg_raison_bcg" type="string" relevant=" /cpon/interro_BB/soin_bb_unique/b_bcg =-1"/>
       <bind nodeset="/cpon/interro_BB/soin_bb_unique/b_bcg_non" readonly="true()" type="string" relevant=" /cpon/interro_BB/soin_bb_unique/b_bcg =-1"/>
       <bind nodeset="/cpon/interro_BB/soin_bb_unique/b_polio" type="select1" required="1"/>
@@ -5278,7 +5278,7 @@ if( /cpon/_case_p_int_cpon !='2','3'))))"/>
       <bind nodeset="/cpon/interro_BB/soin_bb_jumeaux1/b_vihj1_ouij1" readonly="true()" type="string" relevant=" /cpon/interro_BB/soin_bb_jumeaux1/b_vihj1 =1 or  /cpon/g_cpon/statut_vih =1"/>
       <bind nodeset="/cpon/interro_BB/soin_bb_jumeaux1/b_lesionj1" type="select1" required="1"/>
       <bind nodeset="/cpon/interro_BB/soin_bb_jumeaux1/b_lesion_oui_j1" readonly="true()" type="string" relevant=" /cpon/interro_BB/soin_bb_jumeaux1/b_lesionj1 =1"/>
-      <bind nodeset="/cpon/interro_BB/soin_bb_jumeaux1/b_bcg_j1" type="select1" required="1" relevant=" /cpon/interro_BB/soin_bb_jumeaux1/b_vihj1 =-1"/>
+      <bind nodeset="/cpon/interro_BB/soin_bb_jumeaux1/b_bcg_j1" type="select1" relevant=" /cpon/interro_BB/soin_bb_jumeaux1/b_vihj1 =-1" required="1"/>
       <bind nodeset="/cpon/interro_BB/soin_bb_jumeaux1/msg_raison_bcg_j1" type="string" relevant=" /cpon/interro_BB/soin_bb_jumeaux1/b_bcg_j1 =-1"/>
       <bind nodeset="/cpon/interro_BB/soin_bb_jumeaux1/b_bcg_j1_non" readonly="true()" type="string" relevant=" /cpon/interro_BB/soin_bb_jumeaux1/b_bcg_j1 =-1"/>
       <bind nodeset="/cpon/interro_BB/soin_bb_jumeaux1/b_polio_j1" type="select1" required="1"/>
@@ -5293,7 +5293,7 @@ if( /cpon/_case_p_int_cpon !='2','3'))))"/>
       <bind nodeset="/cpon/interro_BB/soin_bb_jumeaux2/b_vih_ouij2" readonly="true()" type="string" relevant=" /cpon/interro_BB/soin_bb_jumeaux2/b_vihj2 =1 or  /cpon/g_cpon/statut_vih =1"/>
       <bind nodeset="/cpon/interro_BB/soin_bb_jumeaux2/b_lesionj2" type="select1" required="1"/>
       <bind nodeset="/cpon/interro_BB/soin_bb_jumeaux2/b_lesion_ouij2" readonly="true()" type="string" relevant=" /cpon/interro_BB/soin_bb_jumeaux2/b_lesionj2 =1"/>
-      <bind nodeset="/cpon/interro_BB/soin_bb_jumeaux2/b_bcgj2" type="select1" required="1" relevant=" /cpon/interro_BB/soin_bb_jumeaux2/b_vihj2 =-1"/>
+      <bind nodeset="/cpon/interro_BB/soin_bb_jumeaux2/b_bcgj2" type="select1" relevant=" /cpon/interro_BB/soin_bb_jumeaux2/b_vihj2 =-1" required="1"/>
       <bind nodeset="/cpon/interro_BB/soin_bb_jumeaux2/msg_raison_bcgj2" type="string" relevant=" /cpon/interro_BB/soin_bb_jumeaux2/b_bcgj2 =-1"/>
       <bind nodeset="/cpon/interro_BB/soin_bb_jumeaux2/b_bcg_nonj2" readonly="true()" type="string" relevant=" /cpon/interro_BB/soin_bb_jumeaux2/b_bcgj2 =-1"/>
       <bind nodeset="/cpon/interro_BB/soin_bb_jumeaux2/b_polioj2" type="select1" required="1"/>
@@ -5308,7 +5308,7 @@ if( /cpon/_case_p_int_cpon !='2','3'))))"/>
       <bind nodeset="/cpon/interro_BB/soin_bb_triplet1/b_vih_ouit1" readonly="true()" type="string" relevant=" /cpon/interro_BB/soin_bb_triplet1/b_viht1 =1 or  /cpon/g_cpon/statut_vih =1"/>
       <bind nodeset="/cpon/interro_BB/soin_bb_triplet1/b_lesiont1" type="select1" required="1"/>
       <bind nodeset="/cpon/interro_BB/soin_bb_triplet1/b_lesiont1_oui" readonly="true()" type="string" relevant=" /cpon/interro_BB/soin_bb_triplet1/b_lesiont1 =1"/>
-      <bind nodeset="/cpon/interro_BB/soin_bb_triplet1/b_bcgt1" type="select1" required="1" relevant=" /cpon/interro_BB/soin_bb_triplet1/b_viht1 =-1"/>
+      <bind nodeset="/cpon/interro_BB/soin_bb_triplet1/b_bcgt1" type="select1" relevant=" /cpon/interro_BB/soin_bb_triplet1/b_viht1 =-1" required="1"/>
       <bind nodeset="/cpon/interro_BB/soin_bb_triplet1/msg_raison_bcgt1" type="string" relevant=" /cpon/interro_BB/soin_bb_triplet1/b_bcgt1 =-1"/>
       <bind nodeset="/cpon/interro_BB/soin_bb_triplet1/b_bcgt1_non" readonly="true()" type="string" relevant=" /cpon/interro_BB/soin_bb_triplet1/b_bcgt1 =-1"/>
       <bind nodeset="/cpon/interro_BB/soin_bb_triplet1/b_poliot1" type="select1" required="1"/>
@@ -5323,7 +5323,7 @@ if( /cpon/_case_p_int_cpon !='2','3'))))"/>
       <bind nodeset="/cpon/interro_BB/soin_bb_triplet2/b_vih_oui2" readonly="true()" type="string" relevant=" /cpon/interro_BB/soin_bb_triplet2/b_vih2 =1"/>
       <bind nodeset="/cpon/interro_BB/soin_bb_triplet2/b_lesion2" type="select1" required="1"/>
       <bind nodeset="/cpon/interro_BB/soin_bb_triplet2/b_lesion_oui2" readonly="true()" type="string" relevant=" /cpon/interro_BB/soin_bb_triplet2/b_lesion2 =1"/>
-      <bind nodeset="/cpon/interro_BB/soin_bb_triplet2/b_bcg2" type="select1" required="1" relevant=" /cpon/interro_BB/soin_bb_triplet2/b_vih2 =-1"/>
+      <bind nodeset="/cpon/interro_BB/soin_bb_triplet2/b_bcg2" type="select1" relevant=" /cpon/interro_BB/soin_bb_triplet2/b_vih2 =-1" required="1"/>
       <bind nodeset="/cpon/interro_BB/soin_bb_triplet2/msg_raison_bcg2" type="string" relevant=" /cpon/interro_BB/soin_bb_triplet2/b_bcg2 =-1"/>
       <bind nodeset="/cpon/interro_BB/soin_bb_triplet2/b_bcg_non2" readonly="true()" type="string" relevant=" /cpon/interro_BB/soin_bb_triplet2/b_bcg2 =-1"/>
       <bind nodeset="/cpon/interro_BB/soin_bb_triplet2/b_polio2" type="select1" required="1"/>
@@ -5338,25 +5338,25 @@ if( /cpon/_case_p_int_cpon !='2','3'))))"/>
       <bind nodeset="/cpon/interro_BB/soin_bb_triplet3/b_vih_ouit3" readonly="true()" type="string" relevant=" /cpon/interro_BB/soin_bb_triplet3/b_viht3 =1"/>
       <bind nodeset="/cpon/interro_BB/soin_bb_triplet3/b_lesiont3" type="select1" required="1"/>
       <bind nodeset="/cpon/interro_BB/soin_bb_triplet3/b_lesion_ouit3" readonly="true()" type="string" relevant=" /cpon/interro_BB/soin_bb_triplet3/b_lesiont3 =1"/>
-      <bind nodeset="/cpon/interro_BB/soin_bb_triplet3/b_bcgt3" type="select1" required="1" relevant=" /cpon/interro_BB/soin_bb_triplet3/b_viht3 =-1"/>
+      <bind nodeset="/cpon/interro_BB/soin_bb_triplet3/b_bcgt3" type="select1" relevant=" /cpon/interro_BB/soin_bb_triplet3/b_viht3 =-1" required="1"/>
       <bind nodeset="/cpon/interro_BB/soin_bb_triplet3/msg_raison_bcgt3" type="string" relevant=" /cpon/interro_BB/soin_bb_triplet3/b_bcgt3 =-1"/>
       <bind nodeset="/cpon/interro_BB/soin_bb_triplet3/b_bcg_nont3" readonly="true()" type="string" relevant=" /cpon/interro_BB/soin_bb_triplet3/b_bcgt3 =-1"/>
       <bind nodeset="/cpon/interro_BB/soin_bb_triplet3/b_poliot3" type="select1" required="1"/>
       <bind nodeset="/cpon/interro_BB/soin_bb_triplet3/b_polio_nont3" readonly="true()" type="string" relevant=" /cpon/interro_BB/soin_bb_triplet3/b_poliot3 =-1"/>
-      <bind nodeset="/cpon/para_mere/p_age_a" type="int" constraint=".&gt;=12 and .&lt;=49" jr:constraintMsg="jr:itext('/cpon/para_mere/p_age_a:jr:constraintMsg')" required="1"/>
-      <bind nodeset="/cpon/para_mere/p_poids" type="decimal" constraint=".&gt;=20" jr:constraintMsg="jr:itext('/cpon/para_mere/p_poids:jr:constraintMsg')" required="1"/>
+      <bind nodeset="/cpon/para_mere/p_age_a" type="int" jr:constraintMsg="jr:itext('/cpon/para_mere/p_age_a:jr:constraintMsg')" constraint=".&gt;=12 and .&lt;=49" required="1"/>
+      <bind nodeset="/cpon/para_mere/p_poids" type="decimal" jr:constraintMsg="jr:itext('/cpon/para_mere/p_poids:jr:constraintMsg')" constraint=".&gt;=20" required="1"/>
       <bind nodeset="/cpon/para_mere/p_tension" type="select1" required="1"/>
       <bind nodeset="/cpon/para_mere/act1" readonly="true()" type="string" relevant=" /cpon/para_mere/p_tension ='hypo_tention'"/>
       <bind nodeset="/cpon/para_mere/act2" readonly="true()" type="string" relevant=" /cpon/para_mere/p_tension ='Modere'"/>
       <bind nodeset="/cpon/para_mere/act3" readonly="true()" type="string" relevant=" /cpon/para_mere/p_tension ='Hyper_tention'"/>
       <bind nodeset="/cpon/para_mere/p_pouls" type="int"/>
       <bind nodeset="/cpon/para_mere/p_frequence" type="string"/>
-      <bind nodeset="/cpon/para_mere/p_temperature" type="decimal" constraint=".&gt;32 and .&lt;45" jr:constraintMsg="jr:itext('/cpon/para_mere/p_temperature:jr:constraintMsg')" required="1"/>
-      <bind nodeset="/cpon/para_mere/e_date_cpon1" type="date" required="1" relevant=" /cpon/g_patienta/p_int_cpon ='2'"/>
-      <bind nodeset="/cpon/para_mere/e_date_cpon2" type="date" required="1" relevant=" /cpon/g_patienta/p_int_cpon ='3'"/>
+      <bind nodeset="/cpon/para_mere/p_temperature" type="decimal" jr:constraintMsg="jr:itext('/cpon/para_mere/p_temperature:jr:constraintMsg')" constraint=".&gt;32 and .&lt;45" required="1"/>
+      <bind nodeset="/cpon/para_mere/e_date_cpon1" type="date" relevant=" /cpon/g_patienta/p_int_cpon ='2'" required="1"/>
+      <bind nodeset="/cpon/para_mere/e_date_cpon2" type="date" relevant=" /cpon/g_patienta/p_int_cpon ='3'" required="1"/>
       <bind nodeset="/cpon/para_mere/rdv_cpn2" type="string" calculate="format-date(date(decimal-date-time( /cpon/para_mere/date_accouchement )+6),'%d/%m/%Y')"/>
       <bind nodeset="/cpon/para_mere/rdv_cpn3" type="string" calculate="format-date(date(decimal-date-time( /cpon/para_mere/e_date_cpon1 )+42),'%d/%m/%Y')"/>
-      <bind nodeset="/cpon/para_mere/date_accouchement" type="date" constraint="int(decimal-date-time(today())-decimal-date-time( /cpon/para_mere/date_accouchement ))&gt;=0 and int(decimal-date-time(today())-decimal-date-time( /cpon/para_mere/date_accouchement ))&lt;=42" relevant=" /cpon/_case_date_accouchement " jr:requiredMsg="jr:itext('/cpon/para_mere/date_accouchement:jr:requiredMsg')"/>
+      <bind nodeset="/cpon/para_mere/date_accouchement" type="date" relevant=" /cpon/_case_date_accouchement " constraint="int(decimal-date-time(today())-decimal-date-time( /cpon/para_mere/date_accouchement ))&gt;=0 and int(decimal-date-time(today())-decimal-date-time( /cpon/para_mere/date_accouchement ))&lt;=42" jr:requiredMsg="jr:itext('/cpon/para_mere/date_accouchement:jr:requiredMsg')"/>
       <bind nodeset="/cpon/g_cpon/label_cpon" type="select1"/>
       <bind nodeset="/cpon/g_cpon/s_Accouche_assister" type="select1" required="1"/>
       <bind nodeset="/cpon/g_cpon/assistance_accouchement" type="string" relevant=" /cpon/g_cpon/s_Accouche_assister =-1"/>
@@ -5364,30 +5364,30 @@ if( /cpon/_case_p_int_cpon !='2','3'))))"/>
       <bind nodeset="/cpon/g_cpon/label_consult" type="select1"/>
       <bind nodeset="/cpon/g_cpon/s_deces_maternel" type="select1" required="1"/>
       <bind nodeset="/cpon/g_cpon/cas_deces_maternel" type="string" relevant=" /cpon/g_cpon/s_deces_maternel =1"/>
-      <bind nodeset="/cpon/g_cpon/Accouche_cs" type="select1" required="1" relevant=" /cpon/g_cpon/s_deces_maternel =-1"/>
+      <bind nodeset="/cpon/g_cpon/Accouche_cs" type="select1" relevant=" /cpon/g_cpon/s_deces_maternel =-1" required="1"/>
       <bind nodeset="/cpon/g_cpon/accouche_sant" type="string" relevant=" /cpon/g_cpon/Accouche_cs =1"/>
-      <bind nodeset="/cpon/g_cpon/Accouche_hp" type="select1" required="1" relevant=" /cpon/g_cpon/s_deces_maternel =-1 and  /cpon/g_cpon/Accouche_cs =-1"/>
+      <bind nodeset="/cpon/g_cpon/Accouche_hp" type="select1" relevant=" /cpon/g_cpon/s_deces_maternel =-1 and  /cpon/g_cpon/Accouche_cs =-1" required="1"/>
       <bind nodeset="/cpon/g_cpon/accouche_distr" type="string" relevant=" /cpon/g_cpon/Accouche_hp =1"/>
-      <bind nodeset="/cpon/g_cpon/s_Accouchement" type="select1" required="1" relevant=" /cpon/g_cpon/s_deces_maternel =-1 and  /cpon/g_cpon/Accouche_hp =-1"/>
+      <bind nodeset="/cpon/g_cpon/s_Accouchement" type="select1" relevant=" /cpon/g_cpon/s_deces_maternel =-1 and  /cpon/g_cpon/Accouche_hp =-1" required="1"/>
       <bind nodeset="/cpon/g_cpon/accouche_dom" type="string" relevant=" /cpon/g_cpon/s_Accouchement =1"/>
       <bind nodeset="/cpon/g_cpon/cons_ac_dom" readonly="true()" type="string" relevant=" /cpon/g_cpon/s_Accouchement =1"/>
-      <bind nodeset="/cpon/g_cpon/Accouche_sc" type="select1" required="1" relevant=" /cpon/g_cpon/s_deces_maternel =-1"/>
+      <bind nodeset="/cpon/g_cpon/Accouche_sc" type="select1" relevant=" /cpon/g_cpon/s_deces_maternel =-1" required="1"/>
       <bind nodeset="/cpon/g_cpon/accouche_compli" type="string" relevant=" /cpon/g_cpon/Accouche_sc =-1"/>
-      <bind nodeset="/cpon/g_cpon/Accouche_cesarienne" type="select1" required="1" relevant=" /cpon/g_cpon/Accouche_hp =1 and  /cpon/g_cpon/s_deces_maternel =-1"/>
-      <bind nodeset="/cpon/g_cpon/Accouche_instrumental" type="select1" required="1" relevant=" /cpon/g_cpon/s_deces_maternel =-1"/>
-      <bind nodeset="/cpon/g_cpon/dechirure" type="select1" required="1" relevant=" /cpon/g_cpon/s_deces_maternel =-1"/>
+      <bind nodeset="/cpon/g_cpon/Accouche_cesarienne" type="select1" relevant=" /cpon/g_cpon/Accouche_hp =1 and  /cpon/g_cpon/s_deces_maternel =-1" required="1"/>
+      <bind nodeset="/cpon/g_cpon/Accouche_instrumental" type="select1" relevant=" /cpon/g_cpon/s_deces_maternel =-1" required="1"/>
+      <bind nodeset="/cpon/g_cpon/dechirure" type="select1" relevant=" /cpon/g_cpon/s_deces_maternel =-1" required="1"/>
       <bind nodeset="/cpon/g_cpon/rep_dech" readonly="true()" type="string" relevant=" /cpon/g_cpon/dechirure =1"/>
-      <bind nodeset="/cpon/g_cpon/episio" type="select1" required="1" relevant=" /cpon/g_cpon/s_deces_maternel =-1"/>
-      <bind nodeset="/cpon/g_cpon/retention_placenta" type="select1" required="1" relevant=" /cpon/g_cpon/s_deces_maternel =-1"/>
+      <bind nodeset="/cpon/g_cpon/episio" type="select1" relevant=" /cpon/g_cpon/s_deces_maternel =-1" required="1"/>
+      <bind nodeset="/cpon/g_cpon/retention_placenta" type="select1" relevant=" /cpon/g_cpon/s_deces_maternel =-1" required="1"/>
       <bind nodeset="/cpon/g_cpon/msg_etplctr" readonly="true()" type="string" relevant=" /cpon/g_cpon/retention_placenta =1"/>
-      <bind nodeset="/cpon/g_cpon/mort_ne" type="select1" required="1" relevant=" /cpon/g_cpon/s_deces_maternel =-1"/>
-      <bind nodeset="/cpon/g_cpon/s_mort_ne" type="select1" required="1" relevant=" /cpon/g_cpon/mort_ne =1 and  /cpon/g_cpon/s_deces_maternel =-1"/>
+      <bind nodeset="/cpon/g_cpon/mort_ne" type="select1" relevant=" /cpon/g_cpon/s_deces_maternel =-1" required="1"/>
+      <bind nodeset="/cpon/g_cpon/s_mort_ne" type="select1" relevant=" /cpon/g_cpon/mort_ne =1 and  /cpon/g_cpon/s_deces_maternel =-1" required="1"/>
       <bind nodeset="/cpon/g_cpon/msg_dedth_born" type="string" relevant=" /cpon/g_cpon/s_mort_ne ='frais'"/>
       <bind nodeset="/cpon/g_cpon/label_vih" type="select1" relevant=" /cpon/g_cpon/s_deces_maternel =-1"/>
-      <bind nodeset="/cpon/g_cpon/statut_vih" type="select1" required="1" relevant=" /cpon/g_cpon/s_deces_maternel =-1"/>
-      <bind nodeset="/cpon/g_cpon/sous_arv" type="select1" required="1" relevant=" /cpon/g_cpon/statut_vih =1 and  /cpon/g_cpon/s_deces_maternel =-1"/>
+      <bind nodeset="/cpon/g_cpon/statut_vih" type="select1" relevant=" /cpon/g_cpon/s_deces_maternel =-1" required="1"/>
+      <bind nodeset="/cpon/g_cpon/sous_arv" type="select1" relevant=" /cpon/g_cpon/statut_vih =1 and  /cpon/g_cpon/s_deces_maternel =-1" required="1"/>
       <bind nodeset="/cpon/g_cpon/arv_yes" readonly="true()" type="string" relevant=" /cpon/g_cpon/sous_arv =1"/>
-      <bind nodeset="/cpon/g_cpon/justif_rpnse" type="string" required="1" relevant=" /cpon/g_cpon/sous_arv =-1"/>
+      <bind nodeset="/cpon/g_cpon/justif_rpnse" type="string" relevant=" /cpon/g_cpon/sous_arv =-1" required="1"/>
       <bind nodeset="/cpon/g_cpon/arv_no" readonly="true()" type="string" relevant=" /cpon/g_cpon/sous_arv =-1"/>
       <bind nodeset="/cpon/g_cpon/vih_posi" readonly="true()" type="string" relevant=" /cpon/g_cpon/statut_vih =0"/>
       <bind nodeset="/cpon/consul_mere" relevant="( /cpon/g_patienta/p_int_cpon !='1') and  /cpon/g_cpon/s_deces_maternel =-1"/>
@@ -5395,50 +5395,50 @@ if( /cpon/_case_p_int_cpon !='2','3'))))"/>
       <bind nodeset="/cpon/consul_mere/s_placenta" type="select1"/>
       <bind nodeset="/cpon/consul_mere/s_note_placenta" readonly="true()" type="string" relevant=" /cpon/consul_mere/s_placenta =1"/>
       <bind nodeset="/cpon/consul_mere/s_revision_uterine" type="select1" required="1"/>
-      <bind nodeset="/cpon/consul_mere/s_etat_uterus" type="select1" required="1" relevant=" /cpon/consul_mere/s_revision_uterine =1"/>
+      <bind nodeset="/cpon/consul_mere/s_etat_uterus" type="select1" relevant=" /cpon/consul_mere/s_revision_uterine =1" required="1"/>
       <bind nodeset="/cpon/consul_mere/s_blood_loss" type="select1" relevant=" /cpon/consul_mere/s_etat_uterus ='2'"/>
-      <bind nodeset="/cpon/consul_mere/s_vital_signs" type="select" constraint="if(selected(.,'z_none'),count-selected(.)=1,count-selected(.)&gt;0)" jr:constraintMsg="jr:itext('/cpon/consul_mere/s_vital_signs:jr:constraintMsg')" relevant="( /cpon/consul_mere/s_blood_loss ='loss_sup_250' or  /cpon/consul_mere/s_blood_loss ='loss_250_500')"/>
-      <bind nodeset="/cpon/consul_mere/s_vital_sig" type="select" constraint="if(selected(.,'z_none'),count-selected(.)=1,count-selected(.)&gt;0)" jr:constraintMsg="jr:itext('/cpon/consul_mere/s_vital_sig:jr:constraintMsg')" relevant="(  /cpon/consul_mere/s_blood_loss ='loss_500_1000' or  /cpon/consul_mere/s_blood_loss ='loss_sup_1000')"/>
+      <bind nodeset="/cpon/consul_mere/s_vital_signs" type="select" jr:constraintMsg="jr:itext('/cpon/consul_mere/s_vital_signs:jr:constraintMsg')" constraint="if(selected(.,'z_none'),count-selected(.)=1,count-selected(.)&gt;0)" relevant="( /cpon/consul_mere/s_blood_loss ='loss_sup_250' or  /cpon/consul_mere/s_blood_loss ='loss_250_500')"/>
+      <bind nodeset="/cpon/consul_mere/s_vital_sig" type="select" jr:constraintMsg="jr:itext('/cpon/consul_mere/s_vital_sig:jr:constraintMsg')" constraint="if(selected(.,'z_none'),count-selected(.)=1,count-selected(.)&gt;0)" relevant="(  /cpon/consul_mere/s_blood_loss ='loss_500_1000' or  /cpon/consul_mere/s_blood_loss ='loss_sup_1000')"/>
       <bind nodeset="/cpon/consul_mere/s_post_partum" readonly="true()" type="string" relevant=" /cpon/consul_mere/s_blood_loss ='loss_250'"/>
       <bind nodeset="/cpon/consul_mere/s_ok" type="select1" relevant="count-selected( /cpon/consul_mere/s_vital_sig )&gt;0 or ( count-selected( /cpon/consul_mere/s_vital_signs )&gt;0 and  /cpon/consul_mere/s_vital_signs !='z_none')"/>
       <bind nodeset="/cpon/consul_mere/s_examen_mom" relevant=" /cpon/consul_mere/s_vital_signs ='z_none'"/>
       <bind nodeset="/cpon/consul_mere/s_examen_mom/s_ut_murbx" type="select1"/>
-      <bind nodeset="/cpon/consul_mere/s_examen_mom/s_action_1" type="select" constraint="not(selected(.,'act_2' ) and (selected(.,'act_5' ) or selected(.,'act_4' ) or selected(.,'act_3' ))) 
-and not(selected(.,'act_3' ) and (selected(.,'act_5' ) or selected(.,'act_4' ) ))" jr:constraintMsg="jr:itext('/cpon/consul_mere/s_examen_mom/s_action_1:jr:constraintMsg')" relevant=" /cpon/consul_mere/s_examen_mom/s_ut_murbx =1"/>
+      <bind nodeset="/cpon/consul_mere/s_examen_mom/s_action_1" type="select" jr:constraintMsg="jr:itext('/cpon/consul_mere/s_examen_mom/s_action_1:jr:constraintMsg')" constraint="not(selected(.,'act_2' ) and (selected(.,'act_5' ) or selected(.,'act_4' ) or selected(.,'act_3' ))) 
+and not(selected(.,'act_3' ) and (selected(.,'act_5' ) or selected(.,'act_4' ) ))" relevant=" /cpon/consul_mere/s_examen_mom/s_ut_murbx =1"/>
       <bind nodeset="/cpon/consul_mere/s_examen_mom/s_tractus" type="select1"/>
       <bind nodeset="/cpon/consul_mere/s_examen_mom/s_action_2" type="select" relevant=" /cpon/consul_mere/s_examen_mom/s_tractus =1"/>
       <bind nodeset="/cpon/consul_mere/s_examen_mom/s_inv_uterus" type="select1"/>
       <bind nodeset="/cpon/consul_mere/s_examen_mom/s_note_inv_uterus" type="select1" relevant=" /cpon/consul_mere/s_examen_mom/s_inv_uterus =1"/>
-      <bind nodeset="/cpon/consul_mere/s_vital_sign" type="select" constraint="if(selected(.,'z_none'),count-selected(.)=1,count-selected(.)&gt;0)" jr:constraintMsg="jr:itext('/cpon/consul_mere/s_vital_sign:jr:constraintMsg')" relevant=" /cpon/consul_mere/s_examen_mom/s_ut_murbx =1 or  /cpon/consul_mere/s_examen_mom/s_note_inv_uterus =1"/>
+      <bind nodeset="/cpon/consul_mere/s_vital_sign" type="select" jr:constraintMsg="jr:itext('/cpon/consul_mere/s_vital_sign:jr:constraintMsg')" constraint="if(selected(.,'z_none'),count-selected(.)=1,count-selected(.)&gt;0)" relevant=" /cpon/consul_mere/s_examen_mom/s_ut_murbx =1 or  /cpon/consul_mere/s_examen_mom/s_note_inv_uterus =1"/>
       <bind nodeset="/cpon/consul_mere/s_transfert" type="select1" relevant=" /cpon/consul_mere/s_ok =1 or (count-selected( /cpon/consul_mere/s_vital_sign )&gt;0 and  /cpon/consul_mere/s_vital_sign !='z_none' )"/>
       <bind nodeset="/cpon/consul_mere/s_aucn_sign" readonly="true()" type="string" relevant=" /cpon/consul_mere/s_vital_sign ='z_none'"/>
-      <bind nodeset="/cpon/consul_mere/revi_uterine" type="select1" required="1" relevant=" /cpon/consul_mere/s_transfert !=1 or  /cpon/consul_mere/s_vital_sign ='z_none'"/>
-      <bind nodeset="/cpon/consul_mere/leucorrhee_anormale" type="select1" required="1" relevant="( /cpon/g_patienta/p_int_cpon ='2' or  /cpon/g_patienta/p_int_cpon ='3') and ( /cpon/consul_mere/s_transfert !=1 or  /cpon/consul_mere/s_vital_sign ='z_none' )"/>
+      <bind nodeset="/cpon/consul_mere/revi_uterine" type="select1" relevant=" /cpon/consul_mere/s_transfert !=1 or  /cpon/consul_mere/s_vital_sign ='z_none'" required="1"/>
+      <bind nodeset="/cpon/consul_mere/leucorrhee_anormale" type="select1" relevant="( /cpon/g_patienta/p_int_cpon ='2' or  /cpon/g_patienta/p_int_cpon ='3') and ( /cpon/consul_mere/s_transfert !=1 or  /cpon/consul_mere/s_vital_sign ='z_none' )" required="1"/>
       <bind nodeset="/cpon/consul_mere/act_leuch_anor" readonly="true()" type="string" relevant=" /cpon/consul_mere/leucorrhee_anormale =1"/>
-      <bind nodeset="/cpon/consul_mere/perte" type="select1" required="1" relevant="( /cpon/consul_mere/s_transfert !=1 or  /cpon/consul_mere/s_vital_sign ='z_none' )"/>
+      <bind nodeset="/cpon/consul_mere/perte" type="select1" relevant="( /cpon/consul_mere/s_transfert !=1 or  /cpon/consul_mere/s_vital_sign ='z_none' )" required="1"/>
       <bind nodeset="/cpon/consul_mere/perte_urine" readonly="true()" type="string" relevant=" /cpon/consul_mere/perte =1"/>
-      <bind nodeset="/cpon/consul_mere/cephale" type="select1" required="1" relevant="( /cpon/consul_mere/s_transfert !=1 or  /cpon/consul_mere/s_vital_sign ='z_none' )"/>
+      <bind nodeset="/cpon/consul_mere/cephale" type="select1" relevant="( /cpon/consul_mere/s_transfert !=1 or  /cpon/consul_mere/s_vital_sign ='z_none' )" required="1"/>
       <bind nodeset="/cpon/consul_mere/act_vision_floue" readonly="true()" type="string" relevant=" /cpon/consul_mere/cephale =1"/>
-      <bind nodeset="/cpon/consul_mere/convulsion" type="select1" required="1" relevant="( /cpon/consul_mere/s_transfert !=1 or  /cpon/consul_mere/s_vital_sign ='z_none' )"/>
+      <bind nodeset="/cpon/consul_mere/convulsion" type="select1" relevant="( /cpon/consul_mere/s_transfert !=1 or  /cpon/consul_mere/s_vital_sign ='z_none' )" required="1"/>
       <bind nodeset="/cpon/consul_mere/act_convulsion" readonly="true()" type="string" relevant=" /cpon/consul_mere/convulsion =1"/>
-      <bind nodeset="/cpon/consul_mere/respiration" type="select1" required="1" relevant="( /cpon/consul_mere/s_transfert !=1 or  /cpon/consul_mere/s_vital_sign ='z_none' )"/>
-      <bind nodeset="/cpon/consul_mere/essoufflement" type="select1" required="1" relevant="( /cpon/consul_mere/s_transfert !=1 or  /cpon/consul_mere/s_vital_sign ='z_none' )"/>
-      <bind nodeset="/cpon/consul_mere/resp_essouf" type="select1" constraint="if(selected(.,'z_none'),count-selected(.)=1,count-selected(.)&gt;0)" jr:constraintMsg="jr:itext('/cpon/consul_mere/resp_essouf:jr:constraintMsg')" relevant=" /cpon/consul_mere/respiration =1 or  /cpon/consul_mere/essoufflement =1"/>
+      <bind nodeset="/cpon/consul_mere/respiration" type="select1" relevant="( /cpon/consul_mere/s_transfert !=1 or  /cpon/consul_mere/s_vital_sign ='z_none' )" required="1"/>
+      <bind nodeset="/cpon/consul_mere/essoufflement" type="select1" relevant="( /cpon/consul_mere/s_transfert !=1 or  /cpon/consul_mere/s_vital_sign ='z_none' )" required="1"/>
+      <bind nodeset="/cpon/consul_mere/resp_essouf" type="select1" jr:constraintMsg="jr:itext('/cpon/consul_mere/resp_essouf:jr:constraintMsg')" constraint="if(selected(.,'z_none'),count-selected(.)=1,count-selected(.)&gt;0)" relevant=" /cpon/consul_mere/respiration =1 or  /cpon/consul_mere/essoufflement =1"/>
       <bind nodeset="/cpon/consul_mere/Hb_low" type="select" relevant=" /cpon/consul_mere/resp_essouf ='modere' or  /cpon/consul_mere/resp_essouf ='severe'"/>
-      <bind nodeset="/cpon/consul_mere/douleur" type="select1" required="1" relevant="( /cpon/consul_mere/s_transfert !=1 or  /cpon/consul_mere/s_vital_sign ='z_none' )"/>
+      <bind nodeset="/cpon/consul_mere/douleur" type="select1" relevant="( /cpon/consul_mere/s_transfert !=1 or  /cpon/consul_mere/s_vital_sign ='z_none' )" required="1"/>
       <bind nodeset="/cpon/consul_mere/act_doleur" readonly="true()" type="string" relevant=" /cpon/consul_mere/douleur =1"/>
-      <bind nodeset="/cpon/consul_mere/mains" type="select1" required="1" relevant="( /cpon/consul_mere/s_transfert !=1 or  /cpon/consul_mere/s_vital_sign ='z_none' )"/>
+      <bind nodeset="/cpon/consul_mere/mains" type="select1" relevant="( /cpon/consul_mere/s_transfert !=1 or  /cpon/consul_mere/s_vital_sign ='z_none' )" required="1"/>
       <bind nodeset="/cpon/consul_mere/act_mains" readonly="true()" type="string" relevant=" /cpon/consul_mere/mains =1"/>
-      <bind nodeset="/cpon/consul_mere/selle" type="select1" required="1" relevant="( /cpon/consul_mere/s_transfert !=1 or  /cpon/consul_mere/s_vital_sign ='z_none' )"/>
+      <bind nodeset="/cpon/consul_mere/selle" type="select1" relevant="( /cpon/consul_mere/s_transfert !=1 or  /cpon/consul_mere/s_vital_sign ='z_none' )" required="1"/>
       <bind nodeset="/cpon/consul_mere/ctct_mdcin" readonly="true()" type="string" relevant=" /cpon/consul_mere/selle =1"/>
       <bind nodeset="/cpon/preeclampsie" relevant=" /cpon/g_cpon/s_deces_maternel =-1 and (( /cpon/para_mere/p_tension ='Hyper_tention' or  /cpon/para_mere/p_tension ='Modere') and ( /cpon/consul_mere/cephale =1 or  /cpon/consul_mere/convulsion =1 or  /cpon/consul_mere/respiration =1 or  /cpon/consul_mere/mains =1 or  /cpon/consul_mere/essoufflement =1)) and  /cpon/consul_mere/s_transfert !=1"/>
-      <bind nodeset="/cpon/preeclampsie/sign_preeclampsia" type="select" constraint="if(selected(.,&quot;z_none&quot;),count-selected(.)=1,count-selected(.)&gt;0)" jr:constraintMsg="jr:itext('/cpon/preeclampsie/sign_preeclampsia:jr:constraintMsg')" required="1"/>
+      <bind nodeset="/cpon/preeclampsie/sign_preeclampsia" type="select" jr:constraintMsg="jr:itext('/cpon/preeclampsie/sign_preeclampsia:jr:constraintMsg')" constraint="if(selected(.,&quot;z_none&quot;),count-selected(.)=1,count-selected(.)&gt;0)" required="1"/>
       <bind nodeset="/cpon/preeclampsie/T_band_u" type="select1" required="1"/>
-      <bind nodeset="/cpon/preeclampsie/band_u" type="select1" required="1" relevant=" /cpon/preeclampsie/T_band_u =1"/>
+      <bind nodeset="/cpon/preeclampsie/band_u" type="select1" relevant=" /cpon/preeclampsie/T_band_u =1" required="1"/>
       <bind nodeset="/cpon/diag_phypertension" relevant=" /cpon/g_cpon/s_deces_maternel =-1 and (count-selected( /cpon/preeclampsie/sign_preeclampsia )&gt;0 and  /cpon/preeclampsie/band_u =-1) or ( /cpon/preeclampsie/sign_preeclampsia ='z_none' and ( /cpon/preeclampsie/T_band_u =-1 or  /cpon/preeclampsie/band_u =1 or  /cpon/preeclampsie/band_u =0)) and  /cpon/consul_mere/s_transfert !=1"/>
       <bind nodeset="/cpon/diag_phypertension/hypertension_gravi" readonly="true()" type="string"/>
       <bind nodeset="/cpon/traitmt_hypertension" relevant=" /cpon/g_cpon/s_deces_maternel =-1 and (count-selected( /cpon/preeclampsie/sign_preeclampsia )&gt;0 and  /cpon/preeclampsie/band_u =-1) or ( /cpon/preeclampsie/sign_preeclampsia ='z_none' and ( /cpon/preeclampsie/T_band_u =-1 or  /cpon/preeclampsie/band_u =1 or  /cpon/preeclampsie/band_u =0)) and  /cpon/consul_mere/s_transfert !=1"/>
-      <bind nodeset="/cpon/traitmt_hypertension/traitement_hyp_gravi" type="select1" required="1" jr:requiredMsg="jr:itext('/cpon/traitmt_hypertension/traitement_hyp_gravi:jr:requiredMsg')"/>
+      <bind nodeset="/cpon/traitmt_hypertension/traitement_hyp_gravi" type="select1" jr:requiredMsg="jr:itext('/cpon/traitmt_hypertension/traitement_hyp_gravi:jr:requiredMsg')" required="1"/>
       <bind nodeset="/cpon/traitmt_hypertension/traitement_hyp_gravi_alternatif" readonly="true()" type="string" relevant=" /cpon/traitmt_hypertension/traitement_hyp_gravi ='2'"/>
       <bind nodeset="/cpon/surveil_conseil" relevant=" /cpon/g_cpon/s_deces_maternel =-1 and (count-selected( /cpon/preeclampsie/sign_preeclampsia )&gt;0 and  /cpon/preeclampsie/band_u =-1) or ( /cpon/preeclampsie/sign_preeclampsia ='z_none' and ( /cpon/preeclampsie/T_band_u =-1 or  /cpon/preeclampsie/band_u =1 or  /cpon/preeclampsie/band_u =0)) and  /cpon/consul_mere/s_transfert !=1"/>
       <bind nodeset="/cpon/surveil_conseil/surveill_conseil" readonly="true()" type="string"/>
@@ -5450,59 +5450,59 @@ and not(selected(.,'act_3' ) and (selected(.,'act_5' ) or selected(.,'act_4' ) )
       <bind nodeset="/cpon/examen_mere" relevant=" /cpon/g_cpon/s_deces_maternel =-1 and  /cpon/consul_mere/s_transfert !=1"/>
       <bind nodeset="/cpon/examen_mere/label_examen" type="select1"/>
       <bind nodeset="/cpon/examen_mere/m_anemie" type="select1" required="1"/>
-      <bind nodeset="/cpon/examen_mere/mesure_anemie" type="select1" required="1" relevant=" /cpon/examen_mere/m_anemie =1"/>
+      <bind nodeset="/cpon/examen_mere/mesure_anemie" type="select1" relevant=" /cpon/examen_mere/m_anemie =1" required="1"/>
       <bind nodeset="/cpon/examen_mere/m_anemie_note" readonly="true()" type="string" relevant=" /cpon/examen_mere/mesure_anemie ='severe'"/>
       <bind nodeset="/cpon/examen_mere/anemie_note" readonly="true()" type="string" relevant=" /cpon/examen_mere/mesure_anemie ='modere'"/>
       <bind nodeset="/cpon/examen_mere/anemie_indispo" readonly="true()" type="string" relevant=" /cpon/examen_mere/mesure_anemie ='z_none'"/>
       <bind nodeset="/cpon/examen_mere/v_placenta" type="select1"/>
       <bind nodeset="/cpon/examen_mere/vnote_placenta" readonly="true()" type="string" relevant=" /cpon/examen_mere/v_placenta =1"/>
       <bind nodeset="/cpon/examen_mere/revision_uterine" type="select1" required="1"/>
-      <bind nodeset="/cpon/examen_mere/etat_uterus" type="select1" required="1" relevant=" /cpon/examen_mere/revision_uterine =1"/>
+      <bind nodeset="/cpon/examen_mere/etat_uterus" type="select1" relevant=" /cpon/examen_mere/revision_uterine =1" required="1"/>
       <bind nodeset="/cpon/examen_mere/v_blood_loss" type="select1" relevant=" /cpon/examen_mere/etat_uterus ='2'"/>
-      <bind nodeset="/cpon/examen_mere/v_vital_signs" type="select" constraint="if(selected(.,'z_none'),count-selected(.)=1,count-selected(.)&gt;0)" jr:constraintMsg="jr:itext('/cpon/examen_mere/v_vital_signs:jr:constraintMsg')" relevant="( /cpon/examen_mere/v_blood_loss ='loss_sup_250' or  /cpon/examen_mere/v_blood_loss ='loss_250_500')"/>
-      <bind nodeset="/cpon/examen_mere/v_vital_sig" type="select" constraint="if(selected(.,'z_none'),count-selected(.)=1,count-selected(.)&gt;0)" jr:constraintMsg="jr:itext('/cpon/examen_mere/v_vital_sig:jr:constraintMsg')" relevant="(  /cpon/examen_mere/v_blood_loss ='loss_500_1000' or  /cpon/examen_mere/v_blood_loss ='loss_sup_1000')"/>
+      <bind nodeset="/cpon/examen_mere/v_vital_signs" type="select" jr:constraintMsg="jr:itext('/cpon/examen_mere/v_vital_signs:jr:constraintMsg')" constraint="if(selected(.,'z_none'),count-selected(.)=1,count-selected(.)&gt;0)" relevant="( /cpon/examen_mere/v_blood_loss ='loss_sup_250' or  /cpon/examen_mere/v_blood_loss ='loss_250_500')"/>
+      <bind nodeset="/cpon/examen_mere/v_vital_sig" type="select" jr:constraintMsg="jr:itext('/cpon/examen_mere/v_vital_sig:jr:constraintMsg')" constraint="if(selected(.,'z_none'),count-selected(.)=1,count-selected(.)&gt;0)" relevant="(  /cpon/examen_mere/v_blood_loss ='loss_500_1000' or  /cpon/examen_mere/v_blood_loss ='loss_sup_1000')"/>
       <bind nodeset="/cpon/examen_mere/v_post_partum" readonly="true()" type="string" relevant=" /cpon/examen_mere/v_blood_loss ='loss_250'"/>
       <bind nodeset="/cpon/examen_mere/v_ok" type="select1" relevant="count-selected( /cpon/examen_mere/v_vital_sig )&gt;0 or ( count-selected( /cpon/examen_mere/v_vital_signs )&gt;0 and  /cpon/examen_mere/v_vital_signs !='z_none')"/>
       <bind nodeset="/cpon/examen_mere/examen_mom" relevant=" /cpon/examen_mere/v_vital_signs ='z_none'"/>
       <bind nodeset="/cpon/examen_mere/examen_mom/vut_murbx" type="select1"/>
-      <bind nodeset="/cpon/examen_mere/examen_mom/action_1" type="select" constraint="not(selected(.,'act_2' ) and (selected(.,'act_5' ) or selected(.,'act_4' ) or selected(.,'act_3' ))) 
-and not(selected(.,'act_3' ) and (selected(.,'act_5' ) or selected(.,'act_4' ) ))" jr:constraintMsg="jr:itext('/cpon/examen_mere/examen_mom/action_1:jr:constraintMsg')" relevant=" /cpon/examen_mere/examen_mom/vut_murbx =1"/>
+      <bind nodeset="/cpon/examen_mere/examen_mom/action_1" type="select" jr:constraintMsg="jr:itext('/cpon/examen_mere/examen_mom/action_1:jr:constraintMsg')" constraint="not(selected(.,'act_2' ) and (selected(.,'act_5' ) or selected(.,'act_4' ) or selected(.,'act_3' ))) 
+and not(selected(.,'act_3' ) and (selected(.,'act_5' ) or selected(.,'act_4' ) ))" relevant=" /cpon/examen_mere/examen_mom/vut_murbx =1"/>
       <bind nodeset="/cpon/examen_mere/examen_mom/vtractus" type="select1"/>
       <bind nodeset="/cpon/examen_mere/examen_mom/action_2" type="select" relevant=" /cpon/examen_mere/examen_mom/vtractus =1"/>
       <bind nodeset="/cpon/examen_mere/examen_mom/vinv_uterus" type="select1"/>
       <bind nodeset="/cpon/examen_mere/examen_mom/vnote_inv_uterus" type="select1" relevant=" /cpon/examen_mere/examen_mom/vinv_uterus =1"/>
-      <bind nodeset="/cpon/examen_mere/v_vital_sign" type="select" constraint="if(selected(.,'z_none'),count-selected(.)=1,count-selected(.)&gt;0)" jr:constraintMsg="jr:itext('/cpon/examen_mere/v_vital_sign:jr:constraintMsg')" relevant=" /cpon/examen_mere/examen_mom/vut_murbx =1 or  /cpon/examen_mere/examen_mom/vnote_inv_uterus =1"/>
+      <bind nodeset="/cpon/examen_mere/v_vital_sign" type="select" jr:constraintMsg="jr:itext('/cpon/examen_mere/v_vital_sign:jr:constraintMsg')" constraint="if(selected(.,'z_none'),count-selected(.)=1,count-selected(.)&gt;0)" relevant=" /cpon/examen_mere/examen_mom/vut_murbx =1 or  /cpon/examen_mere/examen_mom/vnote_inv_uterus =1"/>
       <bind nodeset="/cpon/examen_mere/v_transfert" type="select1" relevant=" /cpon/examen_mere/v_ok =1 or (count-selected( /cpon/examen_mere/v_vital_sign )&gt;0 and  /cpon/examen_mere/v_vital_sign !='z_none' )"/>
       <bind nodeset="/cpon/examen_mere/vaucn_sign" readonly="true()" type="string" relevant=" /cpon/examen_mere/v_vital_sign ='z_none'"/>
       <bind nodeset="/cpon/examen_mere/involu_uter" type="select1" relevant="( /cpon/g_patienta/p_int_cpon ='2' or  /cpon/g_patienta/p_int_cpon ='3') and  /cpon/examen_mere/v_transfert !=1"/>
       <bind nodeset="/cpon/examen_mere/act_involue" readonly="true()" type="string" relevant=" /cpon/examen_mere/involu_uter =-1 and  /cpon/examen_mere/v_transfert !=1"/>
-      <bind nodeset="/cpon/examen_mere/perte_normale" type="select1" required="1" relevant=" /cpon/g_patienta/p_int_cpon ='3' and  /cpon/examen_mere/v_transfert !=1"/>
+      <bind nodeset="/cpon/examen_mere/perte_normale" type="select1" relevant=" /cpon/g_patienta/p_int_cpon ='3' and  /cpon/examen_mere/v_transfert !=1" required="1"/>
       <bind nodeset="/cpon/examen_mere/act_p_lochie" readonly="true()" type="string" relevant=" /cpon/examen_mere/perte_normale =-1 and  /cpon/examen_mere/v_transfert !=1"/>
-      <bind nodeset="/cpon/examen_mere/etat_perine" type="select1" constraint="if(selected(.,'z_none'),count-selected(.)=1,count-selected(.)&gt;0)" jr:constraintMsg="jr:itext('/cpon/examen_mere/etat_perine:jr:constraintMsg')" relevant="( /cpon/g_patienta/p_int_cpon ='1' or  /cpon/g_patienta/p_int_cpon ='2') and  /cpon/examen_mere/v_transfert !=1"/>
-      <bind nodeset="/cpon/examen_mere/perte_sang" type="select1" constraint="if(selected(.,'z_none'),count-selected(.)=1,count-selected(.)&gt;0)" required="1" jr:constraintMsg="jr:itext('/cpon/examen_mere/perte_sang:jr:constraintMsg')" relevant="( /cpon/g_patienta/p_int_cpon ='1' or  /cpon/g_patienta/p_int_cpon ='2') and  /cpon/examen_mere/v_transfert !=1"/>
+      <bind nodeset="/cpon/examen_mere/etat_perine" type="select1" jr:constraintMsg="jr:itext('/cpon/examen_mere/etat_perine:jr:constraintMsg')" constraint="if(selected(.,'z_none'),count-selected(.)=1,count-selected(.)&gt;0)" relevant="( /cpon/g_patienta/p_int_cpon ='1' or  /cpon/g_patienta/p_int_cpon ='2') and  /cpon/examen_mere/v_transfert !=1"/>
+      <bind nodeset="/cpon/examen_mere/perte_sang" type="select1" jr:constraintMsg="jr:itext('/cpon/examen_mere/perte_sang:jr:constraintMsg')" required="1" constraint="if(selected(.,'z_none'),count-selected(.)=1,count-selected(.)&gt;0)" relevant="( /cpon/g_patienta/p_int_cpon ='1' or  /cpon/g_patienta/p_int_cpon ='2') and  /cpon/examen_mere/v_transfert !=1"/>
       <bind nodeset="/cpon/examen_mere/msg_p_blood" readonly="true()" type="string" relevant=" /cpon/examen_mere/perte_sang =1"/>
-      <bind nodeset="/cpon/examen_mere/lesion" type="select1" constraint="if(selected(.,'z_none'),count-selected(.)=1,count-selected(.)&gt;0)" required="1" jr:constraintMsg="jr:itext('/cpon/examen_mere/lesion:jr:constraintMsg')" relevant="( /cpon/g_patienta/p_int_cpon ='1' or  /cpon/g_patienta/p_int_cpon ='2') and  /cpon/examen_mere/v_transfert !=1"/>
+      <bind nodeset="/cpon/examen_mere/lesion" type="select1" jr:constraintMsg="jr:itext('/cpon/examen_mere/lesion:jr:constraintMsg')" required="1" constraint="if(selected(.,'z_none'),count-selected(.)=1,count-selected(.)&gt;0)" relevant="( /cpon/g_patienta/p_int_cpon ='1' or  /cpon/g_patienta/p_int_cpon ='2') and  /cpon/examen_mere/v_transfert !=1"/>
       <bind nodeset="/cpon/examen_mere/msg_wood" readonly="true()" type="string" relevant=" /cpon/examen_mere/lesion =1"/>
-      <bind nodeset="/cpon/examen_mere/dechirura" type="select1" constraint="if(selected(.,'z_none'),count-selected(.)=1,count-selected(.)&gt;0)" required="1" jr:constraintMsg="jr:itext('/cpon/examen_mere/dechirura:jr:constraintMsg')" relevant="( /cpon/g_patienta/p_int_cpon ='1' or  /cpon/g_patienta/p_int_cpon ='2') and  /cpon/examen_mere/v_transfert !=1"/>
+      <bind nodeset="/cpon/examen_mere/dechirura" type="select1" jr:constraintMsg="jr:itext('/cpon/examen_mere/dechirura:jr:constraintMsg')" required="1" constraint="if(selected(.,'z_none'),count-selected(.)=1,count-selected(.)&gt;0)" relevant="( /cpon/g_patienta/p_int_cpon ='1' or  /cpon/g_patienta/p_int_cpon ='2') and  /cpon/examen_mere/v_transfert !=1"/>
       <bind nodeset="/cpon/examen_mere/msg_tear" readonly="true()" type="string" relevant=" /cpon/examen_mere/dechirura =1"/>
-      <bind nodeset="/cpon/examen_mere/nodule" type="select1" constraint="if(selected(.,'z_none'),count-selected(.)=1,count-selected(.)&gt;0)" required="1" jr:constraintMsg="jr:itext('/cpon/examen_mere/nodule:jr:constraintMsg')" relevant="( /cpon/g_patienta/p_int_cpon ='1' or  /cpon/g_patienta/p_int_cpon ='2') and  /cpon/examen_mere/v_transfert !=1"/>
+      <bind nodeset="/cpon/examen_mere/nodule" type="select1" jr:constraintMsg="jr:itext('/cpon/examen_mere/nodule:jr:constraintMsg')" required="1" constraint="if(selected(.,'z_none'),count-selected(.)=1,count-selected(.)&gt;0)" relevant="( /cpon/g_patienta/p_int_cpon ='1' or  /cpon/g_patienta/p_int_cpon ='2') and  /cpon/examen_mere/v_transfert !=1"/>
       <bind nodeset="/cpon/examen_mere/msg_tumefact" readonly="true()" type="string" relevant=" /cpon/examen_mere/nodule =1"/>
-      <bind nodeset="/cpon/examen_mere/foreign_body" type="select1" constraint="if(selected(.,'z_none'),count-selected(.)=1,count-selected(.)&gt;0)" required="1" jr:constraintMsg="jr:itext('/cpon/examen_mere/foreign_body:jr:constraintMsg')" relevant="( /cpon/g_patienta/p_int_cpon ='1' or  /cpon/g_patienta/p_int_cpon ='2') and  /cpon/examen_mere/v_transfert !=1"/>
+      <bind nodeset="/cpon/examen_mere/foreign_body" type="select1" jr:constraintMsg="jr:itext('/cpon/examen_mere/foreign_body:jr:constraintMsg')" required="1" constraint="if(selected(.,'z_none'),count-selected(.)=1,count-selected(.)&gt;0)" relevant="( /cpon/g_patienta/p_int_cpon ='1' or  /cpon/g_patienta/p_int_cpon ='2') and  /cpon/examen_mere/v_transfert !=1"/>
       <bind nodeset="/cpon/examen_mere/msg_foreign" readonly="true()" type="string" relevant=" /cpon/examen_mere/foreign_body =1"/>
-      <bind nodeset="/cpon/examen_mere/erup_v" type="select1" constraint="if(selected(.,'z_none'),count-selected(.)=1,count-selected(.)&gt;0)" required="1" jr:constraintMsg="jr:itext('/cpon/examen_mere/erup_v:jr:constraintMsg')" relevant="( /cpon/g_patienta/p_int_cpon ='1' or  /cpon/g_patienta/p_int_cpon ='2') and  /cpon/examen_mere/v_transfert !=1"/>
+      <bind nodeset="/cpon/examen_mere/erup_v" type="select1" jr:constraintMsg="jr:itext('/cpon/examen_mere/erup_v:jr:constraintMsg')" required="1" constraint="if(selected(.,'z_none'),count-selected(.)=1,count-selected(.)&gt;0)" relevant="( /cpon/g_patienta/p_int_cpon ='1' or  /cpon/g_patienta/p_int_cpon ='2') and  /cpon/examen_mere/v_transfert !=1"/>
       <bind nodeset="/cpon/examen_mere/msg_erup_v" readonly="true()" type="string" relevant=" /cpon/examen_mere/erup_v =1"/>
-      <bind nodeset="/cpon/examen_mere/nod_v" type="select1" constraint="if(selected(.,'z_none'),count-selected(.)=1,count-selected(.)&gt;0)" required="1" jr:constraintMsg="jr:itext('/cpon/examen_mere/nod_v:jr:constraintMsg')" relevant="( /cpon/g_patienta/p_int_cpon ='1' or  /cpon/g_patienta/p_int_cpon ='2') and  /cpon/examen_mere/v_transfert !=1"/>
+      <bind nodeset="/cpon/examen_mere/nod_v" type="select1" jr:constraintMsg="jr:itext('/cpon/examen_mere/nod_v:jr:constraintMsg')" required="1" constraint="if(selected(.,'z_none'),count-selected(.)=1,count-selected(.)&gt;0)" relevant="( /cpon/g_patienta/p_int_cpon ='1' or  /cpon/g_patienta/p_int_cpon ='2') and  /cpon/examen_mere/v_transfert !=1"/>
       <bind nodeset="/cpon/examen_mere/msg_errupt" readonly="true()" type="string" relevant=" /cpon/examen_mere/nod_v =1"/>
-      <bind nodeset="/cpon/examen_mere/etat_col" type="select1" constraint="if(selected(.,'z_none'),count-selected(.)=1,count-selected(.)&gt;0)" jr:constraintMsg="jr:itext('/cpon/examen_mere/etat_col:jr:constraintMsg')" relevant="( /cpon/g_patienta/p_int_cpon ='1' or  /cpon/g_patienta/p_int_cpon ='2') and  /cpon/examen_mere/v_transfert !=1"/>
-      <bind nodeset="/cpon/examen_mere/pert_sg" type="select1" constraint="if(selected(.,'z_none'),count-selected(.)=1,count-selected(.)&gt;0)" required="1" jr:constraintMsg="jr:itext('/cpon/examen_mere/pert_sg:jr:constraintMsg')" relevant="( /cpon/g_patienta/p_int_cpon ='1' or  /cpon/g_patienta/p_int_cpon ='2') and  /cpon/examen_mere/v_transfert !=1"/>
+      <bind nodeset="/cpon/examen_mere/etat_col" type="select1" jr:constraintMsg="jr:itext('/cpon/examen_mere/etat_col:jr:constraintMsg')" constraint="if(selected(.,'z_none'),count-selected(.)=1,count-selected(.)&gt;0)" relevant="( /cpon/g_patienta/p_int_cpon ='1' or  /cpon/g_patienta/p_int_cpon ='2') and  /cpon/examen_mere/v_transfert !=1"/>
+      <bind nodeset="/cpon/examen_mere/pert_sg" type="select1" jr:constraintMsg="jr:itext('/cpon/examen_mere/pert_sg:jr:constraintMsg')" required="1" constraint="if(selected(.,'z_none'),count-selected(.)=1,count-selected(.)&gt;0)" relevant="( /cpon/g_patienta/p_int_cpon ='1' or  /cpon/g_patienta/p_int_cpon ='2') and  /cpon/examen_mere/v_transfert !=1"/>
       <bind nodeset="/cpon/examen_mere/msg_p_sg" readonly="true()" type="string" relevant=" /cpon/examen_mere/pert_sg =1"/>
-      <bind nodeset="/cpon/examen_mere/dechiriro" type="select1" constraint="if(selected(.,'z_none'),count-selected(.)=1,count-selected(.)&gt;0)" required="1" jr:constraintMsg="jr:itext('/cpon/examen_mere/dechiriro:jr:constraintMsg')" relevant="( /cpon/g_patienta/p_int_cpon ='1' or  /cpon/g_patienta/p_int_cpon ='2') and  /cpon/examen_mere/v_transfert !=1"/>
+      <bind nodeset="/cpon/examen_mere/dechiriro" type="select1" jr:constraintMsg="jr:itext('/cpon/examen_mere/dechiriro:jr:constraintMsg')" required="1" constraint="if(selected(.,'z_none'),count-selected(.)=1,count-selected(.)&gt;0)" relevant="( /cpon/g_patienta/p_int_cpon ='1' or  /cpon/g_patienta/p_int_cpon ='2') and  /cpon/examen_mere/v_transfert !=1"/>
       <bind nodeset="/cpon/examen_mere/msg_teara" readonly="true()" type="string" relevant=" /cpon/examen_mere/dechiriro =1"/>
-      <bind nodeset="/cpon/examen_mere/tumefacta" type="select1" constraint="if(selected(.,'z_none'),count-selected(.)=1,count-selected(.)&gt;0)" required="1" jr:constraintMsg="jr:itext('/cpon/examen_mere/tumefacta:jr:constraintMsg')" relevant="( /cpon/g_patienta/p_int_cpon ='1' or  /cpon/g_patienta/p_int_cpon ='2') and  /cpon/examen_mere/v_transfert !=1"/>
+      <bind nodeset="/cpon/examen_mere/tumefacta" type="select1" jr:constraintMsg="jr:itext('/cpon/examen_mere/tumefacta:jr:constraintMsg')" required="1" constraint="if(selected(.,'z_none'),count-selected(.)=1,count-selected(.)&gt;0)" relevant="( /cpon/g_patienta/p_int_cpon ='1' or  /cpon/g_patienta/p_int_cpon ='2') and  /cpon/examen_mere/v_transfert !=1"/>
       <bind nodeset="/cpon/examen_mere/msg_tumefacta" readonly="true()" type="string" relevant=" /cpon/examen_mere/tumefacta =1"/>
-      <bind nodeset="/cpon/examen_mere/nodula" type="select1" constraint="if(selected(.,'z_none'),count-selected(.)=1,count-selected(.)&gt;0)" required="1" jr:constraintMsg="jr:itext('/cpon/examen_mere/nodula:jr:constraintMsg')" relevant="( /cpon/g_patienta/p_int_cpon ='1' or  /cpon/g_patienta/p_int_cpon ='2') and  /cpon/examen_mere/v_transfert !=1"/>
+      <bind nodeset="/cpon/examen_mere/nodula" type="select1" jr:constraintMsg="jr:itext('/cpon/examen_mere/nodula:jr:constraintMsg')" required="1" constraint="if(selected(.,'z_none'),count-selected(.)=1,count-selected(.)&gt;0)" relevant="( /cpon/g_patienta/p_int_cpon ='1' or  /cpon/g_patienta/p_int_cpon ='2') and  /cpon/examen_mere/v_transfert !=1"/>
       <bind nodeset="/cpon/examen_mere/msg_nodula" readonly="true()" type="string" relevant=" /cpon/examen_mere/nodula =1"/>
-      <bind nodeset="/cpon/examen_mere/cora_etran" type="select1" constraint="if(selected(.,'z_none'),count-selected(.)=1,count-selected(.)&gt;0)" required="1" jr:constraintMsg="jr:itext('/cpon/examen_mere/cora_etran:jr:constraintMsg')" relevant="( /cpon/g_patienta/p_int_cpon ='1' or  /cpon/g_patienta/p_int_cpon ='2') and  /cpon/examen_mere/v_transfert !=1"/>
+      <bind nodeset="/cpon/examen_mere/cora_etran" type="select1" jr:constraintMsg="jr:itext('/cpon/examen_mere/cora_etran:jr:constraintMsg')" required="1" constraint="if(selected(.,'z_none'),count-selected(.)=1,count-selected(.)&gt;0)" relevant="( /cpon/g_patienta/p_int_cpon ='1' or  /cpon/g_patienta/p_int_cpon ='2') and  /cpon/examen_mere/v_transfert !=1"/>
       <bind nodeset="/cpon/examen_mere/msg_cara_etran" readonly="true()" type="string" relevant=" /cpon/examen_mere/cora_etran =1"/>
       <bind nodeset="/cpon/conseils" relevant="( /cpon/g_cpon/s_deces_maternel =-1) and  /cpon/examen_mere/v_transfert !=1 and  /cpon/consul_mere/s_transfert !=1"/>
       <bind nodeset="/cpon/conseils/label_conseil" type="select1"/>
@@ -5529,7 +5529,7 @@ and not(selected(.,'act_3' ) and (selected(.,'act_5' ) or selected(.,'act_4' ) )
       <bind nodeset="/cpon/mesure_preventif/vat_note" readonly="true()" type="string" relevant=" /cpon/mesure_preventif/vat_vacc =-1"/>
       <bind nodeset="/cpon/mesure_preventif/meb_albenda" type="select1"/>
       <bind nodeset="/cpon/mesure_preventif/note_alb_meb" readonly="true()" type="string" relevant=" /cpon/mesure_preventif/meb_albenda =-1"/>
-      <bind nodeset="/cpon/mesure_preventif/seropositive" type="select1" required="1" relevant=" /cpon/g_cpon/statut_vih =1"/>
+      <bind nodeset="/cpon/mesure_preventif/seropositive" type="select1" relevant=" /cpon/g_cpon/statut_vih =1" required="1"/>
       <bind nodeset="/cpon/mesure_preventif/planification_famil" type="select1" required="1"/>
       <bind nodeset="/cpon/resume" relevant=" /cpon/g_cpon/s_deces_maternel =-1"/>
       <bind nodeset="/cpon/resume/resume_ob" type="string" required="1"/>

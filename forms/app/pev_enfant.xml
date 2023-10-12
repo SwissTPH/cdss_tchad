@@ -1438,7 +1438,7 @@ Si le test est négatif; poursuivre le calendrier vaccinal normal de l' enfant.<
       <bind nodeset="/pev_enfant/age_weeks" type="string" calculate="int(  /pev_enfant/age_days  div 7)"/>
       <bind nodeset="/pev_enfant/age_months" type="string" calculate="int( /pev_enfant/age_days  div 30)"/>
       <bind nodeset="/pev_enfant/s_enfant/ch_mere_vih" type="select1" jr:requiredMsg="jr:itext('/pev_enfant/s_enfant/ch_mere_vih:jr:requiredMsg')" required="1"/>
-      <bind nodeset="/pev_enfant/s_enfant/ch_mere_diag" type="select1" relevant=" /pev_enfant/s_enfant/ch_mere_vih =0" jr:requiredMsg="jr:itext('/pev_enfant/s_enfant/ch_mere_diag:jr:requiredMsg')" required="1"/>
+      <bind nodeset="/pev_enfant/s_enfant/ch_mere_diag" type="select1" jr:requiredMsg="jr:itext('/pev_enfant/s_enfant/ch_mere_diag:jr:requiredMsg')" relevant=" /pev_enfant/s_enfant/ch_mere_vih =0" required="1"/>
       <bind nodeset="/pev_enfant/s_enfant/is_vih_mere_test_possible" type="select1" relevant=" /pev_enfant/s_enfant/ch_mere_diag =1" required="1"/>
       <bind nodeset="/pev_enfant/s_enfant/is_vih_mere_test" type="select1" relevant=" /pev_enfant/s_enfant/is_vih_mere_test_possible =1" required="1"/>
       <bind nodeset="/pev_enfant/s_enfant/tt_referer" readonly="true()" type="string" relevant=" /pev_enfant/s_enfant/is_vih_mere_test_possible =-1"/>

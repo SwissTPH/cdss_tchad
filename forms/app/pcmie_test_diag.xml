@@ -6520,7 +6520,7 @@ prurigineuses en bouquets</value>
         </translation>
       </itext>
       <instance>
-        <pcmie_test_diag id="pcmie_test_diag" prefix="J1!pcmie_test_diag!" delimiter="#" version="2307111401">
+        <pcmie_test_diag id="pcmie_test_diag" prefix="J1!pcmie_test_diag!" delimiter="#" version="2307141754">
           <inputs>
             <meta>
               <location>
@@ -8229,78 +8229,78 @@ prurigineuses en bouquets</value>
         <root>
           <item>
             <itextId>static_instance-lut_drugs_choice-0</itextId>
-            <Other>0</Other>
-            <Min_age_months>6</Min_age_months>
-            <Max_weight_kg>100</Max_weight_kg>
-            <Min_weight_kg>4</Min_weight_kg>
             <name>artesunate_rectal</name>
+            <Min_age_months>6</Min_age_months>
             <Max_age_months>100</Max_age_months>
+            <Min_weight_kg>4</Min_weight_kg>
+            <Max_weight_kg>100</Max_weight_kg>
+            <Other>0</Other>
             <filter>malaria_severe</filter>
           </item>
           <item>
             <itextId>static_instance-lut_drugs_choice-1</itextId>
-            <Other>0</Other>
-            <Min_age_months>0</Min_age_months>
-            <Max_weight_kg>100</Max_weight_kg>
-            <Min_weight_kg>0</Min_weight_kg>
             <name>artesunate</name>
+            <Min_age_months>0</Min_age_months>
             <Max_age_months>100</Max_age_months>
+            <Min_weight_kg>0</Min_weight_kg>
+            <Max_weight_kg>100</Max_weight_kg>
+            <Other>0</Other>
             <filter>malaria_severe</filter>
           </item>
           <item>
             <itextId>static_instance-lut_drugs_choice-2</itextId>
-            <Other>0</Other>
-            <Min_age_months>0</Min_age_months>
-            <Max_weight_kg>100</Max_weight_kg>
-            <Min_weight_kg>0</Min_weight_kg>
             <name>artemether_im</name>
+            <Min_age_months>0</Min_age_months>
             <Max_age_months>100</Max_age_months>
+            <Min_weight_kg>0</Min_weight_kg>
+            <Max_weight_kg>100</Max_weight_kg>
+            <Other>0</Other>
             <filter>malaria_severe</filter>
           </item>
           <item>
             <itextId>static_instance-lut_drugs_choice-3</itextId>
-            <Other>1</Other>
-            <Min_age_months>0</Min_age_months>
-            <Max_weight_kg>100</Max_weight_kg>
-            <Min_weight_kg>0</Min_weight_kg>
             <name>quinine_iv</name>
+            <Min_age_months>0</Min_age_months>
             <Max_age_months>100</Max_age_months>
+            <Min_weight_kg>0</Min_weight_kg>
+            <Max_weight_kg>100</Max_weight_kg>
+            <Other>1</Other>
             <filter>malaria_severe</filter>
           </item>
           <item>
             <itextId>static_instance-lut_drugs_choice-4</itextId>
-            <Min_weight_kg>0</Min_weight_kg>
-            <name>as_25_aq_67</name>
-            <Min_age_months>0</Min_age_months>
-            <Max_weight_kg>18</Max_weight_kg>
-            <Max_age_months>100</Max_age_months>
             <filter>as_aq</filter>
+            <Max_age_months>100</Max_age_months>
+            <name>as_25_aq_67</name>
+            <Max_weight_kg>18</Max_weight_kg>
+            <Min_age_months>0</Min_age_months>
+            <Min_weight_kg>0</Min_weight_kg>
           </item>
           <item>
             <itextId>static_instance-lut_drugs_choice-5</itextId>
-            <Min_weight_kg>0</Min_weight_kg>
-            <name>as_50_aq_135</name>
-            <Min_age_months>0</Min_age_months>
-            <Max_weight_kg>100</Max_weight_kg>
-            <Max_age_months>100</Max_age_months>
             <filter>as_aq</filter>
+            <Max_age_months>100</Max_age_months>
+            <name>as_50_aq_135</name>
+            <Max_weight_kg>100</Max_weight_kg>
+            <Min_age_months>0</Min_age_months>
+            <Min_weight_kg>0</Min_weight_kg>
           </item>
           <item>
             <itextId>static_instance-lut_drugs_choice-6</itextId>
-            <Min_weight_kg>36</Min_weight_kg>
-            <name>as_100_aq_270</name>
-            <Min_age_months>0</Min_age_months>
-            <Max_weight_kg>100</Max_weight_kg>
-            <Max_age_months>100</Max_age_months>
             <filter>as_aq</filter>
+            <Max_age_months>100</Max_age_months>
+            <name>as_100_aq_270</name>
+            <Max_weight_kg>100</Max_weight_kg>
+            <Min_age_months>0</Min_age_months>
+            <Min_weight_kg>36</Min_weight_kg>
           </item>
           <item>
             <itextId>static_instance-lut_drugs_choice-7</itextId>
-            <Min_weight_kg>0</Min_weight_kg>
-            <name>z_none</name>
-            <Min_age_months>0</Min_age_months>
-            <Max_weight_kg>100</Max_weight_kg>
             <Max_age_months>100</Max_age_months>
+            <name>z_none</name>
+            <Max_weight_kg>100</Max_weight_kg>
+            <Min_age_months>0</Min_age_months>
+            <Min_weight_kg>0</Min_weight_kg>
           </item>
         </root>
       </instance>
@@ -9210,7 +9210,7 @@ or  /pcmie_test_diag/g_urine_test_m/s_is_flank_pain_or_chills_m =-1 or
 ( /pcmie_test_diag/as_is_suspicion_lower_urinary_tract_infection_m =1 and  /pcmie_test_diag/result/d_fever &lt;1 and  /pcmie_test_diag/_case_as_is_red_swollen_tender_testicles &lt;1))"/>
       <bind nodeset="/pcmie_test_diag/result/d_cervical_infection" type="string" calculate="number(  /pcmie_test_diag/g_urine_test_f/s_is_genital_discharge_painful =1)"/>
       <bind nodeset="/pcmie_test_diag/result/d_genital_discharge_treat" type="string" calculate="number( selected( /pcmie_test_diag/g_urine_test_f/s_is_mucopurulent_discharge , 'high_yes'))"/>
-      <bind nodeset="/pcmie_test_diag/result/d_illness_fever" type="string" calculate="number( /pcmie_test_diag/_case_d_illness_fever =0)"/>
+      <bind nodeset="/pcmie_test_diag/result/d_illness_fever" type="string" calculate="number( /pcmie_test_diag/_case_d_illness_fever )"/>
       <bind nodeset="/pcmie_test_diag/result/f_is_salbutamol_effect" type="select1" required="1" relevant=" /pcmie_test_diag/_case_d_wheezing_to_follow =1"/>
       <bind nodeset="/pcmie_test_diag/g__malaria_rdt" relevant=" /pcmie_test_diag/_case_d_illness_fever_severe_malaria_to_test =1 or
  /pcmie_test_diag/_case_d_illness_fever_severe_persistent_malaria_to_test =1 or
@@ -9226,16 +9226,16 @@ or  /pcmie_test_diag/g_urine_test_m/s_is_flank_pain_or_chills_m =-1 or
       <bind nodeset="/pcmie_test_diag/g_hepatitis_rdt/dh_is_hepatitis" type="select1" required="1" relevant=" /pcmie_test_diag/g_hepatitis_rdt/f_tr_hepatitis =1 or  /pcmie_test_diag/g_hepatitis_rdt/t_is_hepatitis =1"/>
       <bind nodeset="/pcmie_test_diag/g_hemoglobin_rdt" relevant=" /pcmie_test_diag/_case_d_anemia_moderate_to_test =1 or  /pcmie_test_diag/_case_d_anemia_severe_to_test =1"/>
       <bind nodeset="/pcmie_test_diag/g_hemoglobin_rdt/t_is_hemoglobin" type="select1" required="1"/>
-      <bind nodeset="/pcmie_test_diag/g_hemoglobin_rdt/f_dec_hemoglobin" type="decimal" jr:constraintMsg="jr:itext('/pcmie_test_diag/g_hemoglobin_rdt/f_dec_hemoglobin:jr:constraintMsg')" constraint=".&gt;1 and .&lt;16" required="1" relevant=" /pcmie_test_diag/g_hemoglobin_rdt/t_is_hemoglobin =1"/>
+      <bind nodeset="/pcmie_test_diag/g_hemoglobin_rdt/f_dec_hemoglobin" type="decimal" required="1" constraint=".&gt;1 and .&lt;16" relevant=" /pcmie_test_diag/g_hemoglobin_rdt/t_is_hemoglobin =1" jr:constraintMsg="jr:itext('/pcmie_test_diag/g_hemoglobin_rdt/f_dec_hemoglobin:jr:constraintMsg')"/>
       <bind nodeset="/pcmie_test_diag/g_strep_a_rdt" relevant=" /pcmie_test_diag/_case_d_angina_to_test =1"/>
       <bind nodeset="/pcmie_test_diag/g_strep_a_rdt/f_tr_strep_a" type="select1" required="1"/>
       <bind nodeset="/pcmie_test_diag/g_strep_a_rdt/label_strep_a" readonly="true()" type="string" relevant="selected( /pcmie_test_diag/g_strep_a_rdt/f_tr_strep_a ,'0')"/>
       <bind nodeset="/pcmie_test_diag/g_strep_a_rdt/t_is_strep_a" type="select1" relevant="selected( /pcmie_test_diag/g_strep_a_rdt/f_tr_strep_a ,'0')"/>
       <bind nodeset="/pcmie_test_diag/g_strep_a_rdt/t_drinking" type="select1" required="1" relevant="( /pcmie_test_diag/result/d_angina =1 or  /pcmie_test_diag/result/d_pharyngitis_viral =1 )"/>
-      <bind nodeset="/pcmie_test_diag/g_strep_a_rdt/f_ch_dehydration" type="select" jr:constraintMsg="jr:itext('/pcmie_test_diag/g_strep_a_rdt/f_ch_dehydration:jr:constraintMsg')" constraint="if(selected(.,&quot;z_none&quot;),count-selected(.)=1,not(count-selected(.)=0 
+      <bind nodeset="/pcmie_test_diag/g_strep_a_rdt/f_ch_dehydration" type="select" required="1" constraint="if(selected(.,&quot;z_none&quot;),count-selected(.)=1,not(count-selected(.)=0 
 or (selected(.,'s_lethargic') and selected(.,'s_cranky') ) 
 or (selected(.,'s_no_drink') and selected(.,'s_thirsty') )
-or (selected(.,'s_skin_fold_fast_fade') and selected(.,'s_skin_fold_slow_fade') )))" required="1" relevant="( /pcmie_test_diag/g_strep_a_rdt/t_drinking =-1)"/>
+or (selected(.,'s_skin_fold_fast_fade') and selected(.,'s_skin_fold_slow_fade') )))" relevant="( /pcmie_test_diag/g_strep_a_rdt/t_drinking =-1)" jr:constraintMsg="jr:itext('/pcmie_test_diag/g_strep_a_rdt/f_ch_dehydration:jr:constraintMsg')"/>
       <bind nodeset="/pcmie_test_diag/g_strep_a_rdt/as_is_dehydration_a" type="string" calculate="number(selected( /pcmie_test_diag/g_strep_a_rdt/f_ch_dehydration , 's_lethargic'))+ number(selected( /pcmie_test_diag/g_strep_a_rdt/f_ch_dehydration , 's_no_drink'))+number(selected( /pcmie_test_diag/g_strep_a_rdt/f_ch_dehydration , 's_skin_fold_slow_fade') )"/>
       <bind nodeset="/pcmie_test_diag/g_strep_a_rdt/as_is_dehydration_b" type="string" calculate="number(selected( /pcmie_test_diag/g_strep_a_rdt/f_ch_dehydration , 's_cranky')) +number(selected( /pcmie_test_diag/g_strep_a_rdt/f_ch_dehydration , 's_thirsty'))+ number(selected( /pcmie_test_diag/g_strep_a_rdt/f_ch_dehydration , 's_skin_fold_fast_fade'))"/>
       <bind nodeset="/pcmie_test_diag/g_strep_a_rdt/as_is_dehydration_s" type="string" calculate="number(selected( /pcmie_test_diag/g_strep_a_rdt/f_ch_dehydration , 's_eye_sunken'))"/>
@@ -9728,7 +9728,7 @@ and  /pcmie_test_diag/g_treatment/a_referral =0 and  /pcmie_test_diag/g_treatmen
       <bind nodeset="/pcmie_test_diag/g_treatment/g_tt_malaria/label_tt_malaria_severe_artemether_im" readonly="true()" type="string" relevant=" /pcmie_test_diag/g_treatment/g_tt_malaria/dga_sel_antimalaria_severe =&quot;artemether_im&quot;"/>
       <bind nodeset="/pcmie_test_diag/g_treatment/g_tt_malaria/dg_artesunate_iv_ml" type="string" calculate="cht:extension-lib('drugs.js','artesunate_iv_ml', /pcmie_test_diag/result/p_sel_gender ,  /pcmie_test_diag/result/p_age , /pcmie_test_diag/result/p_weight )"/>
       <bind nodeset="/pcmie_test_diag/g_treatment/g_tt_malaria/dg_artesunate_iv_mg" type="string" calculate=" /pcmie_test_diag/g_treatment/g_tt_malaria/dg_artesunate_iv_ml  * 10"/>
-      <bind nodeset="/pcmie_test_diag/g_treatment/g_tt_malaria/dgm_is_artesunate_iv_im" type="select1" calculate="coalesce(.,if( /pcmie_test_diag/g_treatment/g_tt_malaria/dg_artesunate_im_ml &gt;10,'iv',''))" required="1" relevant=" /pcmie_test_diag/g_treatment/g_tt_malaria/dga_sel_antimalaria_severe =&quot;artesunate&quot; and  /pcmie_test_diag/g_treatment/g_tt_malaria/dg_artesunate_im_ml &lt;10"/>
+      <bind nodeset="/pcmie_test_diag/g_treatment/g_tt_malaria/dgm_is_artesunate_iv_im" type="select1" required="1" calculate="coalesce(.,if( /pcmie_test_diag/g_treatment/g_tt_malaria/dg_artesunate_im_ml &gt;10,'iv',''))" relevant=" /pcmie_test_diag/g_treatment/g_tt_malaria/dga_sel_antimalaria_severe =&quot;artesunate&quot; and  /pcmie_test_diag/g_treatment/g_tt_malaria/dg_artesunate_im_ml &lt;10"/>
       <bind nodeset="/pcmie_test_diag/g_treatment/g_tt_malaria/label_tt_malaria_severe_artesunate_iv" readonly="true()" type="string" relevant=" /pcmie_test_diag/g_treatment/g_tt_malaria/dga_sel_antimalaria_severe =&quot;artesunate&quot; and ( /pcmie_test_diag/g_treatment/g_tt_malaria/dgm_is_artesunate_iv_im  = &quot;iv&quot; or  /pcmie_test_diag/g_treatment/g_tt_malaria/dg_artesunate_im_ml &gt;10)"/>
       <bind nodeset="/pcmie_test_diag/g_treatment/g_tt_malaria/dg_artesunate_im_ml" type="string" calculate="cht:extension-lib('drugs.js','artesunate_im_ml', /pcmie_test_diag/result/p_sel_gender ,  /pcmie_test_diag/result/p_age , /pcmie_test_diag/result/p_weight )"/>
       <bind nodeset="/pcmie_test_diag/g_treatment/g_tt_malaria/dg_artesunate_im_mg" type="string" calculate=" /pcmie_test_diag/g_treatment/g_tt_malaria/dg_artesunate_im_ml  * 20"/>
@@ -10252,7 +10252,7 @@ if( /pcmie_test_diag/result/p_age &gt;72, 400, 0
       <bind nodeset="/pcmie_test_diag/g_treatment/g_tt_malnutrition/dga_is_supercereal" type="select1" required="1" relevant="false() and ( /pcmie_test_diag/result/d_malnutrition_moderate =1 and  /pcmie_test_diag/g_treatment/g_tt_malnutrition/dga_is_rusf =-1) or ( /pcmie_test_diag/result/d_malnutrition_severe =1 and  /pcmie_test_diag/g_treatment/g_tt_malnutrition/dga_is_ruft =-1)"/>
       <bind nodeset="/pcmie_test_diag/g_treatment/g_tt_malnutrition/dga_is_nutributter" type="select1" required="1" relevant="false() and ( /pcmie_test_diag/result/d_malnutrition_moderate =1 or  /pcmie_test_diag/result/d_malnutrition_severe =1 ) and  /pcmie_test_diag/g_treatment/g_tt_malnutrition/dga_is_supercereal =-1"/>
       <bind nodeset="/pcmie_test_diag/g_treatment/g_tt_malnutrition/label_tt_baby_canbe_malnurished" readonly="true()" type="string" relevant=" /pcmie_test_diag/result/d_malnutrition_cannot_assess =1"/>
-      <bind nodeset="/pcmie_test_diag/g_treatment/g_tt_malnutrition/dgs_nutri_6p" type="select" constraint=".='1'" required="1" relevant=" /pcmie_test_diag/g_treatment/g_tt_malnutrition/as_nuti_referral =1"/>
+      <bind nodeset="/pcmie_test_diag/g_treatment/g_tt_malnutrition/dgs_nutri_6p" type="select" required="1" constraint=".='1'" relevant=" /pcmie_test_diag/g_treatment/g_tt_malnutrition/as_nuti_referral =1"/>
       <bind nodeset="/pcmie_test_diag/g_treatment/g_tt_malnutrition/as_nuti_referral" type="string" calculate="number((  /pcmie_test_diag/g_treatment/g_tt_malnutrition/dga_is_rusf =-1 or  /pcmie_test_diag/g_treatment/g_tt_malnutrition/dga_is_ruft =-1) and  /pcmie_test_diag/g_treatment/a_referral_any =0)"/>
       <bind nodeset="/pcmie_test_diag/g_treatment/g_drug_specific/label_eye_injury_1" readonly="true()" type="string" relevant=" /pcmie_test_diag/result/d_eye_injury =1"/>
       <bind nodeset="/pcmie_test_diag/g_treatment/g_drug_specific/label_eye_injury_2" readonly="true()" type="string" relevant=" /pcmie_test_diag/result/d_eye_injury =1"/>
@@ -10265,7 +10265,7 @@ if( /pcmie_test_diag/result/p_age &gt;72, 400, 0
       <bind nodeset="/pcmie_test_diag/g_treatment/g_drug_specific/label_asthma_check" readonly="true()" type="string" relevant=" /pcmie_test_diag/result/d_wheezing_recurent =1"/>
       <bind nodeset="/pcmie_test_diag/g_treatment/g_drug_specific/label_abdomen_acture" readonly="true()" type="string" relevant=" /pcmie_test_diag/result/d_abdomen_acute =1"/>
       <bind nodeset="/pcmie_test_diag/g_treatment/g_drug_specific/label_intestinal_invagination" readonly="true()" type="string" relevant=" /pcmie_test_diag/result/d_acute_intestinal_invagination =1"/>
-      <bind nodeset="/pcmie_test_diag/g_treatment/g_drug_specific/a_iv_possible_surgical" type="select1" calculate=" /pcmie_test_diag/result/a_iv_possible =1" required="1" relevant="coalesce( /pcmie_test_diag/result/a_iv_possible ,0)=0 and (  /pcmie_test_diag/result/d_abdomen_acute =1 or
+      <bind nodeset="/pcmie_test_diag/g_treatment/g_drug_specific/a_iv_possible_surgical" type="select1" required="1" calculate=" /pcmie_test_diag/result/a_iv_possible =1" relevant="coalesce( /pcmie_test_diag/result/a_iv_possible ,0)=0 and (  /pcmie_test_diag/result/d_abdomen_acute =1 or
  /pcmie_test_diag/result/d_acute_intestinal_invagination =1)"/>
       <bind nodeset="/pcmie_test_diag/g_treatment/g_drug_specific/dg_paracetamol_iv_mg" type="string" calculate="min( /pcmie_test_diag/g_treatment/dg_15_wa ,500)"/>
       <bind nodeset="/pcmie_test_diag/g_treatment/g_drug_specific/dg_paracetamol_iv_500_ml" type="string" calculate="int( /pcmie_test_diag/g_treatment/g_drug_specific/dg_paracetamol_iv_mg  div 5)"/>
