@@ -1,0 +1,33 @@
+{
+    "resourceType": "CodeSystem",
+    "id": "hist",
+    "url": "http://example.com/fhir/CodeSystem/hist",
+    "version": "1.0.0",
+    "name": "hist",
+    "title": "hist",
+    "status": "draft",
+    "description": "Code system for hist",
+    "content": "complete",
+    "concept": [
+        {
+            "code": "hist.hypertension",
+            "display": "hypertension dans les dernier jours",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "N/A"
+                }
+            ]
+        },
+        {
+            "code": "hist.hypertension_several",
+            "display": "Histoir d'une seule ou de plusieurs crises",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Coded"
+                }
+            ]
+        }
+    ]
+}

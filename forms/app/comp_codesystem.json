@@ -1,0 +1,23 @@
+{
+    "resourceType": "CodeSystem",
+    "id": "comp",
+    "url": "http://example.com/fhir/CodeSystem/comp",
+    "version": "1.0.0",
+    "name": "comp",
+    "title": "comp",
+    "status": "draft",
+    "description": "Code system for comp",
+    "content": "complete",
+    "concept": [
+        {
+            "code": "comp.depression",
+            "display": "Dépression",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "N/A"
+                }
+            ]
+        }
+    ]
+}

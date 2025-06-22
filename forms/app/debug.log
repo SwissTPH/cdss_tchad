@@ -1,0 +1,1639 @@
+[2025-06-22 11:57:53,408] {/home/delcpa/Development/tricc_oo/tests/build.py:198} INFO - build the graph from strategy DrawioStrategy
+[2025-06-22 11:57:53,409] {/home/delcpa/Development/tricc_oo/tricc_oo/strategies/input/drawio.py:64} INFO - # Create the activities from diagram project.pages
+[2025-06-22 11:57:53,475] {/home/delcpa/Development/tricc_oo/tricc_oo/strategies/input/drawio.py:84} INFO - Create the activity ZVyomWuRRaxMyKH_zGSC::titre
+[2025-06-22 11:57:53,475] {/home/delcpa/Development/tricc_oo/tricc_oo/strategies/input/drawio.py:90} ERROR - diagram ZVyomWuRRaxMyKH_zGSC::titre was not loaded properly
+[2025-06-22 11:57:53,475] {/home/delcpa/Development/tricc_oo/tricc_oo/strategies/input/drawio.py:84} INFO - Create the activity U06xAuhg1nrcPxDUVI5P::Signes de danger
+[2025-06-22 11:57:53,610] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:31} INFO - New codesystem tricc added to project
+[2025-06-22 11:57:53,610] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:31} INFO - New codesystem flag added to project
+[2025-06-22 11:57:53,611] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_1 already exists with a different display:
+ Concept:En travail
+ Current:Ancien cas
+[2025-06-22 11:57:53,611] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_3 already exists with a different display:
+ Concept:Grossesse visible et/ou plus de 20 semaines
+ Current:Nouveau cas
+[2025-06-22 11:57:53,611] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_4 already exists with a different display:
+ Concept:Grossesse non visible ou moins de 20 semaines
+ Current:Réevaluation (Après test, correction, stabilisation)
+[2025-06-22 11:57:53,611] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:31} INFO - New codesystem obs added to project
+[2025-06-22 11:57:53,612] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code flag.ds already exists with a different display:
+ Concept:En ce moment, le patient présente-t'il des signes de danger menançant son prognostic vital?
+ Current:Signe de danger feminin
+[2025-06-22 11:57:53,613] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:31} INFO - New codesystem cond added to project
+[2025-06-22 11:57:53,617] {/home/delcpa/Development/tricc_oo/tricc_oo/strategies/input/drawio.py:84} INFO - Create the activity j-8yGeDXWkknuB3ke9-g::AVPU
+[2025-06-22 11:57:53,621] {/home/delcpa/Development/tricc_oo/tricc_oo/strategies/input/drawio.py:84} INFO - Create the activity 3E2_PMmeRy4krbVPuv5T::Signe de danger A
+[2025-06-22 11:57:53,639] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:31} INFO - New codesystem diag added to project
+[2025-06-22 11:57:53,645] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/xml_to_tricc.py:246} CRITICAL - rhombus Rhombusn307783888a3547ed::&gt;0 node with labelless edges
+[2025-06-22 11:57:53,645] {/home/delcpa/Development/tricc_oo/tricc_oo/strategies/input/drawio.py:84} INFO - Create the activity tTx5fCwuDCNoa2sk4woa::Tension et choc (signe dange C)
+[2025-06-22 11:57:53,715] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_1 already exists with a different display:
+ Concept:En travail
+ Current:Très faible / abolie / imprenable
+[2025-06-22 11:57:53,716] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_2 already exists with a different display:
+ Concept:Contration
+ Current:Faible
+[2025-06-22 11:57:53,716] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_3 already exists with a different display:
+ Concept:Grossesse visible et/ou plus de 20 semaines
+ Current:Normal ou Fort
+[2025-06-22 11:57:53,717] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/xml_to_tricc.py:246} CRITICAL - rhombus Rhombusnb330de16187fec2e::pouls&gt;110 node with labelless edges
+[2025-06-22 11:57:53,717] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/xml_to_tricc.py:246} CRITICAL - rhombus Rhombusn5b1fc0cc4dd6715d::systolique >= 140 ou diastolic >=90 node with labelless edges
+[2025-06-22 11:57:53,718] {/home/delcpa/Development/tricc_oo/tricc_oo/strategies/input/drawio.py:84} INFO - Create the activity B7shNgv46yREO6_pwAOP::Déhydratation
+[2025-06-22 11:57:53,733] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_1 already exists with a different display:
+ Concept:En travail
+ Current:Difficile à palper (filant) ou absent
+[2025-06-22 11:57:53,733] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_2 already exists with a different display:
+ Concept:Contration
+ Current:Palpable (éventuellement rapide)
+[2025-06-22 11:57:53,733] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_none already exists with a different display:
+ Concept:Aucun des symptômes ci-dessus
+ Current:Pouls: facilement palpable
+[2025-06-22 11:57:53,733] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_1 already exists with a different display:
+ Concept:En travail
+ Current:s’efface très lentement (> 2 secondes)
+[2025-06-22 11:57:53,734] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_2 already exists with a different display:
+ Concept:Contration
+ Current:s’efface lentement (<= 2 secondes)
+[2025-06-22 11:57:53,734] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_none already exists with a different display:
+ Concept:Aucun des symptômes ci-dessus
+ Current:s’efface rapidement
+[2025-06-22 11:57:53,734] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_1 already exists with a different display:
+ Concept:En travail
+ Current:Léthargique ou inconscient
+[2025-06-22 11:57:53,734] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_2 already exists with a different display:
+ Concept:Contration
+ Current:Agité, irritable
+[2025-06-22 11:57:53,734] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_none already exists with a different display:
+ Concept:Aucun des symptômes ci-dessus
+ Current:normal, éveillé
+[2025-06-22 11:57:53,734] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_1 already exists with a different display:
+ Concept:En travail
+ Current:Incapacité ou difficulté à boire
+[2025-06-22 11:57:53,734] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_2 already exists with a different display:
+ Concept:Contration
+ Current:Boit avec avidité, assoiffé
+[2025-06-22 11:57:53,735] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_none already exists with a different display:
+ Concept:Aucun des symptômes ci-dessus
+ Current:boit normal
+[2025-06-22 11:57:53,736] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/xml_to_tricc.py:246} CRITICAL - rhombus Rhombusnfce188f8f697247c::pas de reaction ou réaction qu'au stimulus douleureux node with labelless edges
+[2025-06-22 11:57:53,737] {/home/delcpa/Development/tricc_oo/tricc_oo/strategies/input/drawio.py:84} INFO - Create the activity CaePlTxn_9v5w8F1rCkh::Signe de danger D
+[2025-06-22 11:57:53,761] {/home/delcpa/Development/tricc_oo/tricc_oo/strategies/input/drawio.py:84} INFO - Create the activity C5RBs43oDa-KdzZeNtuy::Enregistrement
+[2025-06-22 11:57:53,823] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_1 already exists with a different display:
+ Concept:En travail
+ Current:Medicaments, vaccins
+[2025-06-22 11:57:53,824] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_2 already exists with a different display:
+ Concept:Contration
+ Current:Alcool, drogues, Yambo ou  traitement herbalistes (haleine)
+[2025-06-22 11:57:53,824] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_3 already exists with a different display:
+ Concept:Grossesse visible et/ou plus de 20 semaines
+ Current:Autre produit non alimantaire (phytosaniataire, produit d'entretient, solvants)
+[2025-06-22 11:57:53,824] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_none already exists with a different display:
+ Concept:Aucun des symptômes ci-dessus
+ Current:Aucun
+[2025-06-22 11:57:53,824] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_2 already exists with a different display:
+ Concept:Contration
+ Current:Histoire de fièvre
+[2025-06-22 11:57:53,825] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_3 already exists with a different display:
+ Concept:Grossesse visible et/ou plus de 20 semaines
+ Current:Le patient a-t-il reçu du paracétamol ou tout autre médicament pour faire baisser la fièvre (antipyrétique) au cours des 12 dernières heures?
+[2025-06-22 11:57:53,825] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_4 already exists with a different display:
+ Concept:Grossesse non visible ou moins de 20 semaines
+ Current:Le patient a-t-il pris un médicament antipaludéen
+[2025-06-22 11:57:53,825] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_none already exists with a different display:
+ Concept:Aucun des symptômes ci-dessus
+ Current:Aucun des choix
+[2025-06-22 11:57:53,825] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_1 already exists with a different display:
+ Concept:En travail
+ Current:1. Problémes de respiration, voies aériennes, gorge, bouche, dents
+[2025-06-22 11:57:53,825] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_2 already exists with a different display:
+ Concept:Contration
+ Current:2. Problémes abdominaux / digestifs 
+[2025-06-22 11:57:53,825] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_3 already exists with a different display:
+ Concept:Grossesse visible et/ou plus de 20 semaines
+ Current:3. Problèmes / Troubles génito-urinaires
+[2025-06-22 11:57:53,826] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_4 already exists with a different display:
+ Concept:Grossesse non visible ou moins de 20 semaines
+ Current:4. Problémes cardiovasculaires (mal au thorax, difficultées respiratoires, oedèmes, mal à la tête, diabète)
+[2025-06-22 11:57:53,826] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_none already exists with a different display:
+ Concept:Aucun des symptômes ci-dessus
+ Current:Accuns des ces problèmes ci dessus
+[2025-06-22 11:57:53,827] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/xml_to_tricc.py:246} CRITICAL - rhombus Rhombusndf590973923eeafd::Femme enceinte ou grossesse possible node with labelless edges
+[2025-06-22 11:57:53,836] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/xml_to_tricc.py:246} CRITICAL - rhombus Rhombusn208f6f7c0d19140c::>=37.5 node with labelless edges
+[2025-06-22 11:57:53,836] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/xml_to_tricc.py:246} CRITICAL - rhombus Rhombusnf117f3eee3f18857::&gt;0 node with labelless edges
+[2025-06-22 11:57:53,836] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/xml_to_tricc.py:246} CRITICAL - rhombus Rhombusn18e6701210a5bf71::&gt;0 node with labelless edges
+[2025-06-22 11:57:53,839] {/home/delcpa/Development/tricc_oo/tricc_oo/strategies/input/drawio.py:84} INFO - Create the activity 5KpibmRiOo0KWIx15IyM::Fiévre
+[2025-06-22 11:57:53,971] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:31} INFO - New codesystem test added to project
+[2025-06-22 11:57:53,972] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_3 already exists with a different display:
+ Concept:Grossesse visible et/ou plus de 20 semaines
+ Current:Anurie (pas d'urine), Hémoglobinurie (urine foncée)
+[2025-06-22 11:57:53,972] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_2 already exists with a different display:
+ Concept:Contration
+ Current:Pâleur / pâleur des conjonctives et muqueuses, taux d’hémoglobine < 7 g/dl)
+[2025-06-22 11:57:53,972] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_4 already exists with a different display:
+ Concept:Grossesse non visible ou moins de 20 semaines
+ Current:Mal au ventre sévère ET/OU Vomissement incoercibles
+[2025-06-22 11:57:53,972] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code obs.belly_pain_severe already exists with a different display:
+ Concept:[P] Mal au ventre sévère aigüe
+ Current:Mal au ventre sévère ET/OU Vomissement incoercibles
+[2025-06-22 11:57:53,972] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code weakness already exists with a different display:
+ Concept:[C] Faiblesse <b>prononcée</b>,  Incapable de se tenir debout
+ Current:Faiblesse prononcée,  Incapable de se tenir debout
+[2025-06-22 11:57:53,972] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code obs.overall_weakness already exists with a different display:
+ Concept:[C] Faiblesse <b>prononcée</b>,  Incapable de se tenir debout
+ Current:Faiblesse prononcée,  Incapable de se tenir debout
+[2025-06-22 11:57:53,973] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_6 already exists with a different display:
+ Concept:6. Douleur et localisation
+ Current:Eruption cutanée non-localisée (Exantheme)
+[2025-06-22 11:57:53,973] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_8 already exists with a different display:
+ Concept:8. Gynécologique et Obstétrique 
+ Current:Ictère
+[2025-06-22 11:57:53,973] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code obs.bleeding_important_or_spontanous already exists with a different display:
+ Concept:[C] Saignements important de plaies ou spontanés (nez, peau, dans le vomi / selles)
+ Current:Saignement spontané
+[2025-06-22 11:57:53,973] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_none already exists with a different display:
+ Concept:Aucun des symptômes ci-dessus
+ Current:Aucun des symptomes ci-dessus
+[2025-06-22 11:57:53,973] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_3 already exists with a different display:
+ Concept:Grossesse visible et/ou plus de 20 semaines
+ Current:Trouble de la concience (y compris un coma aréactif)
+[2025-06-22 11:57:53,973] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code obs.conscience_issue already exists with a different display:
+ Concept:[D] Déficit neurologique; trouble de conscience, de la parole ou moteur
+ Current:Trouble de la concience (y compris un coma aréactif)
+[2025-06-22 11:57:53,973] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_2 already exists with a different display:
+ Concept:Contration
+ Current:Prostation, c'est-à-dire une une faiblesse généralisée, de sorte que le patient est incapable de s'assoir, de se tenir debout ou de marcher sans assistance
+[2025-06-22 11:57:53,973] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code obs.overall_weakness already exists with a different display:
+ Concept:[C] Faiblesse <b>prononcée</b>,  Incapable de se tenir debout
+ Current:Prostation, c'est-à-dire une une faiblesse généralisée, de sorte que le patient est incapable de s'assoir, de se tenir debout ou de marcher sans assistance
+[2025-06-22 11:57:53,974] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_4 already exists with a different display:
+ Concept:Grossesse non visible ou moins de 20 semaines
+ Current:Convulsions répétées: plus de deux (2) épisodes en 24h
+[2025-06-22 11:57:53,974] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code obs.convulsion already exists with a different display:
+ Concept:[D] Convulsions  ou perte de concience
+ Current:Convulsions répétées: plus de deux (2) épisodes en 24h
+[2025-06-22 11:57:53,974] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_6 already exists with a different display:
+ Concept:6. Douleur et localisation
+ Current:Oedème pulmonaire aigue et syndrome de détresse respiratoire aigue
+[2025-06-22 11:57:53,974] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code obs.choc already exists with a different display:
+ Concept:choc
+ Current:Collaspsus circulatoire ou choc, tension arterielle systolique < 70 mm Hg
+[2025-06-22 11:57:53,974] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:107} WARNING - conflicting value for property datatype: Boolean != N/A
+[2025-06-22 11:57:53,974] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:107} WARNING - conflicting value for property datatype: Boolean != N/A
+[2025-06-22 11:57:53,974] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_7 already exists with a different display:
+ Concept:7. Problèmes de peau (nodules, taches, vesicules, ulceres..) 
+ Current:Rareté des urines, anurie ou noires "coca-cola" (Lésion rénale aigue)
+[2025-06-22 11:57:53,974] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_8 already exists with a different display:
+ Concept:8. Gynécologique et Obstétrique 
+ Current:Ictére clinique (yeux jaunes)
+[2025-06-22 11:57:53,974] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code obs.ictere already exists with a different display:
+ Concept:Ictère
+ Current:Ictére clinique (yeux jaunes)
+[2025-06-22 11:57:53,974] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_9 already exists with a different display:
+ Concept:9. Problémes neurologiques( troubles de la conscience, du comportement, de la parole, de la motricité faiblaisse motrice ou perte de sensibilité)
+ Current:Anèmie clinique (paleur des conjonctives et des muqueuses)
+[2025-06-22 11:57:53,974] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code obs.bleeding_important_or_spontanous already exists with a different display:
+ Concept:[C] Saignements important de plaies ou spontanés (nez, peau, dans le vomi / selles)
+ Current:Saignement spontané
+[2025-06-22 11:57:53,974] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_none already exists with a different display:
+ Concept:Aucun des symptômes ci-dessus
+ Current:Aucun des symptomes ci-dessus
+[2025-06-22 11:57:53,975] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code ds_f already exists with a different display:
+ Concept:Evaluation symptômes et signes et symptômes de gravité / danger fébriles
+ Current:Le patient a-t-il les signes cliniques du paludisme grâve ?
+[2025-06-22 11:57:53,976] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code diag.illness_fever_severe already exists with a different display:
+ Concept:**Maladies fébriles graves**
+ Current:Maladie fébrile grave 
+[2025-06-22 11:57:53,984] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/xml_to_tricc.py:246} CRITICAL - rhombus Rhombusndb40c191552c9be6::&gt;0 node with labelless edges
+[2025-06-22 11:57:53,984] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/xml_to_tricc.py:246} CRITICAL - rhombus Rhombusn9ce2357028b6108b::&gt;0 node with labelless edges
+[2025-06-22 11:57:53,988] {/home/delcpa/Development/tricc_oo/tricc_oo/strategies/input/drawio.py:84} INFO - Create the activity 3zFyH5tYf_-RTW2LAGYe::Autre syndrome febrile 
+[2025-06-22 11:57:54,044] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_1 already exists with a different display:
+ Concept:En travail
+ Current:presence d'Adénopathie
+[2025-06-22 11:57:54,045] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_2 already exists with a different display:
+ Concept:Contration
+ Current:Mal à l'oeil
+[2025-06-22 11:57:54,045] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_none already exists with a different display:
+ Concept:Aucun des symptômes ci-dessus
+ Current:Accuns des symptômes ci dessus
+[2025-06-22 11:57:54,046] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_1 already exists with a different display:
+ Concept:En travail
+ Current:Douleurs abdominales persistantes (douleur ou sensibilité à la palpation au noiveau abdominal)
+[2025-06-22 11:57:54,047] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_2 already exists with a different display:
+ Concept:Contration
+ Current:Vomissements persistants
+[2025-06-22 11:57:54,048] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_4 already exists with a different display:
+ Concept:Grossesse non visible ou moins de 20 semaines
+ Current:Respiration rapide
+[2025-06-22 11:57:54,048] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_7 already exists with a different display:
+ Concept:7. Problèmes de peau (nodules, taches, vesicules, ulceres..) 
+ Current:[Léthargie] [grande agitation] [anxiété] 
+[2025-06-22 11:57:54,049] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_none already exists with a different display:
+ Concept:Aucun des symptômes ci-dessus
+ Current:Accuns des symptômes ci dessus
+[2025-06-22 11:57:54,049] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:31} INFO - New codesystem cnt added to project
+[2025-06-22 11:57:54,051] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code diag.illness_fever_severe already exists with a different display:
+ Concept:**Maladies fébriles graves**
+ Current:Maladie fébrile grave 
+[2025-06-22 11:57:54,052] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/xml_to_tricc.py:246} CRITICAL - rhombus Rhombusn3c7db31ddfdd67d1::&gt;2 node with labelless edges
+[2025-06-22 11:57:54,052] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/xml_to_tricc.py:246} CRITICAL - rhombus Rhombusnbf5fa3b6f34dc385::Fatigue, faiblesse, Palpitation, vertige, céphalées node with labelless edges
+[2025-06-22 11:57:54,052] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/xml_to_tricc.py:246} CRITICAL - rhombus Rhombusn2411d1dfb8a092f1::[C] Saignements important de plaies ou spontanés (nez, node with labelless edges
+[2025-06-22 11:57:54,053] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/xml_to_tricc.py:246} CRITICAL - rhombus Rhombusnd837d85e7b219492::Céphalé sévère node with labelless edges
+[2025-06-22 11:57:54,054] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/xml_to_tricc.py:246} CRITICAL - rhombus Rhombusn7a1e579cd03b0dc9::Mal à la tête node with labelless edges
+[2025-06-22 11:57:54,054] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/xml_to_tricc.py:246} CRITICAL - rhombus Rhombusn28a574bc73a77fd3::Vomissement/Nausée node with labelless edges
+[2025-06-22 11:57:54,054] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/xml_to_tricc.py:246} CRITICAL - rhombus Rhombusn308449cc5a80a229::myalgies&nbsp; node with labelless edges
+[2025-06-22 11:57:54,055] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/xml_to_tricc.py:246} CRITICAL - rhombus Rhombusn7507d81ff1bd5685::eruption cutanée: exanthème node with labelless edges
+[2025-06-22 11:57:54,055] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/xml_to_tricc.py:246} CRITICAL - rhombus Rhombusnfe3ed12eb62a4c2d::Arthralgies node with labelless edges
+[2025-06-22 11:57:54,055] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/xml_to_tricc.py:246} CRITICAL - rhombus Rhombusn3c7db31ddfdd67d1::&gt;2 node with labelless edges
+[2025-06-22 11:57:54,059] {/home/delcpa/Development/tricc_oo/tricc_oo/strategies/input/drawio.py:84} INFO - Create the activity yXGgLwEPaDZIeLT89hV2::DOULEURS: symptomes
+[2025-06-22 11:57:54,071] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_1 already exists with a different display:
+ Concept:En travail
+ Current:paralysie membres
+[2025-06-22 11:57:54,072] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_8 already exists with a different display:
+ Concept:8. Gynécologique et Obstétrique 
+ Current:mal  aux lombes?
+[2025-06-22 11:57:54,073] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_2 already exists with a different display:
+ Concept:Contration
+ Current:mal au dos ?
+[2025-06-22 11:57:54,073] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_3 already exists with a different display:
+ Concept:Grossesse visible et/ou plus de 20 semaines
+ Current:Mal au membres ou articulations
+[2025-06-22 11:57:54,074] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_5 already exists with a different display:
+ Concept:5. Pâleur, Faiblesse, ictère, oedemes, enflures
+ Current:Lésions ET enflure membres
+[2025-06-22 11:57:54,075] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_none already exists with a different display:
+ Concept:Aucun des symptômes ci-dessus
+ Current:Accuns des symptômes ci dessus
+[2025-06-22 11:57:54,075] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_1 already exists with a different display:
+ Concept:En travail
+ Current:maux de tête
+[2025-06-22 11:57:54,076] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_2 already exists with a different display:
+ Concept:Contration
+ Current:gorge, bouche, dents
+[2025-06-22 11:57:54,077] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_3 already exists with a different display:
+ Concept:Grossesse visible et/ou plus de 20 semaines
+ Current:oreilles
+[2025-06-22 11:57:54,078] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_5 already exists with a different display:
+ Concept:5. Pâleur, Faiblesse, ictère, oedemes, enflures
+ Current:Thorax
+[2025-06-22 11:57:54,078] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_6 already exists with a different display:
+ Concept:6. Douleur et localisation
+ Current:Ventre
+[2025-06-22 11:57:54,078] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_7 already exists with a different display:
+ Concept:7. Problèmes de peau (nodules, taches, vesicules, ulceres..) 
+ Current:dos/lombes, membres, articulations
+[2025-06-22 11:57:54,078] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_none already exists with a different display:
+ Concept:Aucun des symptômes ci-dessus
+ Current:Aucun
+[2025-06-22 11:57:54,080] {/home/delcpa/Development/tricc_oo/tricc_oo/strategies/input/drawio.py:84} INFO - Create the activity zLypBHTEIEqWucdKw8T2::Mesure réspiration
+[2025-06-22 11:57:54,086] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/cql_to_operation.py:408} WARNING - while visiting cql: 
+p_sp02
+[2025-06-22 11:57:54,087] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/cql_to_operation.py:410} WARNING - 'p_sp02' will be poccessed as reference 
+[2025-06-22 11:57:54,089] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/cql_to_operation.py:408} WARNING - while visiting cql: 
+p_sp02
+[2025-06-22 11:57:54,089] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/cql_to_operation.py:410} WARNING - 'p_sp02' will be poccessed as reference 
+[2025-06-22 11:57:54,095] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code obs.resp_distress already exists with a different display:
+ Concept:Réspiration profonde et détresse respiratoire (respiration acidosique)
+ Current:Détresse résiparatoire 
+[2025-06-22 11:57:54,095] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:107} WARNING - conflicting value for property datatype: N/A != Boolean
+[2025-06-22 11:57:54,095] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:107} WARNING - conflicting value for property datatype: N/A != Boolean
+[2025-06-22 11:57:54,100] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/xml_to_tricc.py:246} CRITICAL - rhombus Rhombusnc619e4ee47a27d2f::&gt;25 node with labelless edges
+[2025-06-22 11:57:54,101] {/home/delcpa/Development/tricc_oo/tricc_oo/strategies/input/drawio.py:84} INFO - Create the activity -tlpg0aSpsBB1wOZ_jBT::Mesure glycemie
+[2025-06-22 11:57:54,123] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_1 already exists with a different display:
+ Concept:En travail
+ Current:Vertiges
+[2025-06-22 11:57:54,123] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_2 already exists with a different display:
+ Concept:Contration
+ Current:Essoufflement
+[2025-06-22 11:57:54,123] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_3 already exists with a different display:
+ Concept:Grossesse visible et/ou plus de 20 semaines
+ Current:Fatigue, somnolence
+[2025-06-22 11:57:54,123] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_4 already exists with a different display:
+ Concept:Grossesse non visible ou moins de 20 semaines
+ Current:Sueur
+[2025-06-22 11:57:54,123] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_none already exists with a different display:
+ Concept:Aucun des symptômes ci-dessus
+ Current:Accuns des symptômes ci dessus
+[2025-06-22 11:57:54,125] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/xml_to_tricc.py:246} CRITICAL - rhombus Rhombusnff98be6779d3015a::p_glycemia > 200 ? node with labelless edges
+[2025-06-22 11:57:54,129] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/xml_to_tricc.py:246} CRITICAL - rhombus Rhombusnda14b3ad69179092::p_glycemia > 124 ? node with labelless edges
+[2025-06-22 11:57:54,130] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/xml_to_tricc.py:246} CRITICAL - rhombus Rhombusnc50130d75cee8e25::&gt;0 node with labelless edges
+[2025-06-22 11:57:54,131] {/home/delcpa/Development/tricc_oo/tricc_oo/strategies/input/drawio.py:84} INFO - Create the activity Ysin5qaooSGBbHpPZ1ft::Signe de danger femmes
+[2025-06-22 11:57:54,308] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/xml_to_tricc.py:246} CRITICAL - rhombus Rhombusn97247fcc62f9d00a::Femme Enceinte ou grossesse possible **ou Grossesse Ex node with labelless edges
+[2025-06-22 11:57:54,308] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/xml_to_tricc.py:246} CRITICAL - rhombus Rhombusn11eb35a115c63a0a::Suites de couches node with labelless edges
+[2025-06-22 11:57:54,309] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/xml_to_tricc.py:246} CRITICAL - rhombus Rhombusnb3968ccd8cd9cd23::Aucun diagnositique Abdo node with labelless edges
+[2025-06-22 11:57:54,311] {/home/delcpa/Development/tricc_oo/tricc_oo/strategies/input/drawio.py:84} INFO - Create the activity QkRJ_pK0hoPU5HWdSHM2::classification choc
+[2025-06-22 11:57:54,357] {/home/delcpa/Development/tricc_oo/tricc_oo/strategies/input/drawio.py:84} INFO - Create the activity GRMy75_fQ79oYsQRYl_a::Traumatisme
+[2025-06-22 11:57:54,413] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/cql_to_operation.py:164} WARNING - guessed reference for 'flag.less_than_10_days'
+[2025-06-22 11:57:54,413] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/cql_to_operation.py:408} WARNING - while visiting cql: 
+flag.less_than_10_days
+[2025-06-22 11:57:54,413] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/cql_to_operation.py:410} WARNING - 'flag' will be poccessed as reference 
+[2025-06-22 11:57:54,413] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/cql_to_operation.py:410} WARNING - 'less_than_10_days' will be poccessed as reference 
+[2025-06-22 11:57:54,417] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/cql_to_operation.py:164} WARNING - guessed reference for 'flag.less_than_10_days'
+[2025-06-22 11:57:54,418] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/cql_to_operation.py:408} WARNING - while visiting cql: 
+flag.less_than_10_days > 0
+[2025-06-22 11:57:54,418] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/cql_to_operation.py:410} WARNING - 'flag' will be poccessed as reference 
+[2025-06-22 11:57:54,418] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/cql_to_operation.py:410} WARNING - 'less_than_10_days' will be poccessed as reference 
+[2025-06-22 11:57:54,429] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_1 already exists with a different display:
+ Concept:En travail
+ Current:I: toucher ou nourrir des animaux, lécher des animaux sur une peau intacte (pas d'exposition)
+[2025-06-22 11:57:54,429] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_2 already exists with a different display:
+ Concept:Contration
+ Current:II: grignotage de la peau non couverte, égratignures ou abrasions mineures sans saignement (exposition)
+[2025-06-22 11:57:54,429] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_3 already exists with a different display:
+ Concept:Grossesse visible et/ou plus de 20 semaines
+ Current:III: morsures ou égratignures transdermiques uniques ou multiples, contamination d'une muqueuse ou d'une peau éraflée par la salive d'un animal léché, expositions dues à un contact direct avec des chauves-souris (exposition grave)
+[2025-06-22 11:57:54,430] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_6 already exists with a different display:
+ Concept:6. Douleur et localisation
+ Current:Réaction absente des pupilles ou pupilles asymmétriques
+[2025-06-22 11:57:54,431] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_none already exists with a different display:
+ Concept:Aucun des symptômes ci-dessus
+ Current:Aucun traumatisme
+[2025-06-22 11:57:54,431] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code obs.trauma_head already exists with a different display:
+ Concept:Traumatisme crânien et ou cervicale dù à la perte de connaissance 
+ Current:la tête/cou/rachis cervical
+[2025-06-22 11:57:54,431] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:107} WARNING - conflicting value for property datatype: Boolean != N/A
+[2025-06-22 11:57:54,432] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_none already exists with a different display:
+ Concept:Aucun des symptômes ci-dessus
+ Current:Aucune de ces zones
+[2025-06-22 11:57:54,433] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/xml_to_tricc.py:246} CRITICAL - rhombus Rhombusn06ccc2442dffe6a6::Convuslsion spasme node with labelless edges
+[2025-06-22 11:57:54,433] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/xml_to_tricc.py:246} CRITICAL - rhombus Rhombusn183e3e85ea3b99a4:: Dificulté réspiratoire severe ? node with labelless edges
+[2025-06-22 11:57:54,441] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/xml_to_tricc.py:246} CRITICAL - rhombus Rhombusn1194130e78bca8f6::&gt;0 node with labelless edges
+[2025-06-22 11:57:54,444] {/home/delcpa/Development/tricc_oo/tricc_oo/strategies/input/drawio.py:84} INFO - Create the activity QO4PgwDgMTOWqk9Au7WD::Trouble de conciences/ convulsions
+[2025-06-22 11:57:54,541] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_1 already exists with a different display:
+ Concept:En travail
+ Current:Crises convulsives de 1-2 minutes?
+[2025-06-22 11:57:54,541] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_2 already exists with a different display:
+ Concept:Contration
+ Current:Crises convulsives plus longues et généralement en public
+[2025-06-22 11:57:54,541] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_3 already exists with a different display:
+ Concept:Grossesse visible et/ou plus de 20 semaines
+ Current:Crise de hochement de tête (surtout entre 5 et 15 ans)
+[2025-06-22 11:57:54,542] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_4 already exists with a different display:
+ Concept:Grossesse non visible ou moins de 20 semaines
+ Current:2 crises convulsives séparées dans la derniere année
+[2025-06-22 11:57:54,542] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_none already exists with a different display:
+ Concept:Aucun des symptômes ci-dessus
+ Current:Aucun
+[2025-06-22 11:57:54,542] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_2 already exists with a different display:
+ Concept:Contration
+ Current:Perte OU troubles de conscience / vigilence : somnolence, agitation,  sudation, confusion
+[2025-06-22 11:57:54,542] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code obs.conscience_issue already exists with a different display:
+ Concept:[D] Déficit neurologique; trouble de conscience, de la parole ou moteur
+ Current:Perte OU troubles de conscience / vigilence : somnolence, agitation,  sudation, confusion
+[2025-06-22 11:57:54,543] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_3 already exists with a different display:
+ Concept:Grossesse visible et/ou plus de 20 semaines
+ Current:Léthargique ou inconscient
+[2025-06-22 11:57:54,543] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_4 already exists with a different display:
+ Concept:Grossesse non visible ou moins de 20 semaines
+ Current:Trismus, opisthotonos
+[2025-06-22 11:57:54,543] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_5 already exists with a different display:
+ Concept:5. Pâleur, Faiblesse, ictère, oedemes, enflures
+ Current:Spasme
+[2025-06-22 11:57:54,543] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_6 already exists with a different display:
+ Concept:6. Douleur et localisation
+ Current:Absence de réaction des pupilles ou réation asymétrique
+[2025-06-22 11:57:54,544] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code obs.spasm already exists with a different display:
+ Concept:Spasme
+ Current:Absence de réaction des pupilles ou réation asymétrique
+[2025-06-22 11:57:54,544] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_7 already exists with a different display:
+ Concept:7. Problèmes de peau (nodules, taches, vesicules, ulceres..) 
+ Current:Faiblesse motrice ou perte sensibilité d'un ou de plusieurs menbres
+[2025-06-22 11:57:54,544] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code obs.overall_weakness already exists with a different display:
+ Concept:[C] Faiblesse <b>prononcée</b>,  Incapable de se tenir debout
+ Current:Faiblesse motrice ou perte sensibilité d'un ou de plusieurs menbres
+[2025-06-22 11:57:54,544] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_8 already exists with a different display:
+ Concept:8. Gynécologique et Obstétrique 
+ Current:Trouble soudain de la parole
+[2025-06-22 11:57:54,544] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_9 already exists with a different display:
+ Concept:9. Problémes neurologiques( troubles de la conscience, du comportement, de la parole, de la motricité faiblaisse motrice ou perte de sensibilité)
+ Current:Perte de l'équilibre trouble de la locomotion
+[2025-06-22 11:57:54,545] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_none already exists with a different display:
+ Concept:Aucun des symptômes ci-dessus
+ Current:Accuns des symptômes ci dessus
+[2025-06-22 11:57:54,545] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_1 already exists with a different display:
+ Concept:En travail
+ Current:Rigidité
+[2025-06-22 11:57:54,546] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_2 already exists with a different display:
+ Concept:Contration
+ Current:Blessure de la langue ou du corps
+[2025-06-22 11:57:54,546] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_3 already exists with a different display:
+ Concept:Grossesse visible et/ou plus de 20 semaines
+ Current:Perte de conscience ou somnolence
+[2025-06-22 11:57:54,546] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_4 already exists with a different display:
+ Concept:Grossesse non visible ou moins de 20 semaines
+ Current:Incontinence urine/selles
+[2025-06-22 11:57:54,546] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_5 already exists with a different display:
+ Concept:5. Pâleur, Faiblesse, ictère, oedemes, enflures
+ Current:fatigue, somnolence, céphalée, douleur musculaire depuis la crise
+[2025-06-22 11:57:54,546] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_none already exists with a different display:
+ Concept:Aucun des symptômes ci-dessus
+ Current:Aucun des signes ci-dessus
+[2025-06-22 11:57:54,546] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_1 already exists with a different display:
+ Concept:En travail
+ Current:Anoxie à la naissance/accouchement
+[2025-06-22 11:57:54,547] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_2 already exists with a different display:
+ Concept:Contration
+ Current:Traumatisme cranio-encephalique
+[2025-06-22 11:57:54,547] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code obs.trauma_head already exists with a different display:
+ Concept:Traumatisme crânien et ou cervicale dù à la perte de connaissance 
+ Current:Traumatisme cranio-encephalique
+[2025-06-22 11:57:54,547] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:107} WARNING - conflicting value for property datatype: Boolean != N/A
+[2025-06-22 11:57:54,547] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_4 already exists with a different display:
+ Concept:Grossesse non visible ou moins de 20 semaines
+ Current:Souffrance/inféction cérébral fébrile
+[2025-06-22 11:57:54,547] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_7 already exists with a different display:
+ Concept:7. Problèmes de peau (nodules, taches, vesicules, ulceres..) 
+ Current:épilepsie dans la famille
+[2025-06-22 11:57:54,547] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_5 already exists with a different display:
+ Concept:5. Pâleur, Faiblesse, ictère, oedemes, enflures
+ Current:Proximité avec élevage porc et/ou consommateur de porc mal cuite
+[2025-06-22 11:57:54,548] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_6 already exists with a different display:
+ Concept:6. Douleur et localisation
+ Current:Maladie du someil connue (faiblesse motrice)
+[2025-06-22 11:57:54,548] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_8 already exists with a different display:
+ Concept:8. Gynécologique et Obstétrique 
+ Current:Trouble comportement, motricité, faiblaisse membres, de la parole ou Perte de l'équilibre 
+[2025-06-22 11:57:54,548] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_3 already exists with a different display:
+ Concept:Grossesse visible et/ou plus de 20 semaines
+ Current:Consommation d'alcool ou de drogues
+[2025-06-22 11:57:54,548] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_none already exists with a different display:
+ Concept:Aucun des symptômes ci-dessus
+ Current:Accuns des symptômes ci dessus
+[2025-06-22 11:57:54,548] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_1 already exists with a different display:
+ Concept:En travail
+ Current:Perte de connaisance
+[2025-06-22 11:57:54,548] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_2 already exists with a different display:
+ Concept:Contration
+ Current:Transpiration
+[2025-06-22 11:57:54,548] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_3 already exists with a different display:
+ Concept:Grossesse visible et/ou plus de 20 semaines
+ Current:Pâleur
+[2025-06-22 11:57:54,549] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_4 already exists with a different display:
+ Concept:Grossesse non visible ou moins de 20 semaines
+ Current:Assombrissement de la vision
+[2025-06-22 11:57:54,549] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_5 already exists with a different display:
+ Concept:5. Pâleur, Faiblesse, ictère, oedemes, enflures
+ Current:Legers tremblements
+[2025-06-22 11:57:54,549] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_none already exists with a different display:
+ Concept:Aucun des symptômes ci-dessus
+ Current:Aucun des signes ci-dessus
+[2025-06-22 11:57:54,549] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_1 already exists with a different display:
+ Concept:En travail
+ Current:Association avec stress
+[2025-06-22 11:57:54,549] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_2 already exists with a different display:
+ Concept:Contration
+ Current:Récuperation rápide
+[2025-06-22 11:57:54,549] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_3 already exists with a different display:
+ Concept:Grossesse visible et/ou plus de 20 semaines
+ Current:Longe épisode
+[2025-06-22 11:57:54,549] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_4 already exists with a different display:
+ Concept:Grossesse non visible ou moins de 20 semaines
+ Current:Yeux fermés
+[2025-06-22 11:57:54,550] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_none already exists with a different display:
+ Concept:Aucun des symptômes ci-dessus
+ Current:Aucun des signes ci-dessus
+[2025-06-22 11:57:54,551] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/xml_to_tricc.py:246} CRITICAL - rhombus Rhombusnde8b8a082d893ebd::&gt;=1 node with labelless edges
+[2025-06-22 11:57:54,552] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/xml_to_tricc.py:246} CRITICAL - rhombus Rhombusnbc9d4dcfbdea2a7e::Trismus (crampes des mâchoires)
+
+Opisthotonos node with labelless edges
+[2025-06-22 11:57:54,557] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/xml_to_tricc.py:246} CRITICAL - rhombus Rhombusna59110cc5c877d8a::&gt;1 node with labelless edges
+[2025-06-22 11:57:54,562] {/home/delcpa/Development/tricc_oo/tricc_oo/strategies/input/drawio.py:84} INFO - Create the activity 56LuTB1EJu5tUg26EW0a::Abdominaux: Symptomes
+[2025-06-22 11:57:54,594] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code obs.belly_pain already exists with a different display:
+ Concept:Douleurs au ventre (haut ou bas)
+ Current:Mal au ventre
+[2025-06-22 11:57:54,594] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_2 already exists with a different display:
+ Concept:Contration
+ Current:Du vomissement , Nausées
+[2025-06-22 11:57:54,594] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_3 already exists with a different display:
+ Concept:Grossesse visible et/ou plus de 20 semaines
+ Current:Diarrhée
+[2025-06-22 11:57:54,594] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_4 already exists with a different display:
+ Concept:Grossesse non visible ou moins de 20 semaines
+ Current:Sang rouge dans les selles  
+[2025-06-22 11:57:54,594] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_5 already exists with a different display:
+ Concept:5. Pâleur, Faiblesse, ictère, oedemes, enflures
+ Current: Selles noires
+[2025-06-22 11:57:54,595] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_9 already exists with a different display:
+ Concept:9. Problémes neurologiques( troubles de la conscience, du comportement, de la parole, de la motricité faiblaisse motrice ou perte de sensibilité)
+ Current: Selles dures et rares
+[2025-06-22 11:57:54,595] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_7 already exists with a different display:
+ Concept:7. Problèmes de peau (nodules, taches, vesicules, ulceres..) 
+ Current:Douleurs anales
+[2025-06-22 11:57:54,595] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_6 already exists with a different display:
+ Concept:6. Douleur et localisation
+ Current:Envies incessantes d'aller à la selle sans défécation 
+[2025-06-22 11:57:54,595] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_none already exists with a different display:
+ Concept:Aucun des symptômes ci-dessus
+ Current:Aucun de ses symptômes
+[2025-06-22 11:57:54,598] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/xml_to_tricc.py:246} CRITICAL - rhombus Rhombusne0ec3aaa36ec00ab::&gt;0 node with labelless edges
+[2025-06-22 11:57:54,599] {/home/delcpa/Development/tricc_oo/tricc_oo/strategies/input/drawio.py:84} INFO - Create the activity 2a1prg0TmIygzw7b7jSz::Signes: Abdominaux
+[2025-06-22 11:57:54,702] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_1 already exists with a different display:
+ Concept:En travail
+ Current:Douleur abdominale aiguë 
+[2025-06-22 11:57:54,703] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_5 already exists with a different display:
+ Concept:5. Pâleur, Faiblesse, ictère, oedemes, enflures
+ Current:Defense 
+[2025-06-22 11:57:54,704] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_3 already exists with a different display:
+ Concept:Grossesse visible et/ou plus de 20 semaines
+ Current:Arrêt de matières et des gaz
+[2025-06-22 11:57:54,705] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_2 already exists with a different display:
+ Concept:Contration
+ Current:contracture 
+[2025-06-22 11:57:54,705] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_4 already exists with a different display:
+ Concept:Grossesse non visible ou moins de 20 semaines
+ Current:ballonement abdominal
+[2025-06-22 11:57:54,706] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_none already exists with a different display:
+ Concept:Aucun des symptômes ci-dessus
+ Current:Aucun des choix ci dessus 
+[2025-06-22 11:57:54,708] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code diag.illness_fever_severe already exists with a different display:
+ Concept:**Maladies fébriles graves**
+ Current:Maladie fébrile très grave
+[2025-06-22 11:57:54,709] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code flag.diag_abdo already exists with a different display:
+ Concept:Constipation
+ Current:Maladie fébrile très grave
+[2025-06-22 11:57:54,710] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code flag.diag_abdo already exists with a different display:
+ Concept:Constipation
+ Current:Abdomen aiguë 
+[2025-06-22 11:57:54,711] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code flag.diag_abdo already exists with a different display:
+ Concept:Constipation
+ Current:Suspicion hémorragie digestive
+
+Saignements varices ésophagiques (alcool, S. mansoni)
+[2025-06-22 11:57:54,712] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/xml_to_tricc.py:246} CRITICAL - rhombus Rhombusn143831e02f9ff651::sang dans les selles node with labelless edges
+[2025-06-22 11:57:54,721] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/xml_to_tricc.py:246} CRITICAL - rhombus Rhombusn0702f0ac5fdee61f::&gt;0 node with labelless edges
+[2025-06-22 11:57:54,731] {/home/delcpa/Development/tricc_oo/tricc_oo/strategies/input/drawio.py:84} INFO - Create the activity KXAXPbAZWevZfFHsxtjv::Mal au ventre
+[2025-06-22 11:57:54,775] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code flag.diag_abdo already exists with a different display:
+ Concept:Constipation
+ Current:Suspicion Reflux gastro-oesophagien, Gastrite ou ulcère gastro-duodenal
+[2025-06-22 11:57:54,775] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code flag.diag_abdo already exists with a different display:
+ Concept:Constipation
+ Current:Suspicion saignement /perforation ulcère gastro-duodénal
+[2025-06-22 11:57:54,775] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code flag.diag_abdo already exists with a different display:
+ Concept:Constipation
+ Current:**Syndrome abdominale** : douleurs abdominales hautes possibles causes à évaluer: Suspicion parasitose intestinale (sans fièvre) OU Suspicion abcès amibien OU autre 
+[2025-06-22 11:57:54,776] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code flag.diag_abdo already exists with a different display:
+ Concept:Constipation
+ Current:Hémorrhoides&nbsp;
+[2025-06-22 11:57:54,776] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code flag.diag_abdo already exists with a different display:
+ Concept:Constipation
+ Current:Suspicion bilharziose intestinale
+[2025-06-22 11:57:54,776] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code flag.diag_abdo already exists with a different display:
+ Concept:Constipation
+ Current:Suspicion parasitose intestinale 
+[2025-06-22 11:57:54,776] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code flag.diag_abdo already exists with a different display:
+ Concept:Constipation
+ Current:Fissure ano-réctale 
+[2025-06-22 11:57:54,777] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/xml_to_tricc.py:246} CRITICAL - rhombus Rhombusn5d49ef077d693971::Sang rouge  
+dans les selles   node with labelless edges
+[2025-06-22 11:57:54,779] {/home/delcpa/Development/tricc_oo/tricc_oo/strategies/input/drawio.py:84} INFO - Create the activity nerEXUSVcgR911cS7r60::Diarrhée
+[2025-06-22 11:57:54,809] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_1 already exists with a different display:
+ Concept:En travail
+ Current:Histoire: Apparition diarrhée aqueuse rapide (<24 heures) et/ou durée 24-48 heures
+[2025-06-22 11:57:54,809] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_3 already exists with a different display:
+ Concept:Grossesse visible et/ou plus de 20 semaines
+ Current:Histoire des cas de diarrhée aigu en entourage et/ou épidémie en cours
+[2025-06-22 11:57:54,810] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_2 already exists with a different display:
+ Concept:Contration
+ Current:Selles: aspect eau de riz
+[2025-06-22 11:57:54,811] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_none already exists with a different display:
+ Concept:Aucun des symptômes ci-dessus
+ Current:Aucun des choix ci dessus 
+[2025-06-22 11:57:54,812] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code obs.fresh_blood_in_stool already exists with a different display:
+ Concept:Sang rouge dans les selles  
+ Current:Est-ce qu’il y a une diarrhée sanglante (sang frais, rouge visible dans les selles)
+[2025-06-22 11:57:54,812] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:107} WARNING - conflicting value for property datatype: N/A != Coded
+[2025-06-22 11:57:54,812] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code flag.diag_abdo already exists with a different display:
+ Concept:Constipation
+ Current:DIARRHÉE AQUEUSE AIGUË
+[2025-06-22 11:57:54,813] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code flag.diag_abdo already exists with a different display:
+ Concept:Constipation
+ Current:DIARRHÉE PERSISTANTE SÉVÈRE OU chronique
+[2025-06-22 11:57:54,813] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code flag.diag_abdo already exists with a different display:
+ Concept:Constipation
+ Current: suspicion DIARRHÉE CHOLÉRIQUE
+[2025-06-22 11:57:54,813] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code flag.diag_abdo already exists with a different display:
+ Concept:Constipation
+ Current:Suspicion Dysentérie sanglante amebienne
+[2025-06-22 11:57:54,813] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code flag.diag_abdo already exists with a different display:
+ Concept:Constipation
+ Current:**DIARRHÉE Chronique**
+[2025-06-22 11:57:54,813] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code flag.diag_abdo already exists with a different display:
+ Concept:Constipation
+ Current:Suspicion bilharziose intestinale
+[2025-06-22 11:57:54,814] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code flag.diag_abdo already exists with a different display:
+ Concept:Constipation
+ Current:Suspicion dysenterie sanglante bactérienne (shigellose)
+[2025-06-22 11:57:54,814] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code diag.diahrroea_persistent already exists with a different display:
+ Concept:**DIARRHÉE Chronique**
+ Current:DIARRHÉE PERSISTANTE 
+[2025-06-22 11:57:54,814] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code flag.diag_abdo already exists with a different display:
+ Concept:Constipation
+ Current:DIARRHÉE PERSISTANTE 
+[2025-06-22 11:57:54,819] {/home/delcpa/Development/tricc_oo/tricc_oo/strategies/input/drawio.py:84} INFO - Create the activity PHJbFU_VJHRUPQ4ghwG_::Paleur
+[2025-06-22 11:57:54,903] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_1 already exists with a different display:
+ Concept:En travail
+ Current:<=7
+[2025-06-22 11:57:54,904] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code flag.opt_1 already exists with a different display:
+ Concept:Crises convulsives de 1-2 minutes?
+ Current:<=7
+[2025-06-22 11:57:54,904] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_2 already exists with a different display:
+ Concept:Contration
+ Current:>7 and >=10
+[2025-06-22 11:57:54,904] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_3 already exists with a different display:
+ Concept:Grossesse visible et/ou plus de 20 semaines
+ Current:>10
+[2025-06-22 11:57:54,904] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_none already exists with a different display:
+ Concept:Aucun des symptômes ci-dessus
+ Current:Pas concluant
+[2025-06-22 11:57:54,904] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_1 already exists with a different display:
+ Concept:En travail
+ Current:Le patient est-il oppressé au repos?
+[2025-06-22 11:57:54,904] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_2 already exists with a different display:
+ Concept:Contration
+ Current:¨Pâleur marquée : muqueuses, plantes, paumes  et conjonctives 
+[2025-06-22 11:57:54,905] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_3 already exists with a different display:
+ Concept:Grossesse visible et/ou plus de 20 semaines
+ Current:Dyspnée, Fréquence respiratoire >30/min
+[2025-06-22 11:57:54,905] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_4 already exists with a different display:
+ Concept:Grossesse non visible ou moins de 20 semaines
+ Current:Oedemes des jambes (membres inférieurs)
+[2025-06-22 11:57:54,905] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_5 already exists with a different display:
+ Concept:5. Pâleur, Faiblesse, ictère, oedemes, enflures
+ Current:Si [Hémorrhagie: signes hémorragie externe (saignements des plaies) OU interne: Vomissement sang, selles: sang frais, rouge ou selles noires 
+[2025-06-22 11:57:54,905] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_6 already exists with a different display:
+ Concept:6. Douleur et localisation
+ Current:Signes de gravité: état de choc, extrémités froides, sueur, soif, Oedemes des jambes, détresse respiratoire, dyspnée, pâleur marquée des muqueuses
+[2025-06-22 11:57:54,905] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_none already exists with a different display:
+ Concept:Aucun des symptômes ci-dessus
+ Current:Aucun des choix ci dessus 
+[2025-06-22 11:57:54,905] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_1 already exists with a different display:
+ Concept:En travail
+ Current:Pâleur : conjonctives, muqueuses, paumes des mains et/ou plantes des pieds  
+[2025-06-22 11:57:54,905] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code obs.palor already exists with a different display:
+ Concept:Pâleur / pâleur des conjonctives et muqueuses, taux d’hémoglobine < 7 g/dl)
+ Current:Pâleur : conjonctives, muqueuses, paumes des mains et/ou plantes des pieds  
+[2025-06-22 11:57:54,905] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_2 already exists with a different display:
+ Concept:Contration
+ Current:Fatigue, faiblesse, Palpitation, vertige, céphalées
+[2025-06-22 11:57:54,906] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code obs.overall_weakness already exists with a different display:
+ Concept:[C] Faiblesse <b>prononcée</b>,  Incapable de se tenir debout
+ Current:Fatigue, faiblesse, Palpitation, vertige, céphalées
+[2025-06-22 11:57:54,906] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_3 already exists with a different display:
+ Concept:Grossesse visible et/ou plus de 20 semaines
+ Current:Oedemes, enflures, ascites (collection liquidiennes)
+[2025-06-22 11:57:54,906] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_4 already exists with a different display:
+ Concept:Grossesse non visible ou moins de 20 semaines
+ Current:Suspicion de déshydratation
+[2025-06-22 11:57:54,906] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_none already exists with a different display:
+ Concept:Aucun des symptômes ci-dessus
+ Current:Aucun des choix ci dessus 
+[2025-06-22 11:57:54,907] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code diag.anemia_severe already exists with a different display:
+ Concept:Suspicion anémie sévère
+ Current: anémie sévère
+[2025-06-22 11:57:54,907] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/xml_to_tricc.py:246} CRITICAL - rhombus Rhombusnea370af125a3114e::vomissement sang ou vomissement ou mal au ventre ou ma node with labelless edges
+[2025-06-22 11:57:54,907] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/xml_to_tricc.py:246} CRITICAL - rhombus Rhombusnea370af125a3114e::vomissement sang ou vomissement ou mal au ventre ou ma node with labelless edges
+[2025-06-22 11:57:54,907] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/xml_to_tricc.py:246} CRITICAL - rhombus Rhombusnea370af125a3114e::vomissement sang ou vomissement ou mal au ventre ou ma node with labelless edges
+[2025-06-22 11:57:54,907] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/xml_to_tricc.py:246} CRITICAL - rhombus Rhombusn3caa2372b69f1ca3::risque de choc node with labelless edges
+[2025-06-22 11:57:54,907] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/xml_to_tricc.py:246} CRITICAL - rhombus Rhombusnea370af125a3114e::vomissement sang ou vomissement ou mal au ventre ou ma node with labelless edges
+[2025-06-22 11:57:54,908] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/xml_to_tricc.py:246} CRITICAL - rhombus Rhombusne3788b6cea1b783b::FR&gt;30 node with labelless edges
+[2025-06-22 11:57:54,911] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/xml_to_tricc.py:246} CRITICAL - rhombus Rhombusn888b856bc0479a09::&gt;0 node with labelless edges
+[2025-06-22 11:57:54,913] {/home/delcpa/Development/tricc_oo/tricc_oo/strategies/input/drawio.py:84} INFO - Create the activity ixco8JaWMFtgEA8rVDqO::Ictère
+[2025-06-22 11:57:54,978] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code flag.ictere_cause_unknown already exists with a different display:
+ Concept:**Suspicion maladie hèpatique non-fébrile**Ictère cause non identifiée autre cause à rechercher
+ Current:Ictère cause non identifiée autre cause à rechercher
+[2025-06-22 11:57:54,979] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code obs.ictere already exists with a different display:
+ Concept:Ictère
+ Current:Examiner  Les conjonctives (Le «blanc» de l'œil), ont-elles une coloration jaune ou verte et/ou jaunisse
+[2025-06-22 11:57:54,979] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:107} WARNING - conflicting value for property datatype: N/A != Coded
+[2025-06-22 11:57:54,979] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:107} WARNING - conflicting value for property datatype: N/A != Coded
+[2025-06-22 11:57:54,979] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code diag.illness_fever_severe already exists with a different display:
+ Concept:**Maladies fébriles graves**
+ Current:Maladie fébrile grave 
+[2025-06-22 11:57:54,980] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code diag.hepatitis_severe already exists with a different display:
+ Concept:**Suspicion Encéphalopathie hépatique**
+ Current:**Suspicion hépatite  décompensée ou cirrhose ou hépathite chronique**
+[2025-06-22 11:57:54,983] {/home/delcpa/Development/tricc_oo/tricc_oo/strategies/input/drawio.py:84} INFO - Create the activity BuprvBY3Key3lA8rAkuw::Test AgHBS et VHC
+[2025-06-22 11:57:54,991] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_1 already exists with a different display:
+ Concept:En travail
+ Current:Test hépatite B positif
+[2025-06-22 11:57:54,992] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_2 already exists with a different display:
+ Concept:Contration
+ Current:Test hépatite C positif
+[2025-06-22 11:57:54,992] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_none already exists with a different display:
+ Concept:Aucun des symptômes ci-dessus
+ Current:Test négatif
+[2025-06-22 11:57:54,993] {/home/delcpa/Development/tricc_oo/tricc_oo/strategies/input/drawio.py:84} INFO - Create the activity oJ7BBy9HERymwcSD7SqP::Symptomes: Uro
+[2025-06-22 11:57:55,120] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_1 already exists with a different display:
+ Concept:En travail
+ Current:Preuve(positif) Nitrites
+[2025-06-22 11:57:55,120] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_2 already exists with a different display:
+ Concept:Contration
+ Current:Preuve(positif) Neucozytes
+[2025-06-22 11:57:55,121] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_3 already exists with a different display:
+ Concept:Grossesse visible et/ou plus de 20 semaines
+ Current:Preuve(positif) Erythrozytes
+[2025-06-22 11:57:55,121] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_4 already exists with a different display:
+ Concept:Grossesse non visible ou moins de 20 semaines
+ Current:Preuve(positif) Glucose
+[2025-06-22 11:57:55,121] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_5 already exists with a different display:
+ Concept:5. Pâleur, Faiblesse, ictère, oedemes, enflures
+ Current:Preuve(positif) Proteine
+[2025-06-22 11:57:55,121] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_none already exists with a different display:
+ Concept:Aucun des symptômes ci-dessus
+ Current:Négatif
+[2025-06-22 11:57:55,121] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_1 already exists with a different display:
+ Concept:En travail
+ Current:brûlures mictionelles,
+[2025-06-22 11:57:55,121] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_5 already exists with a different display:
+ Concept:5. Pâleur, Faiblesse, ictère, oedemes, enflures
+ Current:polyurie: miction abondante 
+[2025-06-22 11:57:55,122] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_8 already exists with a different display:
+ Concept:8. Gynécologique et Obstétrique 
+ Current:Pertes d'urines / miction fréquente
+[2025-06-22 11:57:55,122] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_2 already exists with a different display:
+ Concept:Contration
+ Current:Sang dans les urines
+[2025-06-22 11:57:55,122] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_3 already exists with a different display:
+ Concept:Grossesse visible et/ou plus de 20 semaines
+ Current:Ecoulement genital ou Lésions genitales (ulcères, verrues, vésicules)
+[2025-06-22 11:57:55,122] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_4 already exists with a different display:
+ Concept:Grossesse non visible ou moins de 20 semaines
+ Current:Douleurs aux rapports sexuels ou partenaires  (problèmes avec lésion, écoulement)
+[2025-06-22 11:57:55,122] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_none already exists with a different display:
+ Concept:Aucun des symptômes ci-dessus
+ Current:Accuns des symptômes ci dessus
+[2025-06-22 11:57:55,130] {/home/delcpa/Development/tricc_oo/tricc_oo/strategies/input/drawio.py:84} INFO - Create the activity q6p-uuubHP-WZZXhsBdn::Symptomes: Réspiration
+[2025-06-22 11:57:55,135] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_1 already exists with a different display:
+ Concept:En travail
+ Current:Toux
+[2025-06-22 11:57:55,135] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_3 already exists with a different display:
+ Concept:Grossesse visible et/ou plus de 20 semaines
+ Current:Nez qui coule
+[2025-06-22 11:57:55,135] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_4 already exists with a different display:
+ Concept:Grossesse non visible ou moins de 20 semaines
+ Current:Dificultés réspiratoires
+[2025-06-22 11:57:55,136] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_5 already exists with a different display:
+ Concept:5. Pâleur, Faiblesse, ictère, oedemes, enflures
+ Current:Mal à la gorge
+[2025-06-22 11:57:55,136] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_6 already exists with a different display:
+ Concept:6. Douleur et localisation
+ Current:Mal à la bouche
+[2025-06-22 11:57:55,136] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_7 already exists with a different display:
+ Concept:7. Problèmes de peau (nodules, taches, vesicules, ulceres..) 
+ Current:Douleur thoracique
+[2025-06-22 11:57:55,136] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_none already exists with a different display:
+ Concept:Aucun des symptômes ci-dessus
+ Current:Aucun des choix ci dessus 
+[2025-06-22 11:57:55,139] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/xml_to_tricc.py:246} CRITICAL - rhombus Rhombusnc1f2da43baf5dec0::&gt;0 node with labelless edges
+[2025-06-22 11:57:55,139] {/home/delcpa/Development/tricc_oo/tricc_oo/strategies/input/drawio.py:84} INFO - Create the activity IjI9hDsX3QStdXEPgvs3::Signes: Réspiration
+[2025-06-22 11:57:55,236] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_1 already exists with a different display:
+ Concept:En travail
+ Current:Battements des ailes de nez
+[2025-06-22 11:57:55,236] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_2 already exists with a different display:
+ Concept:Contration
+ Current:Tirage inter-costal ou sus-claviculaire
+[2025-06-22 11:57:55,237] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_none already exists with a different display:
+ Concept:Aucun des symptômes ci-dessus
+ Current:Accun des symptômes ci dessus
+[2025-06-22 11:57:55,237] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_1 already exists with a different display:
+ Concept:En travail
+ Current:Dyspnée
+[2025-06-22 11:57:55,237] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_2 already exists with a different display:
+ Concept:Contration
+ Current:Détresse respiratoire (respiration bruyante, gène à la respiration, polypnée, bradypnée)
+[2025-06-22 11:57:55,237] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_3 already exists with a different display:
+ Concept:Grossesse visible et/ou plus de 20 semaines
+ Current:Respiration sifflante
+[2025-06-22 11:57:55,237] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_4 already exists with a different display:
+ Concept:Grossesse non visible ou moins de 20 semaines
+ Current:Stridor ou voix rauque
+[2025-06-22 11:57:55,237] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_none already exists with a different display:
+ Concept:Aucun des symptômes ci-dessus
+ Current:Aucun des symptômes ci dessus
+[2025-06-22 11:57:55,238] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code diag.foreign_object already exists with a different display:
+ Concept:Corps étranger
+ Current:Corps etranger
+[2025-06-22 11:57:55,242] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/xml_to_tricc.py:246} CRITICAL - rhombus Rhombusn3977faa40e296c28::&gt;0 node with labelless edges
+[2025-06-22 11:57:55,244] {/home/delcpa/Development/tricc_oo/tricc_oo/strategies/input/drawio.py:84} INFO - Create the activity dCPEV1VRZHx881COo7c3::Difficultées réspiratoire
+[2025-06-22 11:57:55,273] {/home/delcpa/Development/tricc_oo/tricc_oo/strategies/input/drawio.py:84} INFO - Create the activity i6xxhAmeNiZbSNLccXu3::Bouche
+[2025-06-22 11:57:55,330] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_none already exists with a different display:
+ Concept:Aucun des symptômes ci-dessus
+ Current:Aucun des choix ci dessus 
+[2025-06-22 11:57:55,331] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_none already exists with a different display:
+ Concept:Aucun des symptômes ci-dessus
+ Current:Aucun des choix ci dessus 
+[2025-06-22 11:57:55,331] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_none already exists with a different display:
+ Concept:Aucun des symptômes ci-dessus
+ Current:Aucun des choix ci dessus 
+[2025-06-22 11:57:55,332] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_1 already exists with a different display:
+ Concept:En travail
+ Current:Problèmes de nourriture ou alimentation: période suivant le sevrage de l’enfant, problémes allaitement,
+
+[2025-06-22 11:57:55,332] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_2 already exists with a different display:
+ Concept:Contration
+ Current:Maladie chronique connu, infection à VIH?
+
+[2025-06-22 11:57:55,332] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_3 already exists with a different display:
+ Concept:Grossesse visible et/ou plus de 20 semaines
+ Current:Infections fébriles antécédents : mois, semaines (paludisme, rugéole, diarrhée, autres?)
+[2025-06-22 11:57:55,332] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_4 already exists with a different display:
+ Concept:Grossesse non visible ou moins de 20 semaines
+ Current:Malnutrition, Kwashiorkor
+[2025-06-22 11:57:55,332] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_none already exists with a different display:
+ Concept:Aucun des symptômes ci-dessus
+ Current:Aucuns des symptômes ci dessus
+[2025-06-22 11:57:55,333] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_none already exists with a different display:
+ Concept:Aucun des symptômes ci-dessus
+ Current:Aucun des choix ci dessus 
+[2025-06-22 11:57:55,350] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/xml_to_tricc.py:246} CRITICAL - rhombus Rhombusnf8ee29d38fe8d235::&gt;0 node with labelless edges
+[2025-06-22 11:57:55,350] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/xml_to_tricc.py:246} CRITICAL - rhombus Rhombusn8377c8fadf0b350a::&gt;0 node with labelless edges
+[2025-06-22 11:57:55,350] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/xml_to_tricc.py:246} CRITICAL - rhombus Rhombusnf58626c133d7fb12::&gt;0 node with labelless edges
+[2025-06-22 11:57:55,350] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/xml_to_tricc.py:246} CRITICAL - rhombus Rhombusn2292dbf8bc3a561b::&gt;0 node with labelless edges
+[2025-06-22 11:57:55,354] {/home/delcpa/Development/tricc_oo/tricc_oo/strategies/input/drawio.py:84} INFO - Create the activity myAG2vfZtvKpYroQ-FDE::gorge
+[2025-06-22 11:57:55,410] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_1 already exists with a different display:
+ Concept:En travail
+ Current: Suppuration des amygdales
+[2025-06-22 11:57:55,410] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_2 already exists with a different display:
+ Concept:Contration
+ Current:Douleurs des ganglions cervicals 
+[2025-06-22 11:57:55,410] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_none already exists with a different display:
+ Concept:Aucun des symptômes ci-dessus
+ Current:Aucuns des symptômes ci dessus
+[2025-06-22 11:57:55,413] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/xml_to_tricc.py:246} CRITICAL - rhombus Rhombusn5586bc0b26a32951::fièvre  >38 node with labelless edges
+[2025-06-22 11:57:55,414] {/home/delcpa/Development/tricc_oo/tricc_oo/strategies/input/drawio.py:84} INFO - Create the activity CqsHSIuHj_gNZHILS8sV::Douleurs Thoraciques
+[2025-06-22 11:57:55,438] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_1 already exists with a different display:
+ Concept:En travail
+ Current:Déclenché par le froid ou à l'effort physique
+[2025-06-22 11:57:55,439] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_2 already exists with a different display:
+ Concept:Contration
+ Current:Dyspnée au repos ou effort physique
+[2025-06-22 11:57:55,439] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_3 already exists with a different display:
+ Concept:Grossesse visible et/ou plus de 20 semaines
+ Current:Infections voies respiratoires antécédents (inclus covid-19)
+[2025-06-22 11:57:55,439] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_none already exists with a different display:
+ Concept:Aucun des symptômes ci-dessus
+ Current:Aucun des symptômes ci dessus
+[2025-06-22 11:57:55,441] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/xml_to_tricc.py:246} CRITICAL - rhombus Rhombusnb743a48f0899e070::drépanocytose connu ? node with labelless edges
+[2025-06-22 11:57:55,441] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/xml_to_tricc.py:246} CRITICAL - rhombus Rhombusnb743a48f0899e070::drépanocytose connu ? node with labelless edges
+[2025-06-22 11:57:55,445] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/xml_to_tricc.py:246} CRITICAL - rhombus Rhombusnc47897936fa79a11::&gt;0 node with labelless edges
+[2025-06-22 11:57:55,447] {/home/delcpa/Development/tricc_oo/tricc_oo/strategies/input/drawio.py:84} INFO - Create the activity jOK-9v8yiSQiYiRkIoSS::Peau
+[2025-06-22 11:57:55,513] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_1 already exists with a different display:
+ Concept:En travail
+ Current:Sucre positif
+[2025-06-22 11:57:55,513] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code flag.opt_1 already exists with a different display:
+ Concept:Crises convulsives de 1-2 minutes?
+ Current:Sucre positif
+[2025-06-22 11:57:55,513] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_3 already exists with a different display:
+ Concept:Grossesse visible et/ou plus de 20 semaines
+ Current:Acétone
+[2025-06-22 11:57:55,513] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code flag.opt_3 already exists with a different display:
+ Concept:>10
+ Current:Acétone
+[2025-06-22 11:57:55,513] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_2 already exists with a different display:
+ Concept:Contration
+ Current:Sucre négatif
+[2025-06-22 11:57:55,513] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_1 already exists with a different display:
+ Concept:En travail
+ Current:nodositées (nodules, papules) 
+[2025-06-22 11:57:55,514] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_2 already exists with a different display:
+ Concept:Contration
+ Current:plaques, tâches  non prurigineuses
+[2025-06-22 11:57:55,514] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_5 already exists with a different display:
+ Concept:5. Pâleur, Faiblesse, ictère, oedemes, enflures
+ Current:Purit, plaques, tâches prurigineuses (démangeaisons)
+[2025-06-22 11:57:55,514] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_3 already exists with a different display:
+ Concept:Grossesse visible et/ou plus de 20 semaines
+ Current:signes de surinfection: rougeur, chaleur, douleur, tuméfaction
+[2025-06-22 11:57:55,514] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_6 already exists with a different display:
+ Concept:6. Douleur et localisation
+ Current:Ulcères/ Plaies
+[2025-06-22 11:57:55,514] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_7 already exists with a different display:
+ Concept:7. Problèmes de peau (nodules, taches, vesicules, ulceres..) 
+ Current:Végétations
+[2025-06-22 11:57:55,514] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_8 already exists with a different display:
+ Concept:8. Gynécologique et Obstétrique 
+ Current:Vésicule
+[2025-06-22 11:57:55,514] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_none already exists with a different display:
+ Concept:Aucun des symptômes ci-dessus
+ Current:Aucuns des symptômes ci dessus
+[2025-06-22 11:57:55,515] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code flag.skin_zone already exists with a different display:
+ Concept:Pityriasis versicolor: pâle, squameuse, tronc, cou, extrémités / membres proximales
+ Current:Teigne/tinea: plaque pâle, squameuses et annulaire/bords surélevés et prurigineuses cheveux, ongles, corps, pertes/chutes de cheveux
+[2025-06-22 11:57:55,516] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code flag.skin_zone already exists with a different display:
+ Concept:Pityriasis versicolor: pâle, squameuse, tronc, cou, extrémités / membres proximales
+ Current:Plaques squameuses grasses sur la face/visage: nez, oreilles, sourcils,lisière des cheveux
+[2025-06-22 11:57:55,518] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code flag.skin_zone already exists with a different display:
+ Concept:Pityriasis versicolor: pâle, squameuse, tronc, cou, extrémités / membres proximales
+ Current:Plaques sèches, lichenifié (peau épaisse, plis)
+[2025-06-22 11:57:55,519] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code flag.skin_zone already exists with a different display:
+ Concept:Pityriasis versicolor: pâle, squameuse, tronc, cou, extrémités / membres proximales
+ Current:> 3 petit nodules épaules, ceinture pelvienne, iliaque (taille, cuisses) avec démangeaisons et
+
+Prurit sévère ET/OU Peau de leopard (plaques plus sombres/foncées)
+[2025-06-22 11:57:55,519] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code flag.skin_zone already exists with a different display:
+ Concept:Pityriasis versicolor: pâle, squameuse, tronc, cou, extrémités / membres proximales
+ Current:Plaques jambes, très prurigineuses: Lichen
+[2025-06-22 11:57:55,525] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/xml_to_tricc.py:246} CRITICAL - rhombus Rhombusnb7ea0210c201c79f::plaques  node with labelless edges
+[2025-06-22 11:57:55,529] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/xml_to_tricc.py:246} CRITICAL - rhombus Rhombusn0ddc4d13237cd9a3::vésicule node with labelless edges
+[2025-06-22 11:57:55,545] {/home/delcpa/Development/tricc_oo/tricc_oo/strategies/input/drawio.py:84} INFO - Create the activity w6sEmSKroMUFU1bQ1epK::Nodules
+[2025-06-22 11:57:55,601] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_1 already exists with a different display:
+ Concept:En travail
+ Current:généralises
+[2025-06-22 11:57:55,602] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code flag.opt_1 already exists with a different display:
+ Concept:Crises convulsives de 1-2 minutes?
+ Current:généralises
+[2025-06-22 11:57:55,602] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_2 already exists with a different display:
+ Concept:Contration
+ Current:localisées
+[2025-06-22 11:57:55,602] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_1 already exists with a different display:
+ Concept:En travail
+ Current:mobilisation sous la peau 
+[2025-06-22 11:57:55,602] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code flag.opt_1 already exists with a different display:
+ Concept:Crises convulsives de 1-2 minutes?
+ Current:mobilisation sous la peau 
+[2025-06-22 11:57:55,603] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_2 already exists with a different display:
+ Concept:Contration
+ Current:indorée
+[2025-06-22 11:57:55,607] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code diag.leprosa already exists with a different display:
+ Concept:Suspicion lèpre
+ Current:Suspecter lèpre (lépromateuse) 
+[2025-06-22 11:57:55,616] {/home/delcpa/Development/tricc_oo/tricc_oo/strategies/input/drawio.py:84} INFO - Create the activity laAiR-6CXSdH7W-Cwsm7::Pian
+[2025-06-22 11:57:55,622] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_1 already exists with a different display:
+ Concept:En travail
+ Current:1 ou plusieurs plaques,
+
+jaunes, dorée, rouge ou hypopigmentation (aspect framboise)
+mous
+Non-douloureuse, sans odeur
+[2025-06-22 11:57:55,622] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_2 already exists with a different display:
+ Concept:Contration
+ Current:1 ou plusieur nodules, verrues (papillomes)
+
+jaunes, dorée, rouge ou hypopigmentation (aspect framboise)
+mous
+Non-douloureuse, sans odeur
+[2025-06-22 11:57:55,623] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_3 already exists with a different display:
+ Concept:Grossesse visible et/ou plus de 20 semaines
+ Current:1 ou plusieurs ulcères circulaire:
+
+Taille: Moins de 5 cm en diamètre
+Bords surélevés, volcan
+Croûte dorée ou jaune ou humide, rouge
+Non-douloureuse, sans odeur
+[2025-06-22 11:57:55,623] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_none already exists with a different display:
+ Concept:Aucun des symptômes ci-dessus
+ Current:Aucuns des symptômes ci dessus
+[2025-06-22 11:57:55,625] {/home/delcpa/Development/tricc_oo/tricc_oo/strategies/input/drawio.py:84} INFO - Create the activity lk-1tssn_RMkW3UT_equ::Diabete
+[2025-06-22 11:57:55,673] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/xml_to_tricc.py:246} CRITICAL - rhombus Rhombusn0600fdfc3a8a4b1b::Troubles de la conscience node with labelless edges
+[2025-06-22 11:57:55,674] {/home/delcpa/Development/tricc_oo/tricc_oo/strategies/input/drawio.py:84} INFO - Create the activity V5WCib4wkOKEO15hECfQ::Intoxication
+[2025-06-22 11:57:55,723] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_1 already exists with a different display:
+ Concept:En travail
+ Current:Insecticides / pesticides
+[2025-06-22 11:57:55,723] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code flag.opt_1 already exists with a different display:
+ Concept:Crises convulsives de 1-2 minutes?
+ Current:Insecticides / pesticides
+[2025-06-22 11:57:55,724] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_2 already exists with a different display:
+ Concept:Contration
+ Current:piles sèches
+[2025-06-22 11:57:55,724] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_3 already exists with a different display:
+ Concept:Grossesse visible et/ou plus de 20 semaines
+ Current:Autres?
+[2025-06-22 11:57:55,724] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code flag.opt_3 already exists with a different display:
+ Concept:>10
+ Current:Autres?
+[2025-06-22 11:57:55,724] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_1 already exists with a different display:
+ Concept:En travail
+ Current:Médicaments ou drogues (sédatifs)?
+[2025-06-22 11:57:55,725] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_2 already exists with a different display:
+ Concept:Contration
+ Current:Autres traitements, y compris traditionels?
+[2025-06-22 11:57:55,725] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_none already exists with a different display:
+ Concept:Aucun des symptômes ci-dessus
+ Current:Aucuns des choix ci-dessus
+[2025-06-22 11:57:55,725] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_1 already exists with a different display:
+ Concept:En travail
+ Current:Igname (sauvage, domestique),
+[2025-06-22 11:57:55,726] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_2 already exists with a different display:
+ Concept:Contration
+ Current:manioc: fin de la saison de pluie et le debut de la saison sèche (Champignons
+)
+[2025-06-22 11:57:55,726] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_4 already exists with a different display:
+ Concept:Grossesse non visible ou moins de 20 semaines
+ Current:autres
+[2025-06-22 11:57:55,726] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_none already exists with a different display:
+ Concept:Aucun des symptômes ci-dessus
+ Current:Aucuns des symptômes ci dessus
+[2025-06-22 11:57:55,728] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code flag.diag.intox already exists with a different display:
+ Concept:Intoxication possible, ingestion inconnue
+ Current:INTOXICATION
+
+aux Insecticides / pesticides
+[2025-06-22 11:57:55,728] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code flag.diag.intox already exists with a different display:
+ Concept:Intoxication possible, ingestion inconnue
+ Current:Intoxication alimentaire
+
+Ou gastroenterite
+[2025-06-22 11:57:55,728] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code flag.diag.intox already exists with a different display:
+ Concept:Intoxication possible, ingestion inconnue
+ Current:INTOXICATION ALIMENTAIRES
+[2025-06-22 11:57:55,729] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code flag.diag.intox already exists with a different display:
+ Concept:Intoxication possible, ingestion inconnue
+ Current:INTOXICATION
+
+aux piles
+[2025-06-22 11:57:55,729] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code flag.diag.intox already exists with a different display:
+ Concept:Intoxication possible, ingestion inconnue
+ Current:INTOXICATION
+
+Avec d'autres produits
+[2025-06-22 11:57:55,731] {/home/delcpa/Development/tricc_oo/tricc_oo/strategies/input/drawio.py:84} INFO - Create the activity a0yKbnKbsrxnCkU6_zbw::fièvre thyphoide
+[2025-06-22 11:57:55,767] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code diag.illness_fever_severe already exists with a different display:
+ Concept:**Maladies fébriles graves**
+ Current:Maladie fébrile grave 
+[2025-06-22 11:57:55,768] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/xml_to_tricc.py:246} CRITICAL - rhombus Rhombusn6808e81450e84a38::Troubles de la conscience node with labelless edges
+[2025-06-22 11:57:55,769] {/home/delcpa/Development/tricc_oo/tricc_oo/strategies/input/drawio.py:84} INFO - Create the activity QEaCMCMS14nZweCAdq34::mal à la tête
+[2025-06-22 11:57:55,854] {/home/delcpa/Development/tricc_oo/tricc_oo/strategies/input/drawio.py:84} INFO - Create the activity eczGIM383EAblgxVozZG::mal a l'oreille
+[2025-06-22 11:57:55,865] {/home/delcpa/Development/tricc_oo/tricc_oo/strategies/input/drawio.py:84} INFO - Create the activity IwP4-W3IagU1HenkrGgZ::Drépanocytose
+[2025-06-22 11:57:55,903] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:31} INFO - New codesystem save added to project
+[2025-06-22 11:57:55,905] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/xml_to_tricc.py:246} CRITICAL - rhombus Rhombusn5d45f5f52599bf78::Mal au Thorax node with labelless edges
+[2025-06-22 11:57:55,907] {/home/delcpa/Development/tricc_oo/tricc_oo/strategies/input/drawio.py:84} INFO - Create the activity 6q2qZpkPBKf8ZtYg0s34::Gynecologie
+[2025-06-22 11:57:56,094] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/xml_to_tricc.py:246} CRITICAL - rhombus Rhombusn31acb425d6a684ae::grossesse ou grossesse posible ET vomissement node with labelless edges
+[2025-06-22 11:57:56,096] {/home/delcpa/Development/tricc_oo/tricc_oo/strategies/input/drawio.py:84} INFO - Create the activity hMyP14M7j-PKTJIWSbQ9::Saignements vaginaux
+[2025-06-22 11:57:56,149] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_1 already exists with a different display:
+ Concept:En travail
+ Current:Utérine
+[2025-06-22 11:57:56,150] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_2 already exists with a different display:
+ Concept:Contration
+ Current:Cervicale
+[2025-06-22 11:57:56,150] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_3 already exists with a different display:
+ Concept:Grossesse visible et/ou plus de 20 semaines
+ Current:Paroie vaginale
+[2025-06-22 11:57:56,150] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_4 already exists with a different display:
+ Concept:Grossesse non visible ou moins de 20 semaines
+ Current:Périnéale
+[2025-06-22 11:57:56,150] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_5 already exists with a different display:
+ Concept:5. Pâleur, Faiblesse, ictère, oedemes, enflures
+ Current:rectale
+[2025-06-22 11:57:56,150] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_6 already exists with a different display:
+ Concept:6. Douleur et localisation
+ Current:Urinaire
+[2025-06-22 11:57:56,150] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_7 already exists with a different display:
+ Concept:7. Problèmes de peau (nodules, taches, vesicules, ulceres..) 
+ Current:Saignement au contact, vaisseaux anormale
+[2025-06-22 11:57:56,150] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_none already exists with a different display:
+ Concept:Aucun des symptômes ci-dessus
+ Current:Accuns des symptômes ci-dessus
+[2025-06-22 11:57:56,153] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/xml_to_tricc.py:246} CRITICAL - rhombus Rhombusn2d0acb29af03b8db::TA syst < 90  node with labelless edges
+[2025-06-22 11:57:56,154] {/home/delcpa/Development/tricc_oo/tricc_oo/strategies/input/drawio.py:84} INFO - Create the activity AXo5NFWsXglQ9_3o_VCm::Pré-éclampsie / éclampsie
+[2025-06-22 11:57:56,250] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_1 already exists with a different display:
+ Concept:En travail
+ Current:Preuve(positif) proteine
+[2025-06-22 11:57:56,251] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_2 already exists with a different display:
+ Concept:Contration
+ Current:test pas disponible
+[2025-06-22 11:57:56,251] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_none already exists with a different display:
+ Concept:Aucun des symptômes ci-dessus
+ Current:Négatif
+[2025-06-22 11:57:56,251] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_1 already exists with a different display:
+ Concept:En travail
+ Current:Preuve(positif) proteine
+[2025-06-22 11:57:56,251] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_2 already exists with a different display:
+ Concept:Contration
+ Current:test pas disponible
+[2025-06-22 11:57:56,251] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_none already exists with a different display:
+ Concept:Aucun des symptômes ci-dessus
+ Current:Négatif
+[2025-06-22 11:57:56,252] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/xml_to_tricc.py:246} CRITICAL - rhombus Rhombusn64e55c303aba675d::TA syst >140 mmHg   
+Et sans fièvre node with labelless edges
+[2025-06-22 11:57:56,252] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/xml_to_tricc.py:246} CRITICAL - rhombus Rhombusnd18b1bd494669a25::TA syst >140 mmHg   
+Et sans fièvre node with labelless edges
+[2025-06-22 11:57:56,253] {/home/delcpa/Development/tricc_oo/tricc_oo/strategies/input/drawio.py:84} INFO - Create the activity Ci_VP60vpt9l_6N1iDBL::VIH
+[2025-06-22 11:57:56,268] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/xml_to_tricc.py:246} CRITICAL - rhombus Rhombusn905ea3c9e4691c49::Macules/papules/nodules purigineux predominant dans le node with labelless edges
+[2025-06-22 11:57:56,268] {/home/delcpa/Development/tricc_oo/tricc_oo/strategies/input/drawio.py:84} INFO - Create the activity Er8Bwz2QYqQyj8bjGP3k::IST
+[2025-06-22 11:57:56,384] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_1 already exists with a different display:
+ Concept:En travail
+ Current:Ulcères génitaux (autres parts du corps: bouche)
+[2025-06-22 11:57:56,384] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_2 already exists with a different display:
+ Concept:Contration
+ Current:érosions ou Lésion de grattage  génital
+[2025-06-22 11:57:56,384] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_4 already exists with a different display:
+ Concept:Grossesse non visible ou moins de 20 semaines
+ Current:verrues ou vésicules génitales (présent ou ont été présent au début)
+[2025-06-22 11:57:56,384] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_5 already exists with a different display:
+ Concept:5. Pâleur, Faiblesse, ictère, oedemes, enflures
+ Current:Écoulements urétraux et/ou sensation de brules génital 
+[2025-06-22 11:57:56,384] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_3 already exists with a different display:
+ Concept:Grossesse visible et/ou plus de 20 semaines
+ Current:Gonflement testiculaire ou inguinale chronique non douloureuse 
+[2025-06-22 11:57:56,385] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_6 already exists with a different display:
+ Concept:6. Douleur et localisation
+ Current:Douleur testiculaire: trauma, gonflements, inflammation scrotale 
+[2025-06-22 11:57:56,385] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_7 already exists with a different display:
+ Concept:7. Problèmes de peau (nodules, taches, vesicules, ulceres..) 
+ Current:Dyspareunia (douleurs lors des rapports sexuels)
+[2025-06-22 11:57:56,385] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_8 already exists with a different display:
+ Concept:8. Gynécologique et Obstétrique 
+ Current:Dysurie (miction douloureuse ou fréquente) voir troubles urinaires
+[2025-06-22 11:57:56,385] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_9 already exists with a different display:
+ Concept:9. Problémes neurologiques( troubles de la conscience, du comportement, de la parole, de la motricité faiblaisse motrice ou perte de sensibilité)
+ Current:Mal au ventre bas
+[2025-06-22 11:57:56,385] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_none already exists with a different display:
+ Concept:Aucun des symptômes ci-dessus
+ Current:Accuns des symptômes ci dessus
+[2025-06-22 11:57:56,385] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_1 already exists with a different display:
+ Concept:En travail
+ Current:Ulcères génitaux (autres parts du corps: bouche)
+[2025-06-22 11:57:56,386] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_2 already exists with a different display:
+ Concept:Contration
+ Current:érosions ou Lésion de grattage  génital
+[2025-06-22 11:57:56,386] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_3 already exists with a different display:
+ Concept:Grossesse visible et/ou plus de 20 semaines
+ Current:verrues ou  vésicules génitales (présent ou ont été présent au début)
+[2025-06-22 11:57:56,386] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code obs.genital_vesicule already exists with a different display:
+ Concept:verrues ou vésicules génitales (présent ou ont été présent au début)
+ Current:verrues ou  vésicules génitales (présent ou ont été présent au début)
+[2025-06-22 11:57:56,386] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_4 already exists with a different display:
+ Concept:Grossesse non visible ou moins de 20 semaines
+ Current:Écoulements et/ou sensation de brules génital 
+[2025-06-22 11:57:56,386] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code obs.genital_leak already exists with a different display:
+ Concept:Écoulements urétraux et/ou sensation de brules génital 
+ Current:Écoulements et/ou sensation de brules génital 
+[2025-06-22 11:57:56,386] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_6 already exists with a different display:
+ Concept:6. Douleur et localisation
+ Current:Dyspareunia (douleurs lors des rapports sexuels)
+[2025-06-22 11:57:56,386] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_8 already exists with a different display:
+ Concept:8. Gynécologique et Obstétrique 
+ Current:Dysurie (miction douloureuse ou fréquente) voir troubles urinaires
+[2025-06-22 11:57:56,386] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_9 already exists with a different display:
+ Concept:9. Problémes neurologiques( troubles de la conscience, du comportement, de la parole, de la motricité faiblaisse motrice ou perte de sensibilité)
+ Current:Mal au ventre bas
+[2025-06-22 11:57:56,386] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_none already exists with a different display:
+ Concept:Aucun des symptômes ci-dessus
+ Current:Accuns des symptômes ci dessus
+[2025-06-22 11:57:56,387] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_1 already exists with a different display:
+ Concept:En travail
+ Current:Lymphadénopathie unilaterale, douloureuse avec ou sans ulcérations, pus
+[2025-06-22 11:57:56,387] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_2 already exists with a different display:
+ Concept:Contration
+ Current:Gonflement fémoral
+[2025-06-22 11:57:56,387] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_3 already exists with a different display:
+ Concept:Grossesse visible et/ou plus de 20 semaines
+ Current:inguinale (ganglions lymphatiques inguinaux)
+[2025-06-22 11:57:56,387] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_none already exists with a different display:
+ Concept:Aucun des symptômes ci-dessus
+ Current:Accuns des symptômes ci dessus
+[2025-06-22 11:57:56,387] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_1 already exists with a different display:
+ Concept:En travail
+ Current:lésions groupées ou en bouquets: vésicules douloureuses de petites tailles, parfois groupées en bouque ou ulcérations de petites tailles avec antécédents de vésicules récurrentes
+[2025-06-22 11:57:56,387] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_5 already exists with a different display:
+ Concept:5. Pâleur, Faiblesse, ictère, oedemes, enflures
+ Current:Ulcère non-douloureuse, singulaire
+[2025-06-22 11:57:56,387] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_2 already exists with a different display:
+ Concept:Contration
+ Current:DOULEUR: Ulcère ou vésicules douloureux, ulcères genitaux ou papule ou érosion douloureuse
+[2025-06-22 11:57:56,387] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_4 already exists with a different display:
+ Concept:Grossesse non visible ou moins de 20 semaines
+ Current:Ulcère purulente, souvent unique, mous avec ou sans adénopathies douloureuses
+[2025-06-22 11:57:56,387] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_none already exists with a different display:
+ Concept:Aucun des symptômes ci-dessus
+ Current:Accuns des symptômes ci dessus
+[2025-06-22 11:57:56,389] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code obs.anal_lesion already exists with a different display:
+ Concept:ecoulement anorectale présent?
+ Current:Examiner et Demander: Verrues et/ou Lésions papillomateuse génitale ou anale? HPV
+[2025-06-22 11:57:56,389] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code flag.diag_ist already exists with a different display:
+ Concept:GALE
+ Current: GONORRHEE ET CHLAMYDIOSE sans complications
+[2025-06-22 11:57:56,389] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code flag.diag_ist already exists with a different display:
+ Concept:GALE
+ Current:Sans écoulement: autre causes, non-sexuels: oreillon, brucellose, E.coli, Klebsiella, p. aerug., tb,
+[2025-06-22 11:57:56,390] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code flag.diag_ist already exists with a different display:
+ Concept:GALE
+ Current:Suspicion Lymphogranulome inguinale vénérien endémique: en Afrique de l’Est et de l’Ouest, C. trachomatis L1,2,3
+[2025-06-22 11:57:56,390] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code flag.diag_ist already exists with a different display:
+ Concept:GALE
+ Current:trauma testiculaire
+[2025-06-22 11:57:56,390] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code flag.diag_ist already exists with a different display:
+ Concept:GALE
+ Current: GONORRHEE ET CHLAMYDIOSE sans complications
+[2025-06-22 11:57:56,390] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code flag.diag_ist already exists with a different display:
+ Concept:GALE
+ Current:PEDICULOSE
+[2025-06-22 11:57:56,390] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code flag.diag_ist already exists with a different display:
+ Concept:GALE
+ Current: GONORRHEE ET CHLAMYDIOSE avec complications
+[2025-06-22 11:57:56,391] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code flag.diag_ist already exists with a different display:
+ Concept:GALE
+ Current:**Chancre mou:**
+[2025-06-22 11:57:56,391] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code flag.diag_ist already exists with a different display:
+ Concept:GALE
+ Current:Suspecter filariose lymphatique,Tuberculose  
+ ou hydrocèle
+[2025-06-22 11:57:56,425] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/xml_to_tricc.py:246} CRITICAL - rhombus Rhombusn3a6308dd8f257f6e::ulcers genitaux, bouche ou vesicule node with labelless edges
+[2025-06-22 11:57:56,425] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/xml_to_tricc.py:246} CRITICAL - rhombus Rhombusn15b72b107daca931::&gt;0 node with labelless edges
+[2025-06-22 11:57:56,429] {/home/delcpa/Development/tricc_oo/tricc_oo/strategies/input/drawio.py:84} INFO - Create the activity gws7ea2MS6OncMNJXvyQ::IST Femme
+[2025-06-22 11:57:56,447] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_1 already exists with a different display:
+ Concept:En travail
+ Current:Secretions jaunâtre
+[2025-06-22 11:57:56,448] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_2 already exists with a different display:
+ Concept:Contration
+ Current:Secretion grisâtre, verdâtre mousseaux, col aspect rouge (fraise)
+[2025-06-22 11:57:56,448] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_3 already exists with a different display:
+ Concept:Grossesse visible et/ou plus de 20 semaines
+ Current:Col utérin: tâches jaunâtres aspect granuleux, aspect grain sable, vaisseaux sanguins anormaux, papules d’aspect caoutchouteux
+[2025-06-22 11:57:56,448] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_none already exists with a different display:
+ Concept:Aucun des symptômes ci-dessus
+ Current:Accuns des symptômes ci dessus
+[2025-06-22 11:57:56,450] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code flag.diag_ist already exists with a different display:
+ Concept:GALE
+ Current: suspecter trichomonase
+[2025-06-22 11:57:56,451] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code flag.diag_ist already exists with a different display:
+ Concept:GALE
+ Current:Candidose
+[2025-06-22 11:57:56,451] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code flag.diag_ist already exists with a different display:
+ Concept:GALE
+ Current:Infections cervicales
+[2025-06-22 11:57:56,451] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code flag.diag_ist already exists with a different display:
+ Concept:GALE
+ Current:Trichomonase ET Vaginite /Vaginose bactérienne
+[2025-06-22 11:57:56,451] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code flag.diag_ist already exists with a different display:
+ Concept:GALE
+ Current:Infections génitales hautes sexuellement transmises (Maladies Inflammatoires Pelviennes)
+
+Revoir la patiente 3 jours après
+[2025-06-22 11:57:56,452] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code flag.diag_ist already exists with a different display:
+ Concept:GALE
+ Current:Suspecter gonorrhée
+[2025-06-22 11:57:56,453] {/home/delcpa/Development/tricc_oo/tricc_oo/strategies/input/drawio.py:84} INFO - Create the activity nQXFndkQVU0P1pQ4tpLW::Syphilis
+[2025-06-22 11:57:56,468] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_1 already exists with a different display:
+ Concept:En travail
+ Current:Positif
+[2025-06-22 11:57:56,469] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code flag.opt_1 already exists with a different display:
+ Concept:Crises convulsives de 1-2 minutes?
+ Current:Positif
+[2025-06-22 11:57:56,469] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_2 already exists with a different display:
+ Concept:Contration
+ Current:Négatif
+[2025-06-22 11:57:56,469] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_none already exists with a different display:
+ Concept:Aucun des symptômes ci-dessus
+ Current:Non concluant
+[2025-06-22 11:57:56,471] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code flag.diag_ist already exists with a different display:
+ Concept:GALE
+ Current:Herpes Génital
+[2025-06-22 11:57:56,471] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code flag.diag_ist already exists with a different display:
+ Concept:GALE
+ Current:Suspicion syphilis 
+[2025-06-22 11:57:56,471] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code flag.diag_ist already exists with a different display:
+ Concept:GALE
+ Current:Cas probable syphilis 
+[2025-06-22 11:57:56,473] {/home/delcpa/Development/tricc_oo/tricc_oo/strategies/input/drawio.py:84} INFO - Create the activity HN0xti_AutYHFQAzcFn7::Bilharziose Génitale Féminin
+[2025-06-22 11:57:56,482] {/home/delcpa/Development/tricc_oo/tricc_oo/strategies/input/drawio.py:84} INFO - Create the activity fsGJVy85zjOCzBQzpPmV::Dependance Alchool ou drogues
+[2025-06-22 11:57:56,488] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_1 already exists with a different display:
+ Concept:En travail
+ Current:Envie irrépressible ou compulsive de consommer la substance psychoactive?
+[2025-06-22 11:57:56,488] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_2 already exists with a different display:
+ Concept:Contration
+ Current:Difficulté à autoréguler la consommation malgré les risques encourus et les conséquences négatives associées?
+[2025-06-22 11:57:56,489] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_3 already exists with a different display:
+ Concept:Grossesse visible et/ou plus de 20 semaines
+ Current:Augmentation du niveau de tolérance et apparition d’un syndrome de sevrage en cas d’arrêt?
+[2025-06-22 11:57:56,489] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_none already exists with a different display:
+ Concept:Aucun des symptômes ci-dessus
+ Current:Accuns des symptômes ci dessus
+[2025-06-22 11:57:56,494] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/xml_to_tricc.py:246} CRITICAL - rhombus Rhombusn121c3663b0e2d1a1::&gt;0 node with labelless edges
+[2025-06-22 11:57:56,494] {/home/delcpa/Development/tricc_oo/tricc_oo/strategies/input/drawio.py:84} INFO - Create the activity F3aknJbeuZT9W4aTrRfd::Stresse
+[2025-06-22 11:57:56,513] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_1 already exists with a different display:
+ Concept:En travail
+ Current:Moins d'un mois
+[2025-06-22 11:57:56,514] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code flag.opt_1 already exists with a different display:
+ Concept:Crises convulsives de 1-2 minutes?
+ Current:Moins d'un mois
+[2025-06-22 11:57:56,514] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_2 already exists with a different display:
+ Concept:Contration
+ Current:Un ou plus d'un mois
+[2025-06-22 11:57:56,514] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_none already exists with a different display:
+ Concept:Aucun des symptômes ci-dessus
+ Current:Aucun
+[2025-06-22 11:57:56,515] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_1 already exists with a different display:
+ Concept:En travail
+ Current:Troubles de sommeil
+[2025-06-22 11:57:56,515] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_2 already exists with a different display:
+ Concept:Contration
+ Current:Anxiéte
+[2025-06-22 11:57:56,515] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_3 already exists with a different display:
+ Concept:Grossesse visible et/ou plus de 20 semaines
+ Current:Problèmes de concentration
+[2025-06-22 11:57:56,515] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_4 already exists with a different display:
+ Concept:Grossesse non visible ou moins de 20 semaines
+ Current:Cauchemars récurrants, souvenirs intrusifs d’un évenement récent
+[2025-06-22 11:57:56,515] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_5 already exists with a different display:
+ Concept:5. Pâleur, Faiblesse, ictère, oedemes, enflures
+ Current:Nervosité ou fébrilité
+[2025-06-22 11:57:56,515] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_6 already exists with a different display:
+ Concept:6. Douleur et localisation
+ Current:État exagéré de vigilance
+[2025-06-22 11:57:56,516] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_8 already exists with a different display:
+ Concept:8. Gynécologique et Obstétrique 
+ Current:Réaction anormale élevée aux bruits ou aux mouvements inattendus
+[2025-06-22 11:57:56,516] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_9 already exists with a different display:
+ Concept:9. Problémes neurologiques( troubles de la conscience, du comportement, de la parole, de la motricité faiblaisse motrice ou perte de sensibilité)
+ Current:Émotions fortes
+[2025-06-22 11:57:56,516] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_10 already exists with a different display:
+ Concept:Saignement spontané
+ Current:Eviter des pensées déliberées déliberé des pensées, des souvenirs ou des situations rappeleant l’évènement récent
+[2025-06-22 11:57:56,516] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_11 already exists with a different display:
+ Concept:Collaspsus circulatoire ou choc, tension arterielle systolique < 70 mm Hg
+ Current:Changements brusques du comportement (comme agressivité)
+[2025-06-22 11:57:56,516] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_none already exists with a different display:
+ Concept:Aucun des symptômes ci-dessus
+ Current:Accuns des symptômes ci dessus
+[2025-06-22 11:57:56,517] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_1 already exists with a different display:
+ Concept:En travail
+ Current:- paralysie médicalement inexpliquée ; 
+[2025-06-22 11:57:56,517] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_2 already exists with a different display:
+ Concept:Contration
+ Current:- Incapacité de paroler ou de voir ;
+[2025-06-22 11:57:56,517] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_3 already exists with a different display:
+ Concept:Grossesse visible et/ou plus de 20 semaines
+ Current:- Crise pseudo-convulsive
+[2025-06-22 11:57:56,517] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_4 already exists with a different display:
+ Concept:Grossesse non visible ou moins de 20 semaines
+ Current:autre symptômes dissociatifs
+[2025-06-22 11:57:56,518] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_none already exists with a different display:
+ Concept:Aucun des symptômes ci-dessus
+ Current:Accuns des symptômes ci dessus
+[2025-06-22 11:57:56,518] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_1 already exists with a different display:
+ Concept:En travail
+ Current:Pathologies physique
+[2025-06-22 11:57:56,518] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_2 already exists with a different display:
+ Concept:Contration
+ Current:Dépression
+[2025-06-22 11:57:56,518] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:31} INFO - New codesystem comp added to project
+[2025-06-22 11:57:56,519] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_3 already exists with a different display:
+ Concept:Grossesse visible et/ou plus de 20 semaines
+ Current:Psychose
+[2025-06-22 11:57:56,519] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_4 already exists with a different display:
+ Concept:Grossesse non visible ou moins de 20 semaines
+ Current:Consommation nocive d’alcool ou drogues
+[2025-06-22 11:57:56,519] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_5 already exists with a different display:
+ Concept:5. Pâleur, Faiblesse, ictère, oedemes, enflures
+ Current:Autres
+[2025-06-22 11:57:56,519] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_none already exists with a different display:
+ Concept:Aucun des symptômes ci-dessus
+ Current:Accune pathologie concomitante
+[2025-06-22 11:57:56,526] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/xml_to_tricc.py:246} CRITICAL - rhombus Rhombusn0ac26c5c527b6f68::Trouble comportement/confusion node with labelless edges
+[2025-06-22 11:57:56,527] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/xml_to_tricc.py:246} CRITICAL - rhombus Rhombusn49317294acc1499f::&gt;0 node with labelless edges
+[2025-06-22 11:57:56,527] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/xml_to_tricc.py:246} CRITICAL - rhombus Rhombusn0c6f6ce217989b26::&gt;0 node with labelless edges
+[2025-06-22 11:57:56,528] {/home/delcpa/Development/tricc_oo/tricc_oo/strategies/input/drawio.py:84} INFO - Create the activity zt7P4tq3hnMm4pYEx0KY::Dépression
+[2025-06-22 11:57:56,540] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_1 already exists with a different display:
+ Concept:En travail
+ Current:Manque de sommeil, sommeil excessif ou perturbé
+[2025-06-22 11:57:56,540] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_2 already exists with a different display:
+ Concept:Contration
+ Current:Variation de l’appétit ou du poids
+[2025-06-22 11:57:56,540] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_3 already exists with a different display:
+ Concept:Grossesse visible et/ou plus de 20 semaines
+ Current:Diminution de communication avec les autres
+[2025-06-22 11:57:56,541] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_4 already exists with a different display:
+ Concept:Grossesse non visible ou moins de 20 semaines
+ Current:Isolement social
+[2025-06-22 11:57:56,541] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_5 already exists with a different display:
+ Concept:5. Pâleur, Faiblesse, ictère, oedemes, enflures
+ Current:Négligéance de l'hygiène
+[2025-06-22 11:57:56,541] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_6 already exists with a different display:
+ Concept:6. Douleur et localisation
+ Current:Fatigue (baisse d'énergie) inexpliquée et non réparée par le repos
+[2025-06-22 11:57:56,541] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_7 already exists with a different display:
+ Concept:7. Problèmes de peau (nodules, taches, vesicules, ulceres..) 
+ Current:Difficultés de concentration
+[2025-06-22 11:57:56,541] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_8 already exists with a different display:
+ Concept:8. Gynécologique et Obstétrique 
+ Current:Difficultés de prendre des décisions
+[2025-06-22 11:57:56,541] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_9 already exists with a different display:
+ Concept:9. Problémes neurologiques( troubles de la conscience, du comportement, de la parole, de la motricité faiblaisse motrice ou perte de sensibilité)
+ Current:Anxiété (peur inexpliquée)
+[2025-06-22 11:57:56,542] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_10 already exists with a different display:
+ Concept:Saignement spontané
+ Current:Manque d’éspoir, vision et idées négatives
+[2025-06-22 11:57:56,542] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_11 already exists with a different display:
+ Concept:Collaspsus circulatoire ou choc, tension arterielle systolique < 70 mm Hg
+ Current:Acte ou idées suícidaires
+[2025-06-22 11:57:56,542] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_12 already exists with a different display:
+ Concept:Hyperventilation
+ Current:Pleurs, amertume ou nervosité
+[2025-06-22 11:57:56,542] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_13 already exists with a different display:
+ Concept:Troubles physiques médicalement inexpliqués
+ Current:Plaintes somatiques diverses inexpliquées
+[2025-06-22 11:57:56,542] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_none already exists with a different display:
+ Concept:Aucun des symptômes ci-dessus
+ Current:Accuns des symptômes ci dessus
+[2025-06-22 11:57:56,543] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_1 already exists with a different display:
+ Concept:En travail
+ Current:Etat somatique
+[2025-06-22 11:57:56,543] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_2 already exists with a different display:
+ Concept:Contration
+ Current:Effets secondaires des medicaments / drogues
+[2025-06-22 11:57:56,543] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_none already exists with a different display:
+ Concept:Aucun des symptômes ci-dessus
+ Current:Accun des symptômes ci-dessus
+[2025-06-22 11:57:56,545] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code diag.depressed already exists with a different display:
+ Concept:Dépression unipolaire
+ Current:Dépression médicamenteuse ou liée aux substances
+[2025-06-22 11:57:56,553] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/xml_to_tricc.py:246} CRITICAL - rhombus Rhombusnf8b7e09ec1ee8c4c::&gt;0 node with labelless edges
+[2025-06-22 11:57:56,553] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/xml_to_tricc.py:246} CRITICAL - rhombus Rhombusn1306dca8dd56d22d::&gt;0 node with labelless edges
+[2025-06-22 11:57:56,554] {/home/delcpa/Development/tricc_oo/tricc_oo/strategies/input/drawio.py:84} INFO - Create the activity c1oH005OEdqoLZvTHTeg::Alcool
+[2025-06-22 11:57:56,639] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_1 already exists with a different display:
+ Concept:En travail
+ Current:Crise de dyspnée asphyxiante (apnée)
+[2025-06-22 11:57:56,640] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_2 already exists with a different display:
+ Concept:Contration
+ Current:Hypotension
+[2025-06-22 11:57:56,641] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_3 already exists with a different display:
+ Concept:Grossesse visible et/ou plus de 20 semaines
+ Current:Douleurs
+[2025-06-22 11:57:56,641] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_4 already exists with a different display:
+ Concept:Grossesse non visible ou moins de 20 semaines
+ Current:Agitations
+[2025-06-22 11:57:56,642] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_none already exists with a different display:
+ Concept:Aucun des symptômes ci-dessus
+ Current:Accuns des symptômes ci dessus
+[2025-06-22 11:57:56,643] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_1 already exists with a different display:
+ Concept:En travail
+ Current:La personne a récemment cessé sa consommation d’alcool ou de sédatifs?
+[2025-06-22 11:57:56,644] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_2 already exists with a different display:
+ Concept:Contration
+ Current:La personne a récemment utilisé des stimulants (cocaïne, stimulants tels qu’amphétamine ou autres)?
+[2025-06-22 11:57:56,644] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_3 already exists with a different display:
+ Concept:Grossesse visible et/ou plus de 20 semaines
+ Current:La personne a récemment cessé de consommer des opiacés?
+[2025-06-22 11:57:56,645] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_none already exists with a different display:
+ Concept:Aucun des symptômes ci-dessus
+ Current:Accuns des symptômes ci dessus
+[2025-06-22 11:57:56,645] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_1 already exists with a different display:
+ Concept:En travail
+ Current:Fonctionnement en mode automatique, comme un somnambule ;
+[2025-06-22 11:57:56,646] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_2 already exists with a different display:
+ Concept:Contration
+ Current:Désorientation dans le temps, dans l'espace et par rapport aux visages familiers ;
+[2025-06-22 11:57:56,647] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_3 already exists with a different display:
+ Concept:Grossesse visible et/ou plus de 20 semaines
+ Current:Baisse des autres fonctions intellectuelles (mémoire, attention, jugement, raisonnemement) ;
+[2025-06-22 11:57:56,647] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_4 already exists with a different display:
+ Concept:Grossesse non visible ou moins de 20 semaines
+ Current:Incapacité de se souvenir de tout ce qui se passe pendant la crise ;
+[2025-06-22 11:57:56,647] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_5 already exists with a different display:
+ Concept:5. Pâleur, Faiblesse, ictère, oedemes, enflures
+ Current:Quelques moments de lucidité marqués par la perplexité, l'anxiété
+[2025-06-22 11:57:56,648] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_6 already exists with a different display:
+ Concept:6. Douleur et localisation
+ Current:Changement des comportements tantôt agitation, tantôt stupeur ;
+[2025-06-22 11:57:56,648] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_7 already exists with a different display:
+ Concept:7. Problèmes de peau (nodules, taches, vesicules, ulceres..) 
+ Current:Insomnie avec aggravation des signes dans la nuit ;
+[2025-06-22 11:57:56,648] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_none already exists with a different display:
+ Concept:Aucun des symptômes ci-dessus
+ Current:Accuns des symptômes ci dessus
+[2025-06-22 11:57:56,657] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/xml_to_tricc.py:246} CRITICAL - rhombus Rhombusn6695f7a68dbd00c1::&gt;0 node with labelless edges
+[2025-06-22 11:57:56,660] {/home/delcpa/Development/tricc_oo/tricc_oo/strategies/input/drawio.py:84} INFO - Create the activity R1nx-iMsxXeVctGSfYVw::Psychose
+[2025-06-22 11:57:56,770] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_1 already exists with a different display:
+ Concept:En travail
+ Current:Changement marqués du comportement, avec une négligence des responsabilités, habituelles liées au travail, à la profession, aux activités domestiques ou sociales , se mettre à l'écart des autres et n'execute pas ses responsabilités;
+[2025-06-22 11:57:56,770] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_2 already exists with a different display:
+ Concept:Contration
+ Current:Comportement désorganisé, exemple : discours incohérent/hors sujet, monoloques, rires sans justification (rires immotivés), apparence étrange, signes de laisser aller ou d'apparence négligée ;
+[2025-06-22 11:57:56,771] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_3 already exists with a different display:
+ Concept:Grossesse visible et/ou plus de 20 semaines
+ Current:Agitation, augmentation ou diminution de l'activité, bizarrerie, agressivité verbale ou physique inexpliquée, atteinte à la pudeur.
+[2025-06-22 11:57:56,771] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_4 already exists with a different display:
+ Concept:Grossesse non visible ou moins de 20 semaines
+ Current:Hallucinations : entend des voix et recent ou voit des choses qui ne sont pas réelles (entendant ou voyant des choses que les autres ne voyent ou n'entendent pas).
+[2025-06-22 11:57:56,771] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_5 already exists with a different display:
+ Concept:5. Pâleur, Faiblesse, ictère, oedemes, enflures
+ Current:Delires : Croyances erronées, bizarres inébranlables, non partagées par d'autres dans la culture de l'individu.
+[2025-06-22 11:57:56,771] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_6 already exists with a different display:
+ Concept:6. Douleur et localisation
+ Current:Absence de prise de conscience de présenter un trouble.
+[2025-06-22 11:57:56,771] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_none already exists with a different display:
+ Concept:Aucun des symptômes ci-dessus
+ Current:Aucun des symptômes ci dessus
+[2025-06-22 11:57:56,771] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_1 already exists with a different display:
+ Concept:En travail
+ Current:Humeur euforique 
+[2025-06-22 11:57:56,772] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_2 already exists with a different display:
+ Concept:Contration
+ Current:Pas besoin de dormir
+[2025-06-22 11:57:56,772] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_3 already exists with a different display:
+ Concept:Grossesse visible et/ou plus de 20 semaines
+ Current:Comportement impulsif
+[2025-06-22 11:57:56,772] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_4 already exists with a different display:
+ Concept:Grossesse non visible ou moins de 20 semaines
+ Current:Discours et activités excessives
+[2025-06-22 11:57:56,772] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_5 already exists with a different display:
+ Concept:5. Pâleur, Faiblesse, ictère, oedemes, enflures
+ Current:antécedants d'épisodes dépressives
+[2025-06-22 11:57:56,772] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_none already exists with a different display:
+ Concept:Aucun des symptômes ci-dessus
+ Current:Accuns des symptômes ci dessus
+[2025-06-22 11:57:56,773] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_1 already exists with a different display:
+ Concept:En travail
+ Current:Toujours présents dans moins de 2 semaines.
+[2025-06-22 11:57:56,773] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_2 already exists with a different display:
+ Concept:Contration
+ Current:Toujours présents au déla de 2 semaines sans causes somatiques.
+[2025-06-22 11:57:56,773] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_3 already exists with a different display:
+ Concept:Grossesse visible et/ou plus de 20 semaines
+ Current:De survenue  brutale.
+[2025-06-22 11:57:56,773] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_none already exists with a different display:
+ Concept:Aucun des symptômes ci-dessus
+ Current:Aucuns des symptômes ci dessus
+[2025-06-22 11:57:56,773] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_1 already exists with a different display:
+ Concept:En travail
+ Current:Crises sous forme de perte d'une fonction de la vie de relation (conscience, vue, audition, motricité, language, ...), semblable à une crise d'épilepsie, sans explication anatomique - ni physio-pathologique ; 
+[2025-06-22 11:57:56,774] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_2 already exists with a different display:
+ Concept:Contration
+ Current:Théâtralisme (comportement excessif, qui vise à attirer l'attention) ;
+[2025-06-22 11:57:56,774] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_3 already exists with a different display:
+ Concept:Grossesse visible et/ou plus de 20 semaines
+ Current:Crise sous forme d'état second, de transe ;
+[2025-06-22 11:57:56,774] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_4 already exists with a different display:
+ Concept:Grossesse non visible ou moins de 20 semaines
+ Current:Ne respectant pas la marche sémiologique classique ;
+[2025-06-22 11:57:56,774] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_5 already exists with a different display:
+ Concept:5. Pâleur, Faiblesse, ictère, oedemes, enflures
+ Current:Réactionnel(le) aux stimulis affectifs (aggravées en public) ;
+[2025-06-22 11:57:56,774] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_6 already exists with a different display:
+ Concept:6. Douleur et localisation
+ Current:Apparution de douleurs disséminées dans l'ensemble de l'organisme 
+[2025-06-22 11:57:56,774] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_7 already exists with a different display:
+ Concept:7. Problèmes de peau (nodules, taches, vesicules, ulceres..) 
+ Current:Incohérence entre plaintes et résultats des examens.
+[2025-06-22 11:57:56,774] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_none already exists with a different display:
+ Concept:Aucun des symptômes ci-dessus
+ Current:Accuns des symptômes ci dessus
+[2025-06-22 11:57:56,784] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/xml_to_tricc.py:246} CRITICAL - rhombus Rhombusncf9978fa1da3a04a::&gt;0 node with labelless edges
+[2025-06-22 11:57:56,784] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/xml_to_tricc.py:246} CRITICAL - rhombus Rhombusn7073d4c1f9e76114::&gt;0 node with labelless edges
+[2025-06-22 11:57:56,784] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/xml_to_tricc.py:246} CRITICAL - rhombus Rhombusn0b1d228da8a0fff2::&gt;0 node with labelless edges
+[2025-06-22 11:57:56,787] {/home/delcpa/Development/tricc_oo/tricc_oo/strategies/input/drawio.py:84} INFO - Create the activity MkiDJryikDS7WOc2FLOe::Mal aux membres et lombes
+[2025-06-22 11:57:56,859] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_1 already exists with a different display:
+ Concept:En travail
+ Current:Arthralgies : au niveau d'une/des articulations
+[2025-06-22 11:57:56,859] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_2 already exists with a different display:
+ Concept:Contration
+ Current:myalgies : au niveau d'une/des muscles
+[2025-06-22 11:57:56,860] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_3 already exists with a different display:
+ Concept:Grossesse visible et/ou plus de 20 semaines
+ Current:douleur liée aux vertèbres/raideur localisée au dos
+[2025-06-22 11:57:56,860] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_4 already exists with a different display:
+ Concept:Grossesse non visible ou moins de 20 semaines
+ Current:boiterie, difficultées à marcher
+[2025-06-22 11:57:56,860] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_none already exists with a different display:
+ Concept:Aucun des symptômes ci-dessus
+ Current:Accuns des symptômes ci-dessus
+[2025-06-22 11:57:56,866] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/xml_to_tricc.py:995} WARNING - edge HlTTGTHNBBDNQapd50d6-10 is coming from select SelectYesNoask_Qk5asshW3qPQnQTZwyMF-1::Nodules sous la peau
+
+douleurs
+
+articulai
+[2025-06-22 11:57:56,871] {/home/delcpa/Development/tricc_oo/tricc_oo/strategies/input/drawio.py:84} INFO - Create the activity bIYOXnxnP1PIRTiZQGdc::Oedema
+[2025-06-22 11:57:56,892] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_1 already exists with a different display:
+ Concept:En travail
+ Current:Tête: visage / yeux
+[2025-06-22 11:57:56,892] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code obs.oedema_head already exists with a different display:
+ Concept:Oedème / gonflement visage, bouche, cou
+ Current:Tête: visage / yeux
+[2025-06-22 11:57:56,892] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_2 already exists with a different display:
+ Concept:Contration
+ Current:Ventre (ascites)
+[2025-06-22 11:57:56,893] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_6 already exists with a different display:
+ Concept:6. Douleur et localisation
+ Current:Genital, femorale ou inguinal
+[2025-06-22 11:57:56,894] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_8 already exists with a different display:
+ Concept:8. Gynécologique et Obstétrique 
+ Current:Cou ou  cervicale
+[2025-06-22 11:57:56,894] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_9 already exists with a different display:
+ Concept:9. Problémes neurologiques( troubles de la conscience, du comportement, de la parole, de la motricité faiblaisse motrice ou perte de sensibilité)
+ Current:Géneralisés / Sur tout le corps
+[2025-06-22 11:57:56,894] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_7 already exists with a different display:
+ Concept:7. Problèmes de peau (nodules, taches, vesicules, ulceres..) 
+ Current:Autres
+[2025-06-22 11:57:56,895] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_none already exists with a different display:
+ Concept:Aucun des symptômes ci-dessus
+ Current:Aucun des choix ci dessus 
+[2025-06-22 11:57:56,897] {/home/delcpa/Development/tricc_oo/tricc_oo/strategies/input/drawio.py:84} INFO - Create the activity ksY3Ko55QSegOcOn2pSG::réevaluation
+[2025-06-22 11:57:56,904] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_1 already exists with a different display:
+ Concept:En travail
+ Current:Test d'athmse avec du sabultanole
+[2025-06-22 11:57:56,904] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_2 already exists with a different display:
+ Concept:Contration
+ Current:hypertension dans les dernier jours
+[2025-06-22 11:57:56,904] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:31} INFO - New codesystem hist added to project
+[2025-06-22 11:57:56,905] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code opt_none already exists with a different display:
+ Concept:Aucun des symptômes ci-dessus
+ Current:Accuns des symptômes ci dessus
+[2025-06-22 11:57:56,906] {/home/delcpa/Development/tricc_oo/tricc_oo/converters/datadictionnary.py:86} WARNING - Code diag.asthma_severe already exists with a different display:
+ Concept:Crise grave d’asthme grave OU asthme très sévère
+ Current:Crise grave d’asthme grave OU asthme très sévère
+[2025-06-22 11:57:56,906] {/home/delcpa/Development/tricc_oo/tricc_oo/strategies/input/drawio.py:84} INFO - Create the activity zO8EASJ_D5VXY_LR484D::AVC
+[2025-06-22 11:57:56,914] {/home/delcpa/Development/tricc_oo/tricc_oo/strategies/input/drawio.py:91} INFO - # Create the graph from the start node
+[2025-06-22 12:00:10,786] {/home/delcpa/Development/tricc_oo/tricc_oo/strategies/input/drawio.py:49} INFO - # check if all edges (arrow) where used
+[2025-06-22 12:00:10,791] {/home/delcpa/Development/tricc_oo/tests/build.py:204} INFO - Using strategy <class 'tricc_oo.strategies.output.xlsform_cht.XLSFormCHTStrategy'>
+[2025-06-22 12:00:10,792] {/home/delcpa/Development/tricc_oo/tests/build.py:205} INFO - update the node with basic information
+[2025-06-22 12:00:10,792] {/home/delcpa/Development/tricc_oo/tricc_oo/strategies/output/base_output_strategy.py:26} INFO - build version: 202506221200
+[2025-06-22 12:01:44,941] {/home/delcpa/Development/tricc_oo/tricc_oo/strategies/output/base_output_strategy.py:33} INFO - generate the relevance based on edges
+[2025-06-22 12:03:15,243] {/home/delcpa/Development/tricc_oo/tricc_oo/strategies/output/base_output_strategy.py:41} INFO - generate the export format
+[2025-06-22 12:08:09,763] {/home/delcpa/Development/tricc_oo/tricc_oo/strategies/output/base_output_strategy.py:45} INFO - print the export

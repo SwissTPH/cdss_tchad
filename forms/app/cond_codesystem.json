@@ -1,0 +1,53 @@
+{
+    "resourceType": "CodeSystem",
+    "id": "cond",
+    "url": "http://example.com/fhir/CodeSystem/cond",
+    "version": "1.0.0",
+    "name": "cond",
+    "title": "cond",
+    "status": "draft",
+    "description": "Code system for cond",
+    "content": "complete",
+    "concept": [
+        {
+            "code": "cond.pregnant",
+            "display": "Grossesse ou en travail",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "N/A"
+                }
+            ]
+        },
+        {
+            "code": "cond.sickel_cell_suspected",
+            "display": "Drèpancytose suspectée",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                }
+            ]
+        },
+        {
+            "code": "cond.sickel_cell",
+            "display": "Drépanocytose connu?",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Coded"
+                }
+            ]
+        },
+        {
+            "code": "cond.ulcer_vesicule_recurent",
+            "display": "Ulcère ou histoires de vésicules récurrentes",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Coded"
+                }
+            ]
+        }
+    ]
+}

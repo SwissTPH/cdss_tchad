@@ -1,0 +1,805 @@
+{
+    "resourceType": "CodeSystem",
+    "id": "flag",
+    "url": "http://example.com/fhir/CodeSystem/flag",
+    "version": "1.0.0",
+    "name": "flag",
+    "title": "flag",
+    "status": "draft",
+    "description": "Code system for flag",
+    "content": "complete",
+    "concept": [
+        {
+            "code": "flag.delivery",
+            "display": "En travail",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "N/A"
+                }
+            ]
+        },
+        {
+            "code": "flag.contraction",
+            "display": "Contration",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "N/A"
+                }
+            ]
+        },
+        {
+            "code": "flag.pregnancy_p20",
+            "display": "Grossesse visible et/ou plus de 20 semaines",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "N/A"
+                }
+            ]
+        },
+        {
+            "code": "flag.pregnancy_m20",
+            "display": "Grossesse non visible ou moins de 20 semaines",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "N/A"
+                }
+            ]
+        },
+        {
+            "code": "flag.ds",
+            "display": "En ce moment, le patient présente-t'il des signes de danger menançant son prognostic vital?",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "N/A"
+                },
+                {
+                    "code": "datatype",
+                    "valueString": "N/A"
+                }
+            ]
+        },
+        {
+            "code": "flag.postpartum",
+            "display": "Accouchement récent (post-partum)",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "N/A"
+                }
+            ]
+        },
+        {
+            "code": "flag.abortion",
+            "display": "Histoire avortement ou fausse-couche",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "N/A"
+                }
+            ]
+        },
+        {
+            "code": "flag.ds_w",
+            "display": "Signe de danger chez la femme",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Numeric"
+                }
+            ]
+        },
+        {
+            "code": "flag.ds_a",
+            "display": "Signe de danger A/B",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                }
+            ]
+        },
+        {
+            "code": "flag.pregnant_or_possible",
+            "display": "Femme enceinte ou grossesse possible",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                }
+            ]
+        },
+        {
+            "code": "flag.ds_c",
+            "display": "Signe de danger C",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                }
+            ]
+        },
+        {
+            "code": "flag.ds_d",
+            "display": "Signe de danger D",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                }
+            ]
+        },
+        {
+            "code": "flag.ds_p",
+            "display": "Signe de danger P",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                }
+            ]
+        },
+        {
+            "code": "flag.woman",
+            "display": "Femmes",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                }
+            ]
+        },
+        {
+            "code": "flag.avpu_pu",
+            "display": "pas de reaction ou réaction qu'au stimulus douleureux",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                }
+            ]
+        },
+        {
+            "code": "flag.dehydration.ap",
+            "display": "Signe cardinaux   \nsévére ",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Numeric"
+                }
+            ]
+        },
+        {
+            "code": "flag.dehydration.bp",
+            "display": "Signe cardinaux  \n modéré",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Numeric"
+                }
+            ]
+        },
+        {
+            "code": "flag.convulsion_issue",
+            "display": "Le patient a-t-il des pertes de connaissance ou de convulsions (passés ou présent)? ",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Coded"
+                }
+            ]
+        },
+        {
+            "code": "flag.drug_vaccin_intake",
+            "display": "Medicaments, vaccins",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "N/A"
+                }
+            ]
+        },
+        {
+            "code": "flag.sedation_possible",
+            "display": "Alcool, drogues, Yambo ou  traitement herbalistes (haleine)",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "N/A"
+                }
+            ]
+        },
+        {
+            "code": "flag.injestion",
+            "display": "Demander si la patient à Ingeré ou inhalé récemment un des ces produits:",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "N/A"
+                }
+            ]
+        },
+        {
+            "code": "flag.cc_uro",
+            "display": "3. Problèmes / Troubles génito-urinaires",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "N/A"
+                }
+            ]
+        },
+        {
+            "code": "flag.substance",
+            "display": "notion de prises de substances",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                }
+            ]
+        },
+        {
+            "code": "flag.ds_f",
+            "display": "Signe de gravité fièvre",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                }
+            ]
+        },
+        {
+            "code": "flag.palu_grave",
+            "display": "Signe de gravité du paludisme ",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                }
+            ]
+        },
+        {
+            "code": "flag.palu_proxy",
+            "display": "Suspecter vous le paludisme / Le patient a-t-il les symptomes du paludisme simple ?   \n  \n- Fièvre avec ou sans frissons  \n- Sudation/ Sueur  \n- Toux (chez 20 à 30 % des patients)  \n- Troubles digestifs / anorexie, nausée, vomissement et diahrée  \n- Fatigue  \n- Céphalées/mal à la tête  \n- Douleurs articulaires  \n- Douleurs abdominales  \n- Herpès labial (parfois)",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Coded"
+                }
+            ]
+        },
+        {
+            "code": "flag.fever_simple",
+            "display": "fièvre non grave",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                }
+            ]
+        },
+        {
+            "code": "flag.join_limb_back",
+            "display": "Est ce que le patient à:",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "N/A"
+                }
+            ]
+        },
+        {
+            "code": "flag.fast_breathing",
+            "display": "Respiration rapide",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                }
+            ]
+        },
+        {
+            "code": "flag.hypoglycemia_possible_ds",
+            "display": "<font>Hypoglycemie</font>&nbsp;<font>probable</font>",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                }
+            ]
+        },
+        {
+            "code": "flag.hypoglycemia_severe_ds",
+            "display": "Hypoglycemie sévère",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                }
+            ]
+        },
+        {
+            "code": "flag.hyperglycemia",
+            "display": "Hyperglycemie",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                }
+            ]
+        },
+        {
+            "code": "flag.hypoglycemia_moderate_ds",
+            "display": "Hypoglycemie",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                }
+            ]
+        },
+        {
+            "code": "flag.bite_pet",
+            "display": "Doméstique (chien, chat, chèvre,…)",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "N/A"
+                }
+            ]
+        },
+        {
+            "code": "flag.bite_more_10_days",
+            "display": "toujours vivant après 10 jours",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "N/A"
+                }
+            ]
+        },
+        {
+            "code": "flag.less_than_10_days",
+            "display": "Contact de moins de 10 jours",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "N/A"
+                }
+            ]
+        },
+        {
+            "code": "flag.opt_1",
+            "display": "Crises convulsives de 1-2 minutes?",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "N/A"
+                },
+                {
+                    "code": "datatype",
+                    "valueString": "N/A"
+                },
+                {
+                    "code": "datatype",
+                    "valueString": "N/A"
+                },
+                {
+                    "code": "datatype",
+                    "valueString": "N/A"
+                },
+                {
+                    "code": "datatype",
+                    "valueString": "N/A"
+                },
+                {
+                    "code": "datatype",
+                    "valueString": "N/A"
+                },
+                {
+                    "code": "datatype",
+                    "valueString": "N/A"
+                },
+                {
+                    "code": "datatype",
+                    "valueString": "N/A"
+                }
+            ]
+        },
+        {
+            "code": "flag.diag_conscience",
+            "display": "Déficit neurologique central:",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "N/A"
+                }
+            ]
+        },
+        {
+            "code": "flag.vomit_belly",
+            "display": "Mal au ventre ou vomissement",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                }
+            ]
+        },
+        {
+            "code": "flag.sds",
+            "display": "sang dans les selles",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                }
+            ]
+        },
+        {
+            "code": "flag.diag_abdo",
+            "display": "Constipation",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                },
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                },
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                },
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                },
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                },
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                },
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                },
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                },
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                },
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                },
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                },
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                },
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                },
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                },
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                },
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                },
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                },
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                },
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                }
+            ]
+        },
+        {
+            "code": "flag.no_belly_diag",
+            "display": "Sans diagnostic mal au ventre",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                }
+            ]
+        },
+        {
+            "code": "flag.opt_3",
+            "display": ">10",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "N/A"
+                },
+                {
+                    "code": "datatype",
+                    "valueString": "N/A"
+                },
+                {
+                    "code": "datatype",
+                    "valueString": "N/A"
+                }
+            ]
+        },
+        {
+            "code": "flag.choc_risk",
+            "display": "risque de choc",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                }
+            ]
+        },
+        {
+            "code": "flag.ictere_cause_unknown",
+            "display": "**Suspicion maladie hèpatique non-fébrile**Ictère cause non identifiée autre cause à rechercher",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                },
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                },
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                }
+            ]
+        },
+        {
+            "code": "flag.test_heb_neg",
+            "display": "Test négatif",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "N/A"
+                }
+            ]
+        },
+        {
+            "code": "flag.test_heb_ind",
+            "display": "Est ce que le test Hépatite B/C est disponible ?",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Coded"
+                }
+            ]
+        },
+        {
+            "code": "flag.gum_red",
+            "display": "Gencives rougeatres ou de couleur pourpre?",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "N/A"
+                }
+            ]
+        },
+        {
+            "code": "flag.gum_bleeding_touch",
+            "display": "Saignements des gencives au toucher ou pendant le brossage",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "N/A"
+                }
+            ]
+        },
+        {
+            "code": "flag.score_bact",
+            "display": "Score",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Numeric"
+                }
+            ]
+        },
+        {
+            "code": "flag.skin_zone",
+            "display": "Pityriasis versicolor: pâle, squameuse, tronc, cou, extrémités / membres proximales",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Coded"
+                },
+                {
+                    "code": "datatype",
+                    "valueString": "Coded"
+                },
+                {
+                    "code": "datatype",
+                    "valueString": "Coded"
+                },
+                {
+                    "code": "datatype",
+                    "valueString": "Coded"
+                },
+                {
+                    "code": "datatype",
+                    "valueString": "Coded"
+                },
+                {
+                    "code": "datatype",
+                    "valueString": "Coded"
+                }
+            ]
+        },
+        {
+            "code": "flag.diag.intox",
+            "display": "Intoxication possible, ingestion inconnue",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                },
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                },
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                },
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                },
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                },
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                }
+            ]
+        },
+        {
+            "code": "flag.diag_ist",
+            "display": "GALE",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                },
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                },
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                },
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                },
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                },
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                },
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                },
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                },
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                },
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                },
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                },
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                },
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                },
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                },
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                },
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                },
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                },
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                },
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                }
+            ]
+        },
+        {
+            "code": "flag.depressed",
+            "display": "Depression à déterminer",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                }
+            ]
+        },
+        {
+            "code": "flag.sedation_signs",
+            "display": "Observer si la personne semble-t-elle confuse ?",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "N/A"
+                }
+            ]
+        },
+        {
+            "code": "flag.acute_limb_pain",
+            "display": "Douleurs d’apparition\n\nbrutale et limitation des\n\nmouvements des petit articulation mains pieds et histoire de fièvre?",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Coded"
+                }
+            ]
+        }
+    ]
+}

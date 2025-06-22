@@ -1,0 +1,63 @@
+{
+    "resourceType": "CodeSystem",
+    "id": "test",
+    "url": "http://example.com/fhir/CodeSystem/test",
+    "version": "1.0.0",
+    "name": "test",
+    "title": "test",
+    "status": "draft",
+    "description": "Code system for test",
+    "content": "complete",
+    "concept": [
+        {
+            "code": "test.malaria_positif",
+            "display": "Positif",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "N/A"
+                }
+            ]
+        },
+        {
+            "code": "test.malaria_negatif",
+            "display": "Négatif",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "N/A"
+                }
+            ]
+        },
+        {
+            "code": "test.malaria_rupture",
+            "display": "Rupture",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "N/A"
+                }
+            ]
+        },
+        {
+            "code": "test.malaria",
+            "display": "Effectuer un TDR pour le paludisme",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Coded"
+                }
+            ]
+        },
+        {
+            "code": "test.urine_erythrozytes",
+            "display": "Preuve(positif) Erythrozytes",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "N/A"
+                }
+            ]
+        }
+    ]
+}

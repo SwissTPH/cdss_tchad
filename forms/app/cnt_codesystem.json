@@ -1,0 +1,43 @@
+{
+    "resourceType": "CodeSystem",
+    "id": "cnt",
+    "url": "http://example.com/fhir/CodeSystem/cnt",
+    "version": "1.0.0",
+    "name": "cnt",
+    "title": "cnt",
+    "status": "draft",
+    "description": "Code system for cnt",
+    "content": "complete",
+    "concept": [
+        {
+            "code": "cnt.denguue_severe",
+            "display": "Score Dengue sévère",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Numeric"
+                }
+            ]
+        },
+        {
+            "code": "cnt.dengue",
+            "display": "Score Dengue",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Numeric"
+                }
+            ]
+        },
+        {
+            "code": "cnt.psycosis",
+            "display": "Observer et demander s'il y a des symptômes suivants :",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "N/A"
+                }
+            ]
+        }
+    ]
+}

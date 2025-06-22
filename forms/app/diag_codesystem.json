@@ -1,0 +1,2679 @@
+{
+    "resourceType": "CodeSystem",
+    "id": "diag",
+    "url": "http://example.com/fhir/CodeSystem/diag",
+    "version": "1.0.0",
+    "name": "diag",
+    "title": "diag",
+    "status": "draft",
+    "description": "Code system for diag",
+    "content": "complete",
+    "concept": [
+        {
+            "code": "diag.foreign_object",
+            "display": "Corps étranger",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                },
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                }
+            ]
+        },
+        {
+            "code": "diag.dehydration_moderate",
+            "display": "Déhydratation modérée",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                }
+            ]
+        },
+        {
+            "code": "diag.dehydration_severe",
+            "display": "Déhydratation sévère",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                }
+            ]
+        },
+        {
+            "code": "diag.4PxACgwKjj8mODXDdWxi-38",
+            "display": "Etat de mal épileptique",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                }
+            ]
+        },
+        {
+            "code": "diag.4PxACgwKjj8mODXDdWxi-27",
+            "display": "Crise convulsive",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                }
+            ]
+        },
+        {
+            "code": "diag.4PxACgwKjj8mODXDdWxi-17",
+            "display": "Convulsion post-traumatisme crânien et/ou cervical",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                }
+            ]
+        },
+        {
+            "code": "diag.4PxACgwKjj8mODXDdWxi-18",
+            "display": "Traumatisme crânien et ou cervicale dù à la perte de connaissance ",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                }
+            ]
+        },
+        {
+            "code": "diag.M8UZIHzkYbXCO8Qs8lQ5-22",
+            "display": "Paludisme simple probable",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                }
+            ]
+        },
+        {
+            "code": "diag.illness_fever_severe",
+            "display": "**Maladies fébriles graves**",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                },
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                },
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                },
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                },
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                },
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                }
+            ]
+        },
+        {
+            "code": "diag.palu_neuro",
+            "display": "Paludisme grâve confirmé avec signe de  \n meningites",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                }
+            ]
+        },
+        {
+            "code": "diag.XVwizIXi03xjcMA2x9c3-31",
+            "display": "Suspicion meningites",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                }
+            ]
+        },
+        {
+            "code": "diag.malaria_simple_resistant",
+            "display": "Paludisme resistant confirmé",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                }
+            ]
+        },
+        {
+            "code": "diag.measles_possible",
+            "display": "cas suspect de rougeole",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                }
+            ]
+        },
+        {
+            "code": "diag.malaria_severe",
+            "display": "Paludisme grâve confirmé",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                }
+            ]
+        },
+        {
+            "code": "diag.M8UZIHzkYbXCO8Qs8lQ5-23",
+            "display": "Paludisme simple confirmé",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                }
+            ]
+        },
+        {
+            "code": "diag.chikungunia",
+            "display": "Suspecter syndrome grippale/virale/\n\nCas probable d'arbovirose: (Chikungunia)",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                }
+            ]
+        },
+        {
+            "code": "diag.illness_fever_severe_hem",
+            "display": "Suspicion fièvre hemoragique ",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                }
+            ]
+        },
+        {
+            "code": "diag.fever_simple",
+            "display": "fièvre  persistante",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                }
+            ]
+        },
+        {
+            "code": "diag.flu",
+            "display": "Suspecter syndrome grippale/virale",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                }
+            ]
+        },
+        {
+            "code": "diag.dengue_possible",
+            "display": "cas suspect de dengue ",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                }
+            ]
+        },
+        {
+            "code": "diag.dengue_severe_possible",
+            "display": "cas suspect de dengue grave",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                }
+            ]
+        },
+        {
+            "code": "diag.DuVoyeiEh9REAextZgun-9",
+            "display": "Detresse réspiratoire avec Désaturation  ",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                }
+            ]
+        },
+        {
+            "code": "diag.dabiete_type_2",
+            "display": "Suspecter Diabète type 2",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                },
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                }
+            ]
+        },
+        {
+            "code": "diag.postabortion_bleeding",
+            "display": "Suspicion Saignement post-abortun",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                }
+            ]
+        },
+        {
+            "code": "diag.peruperal",
+            "display": "Suspicion Infections génitales hautes d’origine puerpérale",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                }
+            ]
+        },
+        {
+            "code": "diag.post_partum_bleeding",
+            "display": "Rupture utérine, inertie utérine, retention placentaire",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                }
+            ]
+        },
+        {
+            "code": "diag.choc_hemoragic",
+            "display": "Suspicion choc hypovolémique / hémorragique",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                }
+            ]
+        },
+        {
+            "code": "diag.choc_sepctic",
+            "display": "Suspicion choc septique",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                }
+            ]
+        },
+        {
+            "code": "diag.hypertension_cause_to_evaluate",
+            "display": "Cause hypertension à évaluée",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                }
+            ]
+        },
+        {
+            "code": "diag.choc_anaphylactic",
+            "display": "Suspicion choc hypovolémique /Anaphylaque",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                }
+            ]
+        },
+        {
+            "code": "diag.choc_cardiogenic",
+            "display": "Suspicion choc cardigènique",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                }
+            ]
+        },
+        {
+            "code": "diag.pneumothorax",
+            "display": "signe pour pneumothorax de tension",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                }
+            ]
+        },
+        {
+            "code": "diag.rabbies_possible",
+            "display": "Suspicion contact rage",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                }
+            ]
+        },
+        {
+            "code": "diag.rabbies",
+            "display": "Suspicion rage symptomatique",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                }
+            ]
+        },
+        {
+            "code": "diag.eZ4d-pNwoN_CJ-OqBiII-12",
+            "display": "Epilepsie idiopathique",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                }
+            ]
+        },
+        {
+            "code": "diag.b32PCFyuH6J_xuRz5ii7-40",
+            "display": "Suspicion neuro-cysticercosis",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                }
+            ]
+        },
+        {
+            "code": "diag.b32PCFyuH6J_xuRz5ii7-36",
+            "display": "Suspicion du syndrôme de nodding associé ä onchocercose",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                }
+            ]
+        },
+        {
+            "code": "diag.b32PCFyuH6J_xuRz5ii7-39",
+            "display": "Suspicion Maladie du someil ",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                }
+            ]
+        },
+        {
+            "code": "diag.epi_propable",
+            "display": "Epilepsie probable",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                }
+            ]
+        },
+        {
+            "code": "diag.tenatos_possible",
+            "display": "Suspicion Tétanos",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                }
+            ]
+        },
+        {
+            "code": "diag.convulsion_none_epileptic",
+            "display": "Crisis non epiléptique: ",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                }
+            ]
+        },
+        {
+            "code": "diag.syncope",
+            "display": "Syncope",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                }
+            ]
+        },
+        {
+            "code": "diag.constipation",
+            "display": "Constipation",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                }
+            ]
+        },
+        {
+            "code": "diag.abdomen_acute",
+            "display": "Abdomen aiguë ",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                }
+            ]
+        },
+        {
+            "code": "diag.P-8NwlPnr4KHCrsG7PdG-1",
+            "display": "Syndrome abdominal par traumatisme",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                }
+            ]
+        },
+        {
+            "code": "diag.reflu_gastro",
+            "display": "Suspicion Reflux gastro-oesophagien, Gastrite ou ulcère gastro-duodenal",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                }
+            ]
+        },
+        {
+            "code": "diag.abces_amibien",
+            "display": "**Syndrome abdominale** : douleurs abdominales hautes possibles causes à évaluer: Suspicion parasitose intestinale (sans fièvre) OU Suspicion abcès amibien OU autre ",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                }
+            ]
+        },
+        {
+            "code": "diag.bilharziose_intestinale",
+            "display": "Suspicion bilharziose intestinale",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                },
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                }
+            ]
+        },
+        {
+            "code": "diag.parasitose_intestinale",
+            "display": "Suspicion parasitose intestinale ",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                }
+            ]
+        },
+        {
+            "code": "diag.diahrroea_watery",
+            "display": "DIARRHÉE AQUEUSE AIGUË",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                }
+            ]
+        },
+        {
+            "code": "diag.diahrroea_persistent_severe",
+            "display": "DIARRHÉE PERSISTANTE SÉVÈRE OU chronique",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                }
+            ]
+        },
+        {
+            "code": "diag.diahrroea_cholera",
+            "display": " suspicion DIARRHÉE CHOLÉRIQUE",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                }
+            ]
+        },
+        {
+            "code": "diag.dysentry_bloody",
+            "display": "Suspicion Dysentérie sanglante amebienne",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                }
+            ]
+        },
+        {
+            "code": "diag.diahrroea_persistent",
+            "display": "**DIARRHÉE Chronique**",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                },
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                }
+            ]
+        },
+        {
+            "code": "diag.dysentry_bloody_bact",
+            "display": "Suspicion dysenterie sanglante bactérienne (shigellose)",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                }
+            ]
+        },
+        {
+            "code": "diag.anemia_severe",
+            "display": "Suspicion anémie sévère",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                },
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                }
+            ]
+        },
+        {
+            "code": "diag.anemia",
+            "display": "Suspicion anémie modérée",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                }
+            ]
+        },
+        {
+            "code": "diag.leishmaniose",
+            "display": "Suspicion leishmaniose viscérale ou paludisme\n\nDrépanocytose",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                }
+            ]
+        },
+        {
+            "code": "diag.hSUADZew3b6xyh7ng-6B-0",
+            "display": "**Suspicion hémorragie digestive**\n\nSaignements varices ésophagiennes *(***alcool***, S. mansoni)****cirrhose décompensée***",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                }
+            ]
+        },
+        {
+            "code": "diag.hepatitis_severe",
+            "display": "**Suspicion Encéphalopathie hépatique**",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                },
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                }
+            ]
+        },
+        {
+            "code": "diag.Po3J5I2m49fFMdYTTX_u-22",
+            "display": "Suspicion Choléstase en grossesse",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                }
+            ]
+        },
+        {
+            "code": "diag.illness_fever_hepatitis",
+            "display": "**Suspicion maladie hèpatique fébrile**",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                },
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                }
+            ]
+        },
+        {
+            "code": "diag.hepatite",
+            "display": "Suspicion hépatite D, E sur  grossesse",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                }
+            ]
+        },
+        {
+            "code": "diag.hepatite_fever_pregnancy",
+            "display": "Suspicion hépatite D, E foudroyante sur grossesse",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                }
+            ]
+        },
+        {
+            "code": "diag.hapatitis_viral_possible",
+            "display": "Suspecter hépatite virale",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                }
+            ]
+        },
+        {
+            "code": "diag.test_heb_c_pos",
+            "display": "hépatite C",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                }
+            ]
+        },
+        {
+            "code": "diag.test_heb_b_pos",
+            "display": "hépatite B ",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                }
+            ]
+        },
+        {
+            "code": "diag.P00ua1O1T3MYrmh2YiPK-23",
+            "display": "Cystite/Infections urinaires",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                }
+            ]
+        },
+        {
+            "code": "diag.9FWQoVKJwd93Bb5mE7m4-14",
+            "display": "Retention d’urine aiguë",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                }
+            ]
+        },
+        {
+            "code": "diag.gTVtLJi1mA32l2i10D9D-4",
+            "display": "Suspicion Tumeur uro-genitale",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                }
+            ]
+        },
+        {
+            "code": "diag.P00ua1O1T3MYrmh2YiPK-27",
+            "display": "Suspicion bilharziose urogénitale",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                }
+            ]
+        },
+        {
+            "code": "diag.6VitcyKU0B5AH_bYX0cH-1",
+            "display": " Suspicion fistule vésico-vaginales / vésico urinaire",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                }
+            ]
+        },
+        {
+            "code": "diag.O1xvS6u7NQjyLMzqtROU-2",
+            "display": "Maladies fébriles avec défaillance rénale",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                }
+            ]
+        },
+        {
+            "code": "diag.6VitcyKU0B5AH_bYX0cH-6",
+            "display": "Suspicion Hypertophie bénine de la prostate",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                }
+            ]
+        },
+        {
+            "code": "diag.pyelonephrite",
+            "display": "Pyélonephrite ",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                }
+            ]
+        },
+        {
+            "code": "diag.my1NKBTxrE13mcA6KY_K-43",
+            "display": "Calcul rénal",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                }
+            ]
+        },
+        {
+            "code": "diag.RimPK1JyHc32J9Lr9qDs-31",
+            "display": "Suspicion tuberculose uru-genitale ou autre pathologie uro-genitale",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                }
+            ]
+        },
+        {
+            "code": "diag.my1NKBTxrE13mcA6KY_K-5",
+            "display": "Suspicion Maladie des reins (glomérulonéphrite)\n\nPost-streptococcal/VIH/HCV/HBV",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                }
+            ]
+        },
+        {
+            "code": "diag.6VitcyKU0B5AH_bYX0cH-3",
+            "display": "Suspicion Trouble sphincterien",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                }
+            ]
+        },
+        {
+            "code": "diag.cystite_complex",
+            "display": "cystite compliqué",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                }
+            ]
+        },
+        {
+            "code": "diag.O1xvS6u7NQjyLMzqtROU-0",
+            "display": "Anurie/Défaillance rénale\n\nPrise des médicaments indigènes?",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                }
+            ]
+        },
+        {
+            "code": "diag.P00ua1O1T3MYrmh2YiPK-18",
+            "display": "Irritation sans signes d’inféction",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                }
+            ]
+        },
+        {
+            "code": "diag.my1NKBTxrE13mcA6KY_K-36",
+            "display": "Traumatisme avec affection urogénitale",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                }
+            ]
+        },
+        {
+            "code": "diag.cold",
+            "display": "Toux ou rhume (infection respiratoire aiguë d’origine virale)",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                }
+            ]
+        },
+        {
+            "code": "diag.flu_possible",
+            "display": "Suspicion syndrome grippale",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                }
+            ]
+        },
+        {
+            "code": "diag.tb_poissible",
+            "display": "Suspicion tuberculose\n\nProblème pulmonaire chronique (si notion prise de chicha, tabagisme : conseil arréter de fumer)",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                }
+            ]
+        },
+        {
+            "code": "diag.pneumonia_moderate",
+            "display": "<div>Bronchopneumonie</div><div>modérée</div>",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                }
+            ]
+        },
+        {
+            "code": "diag.pneumonia_severe",
+            "display": "Bronchopneumonie sévère OU Pleurésie OU Pneumopathie",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                }
+            ]
+        },
+        {
+            "code": "diag.16tQd_6GcEwIWrqRR2cS-18",
+            "display": "Insuffisance cardiaque sans fièvre",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                }
+            ]
+        },
+        {
+            "code": "diag.16tQd_6GcEwIWrqRR2cS-19",
+            "display": "ŒDème aigu des poumons (O.A.P.) sans fièvre",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                }
+            ]
+        },
+        {
+            "code": "diag.asthma_severe",
+            "display": "Crise grave d’asthme grave OU asthme très sévère",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                },
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                }
+            ]
+        },
+        {
+            "code": "diag.16tQd_6GcEwIWrqRR2cS-35",
+            "display": "Asthme chronique",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                }
+            ]
+        },
+        {
+            "code": "diag.Pm3_Z_iiE8-aB-zU3DGq-10",
+            "display": "Crise  d’asthme a tester",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                }
+            ]
+        },
+        {
+            "code": "diag.noma_suspected_2",
+            "display": "Noma stade 2 de l’œdème\n\nEvolution en\n\n1 à 2 semaines",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                }
+            ]
+        },
+        {
+            "code": "diag.herpes",
+            "display": "Herpesvirose",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                },
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                }
+            ]
+        },
+        {
+            "code": "diag.herpes_labial",
+            "display": "Inféction hérpetique (gingivo-stomatique herpétique)  \nHerpes labial (sur les lèvres)",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                }
+            ]
+        },
+        {
+            "code": "diag.syphilis_sec",
+            "display": "Suspicion syphilis secondaire",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                }
+            ]
+        },
+        {
+            "code": "diag.bad_tooth",
+            "display": "Carie dentaire",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                }
+            ]
+        },
+        {
+            "code": "diag.noma_suspected_3",
+            "display": "noma stade 3\n\nSuspicion gangréne",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                }
+            ]
+        },
+        {
+            "code": "diag.mLmzwLCQZhuq6inxM62S-7",
+            "display": "Apthose / apthes",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                }
+            ]
+        },
+        {
+            "code": "diag.kU_LAw-UgOvBixjY5_5c-36",
+            "display": "Infection Abcès dento-ossaeux aigu\n\nExclure noma et facteurs de risques: infections antécédents",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                }
+            ]
+        },
+        {
+            "code": "diag.uNT0ODqNnrdXVyn8ozuG-9",
+            "display": "Suspicion Diphtérie",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                }
+            ]
+        },
+        {
+            "code": "diag.abses_amygdalien",
+            "display": "Abcès amygdalien",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                }
+            ]
+        },
+        {
+            "code": "diag.uNT0ODqNnrdXVyn8ozuG-56",
+            "display": "Suspicion syndrome grippale\n\nOu suspicion pharyngite virale",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                }
+            ]
+        },
+        {
+            "code": "diag.uNT0ODqNnrdXVyn8ozuG-59",
+            "display": "Toux ou rhume (infection respiratoire aiguë d’origine virale)",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                }
+            ]
+        },
+        {
+            "code": "diag.uNT0ODqNnrdXVyn8ozuG-52",
+            "display": "Suspicion Angine bactérienne ou suspicion pharyngite virale",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                }
+            ]
+        },
+        {
+            "code": "diag.uNT0ODqNnrdXVyn8ozuG-51",
+            "display": "Angine bactérienne",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                }
+            ]
+        },
+        {
+            "code": "diag.uNT0ODqNnrdXVyn8ozuG-14",
+            "display": "Suspicion candidose oropharyngée modérée ou sévère OU Candidose oesophagienne ",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                }
+            ]
+        },
+        {
+            "code": "diag.uNT0ODqNnrdXVyn8ozuG-16",
+            "display": "Muguet buccale (candidose orale ou oropharyngée bénigne) ",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                }
+            ]
+        },
+        {
+            "code": "diag.uNNqK3mijRxR4VHyU30Q-16",
+            "display": "Suspicion endocardite / R.A.A.",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                }
+            ]
+        },
+        {
+            "code": "diag.uNNqK3mijRxR4VHyU30Q-20",
+            "display": "Suspicion Ostéomyélite (en drépanocytose) OU Mal de Pott tuberculose osseuse",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                }
+            ]
+        },
+        {
+            "code": "diag.c4KyqgBS4EJULoGmFdYk-2",
+            "display": "crise hypertensive d’urgence",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                }
+            ]
+        },
+        {
+            "code": "diag.c4KyqgBS4EJULoGmFdYk-1",
+            "display": "Suspicion Infarctus ou Angine de poitrine",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                }
+            ]
+        },
+        {
+            "code": "diag.KYLQQKkRLD-WoCQcVFaw-18",
+            "display": "Tungose",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                }
+            ]
+        },
+        {
+            "code": "diag.mycetom",
+            "display": "Suspicion mycétome, mycose profonde",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                }
+            ]
+        },
+        {
+            "code": "diag.krCjJuWFH16g5r1Kbh_p-4",
+            "display": "Nécrose épidermique toxique, (syndrome de Steven Johnson,syndrome de Lyell)",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                }
+            ]
+        },
+        {
+            "code": "diag.R5iq4ZfS5SMJLKWtJEcO-35",
+            "display": "Pityriasis versicolor",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                }
+            ]
+        },
+        {
+            "code": "diag.leprosa",
+            "display": "Suspicion lèpre",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                },
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                },
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                }
+            ]
+        },
+        {
+            "code": "diag.KYLQQKkRLD-WoCQcVFaw-19",
+            "display": "Larva cutaneous migrans",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                }
+            ]
+        },
+        {
+            "code": "diag.KYLQQKkRLD-WoCQcVFaw-12",
+            "display": "Allergie (urticaire)",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                }
+            ]
+        },
+        {
+            "code": "diag.KYLQQKkRLD-WoCQcVFaw-26",
+            "display": "Gale (petites nodositées et sillons, prurit nocturne, caractère familial)\n\nLésions secondaires: grattage (excoriations) ou surinfection (impétigo)",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                }
+            ]
+        },
+        {
+            "code": "diag.R5iq4ZfS5SMJLKWtJEcO-16",
+            "display": "Eczema",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                }
+            ]
+        },
+        {
+            "code": "diag.R5iq4ZfS5SMJLKWtJEcO-9",
+            "display": "Onchodermatite",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                }
+            ]
+        },
+        {
+            "code": "diag.R5iq4ZfS5SMJLKWtJEcO-21",
+            "display": "Teigne(Mycose)",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                }
+            ]
+        },
+        {
+            "code": "diag.R5iq4ZfS5SMJLKWtJEcO-28",
+            "display": "Dermatite séborrhéique",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                }
+            ]
+        },
+        {
+            "code": "diag.R5iq4ZfS5SMJLKWtJEcO-101",
+            "display": "Suspecter Leishmaniose cutanée ",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                }
+            ]
+        },
+        {
+            "code": "diag.buruli",
+            "display": "Suspicion ulcère de buruli",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                }
+            ]
+        },
+        {
+            "code": "diag.R5iq4ZfS5SMJLKWtJEcO-120",
+            "display": "Ulcère artériel ou veineuse",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                }
+            ]
+        },
+        {
+            "code": "diag.Xak8o2IAd0_p7h9MPNfK-5",
+            "display": "Purigo",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                }
+            ]
+        },
+        {
+            "code": "diag.ggf7AXie0n3B3H23jH9h-10",
+            "display": "Zona",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                }
+            ]
+        },
+        {
+            "code": "diag.R5iq4ZfS5SMJLKWtJEcO-32",
+            "display": "Lichen simplex",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                }
+            ]
+        },
+        {
+            "code": "diag.bPyo8V9hktxM09atjRqo-0",
+            "display": "Charbon bactèrien",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                }
+            ]
+        },
+        {
+            "code": "diag.i56V-xCDI6M5MGhGMhIW-7",
+            "display": "Suspecter acidocétose",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                }
+            ]
+        },
+        {
+            "code": "diag.ZkmfwjOkiR3thbNW7H_r-0",
+            "display": "Papollomatose, condylume acumia",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                }
+            ]
+        },
+        {
+            "code": "diag.MKz8qHF1irXbrm-SfZw0-27",
+            "display": "Suspicion Onchocercose\n\nRéférer pour diagnostic",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                }
+            ]
+        },
+        {
+            "code": "diag.MKz8qHF1irXbrm-SfZw0-8",
+            "display": "phlegmon",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                }
+            ]
+        },
+        {
+            "code": "diag.WJpxO4Ct4KKawm52bbLs-11",
+            "display": "Tungose",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                }
+            ]
+        },
+        {
+            "code": "diag.MKz8qHF1irXbrm-SfZw0-25",
+            "display": "Suspicion Kyste ou Lipome\n\nRéférer pour diagnostic",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                }
+            ]
+        },
+        {
+            "code": "diag.MKz8qHF1irXbrm-SfZw0-2",
+            "display": "Surinfection/Abcès",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                }
+            ]
+        },
+        {
+            "code": "diag.MKz8qHF1irXbrm-SfZw0-34",
+            "display": "Suspicion mycétome, mycose profonde",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                }
+            ]
+        },
+        {
+            "code": "diag.WJpxO4Ct4KKawm52bbLs-4",
+            "display": "Suspecter Lésions de Kaposi\n\nStade 3, 4",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                }
+            ]
+        },
+        {
+            "code": "diag.Y0fE6MS9sLb9p-gIElDP-10",
+            "display": "Leishmaniose cutanée (petit nodosité lisse d’aspect vernissé) ",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                }
+            ]
+        },
+        {
+            "code": "diag.MKz8qHF1irXbrm-SfZw0-5",
+            "display": "Abcès chaud",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                }
+            ]
+        },
+        {
+            "code": "diag.WJpxO4Ct4KKawm52bbLs-15",
+            "display": "Larva migrans cutané",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                }
+            ]
+        },
+        {
+            "code": "diag.pian",
+            "display": "Cas suspect Pian",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                }
+            ]
+        },
+        {
+            "code": "diag.MGCg_MrvkBoX9p-wSU-9-4",
+            "display": "Accident vasculaire cérébrale",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                }
+            ]
+        },
+        {
+            "code": "diag.m2ybrgBMOyCXSew6JGyq-0",
+            "display": "suspicion diabète",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                }
+            ]
+        },
+        {
+            "code": "diag.ZoEabLgAB9b5QAd988nl-2",
+            "display": "Crise hypertensive",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                }
+            ]
+        },
+        {
+            "code": "diag.ZoEabLgAB9b5QAd988nl-9",
+            "display": "Ulcères / neuropathie périphérique",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                }
+            ]
+        },
+        {
+            "code": "diag.HWdWVGrVKDh68mrO1CPo-3",
+            "display": "Angine de poitrine",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                }
+            ]
+        },
+        {
+            "code": "diag.c7sYMtMd_DW1AI5qtLdf-15",
+            "display": "Intoxication possible, ingestion inconnue",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                }
+            ]
+        },
+        {
+            "code": "diag.mw6r3hUnwcd4GBGn2ppN-14",
+            "display": "INTOXICATION\n\naux Insecticides / pesticides",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                }
+            ]
+        },
+        {
+            "code": "diag.mw6r3hUnwcd4GBGn2ppN-0",
+            "display": "Intoxication alimentaire\n\nOu gastroenterite",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                }
+            ]
+        },
+        {
+            "code": "diag.Lbjc-c8MkZAIDe2km4sZ-13",
+            "display": "INTOXICATION ALIMENTAIRES",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                }
+            ]
+        },
+        {
+            "code": "diag.mw6r3hUnwcd4GBGn2ppN-7",
+            "display": "INTOXICATION\n\nproduits caustiques, pétroliers ou eau de javel",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                }
+            ]
+        },
+        {
+            "code": "diag.mw6r3hUnwcd4GBGn2ppN-15",
+            "display": "INTOXICATION\n\naux piles",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                }
+            ]
+        },
+        {
+            "code": "diag.mw6r3hUnwcd4GBGn2ppN-16",
+            "display": "INTOXICATION\n\nAvec d'autres produits",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                }
+            ]
+        },
+        {
+            "code": "diag.c7sYMtMd_DW1AI5qtLdf-17",
+            "display": "Suspecter ingestion Yambo",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                }
+            ]
+        },
+        {
+            "code": "diag.tyhpoid_fever_suspected",
+            "display": "Suspicion Fièvre typhoide",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                }
+            ]
+        },
+        {
+            "code": "diag.MNBCaM0NfxpzvKgV62I_-6",
+            "display": "Glaucome",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                }
+            ]
+        },
+        {
+            "code": "diag.MNBCaM0NfxpzvKgV62I_-29",
+            "display": "Sinusite",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                }
+            ]
+        },
+        {
+            "code": "diag.MNBCaM0NfxpzvKgV62I_-17",
+            "display": "Crise hypertensive",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                }
+            ]
+        },
+        {
+            "code": "diag.hypertension_moderate",
+            "display": "Hypertension modéré sans critères de sévérité ou danger",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                }
+            ]
+        },
+        {
+            "code": "diag.MNBCaM0NfxpzvKgV62I_-37",
+            "display": "Mal de tête isolé",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                }
+            ]
+        },
+        {
+            "code": "diag.MNBCaM0NfxpzvKgV62I_-2",
+            "display": "Trauma cranien /\n\nSuspicion Hémorragie intracranielle",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                }
+            ]
+        },
+        {
+            "code": "diag.MNBCaM0NfxpzvKgV62I_-39",
+            "display": "Migraine",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                }
+            ]
+        },
+        {
+            "code": "diag.hypertension_mild",
+            "display": "Hypertension légère",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                }
+            ]
+        },
+        {
+            "code": "diag.2inxarZXCYd93eDZmWyT-4",
+            "display": "Crise hypertensive intracranienne URGENCE",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                }
+            ]
+        },
+        {
+            "code": "diag.mastoidite",
+            "display": "Mastoidite",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                }
+            ]
+        },
+        {
+            "code": "diag.ear_infection",
+            "display": "Infection chronique de l'oreille",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                }
+            ]
+        },
+        {
+            "code": "diag.otorragie",
+            "display": "Traumatisme cranien / Otorragie",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                }
+            ]
+        },
+        {
+            "code": "diag.ear_infection_severe",
+            "display": "Infection aigue de l'oreille",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                }
+            ]
+        },
+        {
+            "code": "diag.cerumen",
+            "display": "Bouchon de cerumen",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                }
+            ]
+        },
+        {
+            "code": "diag.osteonyelite",
+            "display": "Suspicion ostéonyélite",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                }
+            ]
+        },
+        {
+            "code": "diag.sickel_cell_crisis",
+            "display": "Crise de drépanocytose",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                }
+            ]
+        },
+        {
+            "code": "diag.anemia_severe_comp_heart",
+            "display": "Anémie aigue sévère (avec insuffisance cardiaque)",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                }
+            ]
+        },
+        {
+            "code": "diag.sickel_cell_comp_infection_fulminante",
+            "display": "Complication drépanocytose: Infection fulminante",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                }
+            ]
+        },
+        {
+            "code": "diag.dera_avc",
+            "display": "Complication drépanocytose  \n: Accident vasculaire cérébral AVC",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                }
+            ]
+        },
+        {
+            "code": "diag.SrYeDrQ0xuczc9SfbHW8-14",
+            "display": "Suspicion infection uterine ou fétale",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                }
+            ]
+        },
+        {
+            "code": "diag.oHfKZPuV1wfdH12M6oSu-2",
+            "display": "Anémie sévère sur grossesse",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                }
+            ]
+        },
+        {
+            "code": "diag.SrYeDrQ0xuczc9SfbHW8-15",
+            "display": "Chorioamniotite possible",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                }
+            ]
+        },
+        {
+            "code": "diag.oHfKZPuV1wfdH12M6oSu-4",
+            "display": "Suspicion Oedème liée la grossesse",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                }
+            ]
+        },
+        {
+            "code": "diag.geu",
+            "display": "Suspicion GEU\n\nOu menace d’avortement",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                },
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                }
+            ]
+        },
+        {
+            "code": "diag.c-84iHdMq6siy7XVcyMi-1",
+            "display": "Vomissements sur grossesse",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                }
+            ]
+        },
+        {
+            "code": "diag.SrYeDrQ0xuczc9SfbHW8-31",
+            "display": "Avortement séptique",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                }
+            ]
+        },
+        {
+            "code": "diag.SrYeDrQ0xuczc9SfbHW8-30",
+            "display": "Suspicion infections génital hautes d’origine puerpérale, Endometrite, Septicémie puerpérale, Abcès",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                }
+            ]
+        },
+        {
+            "code": "diag.pyTMrnlcZOceXePOicLi-17",
+            "display": " . Polype/ectropion cervicale ou  Néoplasie cervical possibles",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                }
+            ]
+        },
+        {
+            "code": "diag.pyTMrnlcZOceXePOicLi-30",
+            "display": "Placenta praevia possible",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                }
+            ]
+        },
+        {
+            "code": "diag.pyTMrnlcZOceXePOicLi-19",
+            "display": "Néoplasie vaginale, lacération vaginale possibles",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                }
+            ]
+        },
+        {
+            "code": "diag.pyTMrnlcZOceXePOicLi-38",
+            "display": "Rupture Uterine ou hématome rétro-placentaire ou placenta praevia  \n possible",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                }
+            ]
+        },
+        {
+            "code": "diag.pyTMrnlcZOceXePOicLi-32",
+            "display": "Hématome rétro-placentaire possible",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                }
+            ]
+        },
+        {
+            "code": "diag.8F57qTiS-Lc_X1Q6xtkZ-20",
+            "display": "Avortement",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                }
+            ]
+        },
+        {
+            "code": "diag.pyTMrnlcZOceXePOicLi-21",
+            "display": "Hématurie possible, néoplasie vésicale, lithiase urinaire",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                }
+            ]
+        },
+        {
+            "code": "diag.8F57qTiS-Lc_X1Q6xtkZ-16",
+            "display": "Grossesse ectopique ou avortement manqué possilbe",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                }
+            ]
+        },
+        {
+            "code": "diag.8F57qTiS-Lc_X1Q6xtkZ-21",
+            "display": "béance du col cervical, menace d'avortement/ Avortment inévitable, grossesse extra-utérine, grossesse mollaire possilbe",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                }
+            ]
+        },
+        {
+            "code": "diag.fdaVurgeONY8hKSjjz1O-1",
+            "display": "Hypertension artérielle gestationnelle",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                }
+            ]
+        },
+        {
+            "code": "diag.CI-yTjYC86IQls_mi8Dt-23",
+            "display": "Suspicion de pré-éclampsie sur-ajoutée",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                }
+            ]
+        },
+        {
+            "code": "diag.HyzEREkLgICVYbHnXEVC-1",
+            "display": "Hypertension artérielle chronique",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                }
+            ]
+        },
+        {
+            "code": "diag.CI-yTjYC86IQls_mi8Dt-3",
+            "display": "éclampsie",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                }
+            ]
+        },
+        {
+            "code": "diag.4-cTIXNuQeHCMLh1zaaH-6",
+            "display": "Pré-éclampsie",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                }
+            ]
+        },
+        {
+            "code": "diag.CI-yTjYC86IQls_mi8Dt-18",
+            "display": "Pré-éclampsie sur-ajoutée",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                }
+            ]
+        },
+        {
+            "code": "diag.AvNYw8drdoG_ICN1j2KK-9",
+            "display": "hypertension gestationnelle probable",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                }
+            ]
+        },
+        {
+            "code": "diag.6_0U5_vgUKu77HgsIUwf-3",
+            "display": "Evaluation Trypanosomiase africaine humaine",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                }
+            ]
+        },
+        {
+            "code": "diag.ZWECpTEyw0kx2AbSsjdP-40",
+            "display": "GALE",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                }
+            ]
+        },
+        {
+            "code": "diag.chlamidiose",
+            "display": " GONORRHEE ET CHLAMYDIOSE sans complications",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                },
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                }
+            ]
+        },
+        {
+            "code": "diag.EjCh6yMZuJoE2967L0i2-10",
+            "display": "Sans écoulement: autre causes, non-sexuels: oreillon, brucellose, E.coli, Klebsiella, p. aerug., tb,",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                }
+            ]
+        },
+        {
+            "code": "diag.XJR3ES47kYmDowpZQZuu-15",
+            "display": "Suspicion Lymphogranulome inguinale vénérien endémique: en Afrique de l’Est et de l’Ouest, C. trachomatis L1,2,3",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                }
+            ]
+        },
+        {
+            "code": "diag.EjCh6yMZuJoE2967L0i2-12",
+            "display": "trauma testiculaire",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                }
+            ]
+        },
+        {
+            "code": "diag.ZWECpTEyw0kx2AbSsjdP-43",
+            "display": "PEDICULOSE",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                }
+            ]
+        },
+        {
+            "code": "diag.chlamidiose_complex",
+            "display": " GONORRHEE ET CHLAMYDIOSE avec complications",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                }
+            ]
+        },
+        {
+            "code": "diag.0hkWrA5uCyVZ_GRMhRpP-3",
+            "display": "**Chancre mou:**",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                }
+            ]
+        },
+        {
+            "code": "diag.EjCh6yMZuJoE2967L0i2-8",
+            "display": "Suspecter filariose lymphatique,Tuberculose  \n ou hydrocèle",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                }
+            ]
+        },
+        {
+            "code": "diag.trichomonase",
+            "display": " suspecter trichomonase",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                }
+            ]
+        },
+        {
+            "code": "diag.bzxzqhH4d5tCsi2iuoVN-46",
+            "display": "Candidose",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                }
+            ]
+        },
+        {
+            "code": "diag.bzxzqhH4d5tCsi2iuoVN-13",
+            "display": "Infections cervicales",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                }
+            ]
+        },
+        {
+            "code": "diag.bzxzqhH4d5tCsi2iuoVN-39",
+            "display": "Trichomonase ET Vaginite /Vaginose bactérienne",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                }
+            ]
+        },
+        {
+            "code": "diag.kZ-hqP6Kz1wAQQw5IUcE-3",
+            "display": "Infections génitales hautes sexuellement transmises (Maladies Inflammatoires Pelviennes)\n\nRevoir la patiente 3 jours après",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                }
+            ]
+        },
+        {
+            "code": "diag.gonorrhee",
+            "display": "Suspecter gonorrhée",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                }
+            ]
+        },
+        {
+            "code": "diag.syphilis_precoce",
+            "display": "Suspicion syphilis précoce ",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                }
+            ]
+        },
+        {
+            "code": "diag.herpes_genital",
+            "display": "Herpes Génital",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                }
+            ]
+        },
+        {
+            "code": "diag.syphilis_possible",
+            "display": "Suspicion syphilis ",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                }
+            ]
+        },
+        {
+            "code": "diag.syphilis",
+            "display": "Cas probable syphilis ",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                }
+            ]
+        },
+        {
+            "code": "diag.uqFezk6w1N1yftXNj5Jp-4",
+            "display": "Suspicion bilharziose génitale féminin ",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                }
+            ]
+        },
+        {
+            "code": "diag.RctQVz5teghrJPvn-M72-6",
+            "display": "consommation de substances psychoactives nocive",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                }
+            ]
+        },
+        {
+            "code": "diag.RctQVz5teghrJPvn-M72-4",
+            "display": "consommation de substances psychoactives pas-nocive",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                }
+            ]
+        },
+        {
+            "code": "diag.RctQVz5teghrJPvn-M72-20",
+            "display": "Dépendance à la consommation de substances psychoactives",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                }
+            ]
+        },
+        {
+            "code": "diag.e1KuQ1p-KZ_1t24263Tt-51",
+            "display": "Stress aigu avec symptômes dissociatifs",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Numeric"
+                }
+            ]
+        },
+        {
+            "code": "diag.e1KuQ1p-KZ_1t24263Tt-49",
+            "display": "Stress aigu",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                }
+            ]
+        },
+        {
+            "code": "diag.e1KuQ1p-KZ_1t24263Tt-34",
+            "display": "État de stress post – traumatique",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                }
+            ]
+        },
+        {
+            "code": "diag.depressed",
+            "display": "Dépression unipolaire",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                },
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                }
+            ]
+        },
+        {
+            "code": "diag.9nHAnM1Ce_P_CeCxXfk1-40",
+            "display": "Dépression cause somatique",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                }
+            ]
+        },
+        {
+            "code": "diag.9nHAnM1Ce_P_CeCxXfk1-0",
+            "display": "État d′abattement a suivre",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                }
+            ]
+        },
+        {
+            "code": "diag.-01rztptVpNlxW-QEz0Z-3",
+            "display": "Dépression bipolaire",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                }
+            ]
+        },
+        {
+            "code": "diag.alcool_withdraw",
+            "display": "SYNDROME DE SEVRAGE A L’ALCOOL, AUX BENZODIAZEPINES, OU AUTRES SEDATIFS",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                }
+            ]
+        },
+        {
+            "code": "diag.lBV9_HJmukQ9DLRWCA6r-2",
+            "display": "Délirium ou Confusion (lié à la consommation des substances psycho-actives)",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                }
+            ]
+        },
+        {
+            "code": "diag.opiate_withdraw",
+            "display": "SYNDROME DE SEVRAGE AIGU AUX OPIACES",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                }
+            ]
+        },
+        {
+            "code": "diag.K2bInedAlK1nG6U8gVxP-0",
+            "display": "Suspicion de Delirium ou Confusion sur l'Hyperglycémie (coma acidocetose)",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                }
+            ]
+        },
+        {
+            "code": "diag.alcool_intox",
+            "display": "INTOXICATION AIGUË AUX STIMULANTS",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                }
+            ]
+        },
+        {
+            "code": "diag.lBV9_HJmukQ9DLRWCA6r-0",
+            "display": "Suspicion de Delirium ou Confusion sur suspicion de l'hypo ou hyperglycémie (coma acidocetose)",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                }
+            ]
+        },
+        {
+            "code": "diag.K2bInedAlK1nG6U8gVxP-4",
+            "display": "Suspicion de Delirium ou Confusion sur l'Hypoglycémie",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                }
+            ]
+        },
+        {
+            "code": "diag.b3Ia0bh2TtCPP_qUOvzj-93",
+            "display": "Faire le suivi psychose",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                }
+            ]
+        },
+        {
+            "code": "diag.b3Ia0bh2TtCPP_qUOvzj-31",
+            "display": "Psychose associée à une maladie somatique",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                }
+            ]
+        },
+        {
+            "code": "diag.b3Ia0bh2TtCPP_qUOvzj-30",
+            "display": "Etat psychotique dû à la maladie somatique",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                }
+            ]
+        },
+        {
+            "code": "diag.b3Ia0bh2TtCPP_qUOvzj-65",
+            "display": "Conversion histérique",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                }
+            ]
+        },
+        {
+            "code": "diag.b3Ia0bh2TtCPP_qUOvzj-51",
+            "display": "Psychose",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                }
+            ]
+        },
+        {
+            "code": "diag.b3Ia0bh2TtCPP_qUOvzj-109",
+            "display": "psychose bipolaire",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                }
+            ]
+        },
+        {
+            "code": "diag.HlTTGTHNBBDNQapd50d6-12",
+            "display": "Suspicion RHUMATISME ARTICULAIRE AIGUE (R.A.A.)",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                }
+            ]
+        },
+        {
+            "code": "diag.YuaOEinVyE8ZXyrm0Hva-27",
+            "display": "Suspecter syndrome grippale/virale/\n\nCas probable d'arbovirose: (Chikungunia)",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                }
+            ]
+        },
+        {
+            "code": "diag.e2Fc4dEvDZmEVAk9nVlg-6",
+            "display": "Arthrite séptique",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                }
+            ]
+        },
+        {
+            "code": "diag.YuaOEinVyE8ZXyrm0Hva-12",
+            "display": "Abcès chaud",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                }
+            ]
+        },
+        {
+            "code": "diag.kap1gf7LbKrggSlc_m21-21",
+            "display": "Luxation",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                }
+            ]
+        },
+        {
+            "code": "diag.HlTTGTHNBBDNQapd50d6-15",
+            "display": "Suspecter Ostéomyélite (sur drépanocytose) OU Mal de Pott (tuberculose osseuse)",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                }
+            ]
+        },
+        {
+            "code": "diag.YuaOEinVyE8ZXyrm0Hva-21",
+            "display": "Suspicion lymphadénite filariose lymphatique OU lymphoedème\n\n(épisode inflammatoire)",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                }
+            ]
+        },
+        {
+            "code": "diag.YuaOEinVyE8ZXyrm0Hva-13",
+            "display": "Phlegmon ou érysipele",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                }
+            ]
+        },
+        {
+            "code": "diag.kap1gf7LbKrggSlc_m21-23",
+            "display": "Entorse",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                }
+            ]
+        },
+        {
+            "code": "diag.kap1gf7LbKrggSlc_m21-19",
+            "display": "Autres trauma dos. lombes, membres ou articulation",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                }
+            ]
+        },
+        {
+            "code": "diag.YuaOEinVyE8ZXyrm0Hva-23",
+            "display": "Suspicion Arthrose",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                }
+            ]
+        },
+        {
+            "code": "diag.asthma",
+            "display": "Asthme modéré ou légère",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                }
+            ]
+        },
+        {
+            "code": "diag.avc",
+            "display": "Suspicion AVC",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                }
+            ]
+        }
+    ]
+}

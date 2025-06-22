@@ -1,0 +1,1327 @@
+{
+    "resourceType": "CodeSystem",
+    "id": "obs",
+    "url": "http://example.com/fhir/CodeSystem/obs",
+    "version": "1.0.0",
+    "name": "obs",
+    "title": "obs",
+    "status": "draft",
+    "description": "Code system for obs",
+    "content": "complete",
+    "concept": [
+        {
+            "code": "obs.convulsion",
+            "display": "[D] Convulsions  ou perte de concience",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "N/A"
+                },
+                {
+                    "code": "datatype",
+                    "valueString": "N/A"
+                }
+            ]
+        },
+        {
+            "code": "obs.airway_obstructed.301252002",
+            "display": "[A] Voies respiratoires obstruées",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "N/A"
+                }
+            ]
+        },
+        {
+            "code": "obs.difficulty_breathing_severe",
+            "display": "[B] Détresse / difficulté respiratoire <b>sévère</b>",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "N/A"
+                }
+            ]
+        },
+        {
+            "code": "obs.conscience_issue",
+            "display": "[D] Déficit neurologique; trouble de conscience, de la parole ou moteur",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "N/A"
+                },
+                {
+                    "code": "datatype",
+                    "valueString": "N/A"
+                },
+                {
+                    "code": "datatype",
+                    "valueString": "N/A"
+                }
+            ]
+        },
+        {
+            "code": "obs.skin_cyanotic",
+            "display": "[C] Peau ou muqueueses cyanotique / peau et/ou sueur froid ",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "N/A"
+                }
+            ]
+        },
+        {
+            "code": "obs.bleeding_important_or_spontanous",
+            "display": "[C] Saignements important de plaies ou spontanés (nez, peau, dans le vomi / selles)",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "N/A"
+                },
+                {
+                    "code": "datatype",
+                    "valueString": "N/A"
+                },
+                {
+                    "code": "datatype",
+                    "valueString": "N/A"
+                }
+            ]
+        },
+        {
+            "code": "obs.overall_weakness",
+            "display": "[C] Faiblesse <b>prononcée</b>,  Incapable de se tenir debout",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "N/A"
+                },
+                {
+                    "code": "datatype",
+                    "valueString": "N/A"
+                },
+                {
+                    "code": "datatype",
+                    "valueString": "N/A"
+                },
+                {
+                    "code": "datatype",
+                    "valueString": "N/A"
+                },
+                {
+                    "code": "datatype",
+                    "valueString": "N/A"
+                }
+            ]
+        },
+        {
+            "code": "obs.spasms",
+            "display": "[D] Spasmes (contractures involontaires)",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "N/A"
+                }
+            ]
+        },
+        {
+            "code": "obs.belly_pain_severe",
+            "display": "[P] Mal au ventre sévère aigüe",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "N/A"
+                },
+                {
+                    "code": "datatype",
+                    "valueString": "N/A"
+                }
+            ]
+        },
+        {
+            "code": "obs.headache_severe",
+            "display": "[P] Céphalée sévère (maux de tête sévère)",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "N/A"
+                }
+            ]
+        },
+        {
+            "code": "obs.thorax_severe",
+            "display": "[P] Douleur thoracique sévère génant la respiration <b>aigüe</b>",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "N/A"
+                }
+            ]
+        },
+        {
+            "code": "obs.vaginal_abnormal_bleeding",
+            "display": "Saignement vaginal anormal",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "N/A"
+                }
+            ]
+        },
+        {
+            "code": "obs.belly_pain",
+            "display": "Douleurs au ventre (haut ou bas)",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "N/A"
+                },
+                {
+                    "code": "datatype",
+                    "valueString": "N/A"
+                }
+            ]
+        },
+        {
+            "code": "obs.late_period",
+            "display": "Retard des régles après les rapports sexuels non protégés",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "N/A"
+                }
+            ]
+        },
+        {
+            "code": "obs.pregnancy_present_past_possible",
+            "display": "Situation de la femme",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "N/A"
+                }
+            ]
+        },
+        {
+            "code": "obs.wheezing",
+            "display": "Respiration sifflante",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "N/A"
+                },
+                {
+                    "code": "datatype",
+                    "valueString": "N/A"
+                }
+            ]
+        },
+        {
+            "code": "obs.resp_strugling",
+            "display": "Etouffement",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "N/A"
+                }
+            ]
+        },
+        {
+            "code": "obs.oedema_head",
+            "display": "Oedème / gonflement visage, bouche, cou",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "N/A"
+                },
+                {
+                    "code": "datatype",
+                    "valueString": "N/A"
+                }
+            ]
+        },
+        {
+            "code": "obs.pulse",
+            "display": "<u>Mesurer</u> le pouls en nombre de pulsations par minute ?",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Numeric"
+                }
+            ]
+        },
+        {
+            "code": "obs.ta_sys",
+            "display": "<u>Mesurer</u> la Tension artérielle systolique en mmHg?",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Numeric"
+                }
+            ]
+        },
+        {
+            "code": "obs.ta_dia",
+            "display": "<u>Mesurer</u> la Tension diastolique en mmHg?",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Numeric"
+                }
+            ]
+        },
+        {
+            "code": "obs.hypertension_moderate",
+            "display": "Hypertension modéré",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                }
+            ]
+        },
+        {
+            "code": "obs.hypertension_mild",
+            "display": "Hypertension légère",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                }
+            ]
+        },
+        {
+            "code": "obs.choc",
+            "display": "choc",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                },
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                },
+                {
+                    "code": "datatype",
+                    "valueString": "N/A"
+                }
+            ]
+        },
+        {
+            "code": "obs.hypotension",
+            "display": "Hypotension",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                }
+            ]
+        },
+        {
+            "code": "obs.hypertension",
+            "display": "Crise Hypertensive",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                }
+            ]
+        },
+        {
+            "code": "obs.no_dehydration",
+            "display": "Pas de Déhydratation",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                }
+            ]
+        },
+        {
+            "code": "obs.dehydration",
+            "display": "Déhydratation",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                }
+            ]
+        },
+        {
+            "code": "obs.trauma_head",
+            "display": "Traumatisme crânien et ou cervicale dù à la perte de connaissance ",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                },
+                {
+                    "code": "datatype",
+                    "valueString": "N/A"
+                },
+                {
+                    "code": "datatype",
+                    "valueString": "N/A"
+                }
+            ]
+        },
+        {
+            "code": "obs.fever",
+            "display": "fievre",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                }
+            ]
+        },
+        {
+            "code": "obs.palor",
+            "display": "Pâleur / pâleur des conjonctives et muqueuses, taux d’hémoglobine < 7 g/dl)",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "N/A"
+                },
+                {
+                    "code": "datatype",
+                    "valueString": "N/A"
+                }
+            ]
+        },
+        {
+            "code": "obs.resp_distress",
+            "display": "Réspiration profonde et détresse respiratoire (respiration acidosique)",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "N/A"
+                },
+                {
+                    "code": "datatype",
+                    "valueString": "N/A"
+                },
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                }
+            ]
+        },
+        {
+            "code": "obs.exantheme",
+            "display": "Eruption cutanée non-localisée (Exantheme)",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "N/A"
+                }
+            ]
+        },
+        {
+            "code": "obs.ictere",
+            "display": "Ictère",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "N/A"
+                },
+                {
+                    "code": "datatype",
+                    "valueString": "N/A"
+                },
+                {
+                    "code": "datatype",
+                    "valueString": "Coded"
+                }
+            ]
+        },
+        {
+            "code": "obs.fever_persistant",
+            "display": "Fièvre depuis plus de 7 jours",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Coded"
+                }
+            ]
+        },
+        {
+            "code": "obs.stiff_neck",
+            "display": "Examiner, Raideur de la nuque accompagné de céphalé",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Coded"
+                }
+            ]
+        },
+        {
+            "code": "obs.pain_lomb",
+            "display": "mal  aux lombes?",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "N/A"
+                }
+            ]
+        },
+        {
+            "code": "obs.pain_back",
+            "display": "mal au dos ?",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "N/A"
+                }
+            ]
+        },
+        {
+            "code": "obs.pain_limbs",
+            "display": "Mal au membres ou articulations",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "N/A"
+                }
+            ]
+        },
+        {
+            "code": "obs.oedema_limb",
+            "display": "Lésions ET enflure membres",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "N/A"
+                }
+            ]
+        },
+        {
+            "code": "obs.headache",
+            "display": "maux de tête",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "N/A"
+                }
+            ]
+        },
+        {
+            "code": "obs.join_pain",
+            "display": "dos/lombes, membres, articulations",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "N/A"
+                }
+            ]
+        },
+        {
+            "code": "obs.resp_rate",
+            "display": "<u>Mesurer</u> la fréquence respiratoire par minute ?",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Numeric"
+                }
+            ]
+        },
+        {
+            "code": "obs.spo2",
+            "display": "<u>Mesurer</u> la saturation en oxygène (O2) end %?",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Numeric"
+                }
+            ]
+        },
+        {
+            "code": "obs.severe_trauma",
+            "display": "oui",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "N/A"
+                }
+            ]
+        },
+        {
+            "code": "obs.accidents",
+            "display": "Accident /chutes / bagare / choc violent",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "N/A"
+                }
+            ]
+        },
+        {
+            "code": "obs.wounds",
+            "display": "Notion ou histoire de plaies / lésions/ puncture récente",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "N/A"
+                }
+            ]
+        },
+        {
+            "code": "obs.bits",
+            "display": "Morsure / griffure",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "N/A"
+                }
+            ]
+        },
+        {
+            "code": "obs.stings",
+            "display": "Piqures (scorpions, araignée, abeille, guepe, etc)",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "N/A"
+                }
+            ]
+        },
+        {
+            "code": "obs.burns",
+            "display": "Brulures",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "N/A"
+                }
+            ]
+        },
+        {
+            "code": "obs.aes",
+            "display": "Trauma génital,  viol, risque VIH/IST (AES)",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "N/A"
+                }
+            ]
+        },
+        {
+            "code": "obs.bite_human",
+            "display": "Humain",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "N/A"
+                }
+            ]
+        },
+        {
+            "code": "obs.bite_snake",
+            "display": "Serpents",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "N/A"
+                }
+            ]
+        },
+        {
+            "code": "obs.bite_spider",
+            "display": "Reptiles, rongeur (souris, rat)",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "N/A"
+                }
+            ]
+        },
+        {
+            "code": "obs.bite_other",
+            "display": "Autres animaux",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "N/A"
+                }
+            ]
+        },
+        {
+            "code": "obs.trauma_thorax",
+            "display": "le thorax",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "N/A"
+                }
+            ]
+        },
+        {
+            "code": "obs.trauma_back",
+            "display": "le dos",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "N/A"
+                }
+            ]
+        },
+        {
+            "code": "obs.trauma_limb",
+            "display": "les/un membre(s)",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "N/A"
+                }
+            ]
+        },
+        {
+            "code": "obs.trauma_belly",
+            "display": "trauma ventre",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                }
+            ]
+        },
+        {
+            "code": "obs.trismus_opisthotonos",
+            "display": "Trismus, opisthotonos",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "N/A"
+                }
+            ]
+        },
+        {
+            "code": "obs.spasm",
+            "display": "Spasme",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "N/A"
+                },
+                {
+                    "code": "datatype",
+                    "valueString": "N/A"
+                }
+            ]
+        },
+        {
+            "code": "obs.speaking_issues",
+            "display": "Trouble soudain de la parole",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "N/A"
+                }
+            ]
+        },
+        {
+            "code": "obs.motor_issue",
+            "display": "Perte de l'équilibre trouble de la locomotion",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "N/A"
+                }
+            ]
+        },
+        {
+            "code": "obs.vomitting",
+            "display": "Du vomissement , Nausées",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "N/A"
+                }
+            ]
+        },
+        {
+            "code": "obs.abdo_mass",
+            "display": "Masse abdominale",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "N/A"
+                }
+            ]
+        },
+        {
+            "code": "obs.diarrhoea",
+            "display": "Diarrhée",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "N/A"
+                }
+            ]
+        },
+        {
+            "code": "obs.fresh_blood_in_stool",
+            "display": "Sang rouge dans les selles  ",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "N/A"
+                },
+                {
+                    "code": "datatype",
+                    "valueString": "Coded"
+                }
+            ]
+        },
+        {
+            "code": "obs.constipation",
+            "display": " Selles dures et rares",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "N/A"
+                }
+            ]
+        },
+        {
+            "code": "obs.anal_pain",
+            "display": "Douleurs anales",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "N/A"
+                }
+            ]
+        },
+        {
+            "code": "obs.stool_hitch",
+            "display": "Envies incessantes d'aller à la selle sans défécation ",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "N/A"
+                }
+            ]
+        },
+        {
+            "code": "obs.abdo_pain_acute",
+            "display": "Douleur abdominale aiguë ",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "N/A"
+                }
+            ]
+        },
+        {
+            "code": "obs.vomit_blood",
+            "display": "Vomissement de sang ?",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Coded"
+                }
+            ]
+        },
+        {
+            "code": "obs.oedema",
+            "display": "Oedemes, enflures, ascites (collection liquidiennes)",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "N/A"
+                }
+            ]
+        },
+        {
+            "code": "obs.uro_findings_count",
+            "display": "Resultat test urinaire",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "N/A"
+                }
+            ]
+        },
+        {
+            "code": "obs.anurie",
+            "display": "Pas d’urines depuis plus de 12 heures",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "N/A"
+                }
+            ]
+        },
+        {
+            "code": "obs.polyurie",
+            "display": "polyurie: miction abondante ",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "N/A"
+                }
+            ]
+        },
+        {
+            "code": "obs.urine_loss",
+            "display": "Pertes d'urines / miction fréquente",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "N/A"
+                }
+            ]
+        },
+        {
+            "code": "obs.hematurie",
+            "display": "Sang dans les urines",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "N/A"
+                }
+            ]
+        },
+        {
+            "code": "obs.uro_symptoms_count",
+            "display": "Quels sont les sympotomes du patient",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "N/A"
+                }
+            ]
+        },
+        {
+            "code": "obs.cought",
+            "display": "Toux",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "N/A"
+                }
+            ]
+        },
+        {
+            "code": "obs.running_nose",
+            "display": "Nez qui coule",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "N/A"
+                }
+            ]
+        },
+        {
+            "code": "obs.difficulty_breathing",
+            "display": "Dificultés réspiratoires",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "N/A"
+                }
+            ]
+        },
+        {
+            "code": "obs.throat",
+            "display": "Mal à la gorge",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "N/A"
+                }
+            ]
+        },
+        {
+            "code": "obs.mouth",
+            "display": "Mal à la bouche",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "N/A"
+                }
+            ]
+        },
+        {
+            "code": "obs.thorax_pain",
+            "display": "Douleur thoracique",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "N/A"
+                }
+            ]
+        },
+        {
+            "code": "obs.dyspnea",
+            "display": "Dyspnée",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "N/A"
+                }
+            ]
+        },
+        {
+            "code": "obs.bucal_bleeding_spon",
+            "display": "saignements spontanées",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "N/A"
+                }
+            ]
+        },
+        {
+            "code": "obs.ulcer_gen",
+            "display": "ulcérations gencives",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "N/A"
+                }
+            ]
+        },
+        {
+            "code": "obs.ulcer_pap",
+            "display": "Gencives gonflées",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "N/A"
+                }
+            ]
+        },
+        {
+            "code": "obs.ulcer_bucal",
+            "display": "Ulcérations muqueuses buccales",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Coded"
+                }
+            ]
+        },
+        {
+            "code": "obs.nodositee",
+            "display": "nodositées (nodules, papules) ",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "N/A"
+                }
+            ]
+        },
+        {
+            "code": "obs.lesion_spot_zone_no_purit",
+            "display": "plaques, tâches  non prurigineuses",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "N/A"
+                }
+            ]
+        },
+        {
+            "code": "obs.lesion_purit_spot_zone",
+            "display": "Purit, plaques, tâches prurigineuses (démangeaisons)",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "N/A"
+                }
+            ]
+        },
+        {
+            "code": "obs.lesion",
+            "display": "Ulcères/ Plaies",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "N/A"
+                }
+            ]
+        },
+        {
+            "code": "obs.lesion_vesicul",
+            "display": "Vésicule",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "N/A"
+                }
+            ]
+        },
+        {
+            "code": "obs.nodule_puru",
+            "display": "Macules/papules/nodules purigineux predominant dans les membres",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Coded"
+                }
+            ]
+        },
+        {
+            "code": "obs.ulcers_painful",
+            "display": "Ulcères douloureux?",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Coded"
+                }
+            ]
+        },
+        {
+            "code": "obs.vision_issue",
+            "display": "Trouble de la vision",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Coded"
+                }
+            ]
+        },
+        {
+            "code": "obs.vision_asym_issue",
+            "display": "Trouble de la vision d'un seul oeil ? ",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Coded"
+                }
+            ]
+        },
+        {
+            "code": "obs.ulcers_genital",
+            "display": "Ulcères génitaux (autres parts du corps: bouche)",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "N/A"
+                },
+                {
+                    "code": "datatype",
+                    "valueString": "N/A"
+                }
+            ]
+        },
+        {
+            "code": "obs.erosion_genital",
+            "display": "érosions ou Lésion de grattage  génital",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "N/A"
+                },
+                {
+                    "code": "datatype",
+                    "valueString": "N/A"
+                }
+            ]
+        },
+        {
+            "code": "obs.genital_vesicule",
+            "display": "verrues ou vésicules génitales (présent ou ont été présent au début)",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "N/A"
+                },
+                {
+                    "code": "datatype",
+                    "valueString": "N/A"
+                }
+            ]
+        },
+        {
+            "code": "obs.genital_leak",
+            "display": "Écoulements urétraux et/ou sensation de brules génital ",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "N/A"
+                },
+                {
+                    "code": "datatype",
+                    "valueString": "N/A"
+                }
+            ]
+        },
+        {
+            "code": "obs.testiculat_sweling",
+            "display": "Gonflement testiculaire ou inguinale chronique non douloureuse ",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "N/A"
+                }
+            ]
+        },
+        {
+            "code": "obs.testicular_pain",
+            "display": "Douleur testiculaire: trauma, gonflements, inflammation scrotale ",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "N/A"
+                }
+            ]
+        },
+        {
+            "code": "obs.dyspareunia",
+            "display": "Dyspareunia (douleurs lors des rapports sexuels)",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "N/A"
+                }
+            ]
+        },
+        {
+            "code": "obs.dysury",
+            "display": "Dysurie (miction douloureuse ou fréquente) voir troubles urinaires",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "N/A"
+                },
+                {
+                    "code": "datatype",
+                    "valueString": "N/A"
+                }
+            ]
+        },
+        {
+            "code": "obs.pain_low_belly",
+            "display": "Mal au ventre bas",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "N/A"
+                },
+                {
+                    "code": "datatype",
+                    "valueString": "N/A"
+                }
+            ]
+        },
+        {
+            "code": "obs.anal_lesion",
+            "display": "ecoulement anorectale présent?",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Coded"
+                },
+                {
+                    "code": "datatype",
+                    "valueString": "Coded"
+                }
+            ]
+        },
+        {
+            "code": "obs.arthralgies",
+            "display": "Arthralgies : au niveau d'une/des articulations",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "N/A"
+                }
+            ]
+        },
+        {
+            "code": "obs.myalgies",
+            "display": "myalgies : au niveau d'une/des muscles",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "N/A"
+                }
+            ]
+        },
+        {
+            "code": "obs.stiff_back",
+            "display": "douleur liée aux vertèbres/raideur localisée au dos",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "N/A"
+                }
+            ]
+        },
+        {
+            "code": "obs.limp",
+            "display": "boiterie, difficultées à marcher",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "N/A"
+                }
+            ]
+        },
+        {
+            "code": "obs.ascites",
+            "display": "Ventre (ascites)",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "N/A"
+                }
+            ]
+        },
+        {
+            "code": "obs.oedema_hands",
+            "display": "mains",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "N/A"
+                }
+            ]
+        },
+        {
+            "code": "obs.oedema_feet",
+            "display": "Jambes",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "N/A"
+                }
+            ]
+        },
+        {
+            "code": "obs.cervical_adenopathie",
+            "display": "Cou ou  cervicale",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "N/A"
+                }
+            ]
+        },
+        {
+            "code": "obs.oedema_member",
+            "display": "Autres",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "N/A"
+                }
+            ]
+        },
+        {
+            "code": "obs.oedema_low_limb",
+            "display": "Membre inferieures",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                }
+            ]
+        }
+    ]
+}

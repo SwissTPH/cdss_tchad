@@ -1,0 +1,23 @@
+{
+    "resourceType": "CodeSystem",
+    "id": "save",
+    "url": "http://example.com/fhir/CodeSystem/save",
+    "version": "1.0.0",
+    "name": "save",
+    "title": "save",
+    "status": "draft",
+    "description": "Code system for save",
+    "content": "complete",
+    "concept": [
+        {
+            "code": "save.pain_crisis_cvo",
+            "display": "Crise douloureuse vaso-occlusive CVO",
+            "property": [
+                {
+                    "code": "datatype",
+                    "valueString": "Boolean"
+                }
+            ]
+        }
+    ]
+}
